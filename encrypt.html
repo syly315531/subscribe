@@ -1,8 +1,12 @@
+<link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="basic.css?20120912" type="text/css">
 <script type="text/javascript" src="jquery-1.7.2.js"></script>
 <script type="text/javascript" src="core-min.js"></script>
 <script type="text/javascript" src="enc-base64-min.js"></script>
+<div class="wrapper" id="mainContent">
+<div class="toolName">在线加密解密(采用<a id="crypto" href="http://www.oschina.net/p/crypto-js" data-original-title="">Crypto-JS</a>实现)<a data-toggle="modal" href="#advice" style="float:right;text-decoration:none;"><span class="badge badge-important"><i class="icon-envelope icon-white"></i> Feedback</span></a></div>
 <div class="toolUsing clearfix">
-	<div class="toolsTab  clearfix">
+	<div class="toolsTab">
 	    <ul class="nav nav-tabs">
 	    	<li><a onclick="javascript:location.href='/encrypt'">加密/解密</a></li>
 	    	<li><a onclick="javascript:location.href='/encrypt?type=2'">散列/哈希</a></li>
@@ -27,6 +31,8 @@
 	<div class="title">BASE64:</div>
 	<textarea name="cipher" id="result"></textarea>
 </div>
+</div>
+
 <script>
 function base64_encode(){
 	var str=CryptoJS.enc.Utf8.parse($("#source").val());
