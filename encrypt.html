@@ -1,0 +1,65 @@
+<script type="text/javascript" src="jquery-1.7.2.js"></script>
+<script type="text/javascript" src="core-min.js"></script>
+<script type="text/javascript" src="enc-base64-min.js"></script>
+<div class="toolUsing clearfix">
+	<div class="toolsTab  clearfix">
+	    <ul class="nav nav-tabs">
+	    	<li><a onclick="javascript:location.href='/encrypt'">加密/解密</a></li>
+	    	<li><a onclick="javascript:location.href='/encrypt?type=2'">散列/哈希</a></li>
+			<li class="active"><a onclick="javascript:location.href='/encrypt?type=3'">BASE64</a></li>
+			<li><a onclick="javascript:location.href='/encrypt?type=4'">图片/BASE64转换</a></li>
+	    </ul>
+	    <div class="clear"></div>
+	</div>
+<div class="leftBar">
+	<div class="title">明文:</div>
+	<textarea name="message" id="source" class="text_source">this is a example</textarea>
+</div>
+
+<div class="operateLR">
+	<div class="OptDetail Button">
+        <button class="btn btn-primary" onclick="javascript:base64_encode();" style="margin-bottom:10px;">BASE64编码<i class="icon-chevron-right icon-white"></i></button>
+        <button class="btn btn-primary" onclick="javascript:base64_decode();"><i class="icon-chevron-left icon-white"></i>BASE64解码 </button>
+    </div>
+</div>
+
+<div class="rightBar">
+	<div class="title">BASE64:</div>
+	<textarea name="cipher" id="result"></textarea>
+</div>
+<script>
+function base64_encode(){
+	var str=CryptoJS.enc.Utf8.parse($("#source").val());
+	var base64=CryptoJS.enc.Base64.stringify(str);
+	$("#result").val(base64);
+}
+function base64_decode(){
+	var words  = CryptoJS.enc.Base64.parse($("#result").val());
+	$("#source").val(words.toString(CryptoJS.enc.Utf8));
+}
+</script>
+
+<script>
+	$(document).on('click', '#moreMenu', function () {
+		let display = document.getElementById("moreMenuDropDown").style.display
+		console.log('moreMenu',display);
+		if (display==='block'){
+			document.getElementById("moreMenuDropDown").style.display = "none";
+			document.getElementById("moreMenu").style.color = "rgba(255,255,255,.7)";
+			document.getElementById("moreMenu").style.fontWeight = "400";
+		}else {
+			document.getElementById("moreMenuDropDown").style.display = "block";
+			document.getElementById("moreMenu").style.color = "#fff";
+			document.getElementById("moreMenu").style.fontWeight = "700";
+		}
+	});
+	$(document).on('click', '#searchIcon', function () {
+		var searchForm = $(this).parents('.search-item:eq(0)');
+		var q = searchForm.find('input[name=q]').val().trim();
+		// 无关键词时不响应
+		if (q.length > 0) {
+			searchForm.submit();
+		}
+	});
+</script>
+</div>
