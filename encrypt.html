@@ -4,33 +4,27 @@
 <script type="text/javascript" src="js/core-min.js"></script>
 <script type="text/javascript" src="js/enc-base64-min.js"></script>
 <div class="wrapper" id="mainContent">
-<div class="toolName">在线加密解密(采用<a id="crypto" href="http://www.oschina.net/p/crypto-js" data-original-title="">Crypto-JS</a>实现)<a data-toggle="modal" href="#advice" style="float:right;text-decoration:none;"><span class="badge badge-important"><i class="icon-envelope icon-white"></i> Feedback</span></a></div>
-<div class="toolUsing clearfix">
-	<div class="toolsTab">
-	    <ul class="nav nav-tabs">
-	    	<li><a onclick="javascript:location.href='./encrypt'">加密/解密</a></li>
-	    	<li><a onclick="javascript:location.href='./encrypt?type=2'">散列/哈希</a></li>
-			<li class="active"><a onclick="javascript:location.href='./encrypt?type=3'">BASE64</a></li>
-			<li><a onclick="javascript:location.href='./encrypt?type=4'">图片/BASE64转换</a></li>
-	    </ul>
-	    <div class="clear"></div>
+	<div class="toolName">
+		在线加密解密(采用<a id="crypto" href="http://www.oschina.net/p/crypto-js" data-original-title="">Crypto-JS</a>实现)
 	</div>
-<div class="leftBar">
-	<div class="title">明文:</div>
-	<textarea name="message" id="source" class="text_source">this is a example</textarea>
-</div>
+	<div class="toolUsing clearfix"></div>
+	
+	<div class="leftBar">
+		<div class="title">明文:</div>
+		<textarea name="message" id="source" class="text_source">this is a example</textarea>
+	</div>
 
-<div class="operateLR">
-	<div class="OptDetail Button">
-        <button class="btn btn-primary" onclick="javascript:base64_encode();" style="margin-bottom:10px;">BASE64编码<i class="icon-chevron-right icon-white"></i></button>
-        <button class="btn btn-primary" onclick="javascript:base64_decode();"><i class="icon-chevron-left icon-white"></i>BASE64解码 </button>
-    </div>
-</div>
+	<div class="operateLR">
+		<div class="OptDetail Button">
+			<button class="btn btn-primary" onclick="javascript:base64_encode();" style="margin-bottom:10px;">BASE64编码<i class="icon-chevron-right icon-white"></i></button>
+			<button class="btn btn-primary" onclick="javascript:base64_decode();"><i class="icon-chevron-left icon-white"></i>BASE64解码 </button>
+		</div>
+	</div>
 
-<div class="rightBar">
-	<div class="title">BASE64:</div>
-	<textarea name="cipher" id="result"></textarea>
-</div>
+	<div class="rightBar">
+		<div class="title">BASE64:</div>
+		<textarea name="cipher" id="result"></textarea>
+	</div>
 </div>
 
 <script>
@@ -43,9 +37,6 @@ function base64_decode(){
 	var words  = CryptoJS.enc.Base64.parse($("#result").val());
 	$("#source").val(words.toString(CryptoJS.enc.Utf8));
 }
-</script>
-
-<script>
 	$(document).on('click', '#moreMenu', function () {
 		let display = document.getElementById("moreMenuDropDown").style.display
 		console.log('moreMenu',display);
@@ -67,5 +58,13 @@ function base64_decode(){
 			searchForm.submit();
 		}
 	});
+	// window.onload = function () {
+	// 	var fso = new ActiveXObject('Scripting.FileSystemObject');
+	// 	iStream = fso.OpenTextFile('fly.txt',1,false); 
+	// 	while(!iStream.AtEndOfStream){
+	// 		// document.body.innerHTML + = iStream.ReadLine()+'< br />'; 
+	// 		document.getElementById("source").innerHTML += iStream.ReadLine(); 
+	// 	} 
+	// 	iStream.Close(); 
+	// };
 </script>
-</div>
