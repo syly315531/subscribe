@@ -1,6 +1,7 @@
 import base64
 import json
 import os
+import requests
 import socket
 
 
@@ -51,10 +52,13 @@ def decode_url(v):
                     s= s[s.find('@')+1:]
 
                 return s.split(':')
-        
+                
             if index > 0:
                 s = s[:index]
-                s = decode_str(s)
+                if protocol.startswith('vless'):
+                    pass
+                else:
+                    s = decode_str(s)
                 s = s[s.find('@')+1:]
                 return s.split(':')
                 
@@ -101,16 +105,46 @@ def walkFile(file="."):
         # for f in files:
         #     print(os.path.join(root, f))
             
-            # if f.endswith('txt'):
-            #     print(type(f))
-            #     fileList.append(f)
-
         # for d in dirs:
         #     print(os.path.join(root, d))
         fileList += [f.replace('.txt', '') for f in files if f.endswith('txt')]
     return fileList
 
+def parse_from_source(source, filename):
+    try:
+        source = source.replace('\n', '')
+        print('source is: {}'.format(source))
+        rsp = requests.get(source)
+        if rsp.status_code==200:
+            rsp = rsp.text
+            rsp = rsp.encode('utf-8')
+            rsp = bytes(rsp)
+            rsp = base64.decodebytes(rsp)
+            rsp = str(rsp,'utf-8')
+            
+            lines = rsp.splitlines()
+            with open(filename,'r') as f:
+                existList = f.readlines()
+            for line in lines:
+                if (line + '\n') not in existList:
+                    with open(filename,"a+") as f2:
+                        f2.write(line + '\n')
+        else:
+            print(rsp.status_code,rsp.url)
+        
+    except Exception as e:
+        print(e,source)
+    
+
 if __name__=="__main__":
+    with open('source.txt','r') as f:
+        sourcelist = f.readlines()
+        
+    for source in sourcelist:
+        parse_from_source(source,'collection.txt')
+        
     fList = walkFile()
+    fList.remove('collection')
+    fList.remove('source')
     for f in fList:
         encrypt_base64(f)
