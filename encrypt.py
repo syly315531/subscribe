@@ -3,22 +3,29 @@ import json
 import os
 import requests
 import socket
-
+import urllib
+import time
 
 def vaildAddress(ipAddr,port):
     try:
+        print('Testing Socket')
+        port = int(str(port).replace("'", ""))
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        result = sock.connect_ex((ipAddr,int(port)))
+        sock.settimeout(15)
+        result = sock.connect_ex((ipAddr,port))
     except Exception as e:
-        result = False
+        result = -1
         print(e,ipAddr,port)
     finally:
+        print('Test End')
+        
+        print('Tested',ipAddr,port)
         return True if result == 0 else False
 
 def decode_str(s):
     missing_padding = len(s) % 4
     if missing_padding != 0:
-        s += b'='* (4 - missing_padding)
+        s += '='* (4 - missing_padding)
     try:
         s = s.encode('utf-8')
         s = bytes(s)
@@ -32,45 +39,81 @@ def decode_str(s):
     return s
 
 def decode_url(v):
+    v = v.strip('\n')
+    v = parseUrl(v)
+    
+    protocol = v.scheme
+    s = v.netloc + v.path
+    print('Current protocol is:',protocol)
+    print('Current address is:',s)
+    
+    if protocol is None:
+        return None,None
+    
+    if s.find('@')>0:
+        s = s[s.find('@')+1:]
+    else:
+        s = decode_str(s)
+        try:
+            s = json.loads(s)
+            s = '{}:{}'.format(s['add'],s['port'])
+        except:
+            if str(s).find('@')>0:
+                s = s[str(s).find('@')+1:]
+            else:
+                s = str(s).replace('\n', '').replace('\r', '')
+                print('*'*100)
+                print(s)
+                print('*'*100)
+                time.sleep(5)
+                return None,None
+
+    print('Address parse result is:',s)
+        
+    return str(s).replace("'", "").split(':')
+    
+def decode_url_bak(v):
     v = v.replace('\n', '')
     protocol = v[:v.find('://')+3] if v.find('://')>=0 else None
     
-    if protocol is not None:
-        s = v[len(protocol):]
-        if protocol.startswith('ss'):
-            index = s.find('#')
-        else:
-            index = s.find('?')
-        
-        try:
-            if protocol.startswith('trojan'):
-                if s.find('?')>0:
-                    s = s[s.find('@')+1:s.find('?')]
-                elif s.find('#')>0:
-                    s = s[s.find('@')+1:s.find('#')]
-                else:
-                    s= s[s.find('@')+1:]
+    s = v[len(protocol):]
+    if protocol.startswith('ss'):
+        index = s.find('#')
+    else:
+        index = s.find('?')
+    
+    try:
+        if protocol.startswith('trojan'):
+            if s.find('?')>0:
+                s = s[s.find('@')+1:s.find('?')]
+            elif s.find('#')>0:
+                s = s[s.find('@')+1:s.find('#')]
+            else:
+                s= s[s.find('@')+1:]
 
-                return s.split(':')
-                
-            if index > 0:
-                s = s[:index]
-                if protocol.startswith('vless'):
-                    pass
-                else:
-                    s = decode_str(s)
-                s = s[s.find('@')+1:]
-                return s.split(':')
-                
+            return s.split(':')
+            
+        if index > 0:
+            s = s[:index]
+            
+            if protocol.startswith('vless'):
+                pass
+            elif protocol.startswith('ss') and s.find('@')>0:
+                print(s)
+                pass
             else:
                 s = decode_str(s)
-                s = json.loads(s)
-                return s['add'],s['port']
+            print(s)
+            s = s[s.find('@')+1:]
+            return s.split(':')
             
-        except Exception as e:
-            # print(e, index,s,v)
-            return None,None
-    else:
+        else:
+            s = decode_str(s)
+            s = json.loads(s)
+            return s['add'],s['port']
+        
+    except Exception as e:
+        # print(e, index,s,v)
         return None,None
 
 def encrypt_base64(filename='fly'):
@@ -82,13 +125,21 @@ def encrypt_base64(filename='fly'):
         f.truncate()
         
     for v in sorted(vStr):
+        print('Current test url is:',v)
         i,p = decode_url(v)
-        if i is not None:
-            r = vaildAddress(i,p)
-            if r is False:
-                continue
+        if i is None:
+            print('Address is None')
+            continue
+        
+        r = vaildAddress(i,p)
+        print('Test url result is:',r)
+        
+        if r is False:
+            continue
+        
         with open("{}.txt".format(filename),'a+') as f:
             f.writelines(v)
+
     
     with open("{}.txt".format(filename),"r+") as f:
         encodeStr = f.read()
@@ -113,7 +164,9 @@ def walkFile(file="."):
 def parse_from_source(source, filename):
     try:
         source = source.replace('\n', '')
+        print('='*50)
         print('source is: {}'.format(source))
+        print('='*50)
         rsp = requests.get(source)
         if rsp.status_code==200:
             rsp = rsp.text
@@ -127,15 +180,26 @@ def parse_from_source(source, filename):
                 existList = f.readlines()
             for line in lines:
                 if (line + '\n') not in existList:
+                    print('Add URL is:',line)
                     with open(filename,"a+") as f2:
                         f2.write(line + '\n')
+                    with open('fly.txt',"a+") as f3:
+                        f3.write(line + '\n')
+                else:
+                    print('Ignore the URL',line)
         else:
             print(rsp.status_code,rsp.url)
         
     except Exception as e:
         print(e,source)
     
-
+def parseUrl(url):
+    p = urllib.parse.urlparse(url)
+    print('The URL parse result is:',p)
+    
+    return p
+    
+    
 if __name__=="__main__":
     with open('source.txt','r') as f:
         sourcelist = f.readlines()
@@ -146,5 +210,7 @@ if __name__=="__main__":
     fList = walkFile()
     fList.remove('collection')
     fList.remove('source')
+    fList.remove('test')
     for f in fList:
         encrypt_base64(f)
+    
