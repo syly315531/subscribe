@@ -4,67 +4,87 @@
 <script type="text/javascript" src="js/core-min.js"></script>
 <script type="text/javascript" src="js/enc-base64-min.js"></script>
 <div class="wrapper" id="mainContent">
-	<div class="toolName">
-		在线加密解密(采用<a id="crypto" href="http://www.oschina.net/p/crypto-js" data-original-title="">Crypto-JS</a>实现)
-	</div>
-	<div class="toolUsing clearfix"></div>
-	
-	<div class="leftBar">
-		<div class="title">明文:</div>
-		<textarea name="message" id="source" class="text_source">this is a example</textarea>
-	</div>
+    <div class="toolName">
+        在线加密解密(采用<a id="crypto" href="http://www.oschina.net/p/crypto-js" data-original-title="">Crypto-JS</a>实现)
+    </div>
+    <div class="toolUsing clearfix"></div>
+    
+    <div class="leftBar">
+        <div class="title">明文:</div>
+        <textarea name="message" id="source" class="text_source">this is a example</textarea>
+    </div>
 
-	<div class="operateLR">
-		<div class="OptDetail Button">
-			<button class="btn btn-primary" onclick="javascript:base64_encode();" style="margin-bottom:10px;">BASE64编码<i class="icon-chevron-right icon-white"></i></button>
-			<button class="btn btn-primary" onclick="javascript:base64_decode();"><i class="icon-chevron-left icon-white"></i>BASE64解码 </button>
-		</div>
-	</div>
+    <div class="operateLR">
+        <div class="OptDetail Button">
+            <button class="btn btn-primary" onclick="javascript:base64_encode();" style="margin-bottom:10px;">BASE64编码<i class="icon-chevron-right icon-white"></i></button>
+            <button class="btn btn-primary" onclick="javascript:base64_decode();"><i class="icon-chevron-left icon-white"></i>BASE64解码 </button>
+        </div>
+    </div>
 
-	<div class="rightBar">
-		<div class="title">BASE64:</div>
-		<textarea name="cipher" id="result"></textarea>
-	</div>
+    <div class="rightBar">
+        <div class="title">BASE64:</div>
+        <textarea name="cipher" id="result"></textarea>
+    </div>
+
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="margin-top:15px; border:1px; width:100%;">
+        <textarea name="urlencode" id="urlencode" class="text_source">this is a url example</textarea>
+        <button class="btn btn-primary" onclick="javascript:url_toggle('encode');">URL Encode<i class="icon-chevron-right icon-white"></i></button>
+        <button class="btn btn-primary" onclick="javascript:url_toggle('decode');"><i class="icon-chevron-left icon-white"></i>URL decode</button>
+    </div>
 </div>
 
 <script>
-function base64_encode(){
-	var str=CryptoJS.enc.Utf8.parse($("#source").val());
-	var base64=CryptoJS.enc.Base64.stringify(str);
-	$("#result").val(base64);
-}
-function base64_decode(){
-	var words  = CryptoJS.enc.Base64.parse($("#result").val());
-	$("#source").val(words.toString(CryptoJS.enc.Utf8));
-}
-	$(document).on('click', '#moreMenu', function () {
-		let display = document.getElementById("moreMenuDropDown").style.display
-		console.log('moreMenu',display);
-		if (display==='block'){
-			document.getElementById("moreMenuDropDown").style.display = "none";
-			document.getElementById("moreMenu").style.color = "rgba(255,255,255,.7)";
-			document.getElementById("moreMenu").style.fontWeight = "400";
-		}else {
-			document.getElementById("moreMenuDropDown").style.display = "block";
-			document.getElementById("moreMenu").style.color = "#fff";
-			document.getElementById("moreMenu").style.fontWeight = "700";
+	function url_toggle(a) {
+		text = $("#urlencode").val()
+		
+		if (a == 'encode'){
+			$("#urlencode").val(encodeURIComponent(text))
+		} else if (a == 'decode') {
+			$("#urlencode").val(decodeURIComponent(text))
 		}
-	});
-	$(document).on('click', '#searchIcon', function () {
-		var searchForm = $(this).parents('.search-item:eq(0)');
-		var q = searchForm.find('input[name=q]').val().trim();
-		// 无关键词时不响应
-		if (q.length > 0) {
-			searchForm.submit();
-		}
-	});
-	// window.onload = function () {
-	// 	var fso = new ActiveXObject('Scripting.FileSystemObject');
-	// 	iStream = fso.OpenTextFile('fly.txt',1,false); 
-	// 	while(!iStream.AtEndOfStream){
-	// 		// document.body.innerHTML + = iStream.ReadLine()+'< br />'; 
-	// 		document.getElementById("source").innerHTML += iStream.ReadLine(); 
-	// 	} 
-	// 	iStream.Close(); 
-	// };
+	}
+    function base64_encode(){
+        var str=CryptoJS.enc.Utf8.parse($("#source").val());
+        var base64=CryptoJS.enc.Base64.stringify(str);
+        $("#result").val(base64);
+    }
+    function base64_decode(){
+        var words  = CryptoJS.enc.Base64.parse($("#result").val());
+        $("#source").val(words.toString(CryptoJS.enc.Utf8));
+    }
+    $(document).on('click', '#moreMenu', function () {
+        let display = document.getElementById("moreMenuDropDown").style.display
+        console.log('moreMenu',display);
+        if (display==='block'){
+            document.getElementById("moreMenuDropDown").style.display = "none";
+            document.getElementById("moreMenu").style.color = "rgba(255,255,255,.7)";
+            document.getElementById("moreMenu").style.fontWeight = "400";
+        }else {
+            document.getElementById("moreMenuDropDown").style.display = "block";
+            document.getElementById("moreMenu").style.color = "#fff";
+            document.getElementById("moreMenu").style.fontWeight = "700";
+        }
+    });
+    $(document).on('click', '#searchIcon', function () {
+        var searchForm = $(this).parents('.search-item:eq(0)');
+        var q = searchForm.find('input[name=q]').val().trim();
+        // 无关键词时不响应
+        if (q.length > 0) {
+            searchForm.submit();
+        }
+    });
+    // window.onload = function () {
+    //     var fso = new ActiveXObject('Scripting.FileSystemObject');
+    //     iStream = fso.OpenTextFile('fly.txt',1,false); 
+    //     while(!iStream.AtEndOfStream){
+    //         // document.body.innerHTML + = iStream.ReadLine()+'< br />'; 
+    //         document.getElementById("source").innerHTML += iStream.ReadLine(); 
+    //     } 
+    //     iStream.Close(); 
+    // };
 </script>

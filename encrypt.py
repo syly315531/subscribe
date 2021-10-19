@@ -210,7 +210,6 @@ if __name__=="__main__":
     fList = walkFile()
     fList.remove('collection')
     fList.remove('source')
-    fList.remove('test')
     for f in fList:
         encrypt_base64(f)
     
