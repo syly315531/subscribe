@@ -5,6 +5,7 @@ import re
 import socket
 import time
 import urllib
+import pickle
 
 import geoip2.database
 import requests
@@ -37,6 +38,7 @@ class URLParseHelper():
             
             s = str(s, encoding='utf-8')
         except Exception as e:
+            s = s if type(s)==str else str(s)
             print(e,s)
         
         return s
@@ -86,14 +88,17 @@ class URLParseHelper():
         # time.sleep(1/10)
         return result
     
-    def getTagName(self,ipStr,port):
-        return '[{}{}]{}:{}'.format(self.getCountry(ipStr),self.url.scheme.upper(),ipStr.upper(),port)
+    def getTagName(self,ipStr,port,quote=False):
+        if quote:
+            return urllib.parse.quote('[{}{}]{}:{}'.format(self.getCountry(ipStr),self.url.scheme.upper(),ipStr.upper(),port))
+        else:
+            return '[{}{}]{}:{}'.format(self.getCountry(ipStr),self.url.scheme.upper(),ipStr.upper(),port)
     
     def ssObj(self):
         _s = self.body if self.body.find('@')>0 else self.decode(self.body)
         _s = _s[_s.find('@')+1:]
         _s = _s.split(':')
-        _newUrl = (self.url.scheme, self.url.netloc, self.url.path, self.url.params, self.url.query, self.getTagName(_s[0],_s[1]))
+        _newUrl = (self.url.scheme, self.url.netloc, self.url.path, self.url.params, self.url.query, self.getTagName(_s[0],_s[1],True))
         _newUrl = urllib.parse.urlunparse(_newUrl)
         _s.append(_newUrl)
         return _s
@@ -106,7 +111,6 @@ class URLParseHelper():
         _tagName = 'remarks=' + self.encode(_tagName)
         _tagName = self.encode(_tagName)
         _newUrl  = self.url.scheme + '://' + _s1 + '_' + _tagName
-        # _tagName = urllib.parse.quote(_tagName)
         _s = [_s[0],_s[1],_newUrl]
         return _s
     
@@ -117,7 +121,7 @@ class URLParseHelper():
         _s = self.body if self.body.find('@')>0 else self.decode(self.body)
         _s = _s[_s.find('@')+1:]
         _s = _s.split(':')
-        _n = self.getTagName(_s[0],_s[1])
+        _n = self.getTagName(_s[0],_s[1],True)
         _tagname = urllib.parse.parse_qs(self.url.query)
         _tagname['alpn'] = [_n]
         _tagname = [(k,','.join(v)) for k,v in _tagname.items()]
@@ -132,6 +136,8 @@ class URLParseHelper():
     
     def vmessObj(self):
         _s = self.decode(self.body)
+        _s = re.sub("\n",'',_s)
+        _s = re.sub(' ','',_s)
         try:
             _s = json.loads(_s)
             _ipStr = _s['add']
@@ -142,14 +148,24 @@ class URLParseHelper():
             _newUrl = urllib.parse.urlunparse((self.url.scheme, _s, '', self.url.params, self.url.query, self.url.fragment))
             _s = [_ipStr, _port, _newUrl]
         except:
-            _s = _s[_s.find('@')+1:]
-            _ipStr, _port = _s.split(':')
-            _queryObj = urllib.parse.parse_qs(self.url.query)
-            _queryObj['remarks'] = [self.getTagName(_ipStr, _port)]
-            _queryObj = [(k,','.join(v)) for k,v in _queryObj.items()]
-            _queryObj = urllib.parse.urlencode(_queryObj)
-            _newUrl = urllib.parse.urlunparse((self.url.scheme, self.url.netloc, self.url.path, self.url.params, _queryObj, self.url.fragment))
-            _s = [_ipStr, _port, _newUrl]
+            try:
+                _s = _s[_s.find('@')+1:]
+                if _s.find(':')>0:
+                    _ipStr, _port = _s.split(':')
+                    _queryObj = urllib.parse.parse_qs(self.url.query)
+                    _queryObj['remarks'] = [self.getTagName(_ipStr, _port)]
+                    _queryObj = [(k,','.join(v)) for k,v in _queryObj.items()]
+                    _queryObj = urllib.parse.urlencode(_queryObj)
+                    _newUrl = urllib.parse.urlunparse((self.url.scheme, self.url.netloc, self.url.path, self.url.params, _queryObj, self.url.fragment))
+                    _s = [_ipStr, _port, _newUrl]
+                else:
+                    _s = [None,None, None]
+            except:
+                print(self.url)
+                print('-'*100)
+                time.sleep(5)
+                _s = [None,None, None]
+                
         return _s
     
     def rebuild(self):
@@ -166,6 +182,34 @@ class URLParseHelper():
         else:
             r = [None,None,None]
         return r
+
+    def getSubscribeContent(self,subscribe,filename='collection.txt'):
+        try:
+            subscribe = re.sub('\n','',subscribe)
+            print('='*50)
+            print('source is: {}'.format(subscribe))
+            print('='*50)
+            rsp = requests.get(subscribe, timeout=30)
+            if rsp.status_code==200:
+                rsp = rsp.text
+                rsp = self.decode(rsp)
+                lines = rsp.splitlines()
+                with open(filename,'r') as f:
+                    existList = f.readlines()
+                for line in lines:
+                    if (line + '\n') not in existList:
+                        print('Add URL is:',line)
+                        with open(filename,"a+") as f2:
+                            f2.write(line + '\n')
+                        with open('fly.txt',"a+") as f3:
+                            f3.write(line + '\n')
+                    else:
+                        print('Ignore the URL',line)
+            else:
+                print(rsp.status_code,rsp.url)
+            
+        except Exception as e:
+            print(e,subscribe)
 
 
 def handleUrl(filename='fly'):
@@ -189,7 +233,8 @@ def handleUrl(filename='fly'):
         
         if i is None:
             if i==p==u:
-                # 另外处理
+                # with open("{}.txt".format(filename),'a+') as f:
+                #     f.writelines(url + '\n')
                 continue
             else:
                 print('Address is None')
@@ -214,7 +259,6 @@ def encrypt_base64(filename='fly'):
     with open(filename,"w") as f:
         f.write(encodeStr)
 
-
 def walkFile(file="."):
     fileList = []
     for root, dirs, files in os.walk(file):
@@ -226,39 +270,6 @@ def walkFile(file="."):
         fileList += [f.replace('.txt', '') for f in files if f.endswith('txt')]
     return fileList
 
-def parse_from_source(source, filename):
-
-    try:
-        source = source.replace('\n', '')
-        print('='*50)
-        print('source is: {}'.format(source))
-        print('='*50)
-        rsp = requests.get(source, timeout=30)
-        if rsp.status_code==200:
-            rsp = rsp.text
-            rsp = rsp.encode('utf-8')
-            rsp = bytes(rsp)
-            rsp = base64.decodebytes(rsp)
-            rsp = str(rsp,'utf-8')
-            
-            lines = rsp.splitlines()
-            with open(filename,'r') as f:
-                existList = f.readlines()
-            for line in lines:
-                if (line + '\n') not in existList:
-                    print('Add URL is:',line)
-                    with open(filename,"a+") as f2:
-                        f2.write(line + '\n')
-                    with open('fly.txt',"a+") as f3:
-                        f3.write(line + '\n')
-                else:
-                    print('Ignore the URL',line)
-        else:
-            print(rsp.status_code,rsp.url)
-        
-    except Exception as e:
-        print(e,source)
-
 def removeDuplicateData(filename='collection'):
     with open("{}.txt".format(filename),'r') as f:
         sl = f.readlines()
@@ -269,11 +280,13 @@ def removeDuplicateData(filename='collection'):
         f.write("".join(sl))
 
 if __name__=="__main__":
+    u = URLParseHelper()
+    
     with open('source.txt','r') as f:
         sourcelist = f.readlines()
         
     for source in sourcelist:
-        parse_from_source(source,'collection.txt')
+        u.getSubscribeContent(source)
     
     removeDuplicateData('collection')
     removeDuplicateData('fly')
@@ -288,12 +301,11 @@ if __name__=="__main__":
     
     # encrypt_base64()
     
-    # u = URLParseHelper()
     # with open('collection.txt','r') as f:
     #     urls = f.readlines()
     # for url in urls:
     #     if url.startswith('vmess'):
     #         u.parse(url)
-    #         print(u.vmessObj())
+    #         print(u.rebuild())
     #     else:
     #         continue
