@@ -21,20 +21,18 @@ class URLParseHelper():
         self.url = urllib.parse.urlparse(url.strip('\n'))
         self.body = self.url.netloc + self.url.path
     
-    def decode(self,s:str):
+    def decode(self,s:str, isurl=True):
         s = re.sub('=','',s)
         missing_padding = len(s) % 4
         if missing_padding != 0:
             s += '='* (4 - missing_padding)
         
         try:
-            # method1
-            # s = s.encode('utf-8')
-            # s = bytes(s)
-            # s = base64.decodebytes(s)
-            
-            # method2
-            s = base64.urlsafe_b64decode(s)
+            if isurl:
+                s = base64.urlsafe_b64decode(s)
+            else:
+                s = bytes(s, 'utf-8')
+                s = base64.decodebytes(s)
             s = str(s, encoding='utf-8')
         except Exception as e:
             s = s if type(s)==str else str(s)
@@ -42,11 +40,12 @@ class URLParseHelper():
         
         return s
 
-    def encode(self,s:str):
+    def encode(self,s:str, isurl=True):
         try:
-            s = bytes(s,'utf-8')
-            # s = base64.b64encode(s)
-            s = base64.urlsafe_b64encode(bytes(s, 'utf-8'))
+            if isurl:
+                s = base64.urlsafe_b64encode(bytes(s, 'utf-8'))
+            else:
+                s = base64.b64encode(bytes(s, 'utf-8'))
             s = str(s, 'utf-8')
         except Exception as e:
             print(e,s)
@@ -56,7 +55,7 @@ class URLParseHelper():
         try:
             port = int(str(port).replace("'", ""))
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            sock.settimeout(15)
+            sock.settimeout(2)
             result = sock.connect_ex((ipAddr,port))
         except Exception as e:
             result = -1
@@ -85,7 +84,6 @@ class URLParseHelper():
         # print(response.city.name)  # 城市 Saint Paul
         # print(response)   # 更多参考 ↓
         # print(result)
-        # time.sleep(1/10)
         return result
     
     def getTagName(self,ipStr,port,quote=False):
@@ -192,8 +190,10 @@ class URLParseHelper():
             rsp = requests.get(subscribe, timeout=30)
             if rsp.status_code==200:
                 rsp = rsp.text
-                rsp = self.decode(rsp)
+                rsp = re.sub('\n','',rsp)
+                rsp = self.decode(rsp, False)
                 lines = rsp.splitlines()
+                time.sleep(3)
                 with open(filename,'r') as f:
                     existList = f.readlines()
                 for line in lines:
@@ -289,7 +289,7 @@ if __name__=="__main__":
         u.getSubscribeContent(source)
     
     removeDuplicateData('collection')
-    removeDuplicateData('fly')
+    
         
     fList = walkFile()
     fList.remove('collection')
@@ -297,8 +297,10 @@ if __name__=="__main__":
     fList.remove('test')
     for f in fList:
         handleUrl(f)
+        removeDuplicateData('fly')
         encrypt_base64(f)
     
+    # removeDuplicateData('fly')
     # encrypt_base64()
     
     # with open('collection.txt','r') as f:
