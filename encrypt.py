@@ -28,14 +28,13 @@ class URLParseHelper():
             s += '='* (4 - missing_padding)
         
         try:
-            s = s.encode('utf-8')
-            s = bytes(s)
-            s = base64.decodebytes(s)
+            # method1
+            # s = s.encode('utf-8')
+            # s = bytes(s)
+            # s = base64.decodebytes(s)
             
-            # s = base64.decodestring(s)
-            # s = base64.b64decode(bytes(s),'-_')
-            # s = base64.urlsafe_b64decode(s)
-            
+            # method2
+            s = base64.urlsafe_b64decode(s)
             s = str(s, encoding='utf-8')
         except Exception as e:
             s = s if type(s)==str else str(s)
@@ -46,7 +45,8 @@ class URLParseHelper():
     def encode(self,s:str):
         try:
             s = bytes(s,'utf-8')
-            s = base64.b64encode(s)
+            # s = base64.b64encode(s)
+            s = base64.urlsafe_b64encode(bytes(s, 'utf-8'))
             s = str(s, 'utf-8')
         except Exception as e:
             print(e,s)
