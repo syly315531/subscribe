@@ -152,6 +152,7 @@ class URLParseHelper():
                     _ipStr, _port = _s.split(':')
                     _queryObj = urllib.parse.parse_qs(self.url.query)
                     _queryObj['remarks'] = [self.getTagName(_ipStr, _port)]
+                    _queryObj['title'] = [self.getTagName(_ipStr, _port)]
                     _queryObj = [(k,','.join(v)) for k,v in _queryObj.items()]
                     _queryObj = urllib.parse.urlencode(_queryObj)
                     _newUrl = urllib.parse.urlunparse((self.url.scheme, self.url.netloc, self.url.path, self.url.params, _queryObj, self.url.fragment))
