@@ -6,3 +6,4 @@ https://raw.githubusercontent.com/RaymondHarris971/ssrsub/master/9a075bdee5.txt
 https://raw.githubusercontent.com/satrom/V2SSR/master/SS/Sub.txt
 https://raw.githubusercontent.com/satrom/V2SSR/master/SSR/Sub.txt
 https://raw.githubusercontent.com/satrom/V2SSR/master/V2RAY/Sub.txt
+https://v2r.yydsvpn.xyz/api/v1/client/subscribe?token=6062ed36141d61f4f7bc05cde9e79f5c
