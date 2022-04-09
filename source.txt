@@ -22,7 +22,5 @@ https://app.feverss.cloud/link/940CHURHBUUCJBOT?sub=3
 https://websub.aooc.xyz/link/54vsrzsfhMmsOQJv%3Flist%3Dshadowrocket&ved=2ahUKEwiL0qut0oP3AhWKwpQKHea6Bw8QFnoECAcQAQ&usg=AOvVaw0EG5fcH85OcGZ3HSNieOLy
 https://speedcncn.co/api/v1/client/subscribe?token=9d82f92b30911e91a343920e10124546
 https://speedcncn.co/api/v1/client/subscribe?token=9d82f92b30911e91a343920e10124546&flag=shadowrocket
-https://dadiangan.xyz/api/v1/client/subscribe?token=2e66b83f06771a39bade477c69ac4849&flag=clash
 https://startmy.cc/link/W1ADHzYPJYV5Bxam?clash=1
 https://app.feverss.cloud/link/940CHURHBUUCJBOT?sub=3
-https://girsun.ml/api/v1/client/subscribe?token=ee2dcf5dd9866f233feaa62b3e4db827

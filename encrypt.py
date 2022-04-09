@@ -247,10 +247,11 @@ def handleUrl(filename='fly'):
         if r is False:
             continue
         
-        with open("{}.txt".format(filename),'a+') as f:
+        with open("{}.txt".format(u.split(':')[0]),'a+') as f:
             f.writelines(u + '\n')
             
 def encrypt_base64(filename='fly'):
+    removeDuplicateData(filename)
     with open("{}.txt".format(filename),"r+") as f:
         encodeStr = f.read()
         encodeStr = bytes(encodeStr,'utf-8')
@@ -292,14 +293,20 @@ if __name__=="__main__":
     removeDuplicateData('collection')
     
         
-    fList = walkFile()
-    fList.remove('collection')
-    fList.remove('source')
-    # fList.remove('test')
-    for f in fList:
-        handleUrl(f)
-        removeDuplicateData('fly')
-        encrypt_base64(f)
+    # fList = walkFile()
+    # fList.remove('collection')
+    # fList.remove('source')
+    # # fList.remove('test')
+    # for f in fList:
+        # handleUrl(f)
+        # removeDuplicateData('fly')
+        
+    handleUrl('collection')
+    
+    encrypt_base64('ss')
+    encrypt_base64('ssr')
+    # encrypt_base64('torjan')
+    encrypt_base64('vmess')
     
     # removeDuplicateData('fly')
     # encrypt_base64()
