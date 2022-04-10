@@ -204,7 +204,7 @@ class URLParseHelper():
                 with open(filename,'r') as f:
                     existList = f.readlines()
                 for line in lines:
-                    if line.startswith(('{}://'.format(s) for s in schemaList)):
+                    if line.startswith(tuple(['{}://'.format(s) for s in schemaList])):
                         if (line + '\n') not in existList:
                             print('Add URL is:',line)
                             with open(filename,"a+") as f2:
@@ -348,7 +348,30 @@ def repair():
     os.remove("fly.txt")
     shutil.copy('collection.txt', "fly.txt")
 
+# import argparse
+# parser = argparse.ArgumentParser()
+
+# parser.add_argument('--normal', type=int, required=False, default=0,
+#                     help='normal run main')
+# parser.add_argument('--repair', type=int, required=False, default=0,
+#                     help='spider as custom(just detail)')
+# parser.add_argument('--review', type=int, required=False, default=0,
+#                     help='spider as custom(just review)')
+# parser.add_argument('--shop_id', type=str, required=False, default='',
+#                     help='custom shop id')
+# parser.add_argument('--need_more', type=bool, required=False, default=False,
+#                     help='need detail')
+# args = parser.parse_args()
 
 if __name__=="__main__":
     run()
     # repair()
+    # print(args)
+    # if args.normal == 1:
+    #     # run()
+    #     print("1")
+    # elif args.repair == 1:
+    #     # repair()
+    #     print("2")
+    # else:
+    #     print("3")
