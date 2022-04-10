@@ -10,6 +10,8 @@ import pickle
 import geoip2.database
 import requests
 
+schemaList = ['ss','ssr','trojan','vless','vmess']
+
 class URLParseHelper():
     
     def __init__(self) -> None:
@@ -94,15 +96,11 @@ class URLParseHelper():
     
     def ssObj(self):
         _s = self.body if self.body.find('@')>0 else self.decode(self.body)
-        print(_s)
         _s = _s[_s.find('@')+1:]
-        print(_s)
         _s = _s.split(':')
-        print(_s)
         _newUrl = (self.url.scheme, self.url.netloc, self.url.path, self.url.params, self.url.query, self.getTagName(_s[0],_s[1],True))
         _newUrl = urllib.parse.urlunparse(_newUrl)
         _s.append(_newUrl)
-        print(_s)
         return _s
     
     def ssrObj(self):
@@ -205,7 +203,7 @@ class URLParseHelper():
                 with open(filename,'r') as f:
                     existList = f.readlines()
                 for line in lines:
-                    if line.startswith(('ss://','ssr://','trojan://','vless://','vmess://')):
+                    if line.startswith(('{}://'.format(s) for s in schemaList)):
                         if (line + '\n') not in existList:
                             print('Add URL is:',line)
                             with open(filename,"a+") as f2:
@@ -223,13 +221,14 @@ class URLParseHelper():
             print(e,subscribe)
 
 
-def handleUrl(filename='collection.txt'):
+def handleUrl(filename='fly.txt'):
+    # filename = os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
     with open(filename,"r") as f:
         urlList = f.readlines()
         
-    # with open(filename,"w") as f:
-    #     f.seek(0)
-    #     f.truncate()
+    with open(filename,"w") as f:
+        f.seek(0)
+        f.truncate()
     
     
     urlObj = URLParseHelper()
@@ -252,18 +251,36 @@ def handleUrl(filename='collection.txt'):
                 print('Address is None')
                 continue
         
-        # r = urlObj.vaild(i,p)
-        # print('Test url result is:',r)
+        r = urlObj.vaild(i,p)
+        print('Test url result is:',r)
         
-        # if r is False:
-        #     continue
+        if r is False:
+            continue
         
-        with open("{}.txt".format(u.split(':')[0]),'a+') as f:
+        with open(filename,'a+') as f:
             f.writelines(u + '\n')
+            
+def splitFiles(filename="fly.txt"):
+    filename = os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
+    
+    with open(filename,'r') as f:
+        resultList = f.readlines()
+          
+    for sch in schemaList:
+        sList = [u for u in resultList if resultList.startswith("{}://".format(sch))]
+        
+        with open('{}.txt'.format(sch),"w") as f:
+            f.seek(0)
+            f.truncate()
+        
+        for u in sList:
+            with open("{}.txt".format(u.split(':')[0]),'a+') as f:
+                f.writelines(u + '\n')
+    
             
 def encrypt_base64(filename='fly.txt'):
     _file = os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
-    print(_file.split('.')[-1])
+    print(_file.split('.')[:-1])
     
     if os.path.exists(_file)==False:
         return False
@@ -299,41 +316,29 @@ def removeDuplicateData(filename='collection.txt'):
         f.write("".join(sl))
 
 if __name__=="__main__":
-    # u = URLParseHelper()
+    u = URLParseHelper()
     
-    # with open('source.txt','r') as f:
-    #     sourcelist = f.readlines()
+    with open('source.txt','r') as f:
+        sourcelist = f.readlines()
         
-    # for source in sourcelist:
-    #     u.getSubscribeContent(source)
+    for source in sourcelist:
+        u.getSubscribeContent(source)
     
-    # removeDuplicateData('collection.txt')
+    removeDuplicateData('collection.txt')
     
         
     # fList = walkFile()
     # fList.remove('collection')
     # fList.remove('source')
-    # # fList.remove('test')
+    # fList.remove('test')
+    
     # for f in fList:
         # handleUrl(f)
         # removeDuplicateData('fly')
         
-    handleUrl('collection.txt')
+    handleUrl('fly.txt')
+    encrypt_base64('fly.txt')
     
-    encrypt_base64('ss.txt')
-    encrypt_base64('ssr.txt')
-    encrypt_base64('torjan.txt')
-    encrypt_base64('vless.txt')
-    encrypt_base64('vmess.txt')
-    
-    # removeDuplicateData('fly')
-    # encrypt_base64()
-    
-    # with open('collection.txt','r') as f:
-    #     urls = f.readlines()
-    # for url in urls:
-    #     if url.startswith('vmess'):
-    #         u.parse(url)
-    #         print(u.rebuild())
-    #     else:
-    #         continue
+    splitFiles('fly.txt')
+    for f in schemaList:
+        encrypt_base64('{}.txt'.format(f))
