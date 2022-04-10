@@ -1,11 +1,12 @@
 import base64
 import json
 import os
+import pickle
 import re
+import shutil
 import socket
 import time
 import urllib
-import pickle
 
 import geoip2.database
 import requests
@@ -267,7 +268,7 @@ def splitFiles(filename="fly.txt"):
         resultList = f.readlines()
           
     for sch in schemaList:
-        sList = [u for u in resultList if resultList.startswith("{}://".format(sch))]
+        sList = [u for u in resultList if u.startswith("{}://".format(sch))]
         
         with open('{}.txt'.format(sch),"w") as f:
             f.seek(0)
@@ -315,7 +316,7 @@ def removeDuplicateData(filename='collection.txt'):
     with open(filename,'w+') as f:
         f.write("".join(sl))
 
-if __name__=="__main__":
+def run():
     u = URLParseHelper()
     
     with open('source.txt','r') as f:
@@ -342,3 +343,12 @@ if __name__=="__main__":
     splitFiles('fly.txt')
     for f in schemaList:
         encrypt_base64('{}.txt'.format(f))
+
+def repair():
+    os.remove("fly.txt")
+    shutil.copy('collection.txt', "fly.txt")
+
+
+if __name__=="__main__":
+    run()
+    # repair()
