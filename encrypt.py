@@ -94,11 +94,15 @@ class URLParseHelper():
     
     def ssObj(self):
         _s = self.body if self.body.find('@')>0 else self.decode(self.body)
+        print(_s)
         _s = _s[_s.find('@')+1:]
+        print(_s)
         _s = _s.split(':')
+        print(_s)
         _newUrl = (self.url.scheme, self.url.netloc, self.url.path, self.url.params, self.url.query, self.getTagName(_s[0],_s[1],True))
         _newUrl = urllib.parse.urlunparse(_newUrl)
         _s.append(_newUrl)
+        print(_s)
         return _s
     
     def ssrObj(self):
@@ -168,18 +172,21 @@ class URLParseHelper():
         return _s
     
     def rebuild(self):
-        if self.url.scheme == 'ss':
-            r = self.ssObj()
-        elif self.url.scheme == 'ssr':
-            r = self.ssrObj()
-        elif self.url.scheme == 'torjan':
-            r = self.trojanObj()
-        elif self.url.scheme == 'vless':
-            r = self.vlessObj()
-        elif self.url.scheme == 'vmess':
-            r = self.vmessObj()
-        else:
-            r = [None,None,None]
+        try:
+            if self.url.scheme == 'ss':
+                r = self.ssObj()
+            elif self.url.scheme == 'ssr':
+                r = self.ssrObj()
+            elif self.url.scheme == 'trojan':
+                r = self.trojanObj()
+            elif self.url.scheme == 'vless':
+                r = self.vlessObj()
+            elif self.url.scheme == 'vmess':
+                r = self.vmessObj()
+            else:
+                r = [None,None,None]
+        except Exception as e:
+            print(e, self.url)
         return r
 
     def getSubscribeContent(self,subscribe,filename='collection.txt'):
@@ -198,14 +205,17 @@ class URLParseHelper():
                 with open(filename,'r') as f:
                     existList = f.readlines()
                 for line in lines:
-                    if (line + '\n') not in existList:
-                        print('Add URL is:',line)
-                        with open(filename,"a+") as f2:
-                            f2.write(line + '\n')
-                        with open('fly.txt',"a+") as f3:
-                            f3.write(line + '\n')
+                    if line.startswith(('ss://','ssr://','trojan://','vless://','vmess://')):
+                        if (line + '\n') not in existList:
+                            print('Add URL is:',line)
+                            with open(filename,"a+") as f2:
+                                f2.write(line + '\n')
+                            with open('fly.txt',"a+") as f3:
+                                f3.write(line + '\n')
+                        else:
+                            print('Ignore the URL',line)
                     else:
-                        print('Ignore the URL',line)
+                        continue
             else:
                 print(rsp.status_code,rsp.url)
             
@@ -213,21 +223,22 @@ class URLParseHelper():
             print(e,subscribe)
 
 
-def handleUrl(filename='fly'):
-    with open("{}.txt".format(filename),"r") as f:
+def handleUrl(filename='collection.txt'):
+    with open(filename,"r") as f:
         urlList = f.readlines()
         
-    with open("{}.txt".format(filename),"w") as f:
-        f.seek(0)
-        f.truncate()
+    # with open(filename,"w") as f:
+    #     f.seek(0)
+    #     f.truncate()
     
     
     urlObj = URLParseHelper()
     urlList = list(set(urlList))
+    urlList = sorted(urlList)
     
-    for url in sorted(urlList):
+    for index,url in enumerate(urlList):
         url = str(url) if type(url)==bytes else url
-        print('Current test url is:',url)
+        print('Current url is:',index, url)
         
         urlObj.parse(url)
         i,p,u = urlObj.rebuild()
@@ -241,24 +252,30 @@ def handleUrl(filename='fly'):
                 print('Address is None')
                 continue
         
-        r = urlObj.vaild(i,p)
-        print('Test url result is:',r)
+        # r = urlObj.vaild(i,p)
+        # print('Test url result is:',r)
         
-        if r is False:
-            continue
+        # if r is False:
+        #     continue
         
         with open("{}.txt".format(u.split(':')[0]),'a+') as f:
             f.writelines(u + '\n')
             
-def encrypt_base64(filename='fly'):
+def encrypt_base64(filename='fly.txt'):
+    _file = os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
+    print(_file.split('.')[-1])
+    
+    if os.path.exists(_file)==False:
+        return False
+    
     removeDuplicateData(filename)
-    with open("{}.txt".format(filename),"r+") as f:
+    with open(filename,"r+") as f:
         encodeStr = f.read()
         encodeStr = bytes(encodeStr,'utf-8')
         encodeStr = base64.b64encode(encodeStr)
         encodeStr = str(encodeStr, 'utf-8')
     
-    with open(filename,"w") as f:
+    with open(filename.split('.')[0],"w") as f:
         f.write(encodeStr)
 
 def walkFile(file="."):
@@ -269,28 +286,28 @@ def walkFile(file="."):
             
         # for d in dirs:
         #     print(os.path.join(root, d))
-        fileList += [f.replace('.txt', '') for f in files if f.endswith('txt')]
+        fileList += [f for f in files if f.endswith('txt')]
     return fileList
 
-def removeDuplicateData(filename='collection'):
-    with open("{}.txt".format(filename),'r') as f:
+def removeDuplicateData(filename='collection.txt'):
+    with open(filename,'r') as f:
         sl = f.readlines()
     
     sl = sorted(list(set(sl)))
     
-    with open("{}.txt".format(filename),'w+') as f:
+    with open(filename,'w+') as f:
         f.write("".join(sl))
 
 if __name__=="__main__":
-    u = URLParseHelper()
+    # u = URLParseHelper()
     
-    with open('source.txt','r') as f:
-        sourcelist = f.readlines()
+    # with open('source.txt','r') as f:
+    #     sourcelist = f.readlines()
         
-    for source in sourcelist:
-        u.getSubscribeContent(source)
+    # for source in sourcelist:
+    #     u.getSubscribeContent(source)
     
-    removeDuplicateData('collection')
+    # removeDuplicateData('collection.txt')
     
         
     # fList = walkFile()
@@ -301,12 +318,13 @@ if __name__=="__main__":
         # handleUrl(f)
         # removeDuplicateData('fly')
         
-    handleUrl('collection')
+    handleUrl('collection.txt')
     
-    encrypt_base64('ss')
-    encrypt_base64('ssr')
-    # encrypt_base64('torjan')
-    encrypt_base64('vmess')
+    encrypt_base64('ss.txt')
+    encrypt_base64('ssr.txt')
+    encrypt_base64('torjan.txt')
+    encrypt_base64('vless.txt')
+    encrypt_base64('vmess.txt')
     
     # removeDuplicateData('fly')
     # encrypt_base64()
