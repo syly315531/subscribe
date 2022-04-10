@@ -7,6 +7,7 @@ import shutil
 import socket
 import time
 import urllib
+from xmlrpc.client import boolean
 
 import geoip2.database
 import requests
@@ -268,13 +269,15 @@ def splitFiles(filename="fly.txt"):
         resultList = f.readlines()
           
     for sch in schemaList:
-        sList = [u for u in resultList if u.startswith("{}://".format(sch))]
+        sList = [u.strip() for u in resultList if u.startswith("{}://".format(sch))]
         
         with open('{}.txt'.format(sch),"w") as f:
             f.seek(0)
             f.truncate()
         
         for u in sList:
+            if len(u)<=0:
+                continue
             with open("{}.txt".format(u.split(':')[0]),'a+') as f:
                 f.writelines(u + '\n')
     
@@ -341,37 +344,92 @@ def run():
     encrypt_base64('fly.txt')
     
     splitFiles('fly.txt')
-    for f in schemaList:
-        encrypt_base64('{}.txt'.format(f))
+    for s in schemaList:
+        encrypt_base64('{}.txt'.format(s))
 
 def repair():
-    os.remove("fly.txt")
-    shutil.copy('collection.txt', "fly.txt")
+    aList = []
+    filename = 'fly.txt'
+            
+    for s in schemaList:
+        with open('{}.txt'.format(s)) as f:
+            aList += f.readlines()
+    
+    with open(filename,"w") as f:
+        f.seek(0)
+        f.truncate()
+        
+    for u in aList:
+        u = u.strip()
+        if len(u)<=0:
+            continue
+        
+        with open(filename,'a+') as f:
+            f.writelines(u + '\n')
+    
+    if os.stat(filename).st_size==0:
+        os.remove(filename)
+        shutil.copy('collection.txt', filename)
 
-# import argparse
-# parser = argparse.ArgumentParser()
+def run_with_args():
+    import argparse
+    parser = argparse.ArgumentParser()
 
-# parser.add_argument('--normal', type=int, required=False, default=0,
-#                     help='normal run main')
-# parser.add_argument('--repair', type=int, required=False, default=0,
-#                     help='spider as custom(just detail)')
-# parser.add_argument('--review', type=int, required=False, default=0,
-#                     help='spider as custom(just review)')
-# parser.add_argument('--shop_id', type=str, required=False, default='',
-#                     help='custom shop id')
-# parser.add_argument('--need_more', type=bool, required=False, default=False,
-#                     help='need detail')
-# args = parser.parse_args()
+    parser.add_argument('--normal', type=int, required=False, default=0, help='normal')
+    parser.add_argument('--repair', type=bool, required=False, default=False, help='repair')
+    parser.add_argument('--encode', type=bool, required=False, default=False, help='encode')
+    parser.add_argument('--debug', type=bool, required=False, default=False, help='debug')
+    parser.add_argument('--str', type=str, required=False, default='', help='custom shop id')
+    parser.add_argument('--need_more', type=bool, required=False, default=False, help='need detail')
+    args = parser.parse_args()
+
+    print(args)
+    if args.repair == 1:
+        print("1")
+    if args.repair:
+        print("2")
+    if args.debug==True:
+        print("3")
+    else:
+        print("4")
 
 if __name__=="__main__":
-    run()
-    # repair()
-    # print(args)
-    # if args.normal == 1:
-    #     # run()
-    #     print("1")
-    # elif args.repair == 1:
-    #     # repair()
-    #     print("2")
-    # else:
-    #     print("3")
+    import sys
+    
+    args = sys.argv[1] if len(sys.argv)>=2 else '_'
+    match args:
+        case 'run':
+            run()
+        
+        case 'source':
+            u = URLParseHelper()
+    
+            with open('source.txt','r') as f:
+                sourcelist = f.readlines()
+                
+            for source in sourcelist:
+                u.getSubscribeContent(source)
+            
+            removeDuplicateData('collection.txt')
+        
+        case 'fly':
+            handleUrl('fly.txt')
+            encrypt_base64('fly.txt')
+        
+        case 'split':
+            splitFiles('fly.txt')
+        
+        case 'encode':
+            encrypt_base64('fly.txt')
+            
+            for s in schemaList:
+                encrypt_base64('{}.txt'.format(s))
+        
+        case 'repair':
+            repair()
+            
+        case 'debug':
+            print(os.stat('fly2.txt').st_size)
+        
+        case _:
+            print('Usage: %s [run | source | fly | split | encode | repair | debug ]' % sys.argv[0])
