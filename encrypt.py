@@ -20,7 +20,10 @@ class URLParseHelper():
         self.url = None
         self.geoDBPath = os.path.abspath("./GeoLite2/GeoLite2-City.mmdb")
         self.geoClient = geoip2.database.Reader(self.geoDBPath)
-        
+    
+    def get_filename(self,filename):
+        return os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
+      
     def parse(self, url):
         self.url = urllib.parse.urlparse(url.strip('\n'))
         self.body = self.url.netloc + self.url.path
@@ -189,12 +192,13 @@ class URLParseHelper():
             print(e, self.url)
         return r
 
-    def getSubscribeContent(self,subscribe,filename='collection.txt'):
+    def getSubscribeContent(self,subscribe,filename='collection.txt',outfile='fly.txt'):
         try:
             subscribe = re.sub('\n','',subscribe)
             print('='*50)
             print('source is: {}'.format(subscribe))
             print('='*50)
+            
             rsp = requests.get(subscribe, timeout=30)
             if rsp.status_code==200:
                 rsp = rsp.text
@@ -202,15 +206,17 @@ class URLParseHelper():
                 rsp = self.decode(rsp, False)
                 lines = rsp.splitlines()
                 time.sleep(3)
-                with open(filename,'r') as f:
+                
+                with open(outfile,'r') as f:
                     existList = f.readlines()
+                    
                 for line in lines:
                     if line.startswith(tuple(['{}://'.format(s) for s in schemaList])):
                         if (line + '\n') not in existList:
                             print('Add URL is:',line)
                             with open(filename,"a+") as f2:
                                 f2.write(line + '\n')
-                            with open('fly.txt',"a+") as f3:
+                            with open(outfile,"a+") as f3:
                                 f3.write(line + '\n')
                         else:
                             print('Ignore the URL',line)

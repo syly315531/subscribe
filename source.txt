@@ -24,3 +24,5 @@ https://speedcncn.co/api/v1/client/subscribe?token=9d82f92b30911e91a343920e10124
 https://speedcncn.co/api/v1/client/subscribe?token=9d82f92b30911e91a343920e10124546&flag=shadowrocket
 https://startmy.cc/link/W1ADHzYPJYV5Bxam?clash=1
 https://app.feverss.cloud/link/940CHURHBUUCJBOT?sub=3
+https://panel.chuest.com/api/v1/client/subscribe?token=eb96a074c4e1020437e0b38ed99cc3c2
+https://paste.in/raw/g3nZJa
