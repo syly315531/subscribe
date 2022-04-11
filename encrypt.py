@@ -239,7 +239,7 @@ def handleUrl(filename='fly.txt'):
     
     for index,url in enumerate(urlList):
         url = str(url) if type(url)==bytes else url
-        print('Current url is:',index, url)
+        print('Current url is:{}/{} {}'.format(index, len(urlList), url))
         
         urlObj.parse(url)
         i,p,u = urlObj.rebuild()
