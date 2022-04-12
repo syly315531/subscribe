@@ -21,7 +21,7 @@ class URLParseHelper():
         self.geoDBPath = os.path.abspath("./GeoLite2/GeoLite2-City.mmdb")
         self.geoClient = geoip2.database.Reader(self.geoDBPath)
     
-    def get_filename(self,filename):
+    def get_filepath(self,filename):
         return os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
       
     def parse(self, url):
