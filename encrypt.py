@@ -16,16 +16,20 @@ schemaList = ['ss','ssr','trojan','vless','vmess']
 
 class URLParseHelper():
     
-    def __init__(self) -> None:
-        self.url = None
+    def __init__(self,url=None) -> None:
+        self.url = url
         self.geoDBPath = os.path.abspath("./GeoLite2/GeoLite2-City.mmdb")
         self.geoClient = geoip2.database.Reader(self.geoDBPath)
     
     def get_filepath(self,filename):
         return os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
       
-    def parse(self, url):
-        self.url = urllib.parse.urlparse(url.strip('\n'))
+    def parse(self, url=None):
+        if url:
+            self.url = urllib.parse.urlparse(url.strip('\n'))
+        else:
+            self.url = urllib.parse.urlparse(self.url.strip('\n'))
+        
         self.body = self.url.netloc + self.url.path
     
     def decode(self,s:str, isurl=True):
@@ -141,7 +145,7 @@ class URLParseHelper():
     
     def vmessObj(self):
         _s = self.decode(self.body)
-        _s = re.sub("\n",'',_s)
+        _s = re.sub("\n",'',_s) or _s.strip()
         _s = re.sub(' ','',_s)
         try:
             _s = json.loads(_s)
@@ -436,6 +440,11 @@ if __name__=="__main__":
             
         case 'debug':
             print(os.stat('fly2.txt').st_size)
+            url = 'vmess://YXV0bzowZTViNDZiNi02OTlkLTRhY2EtOGZiMy1hOGU3YjQyNzBlZDlAMS5lenlkZmRkLmNvbTo0NDM?remarks=%5B%E6%96%B0%E5%8A%A0%E5%9D%A1VMESS%5D1.EZYDFDD.COM:443&obfsParam=1.ezydfdd.com&path=/qwe&obfs=websocket&tls=1&peer=1.ezydfdd.com&alterId=0'
+            urlHelper = URLParseHelper()
+            urlHelper.parse(url)
+            res = urlHelper.rebuild()
+            print(res[2])
         
         case _:
             print('Usage: %s [run | source | fly | split | encode | repair | debug ]' % sys.argv[0])
