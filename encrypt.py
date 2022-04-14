@@ -121,21 +121,27 @@ class URLParseHelper():
         _s1 = self.body[0:self.body.find('_')] if self.body.find('_')>0 else self.body
         _s = self.decode(_s1)
         _s = _s.strip().split(':')
-        
+        # print(_s)
         _tagName = self.getTagName(_s[0],_s[1])
         
         _url_path,_url_qs = parse_qs_ssr(_s[-1])
+        # print(_url_qs)
+        isexistRemarks = 'remarks' in _url_qs
+        # if isexistRemarks:
+        #     print(self.decode(_url_qs['remarks'][0].replace(" ", "+")))
         _url_qs['remarks'] = [self.encode(_tagName),]
+        # print(_url_qs)
         _s[-1] = _url_path + "?" + "&".join(['{}={}'.format(k,','.join(v)) for k,v in _url_qs.items()])
-        print(_s)
+        _s1 = _s1 if isexistRemarks else self.encode(":".join(_s))
         
         if self.body.find('_')>0:
             _newUrl = self.url.scheme + '://' + _s1 + '_' + self.encode('remarks={}'.format(_tagName))
         else:
-            _newUrl = self.url.scheme + '://' +self.encode(":".join(_s))
+            _newUrl = self.url.scheme + '://' + self.encode(":".join(_s))
         
-        _s = [_s[0],_s[1],_newUrl]
-        return _s
+        print(_newUrl)
+        
+        return _s[0], _s[1], _newUrl
     
     def trojanObj(self):
         return self.ssObj()
@@ -455,13 +461,18 @@ if __name__=="__main__":
             
         case 'debug':
             # print(os.stat('fly2.txt').st_size)
-            url = "vmess://eyJwb3J0IjoiODAiLCJwcyI6Inlhbmd4eSIsInRscyI6Im5vbmUiLCJpZCI6IjE5ZjQ5OGZlLWQ2OWQtNDMxNi05OTRlLTA1YzdmMDNiZjk5MyIsImFpZCI6IjAiLCJ2IjoiMiIsImhvc3QiOiIiLCJ0eXBlIjoibm9uZSIsInBhdGgiOiIiLCJuZXQiOiJ0Y3AiLCJhZGQiOiIyMC4xODkuODQuMjA0In0="
-            # url = 'ssr://c2hjbjJ0b2hrdDY2LmdnYm95bmV4dGRvb3IuYmVzdDo0OTA0MTphdXRoX2FlczEyOF9tZDU6cmM0LW1kNTp0bHMxLjJfdGlja2V0X2F1dGg6YkVkQ1RVNVAvP3JlbWFya3M9UTA1ZjVMcU01NGkzNTctNzVhS1o1NzJSYUhSMGNITTZMeTh4T0RBNExtZGhYekV6T0EmcHJvdG9wYXJhbT1OREUzTXpwUGNsVmlaMEkmb2Jmc3BhcmFtPU9XWTNZelEwTVRjekxtUnZkMjVzYjJGa0xuZHBibVJ2ZDNOMWNHUmhkR1V1WTI5dA'
-            # url = 'ssr://Y25jdGZzdG9oa3Q1NS5nZ2JveW5leHRkb29yLmJlc3Q6MzQwMDA6YXV0aF9hZXMxMjhfbWQ1OnJjNC1tZDU6dGxzMS4yX3RpY2tldF9hdXRoOmJFZENUVTVQLz9vYmZzcGFyYW09T1dZM1l6UTBNVGN6TG1SdmQyNXNiMkZrTG5kcGJtUnZkM04xY0dSaGRHVXVZMjl0JnByb3RvcGFyYW09TkRFM016cFBjbFZpWjBJJnJlbWFya3M9UTA1ZjVMcU01NGkzNTcrNzVhS1o1NzJSYUhSMGNITTZMeTh4T0RBNExtZGhYekV6Tmc9PSZncm91cD02YnVZNks2azVZaUc1N3VF_cmVtYXJrcz1XLVM0cmVXYnZWTlRVbDFEVGtOVVJsTlVUMGhMVkRVMUxrZEhRazlaVGtWWVZFUlBUMUl1UWtWVFZEb3pOREF3TUE9PQ=='
+            url ='ssr://c2hjbjJ0b2hrdDY2LmdnYm95bmV4dGRvb3IuYmVzdDo0OTA0MTphdXRoX2FlczEyOF9tZDU6cmM0LW1kNTp0bHMxLjJfdGlja2V0X2F1dGg6YkVkQ1RVNVAvP29iZnNwYXJhbT1PV1kzWXpRME1UY3pMbVJ2ZDI1c2IyRmtMbmRwYm1SdmQzTjFjR1JoZEdVdVkyOXQmcHJvdG9wYXJhbT1OREUzTXpwUGNsVmlaMEkmcmVtYXJrcz1RMDVmNUxxTTU0aTM1Nys3NWFLWjU3MlJhSFIwY0hNNkx5OHhPREE0TG1kaFh6RXpPQT09Jmdyb3VwPTZidVk2SzZrNVlpRzU3dUU=_cmVtYXJrcz1b5Lit5Zu9U1NSXVNIQ04yVE9IS1Q2Ni5HR0JPWU5FWFRET09SLkJFU1Q6NDkwNDE='
+            
+            
             urlHelper = URLParseHelper()
-            urlHelper.parse(url)
-            res = urlHelper.rebuild()
-            print(res)
-        
+            
+            with open('ssr.txt','r') as f:
+                urlList = f.readlines()
+                
+            for url in urlList:
+                print(url)
+                urlHelper.parse(url)
+                res = urlHelper.rebuild()
+            
         case _:
             print('Usage: %s [run | source | fly | split | encode | repair | debug ]' % sys.argv[0])
