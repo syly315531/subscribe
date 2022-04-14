@@ -31,6 +31,7 @@ class URLParseHelper():
             self.url = urllib.parse.urlparse(self.url.strip('\n'))
         
         self.body = self.url.netloc + self.url.path
+        # print(self.url)
     
     def decode(self,s:str, isurl=True):
         s = re.sub('=','',s)
@@ -113,13 +114,26 @@ class URLParseHelper():
         return _s
     
     def ssrObj(self):
+        def parse_qs_ssr(url):
+            _u = urllib.parse.urlparse(url.strip())
+            return _u.path, urllib.parse.parse_qs(_u.query)
+
         _s1 = self.body[0:self.body.find('_')] if self.body.find('_')>0 else self.body
         _s = self.decode(_s1)
         _s = _s.strip().split(':')
+        
         _tagName = self.getTagName(_s[0],_s[1])
-        _tagName = 'remarks=' + self.encode(_tagName)
-        _tagName = self.encode(_tagName)
-        _newUrl  = self.url.scheme + '://' + _s1 + '_' + _tagName
+        
+        _url_path,_url_qs = parse_qs_ssr(_s[-1])
+        _url_qs['remarks'] = [self.encode(_tagName),]
+        _s[-1] = _url_path + "?" + "&".join(['{}={}'.format(k,','.join(v)) for k,v in _url_qs.items()])
+        print(_s)
+        
+        if self.body.find('_')>0:
+            _newUrl = self.url.scheme + '://' + _s1 + '_' + self.encode('remarks={}'.format(_tagName))
+        else:
+            _newUrl = self.url.scheme + '://' +self.encode(":".join(_s))
+        
         _s = [_s[0],_s[1],_newUrl]
         return _s
     
@@ -147,6 +161,7 @@ class URLParseHelper():
         _s = self.decode(self.body)
         _s = re.sub("\n",'',_s) or _s.strip()
         _s = re.sub(' ','',_s)
+        # print(_s)
         try:
             _s = json.loads(_s)
             _ipStr = _s['add']
@@ -290,8 +305,8 @@ def splitFiles(filename="fly.txt"):
                 continue
             with open("{}.txt".format(u.split(':')[0]),'a+') as f:
                 f.writelines(u + '\n')
-    
-            
+
+
 def encrypt_base64(filename='fly.txt'):
     _file = os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
     print(_file.split('.')[:-1])
@@ -439,12 +454,14 @@ if __name__=="__main__":
             repair()
             
         case 'debug':
-            print(os.stat('fly2.txt').st_size)
-            url = 'vmess://YXV0bzowZTViNDZiNi02OTlkLTRhY2EtOGZiMy1hOGU3YjQyNzBlZDlAMS5lenlkZmRkLmNvbTo0NDM?remarks=%5B%E6%96%B0%E5%8A%A0%E5%9D%A1VMESS%5D1.EZYDFDD.COM:443&obfsParam=1.ezydfdd.com&path=/qwe&obfs=websocket&tls=1&peer=1.ezydfdd.com&alterId=0'
+            # print(os.stat('fly2.txt').st_size)
+            url = "vmess://eyJwb3J0IjoiODAiLCJwcyI6Inlhbmd4eSIsInRscyI6Im5vbmUiLCJpZCI6IjE5ZjQ5OGZlLWQ2OWQtNDMxNi05OTRlLTA1YzdmMDNiZjk5MyIsImFpZCI6IjAiLCJ2IjoiMiIsImhvc3QiOiIiLCJ0eXBlIjoibm9uZSIsInBhdGgiOiIiLCJuZXQiOiJ0Y3AiLCJhZGQiOiIyMC4xODkuODQuMjA0In0="
+            # url = 'ssr://c2hjbjJ0b2hrdDY2LmdnYm95bmV4dGRvb3IuYmVzdDo0OTA0MTphdXRoX2FlczEyOF9tZDU6cmM0LW1kNTp0bHMxLjJfdGlja2V0X2F1dGg6YkVkQ1RVNVAvP3JlbWFya3M9UTA1ZjVMcU01NGkzNTctNzVhS1o1NzJSYUhSMGNITTZMeTh4T0RBNExtZGhYekV6T0EmcHJvdG9wYXJhbT1OREUzTXpwUGNsVmlaMEkmb2Jmc3BhcmFtPU9XWTNZelEwTVRjekxtUnZkMjVzYjJGa0xuZHBibVJ2ZDNOMWNHUmhkR1V1WTI5dA'
+            # url = 'ssr://Y25jdGZzdG9oa3Q1NS5nZ2JveW5leHRkb29yLmJlc3Q6MzQwMDA6YXV0aF9hZXMxMjhfbWQ1OnJjNC1tZDU6dGxzMS4yX3RpY2tldF9hdXRoOmJFZENUVTVQLz9vYmZzcGFyYW09T1dZM1l6UTBNVGN6TG1SdmQyNXNiMkZrTG5kcGJtUnZkM04xY0dSaGRHVXVZMjl0JnByb3RvcGFyYW09TkRFM016cFBjbFZpWjBJJnJlbWFya3M9UTA1ZjVMcU01NGkzNTcrNzVhS1o1NzJSYUhSMGNITTZMeTh4T0RBNExtZGhYekV6Tmc9PSZncm91cD02YnVZNks2azVZaUc1N3VF_cmVtYXJrcz1XLVM0cmVXYnZWTlRVbDFEVGtOVVJsTlVUMGhMVkRVMUxrZEhRazlaVGtWWVZFUlBUMUl1UWtWVFZEb3pOREF3TUE9PQ=='
             urlHelper = URLParseHelper()
             urlHelper.parse(url)
             res = urlHelper.rebuild()
-            print(res[2])
+            print(res)
         
         case _:
             print('Usage: %s [run | source | fly | split | encode | repair | debug ]' % sys.argv[0])
