@@ -1,4 +1,3 @@
-trojan://081a4198-d664-4bc5-a7c6-e35982da964b@jgwhdlb4.gaox.ml:443#%5B%E5%8D%B0%E5%BA%A6TROJAN%5DJGWHDLB4.GAOX.ML%3A443
 trojan://08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443#%5B%E9%A6%99%E6%B8%AFTROJAN%5DSSL.TCPBBR.NET%3A443
 trojan://18e513fe-f7f4-353d-84ca-bc9646fb2528mielink@170.81.43.148:443#%5B%E5%B7%B4%E8%A5%BFTROJAN%5D170.81.43.148%3A443
 trojan://219e8c98-4250-48f8-8538-8b23e6708f02@azhk.node.qchwnd.moe:10204?allowInsecure=0&peer=cdn.qchwnd.moe&sni=cdn.qchwnd.moe#%5B%E9%A6%99%E6%B8%AFTROJAN%5DAZHK.NODE.QCHWND.MOE%3A10204
@@ -76,15 +75,18 @@ trojan://8155a7db-6b2f-475f-8d20-034468239b2a@www.125368.top:64621?allowInsecure
 trojan://8155a7db-6b2f-475f-8d20-034468239b2a@www.125368.top:8631?allowInsecure=1&peer=07.110233.xyz&sni=07.110233.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DWWW.125368.TOP%3A8631
 trojan://8d23f8a8-64b8-42c4-9c31-304f7c86669c@pro.tls.hongkongaz.dnsfree.top:55093#%5B%E9%A6%99%E6%B8%AFTROJAN%5DPRO.TLS.HONGKONGAZ.DNSFREE.TOP%3A55093
 trojan://8d23f8a8-64b8-42c4-9c31-304f7c86669c@superjapan1111.dnsfree.top:12387#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DSUPERJAPAN1111.DNSFREE.TOP%3A12387
+trojan://9029864a78d29a43@116.129.253.177:3389#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.177%3A3389
 trojan://9e92cf38-9f6b-3bae-8061-271f9d0e4ae2@trojan.linkdns.xyz:40207?sni=trojan.linkdns.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTROJAN.LINKDNS.XYZ%3A40207
+trojan://9e92cf38-9f6b-3bae-8061-271f9d0e4ae2@trojan.linkdns.xyz:40217?sni=trojan.linkdns.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTROJAN.LINKDNS.XYZ%3A40217
 trojan://JAtFrEpLX8mryvu8@misaka1433.tk:443#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DMISAKA1433.TK%3A443
+trojan://WDNMDM@payday2.eu.org:10086?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1&sni=payday2.eu.org#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DPAYDAY2.EU.ORG%3A10086
 trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@104.211.220.185:443?allowInsecure=0&peer=www.0u0-cdn.link&sni=www.0u0-cdn.link#%5B%E5%8D%B0%E5%BA%A6TROJAN%5D104.211.220.185%3A443
+trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@13.70.63.104:443?allowInsecure=0&peer=www.0u0-cdn.link&sni=www.0u0-cdn.link#%5B%E9%A6%99%E6%B8%AFTROJAN%5D13.70.63.104%3A443
 trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@20.194.57.91:443?allowInsecure=0&peer=www.0u0-cdn.link&sni=www.0u0-cdn.link#%5B%E9%9F%A9%E5%9B%BDTROJAN%5D20.194.57.91%3A443
 trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@23.99.125.82:443?allowInsecure=0&peer=www.0u0-cdn.link&sni=www.0u0-cdn.link#%5B%E9%A6%99%E6%B8%AFTROJAN%5D23.99.125.82%3A443
+trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@40.115.208.237:443?allowInsecure=0&peer=www.0u0-cdn.link&sni=www.0u0-cdn.link#%5B%E6%97%A5%E6%9C%ACTROJAN%5D40.115.208.237%3A443
 trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@shop.ling-car.com:443?allowInsecure=0#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DSHOP.LING-CAR.COM%3A443
-trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@shop.ling-car.com:443?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DSHOP.LING-CAR.COM%3A443
 trojan://b0dd80f5-2e66-4d3c-b41e-f3b10534fd90@nfjp1.qingyun123.xyz:10000#%5B%E6%97%A5%E6%9C%ACTROJAN%5DNFJP1.QINGYUN123.XYZ%3A10000
-trojan://c09eb137-bf68-4658-84e0-102d94b74168@jgwdj4.gaox.ml:443#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDJ4.GAOX.ML%3A443
 trojan://c142e1fd-df21-32b8-8f19-2f06940fa65d@l125j4pt.ted1.xyz:26534?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1&sni=pkg.biligame.info#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DL125J4PT.TED1.XYZ%3A26534
 trojan://c142e1fd-df21-32b8-8f19-2f06940fa65d@y155k1rt.ted1.xyz:26586?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1&sni=pkg.biligame.info#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DY155K1RT.TED1.XYZ%3A26586
 trojan://cSD2tExedR5RgGGKtb@os1-1.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DOS1-1.NROJAT.COM%3A443
@@ -97,7 +99,6 @@ trojan://cSD2tExedR5RgGGKtb@os2-5.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6
 trojan://cSD2tExedR5RgGGKtb@os2-7.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DOS2-7.NROJAT.COM%3A443
 trojan://cSD2tExedR5RgGGKtb@os2-8.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DOS2-8.NROJAT.COM%3A443
 trojan://cSD2tExedR5RgGGKtb@ty2-1.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-1.NROJAT.COM%3A443
-trojan://cSD2tExedR5RgGGKtb@ty2-2.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-2.NROJAT.COM%3A443
 trojan://cSD2tExedR5RgGGKtb@ty2-8.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-8.NROJAT.COM%3A443
 trojan://cd39f62aed7b90f6@5.44.249.43:3389?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
 trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:10004?allowInsecure=0#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHKMF2.SPEEDCNCNFORWARD3.TK%3A10004
@@ -121,10 +122,13 @@ trojan://ddcfe6cb-d001-430e-9781-427496e3ed1d@newgy.jidan666.com:23032?sni=jp1.w
 trojan://ddcfe6cb-d001-430e-9781-427496e3ed1d@newgy.jidan666.com:23033?sni=jp2.welink.qchwnd.moe#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DNEWGY.JIDAN666.COM%3A23033
 trojan://ddcfe6cb-d001-430e-9781-427496e3ed1d@newgy.jidan666.com:23034?sni=in1.welink.qchwnd.moe#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DNEWGY.JIDAN666.COM%3A23034
 trojan://ddcfe6cb-d001-430e-9781-427496e3ed1d@newgy.jidan666.com:23035?sni=sg1.welink.qchwnd.moe#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DNEWGY.JIDAN666.COM%3A23035
+trojan://dfd4f3f6-22d0-40f0-857d-23ff4358164d@nfjp1.qingyun123.xyz:10000#%5B%E6%97%A5%E6%9C%ACTROJAN%5DNFJP1.QINGYUN123.XYZ%3A10000
+trojan://dfd4f3f6-22d0-40f0-857d-23ff4358164d@nfus.qingyun123.xyz:10050#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DNFUS.QINGYUN123.XYZ%3A10050
 trojan://e23f408a-012e-4030-8b31-02022031cb50@fhcamd1.gaox.ml:443#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DFHCAMD1.GAOX.ML%3A443
 trojan://e5b8c9d0-bff0-4232-ae36-0492d3f23d6c@kr1.qingyun123.xyz:10050#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DKR1.QINGYUN123.XYZ%3A10050
 trojan://e8490cd3-c589-4c06-8465-469de822a45e@hknf2.qingyun123.xyz:10070#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHKNF2.QINGYUN123.XYZ%3A10070
 trojan://e8490cd3-c589-4c06-8465-469de822a45e@kr1.qingyun123.xyz:10050#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DKR1.QINGYUN123.XYZ%3A10050
 trojan://f81e990e-1283-48f9-9eff-acacad6fb661@eu.licom.ga:60001#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DEU.LICOM.GA%3A60001
+trojan://f81e990e-1283-48f9-9eff-acacad6fb661@eu.licom.ga:60001?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DEU.LICOM.GA%3A60001
 trojan://f81e990e-1283-48f9-9eff-acacad6fb661@us-ny-rn.licom.ga:62007?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS-NY-RN.LICOM.GA%3A62007
 trojan://rYA8dFQI6R2qTwP0@asd1v.baozipay.top:443#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DASD1V.BAOZIPAY.TOP%3A443
