@@ -356,7 +356,9 @@ def run():
     with open('source.txt','r') as f:
         sourcelist = f.readlines()
         
-    for source in sourcelist:
+    for index,source in enumerate(sourcelist) :
+        print("********** Get Subscribe {}/{} **********".format(index+1,len(sourcelist)))
+        time.sleep(1)
         u.getSubscribeContent(source)
     
     removeDuplicateData('collection.txt')
