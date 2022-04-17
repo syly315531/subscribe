@@ -2,6 +2,7 @@ import base64
 import json
 import os
 import pickle
+import yaml
 import re
 import shutil
 import socket
@@ -104,6 +105,60 @@ class URLParseHelper():
         else:
             return '[{}{}]{}:{}'.format(self.getCountry(ipStr),self.url.scheme.upper(),ipStr.upper(),port)
     
+    def build_trojan(self,data):
+        _scheme,_password,_ip,_port,_name = data.pop('type'),data.pop('password'),data.pop('server'),data.pop('port'),data.pop('name')
+        url = "{}@{}:{}".format(_password,_ip,_port)
+        
+        # print(data)
+        
+        query = "&".join(["{}={}".format(k,str(v).lower()) for k,v in data.items()])
+
+        url = (_scheme, url,'','',query,urllib.parse.quote(_name))
+        url = urllib.parse.urlunparse(url)
+        return url
+    
+    def build_vmess(self,data):
+        """
+        {
+            "host": "", 
+            "path": "/hls/cctv5phd.m3u8", 
+            "tls": "", 
+            "verify_cert": true, 
+            "add": "jp21301.cloudmatrix.xyz", 
+            "port": 21301, 
+            "aid": 2, 
+            "net": "ws", 
+            "headerType":  "none", 
+            "v": "2", 
+            "type": "none", 
+            "ps": "[中国VMESS]JP21301.CLOUDMATRIX.XYZ:21301", 
+            "remark": "日本-东京1【1倍率】", 
+            "id": "1469c8ff-4b3a-33fe-ab96-c8c831cacc47", 
+            "class": 1
+            }
+        """
+        data = {
+            "v": "2",
+            "ps": data['name'], 
+            "remark": data['name'], 
+            "add": data['server'], 
+            "port": data['port'], 
+            "id": data['uuid'], 
+            "aid": data['alterId'], 
+            "security": "auto", 
+            "scy": data['cipher'], 
+            "net": data['network'], 
+            "type": "none",
+            "host": data['ws-headers']['Host'],
+            "path": data['ws-path'],
+            "tls": "", 
+            "sni": ""
+        }
+        data = json.dumps(data,ensure_ascii=False)
+        data = self.encode(data)
+        url = urllib.parse.urlunparse(('vmess', data, '', '', '', ''))
+        return url
+    
     def ssObj(self):
         _s = self.body if self.body.find('@')>0 else self.decode(self.body)
         _s = _s[_s.find('@')+1:]
@@ -177,6 +232,7 @@ class URLParseHelper():
             _s = self.encode(_s)
             _newUrl = urllib.parse.urlunparse((self.url.scheme, _s, '', self.url.params, self.url.query, self.url.fragment))
             _s = [_ipStr, _port, _newUrl]
+            
         except:
             try:
                 _s = _s[_s.find('@')+1:]
@@ -227,7 +283,9 @@ class URLParseHelper():
             rsp = requests.get(subscribe, timeout=30)
             if rsp.status_code==200:
                 rsp = rsp.text
-                rsp = re.sub('\n','',rsp)
+                # rsp = re.sub('\n','',rsp)
+                with open('clash.txt','w') as f:
+                    f.write(rsp)
                 rsp = self.decode(rsp, False)
                 lines = rsp.splitlines()
                 time.sleep(3)
@@ -461,20 +519,24 @@ if __name__=="__main__":
         case 'repair':
             repair()
             
+        case 'clash':
+            uhelper = URLParseHelper()
+            with open('clash.txt','rb') as f:
+                info = yaml.load(f, Loader=yaml.FullLoader)
+            
+            for url in info['proxies']:
+                if url['type']=='trojan':
+                    rst = uhelper.build_trojan(url)
+                elif url['type']=='vmess':
+                    print(url)
+                    rst = uhelper.build_vmess(url)
+                print(rst)
         case 'debug':
             # print(os.stat('fly2.txt').st_size)
-            url ='ssr://c2hjbjJ0b2hrdDY2LmdnYm95bmV4dGRvb3IuYmVzdDo0OTA0MTphdXRoX2FlczEyOF9tZDU6cmM0LW1kNTp0bHMxLjJfdGlja2V0X2F1dGg6YkVkQ1RVNVAvP29iZnNwYXJhbT1PV1kzWXpRME1UY3pMbVJ2ZDI1c2IyRmtMbmRwYm1SdmQzTjFjR1JoZEdVdVkyOXQmcHJvdG9wYXJhbT1OREUzTXpwUGNsVmlaMEkmcmVtYXJrcz1RMDVmNUxxTTU0aTM1Nys3NWFLWjU3MlJhSFIwY0hNNkx5OHhPREE0TG1kaFh6RXpPQT09Jmdyb3VwPTZidVk2SzZrNVlpRzU3dUU=_cmVtYXJrcz1b5Lit5Zu9U1NSXVNIQ04yVE9IS1Q2Ni5HR0JPWU5FWFRET09SLkJFU1Q6NDkwNDE='
+            uhelper = URLParseHelper()
             
-            
-            urlHelper = URLParseHelper()
-            
-            with open('ssr.txt','r') as f:
-                urlList = f.readlines()
-                
-            for url in urlList:
-                print(url)
-                urlHelper.parse(url)
-                res = urlHelper.rebuild()
+            uuu = 'eyJ2IjogIjIiLCAicHMiOiAiW-S4reWbvVZNRVNTXUxFT05HVUFOR1pIT1UuQVNVU0NPTU0uQ09NOjIwMDAwIiwgImFkZCI6ICJsZW9uZ3Vhbmd6aG91LmFzdXNjb21tLmNvbSIsICJwb3J0IjogIjIwMDAwIiwgImlkIjogImQzZDMxMTRkLTI2NjktNDBhYi1iNTE3LTk2ZThjNGJkMzI1ZiIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAibGVvbmd1YW5nemhvdS5hc3VzY29tbS5jb20iLCAicGF0aCI6ICIvdjJyYXktcGF0aCIsICJ0bHMiOiAiIiwgInNuaSI6ICIifQ=='
+            print(uhelper.decode(uuu))
             
         case _:
-            print('Usage: %s [run | source | fly | split | encode | repair | debug ]' % sys.argv[0])
+            print('Usage: %s [run | source | fly | split | encode | repair | debug | clash ]' % sys.argv[0])
