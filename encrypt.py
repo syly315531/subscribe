@@ -119,6 +119,22 @@ class URLParseHelper():
     
     def build_vmess(self,data):
         """
+        name: '🇯🇵 日本 ➤ 01'
+        type: vmess
+        server: jp01.startmy.cc
+        port: 80
+        uuid: b254acd1-b7ee-36d6-a0d7-718d5c079f1e
+        alterId: 0
+        cipher: auto
+        udp: true
+        servername: a.189.cn
+        network: ws
+        ws-opts:
+            path: /v2ray
+            headers: { Host: a.189.cn }
+        ws-path: /v2ray
+        ws-headers:
+            Host: a.189.cn
         {
             "host": "", 
             "path": "/hls/cctv5phd.m3u8", 
@@ -136,7 +152,7 @@ class URLParseHelper():
             "id": "1469c8ff-4b3a-33fe-ab96-c8c831cacc47", 
             "class": 1
             }
-        """
+            
         data = {
             "v": "2",
             "ps": data['name'], 
@@ -156,7 +172,50 @@ class URLParseHelper():
         }
         data = json.dumps(data,ensure_ascii=False)
         data = self.encode(data)
-        url = urllib.parse.urlunparse(('vmess', data, '', '', '', ''))
+        """
+        
+        #=hk21201.cloudmatrix.xyz&path=/hls/cctv5phd.m3u8&obfs=&alterId=2
+        _scheme,_security,_uuid,_address,_port,data['remarks'] = data.pop('type'), data.pop('cipher'),data.pop('uuid'),data.pop('server'),data.pop('port'),data.pop('name')
+        url = "{}:{}@{}:{}".format(_security,_uuid,_address,_port)
+        
+        if data['network']=='ws':
+            data['obfs'] = 'websocket'
+            data.pop('network')
+            data['obfsParam'] = data['ws-opts']['headers']['Host']
+            data['path']= data['ws-opts']['path']
+            data.pop('ws-opts')
+            data.pop('ws-headers')
+            data.pop('ws-path')
+            data.pop('servername')
+        data['remarks']  = urllib.parse.quote(data['remarks'])
+        query = "&".join([ "{}={}".format(k,str(v).lower()) for k,v in data.items() ])
+        url = urllib.parse.urlunparse((_scheme, self.encode(url), '','', query, ''))
+        return url
+    
+    def build_ssr(self,data):
+        """
+        {
+            'name': '香港 3', 
+            'type': 'ssr', 
+            'server': '42.157.196.252', 
+            'port': 18584, 
+            'cipher': 'rc4-md5', 
+            'password': 'CvnbM0', 
+            'protocol': 'origin', 
+            'protocol-param': '', 
+            'obfs': 'http_simple', 
+            'obfs-param': 'download.windowsupdate.com'
+        }
+
+        """
+        _scheme,_password,_ip,_port,data['remarks'] = data.pop('type'),data.pop('password'),data.pop('server'),data.pop('port'),data.pop('name')
+        _protocol,_cipher,_pparam = data.pop('protocol'),data.pop('cipher'),data.pop('protocol-param')
+        url = "{}:{}:{}:{}:{}".format(_ip,_port,_protocol,_cipher,_pparam)
+        print(url)
+        data['remarks'] = urllib.parse.quote(data['remarks'])
+        query = _password + "/?" + "&".join(["{}={}".format(k,str(v).lower()) for k,v in data.items()])
+        url += ":" + query
+        url = _scheme + "://" + self.encode(url)
         return url
     
     def ssObj(self):
@@ -217,6 +276,41 @@ class URLParseHelper():
         _newUrl  = urllib.parse.urlunparse((self.url.scheme, self.url.netloc, self.url.path, self.url.params, _tagname, _fragment))
         _s.append(_newUrl)
         return _s
+    
+    def vmess2link(self,data):
+        """
+        {"add":"cc.hciahciphcie.club",
+        "aid":0,
+        "host":"cc.hciahciphcie.club",
+        "id":"9a297bb1-06e3-4e6f-97fa-3d3202d46596",
+        "net":"ws",
+        "path":"/84c3f/",
+        "port":443,
+        "ps":"Relay_🇺🇸US-🇺🇸US_2225",
+        "scy":"aes-128-gcm",
+        "sni":"cc.hciahciphcie.club",
+        "tls":"tls",
+        "type":"none",
+        "v":2
+        }
+        """
+        _security = data.pop('scy') if 'scy' in data else None
+        _uuid,_address,_port = data.pop('id'),data.pop('add'),data.pop('port')
+        url = "{}:{}@{}:{}".format(_security,_uuid,_address,_port)  if _security else "{}@{}:{}".format(_uuid,_address,_port) 
+        
+        data['remarks'] = data.pop('ps')
+        data['remarks']  = urllib.parse.quote(data['remarks'])
+        data['alertId'] = data.pop('aid') if 'aid' in data else None
+        
+        if data['net']=='ws':
+            data['obfs'] = 'websocket'
+            data.pop('net')
+            data['obfsParam'] = data.pop('host')
+        
+        query = "&".join([ "{}={}".format(k,str(v).lower()) for k,v in data.items() if v is not None ])
+        url += query
+        # url = urllib.parse.urlunparse(('vmess', self.encode(url), '','', query, ''))
+        return url
     
     def vmessObj(self):
         _s = self.decode(self.body)
@@ -283,9 +377,8 @@ class URLParseHelper():
             rsp = requests.get(subscribe, timeout=30)
             if rsp.status_code==200:
                 rsp = rsp.text
-                # rsp = re.sub('\n','',rsp)
-                with open('clash.txt','w') as f:
-                    f.write(rsp)
+                rsp = re.sub('\n','',rsp)
+
                 rsp = self.decode(rsp, False)
                 lines = rsp.splitlines()
                 time.sleep(3)
@@ -310,6 +403,51 @@ class URLParseHelper():
             
         except Exception as e:
             print(e,subscribe)
+
+    def get_from_clash(self,subscribe,filename='collection.txt',outfile='fly.txt'):
+        try:
+            subscribe = re.sub('\n','',subscribe)
+            print('='*50)
+            print('source is: {}'.format(subscribe))
+            print('='*50)
+            content = requests.get(subscribe,timeout=30)
+            if content.status_code==200:
+                content = content.text
+                
+            if len(content)<=0:
+                return
+            
+            content = yaml.load(content, Loader=yaml.FullLoader)
+            content = content['proxies']
+            # print(content,type(content))
+            
+            with open(filename,'r') as f:
+                existList = f.readlines()
+            
+            for data in content:
+                if data['type']=='trojan':
+                    url = self.build_trojan(data)
+                elif data['type']=='vmess':
+                    url = self.build_vmess(data)
+                elif data['type']=='ssr':
+                    url = self.build_ssr(data)
+                else:
+                    url = ""
+                    print("?"*50)
+                    print(data)
+                    print("?"*50)
+                    time.sleep(3)
+                
+                if (url + '\n') not in existList:
+                    print('Add URL is:',url)
+                    with open(filename,"a+") as f2:
+                        f2.write(url + '\n')
+                    with open(outfile,"a+") as f3:
+                        f3.write(url + '\n')
+                else:
+                    print('Ignore the URL',url)
+        except Exception as e:
+            raise(e)
 
 
 def handleUrl(filename='fly.txt'):
@@ -438,6 +576,7 @@ def run():
     for s in schemaList:
         encrypt_base64('{}.txt'.format(s))
 
+
 def repair():
     aList = []
     filename = 'fly.txt'
@@ -520,23 +659,35 @@ if __name__=="__main__":
             repair()
             
         case 'clash':
-            uhelper = URLParseHelper()
-            with open('clash.txt','rb') as f:
-                info = yaml.load(f, Loader=yaml.FullLoader)
+            u = URLParseHelper()
+            with open('clash.txt','r') as f:
+                urlList = f.readlines()
             
-            for url in info['proxies']:
-                if url['type']=='trojan':
-                    rst = uhelper.build_trojan(url)
-                elif url['type']=='vmess':
-                    print(url)
-                    rst = uhelper.build_vmess(url)
-                print(rst)
+            for url in urlList:
+                u.get_from_clash(url)
+            
+            
         case 'debug':
             # print(os.stat('fly2.txt').st_size)
             uhelper = URLParseHelper()
             
-            uuu = 'eyJ2IjogIjIiLCAicHMiOiAiW-S4reWbvVZNRVNTXUxFT05HVUFOR1pIT1UuQVNVU0NPTU0uQ09NOjIwMDAwIiwgImFkZCI6ICJsZW9uZ3Vhbmd6aG91LmFzdXNjb21tLmNvbSIsICJwb3J0IjogIjIwMDAwIiwgImlkIjogImQzZDMxMTRkLTI2NjktNDBhYi1iNTE3LTk2ZThjNGJkMzI1ZiIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAibGVvbmd1YW5nemhvdS5hc3VzY29tbS5jb20iLCAicGF0aCI6ICIvdjJyYXktcGF0aCIsICJ0bHMiOiAiIiwgInNuaSI6ICIifQ=='
-            print(uhelper.decode(uuu))
+            with open('collection.txt','r') as f:
+                urlList = f.readlines()
+                
+            for url in urlList:
+                if url.startswith("vmess"):
+                    uhelper.parse(url)
+                    rst = uhelper.decode(uhelper.body)
+                    if rst.find('{')>=0:
+                        rst = json.loads(rst)
+                        rst = uhelper.vmess2link(rst)
+                        
+                    else:
+                        continue
+                    print(rst,type(rst))
+                    
+                else:
+                    continue
             
         case _:
             print('Usage: %s [run | source | fly | split | encode | repair | debug | clash ]' % sys.argv[0])
