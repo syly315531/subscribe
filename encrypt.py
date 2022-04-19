@@ -365,7 +365,7 @@ class URLParseHelper():
                 _s = json.loads(_s)
                 _ipStr = _s['add']
                 _port  = _s['port']
-                _s['ps'] = self.getTagName(_s['add'],_s['port'],True)
+                _s['ps'] = self.getTagName(_s['add'],_s['port'])
                 
                 # _s = json.dumps(_s,ensure_ascii=False)
                 # _s = self.encode(_s)

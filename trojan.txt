@@ -26,7 +26,7 @@ trojan://219e8c98-4250-48f8-8538-8b23e6708f02@hncu.relay.qchwnd.moe:10224?allowI
 trojan://219e8c98-4250-48f8-8538-8b23e6708f02@hncu.relay.qchwnd.moe:10226?allowInsecure=0&peer=kr1.alink.qchwnd.moe&sni=kr1.alink.qchwnd.moe#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHNCU.RELAY.QCHWND.MOE%3A10226
 trojan://219e8c98-4250-48f8-8538-8b23e6708f02@hncu.relay.qchwnd.moe:60604?allowInsecure=0&peer=jpsakura.node.qchwnd.moe&sni=jpsakura.node.qchwnd.moe#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHNCU.RELAY.QCHWND.MOE%3A60604
 trojan://219e8c98-4250-48f8-8538-8b23e6708f02@in1.alink.qchwnd.moe:10200?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DIN1.ALINK.QCHWND.MOE%3A10200
-trojan://219e8c98-4250-48f8-8538-8b23e6708f02@kr.alinkrelay.com:10000?allowInsecure=0#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DKR.ALINKRELAY.COM%3A10000
+trojan://219e8c98-4250-48f8-8538-8b23e6708f02@kr.alinkrelay.com:10000?allowInsecure=0#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DKR.ALINKRELAY.COM%3A10000
 trojan://219e8c98-4250-48f8-8538-8b23e6708f02@tw.node.qchwnd.moe:10217?allowInsecure=0#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.NODE.QCHWND.MOE%3A10217
 trojan://22e7ebb2dc8ab524@211.72.35.153:3389?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E5%8F%B0%E6%B9%BETROJAN%5D211.72.35.153%3A3389
 trojan://246e1d4c-ac18-35cc-8f55-0b70bee0da56@119.147.2.245:58803?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D119.147.2.245%3A58803
@@ -47,7 +47,6 @@ trojan://319ae623-dd6d-46af-9ead-ac8cb78a1dc0@us.456url.com:10086?allowInsecure=
 trojan://319ae623-dd6d-46af-9ead-ac8cb78a1dc0@us.456url.com:10087?allowInsecure=1&sni=us.456url.com#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS.456URL.COM%3A10087
 trojan://32ba9f2a-0a02-42aa-9e1c-040bc9813f12@nfjp1.qingyun123.xyz:10000?allowInsecure=1&sni=nfjp1.qingyun123.xyz#%5B%E6%97%A5%E6%9C%ACTROJAN%5DNFJP1.QINGYUN123.XYZ%3A10000
 trojan://32cbd76d-3b0a-4f44-b7ef-98d41db730f6@sg1.qingyun123.xyz:443#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DSG1.QINGYUN123.XYZ%3A443
-trojan://32f3466c-2483-4de6-83b8-f4008c750102@xjpmf.speedcncnforward2.tk:10001#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DXJPMF.SPEEDCNCNFORWARD2.TK%3A10001
 trojan://360682ce-eb02-3db3-af46-462a5eacb710@lica01.verypinknipple.xyz:2049#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DLICA01.VERYPINKNIPPLE.XYZ%3A2049
 trojan://360682ce-eb02-3db3-af46-462a5eacb710@p1kr11.verypinknipple.xyz:3389#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DP1KR11.VERYPINKNIPPLE.XYZ%3A3389
 trojan://36ebef7d1b1d6205fd0c55f28800e674@hk-server-01.selfupay.com:443?allowInsecure=1#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DHK-SERVER-01.SELFUPAY.COM%3A443
@@ -57,7 +56,6 @@ trojan://413f2e36-0038-48e4-963a-a38c0007ef24@azhk-pf.okzdns.com:50011?allowInse
 trojan://413f2e36-0038-48e4-963a-a38c0007ef24@cn-hk-az-2.okss.us:50003?allowInsecure=1&sni=cn-hk-az-2.okss.us#%5B%E9%A6%99%E6%B8%AFTROJAN%5DCN-HK-AZ-2.OKSS.US%3A50003
 trojan://413f2e36-0038-48e4-963a-a38c0007ef24@whcu.cwcsrsyby.xyz:19987?allowInsecure=1&sni=whcu.cwcsrsyby.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DWHCU.CWCSRSYBY.XYZ%3A19987
 trojan://413f2e36-0038-48e4-963a-a38c0007ef24@whcu.cwcsrsyby.xyz:34448?allowInsecure=1&sni=whcu.cwcsrsyby.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DWHCU.CWCSRSYBY.XYZ%3A34448
-trojan://41742_920c8caa@hk31.ssgnode.ga:443?allowInsecure=1#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DHK31.SSGNODE.GA%3A443
 trojan://41742_920c8caa@hk31.ssgnode.ga:443?sni=hk31.ssgnode.ga#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DHK31.SSGNODE.GA%3A443
 trojan://4809af3e-b8f2-4f07-9cfb-79d0a7bb1219@s1.upyun.online:12340#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DS1.UPYUN.ONLINE%3A12340
 trojan://4809af3e-b8f2-4f07-9cfb-79d0a7bb1219@s2.upyun.online:12340#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DS2.UPYUN.ONLINE%3A12340
@@ -97,7 +95,6 @@ trojan://868f097d-cb8d-4d37-beb4-a0c84d82b8bf@yin1.qingyun123.xyz:10000#%5B%E8%8
 trojan://8d23f8a8-64b8-42c4-9c31-304f7c86669c@aead.tls.sksupersususu.dnsfree.top:12345#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAEAD.TLS.SKSUPERSUSUSU.DNSFREE.TOP%3A12345
 trojan://8d23f8a8-64b8-42c4-9c31-304f7c86669c@aead.tls.sksupersususu.dnsfree.top:12348#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAEAD.TLS.SKSUPERSUSUSU.DNSFREE.TOP%3A12348
 trojan://8d23f8a8-64b8-42c4-9c31-304f7c86669c@baidu.hongkong.dnsfree.top:55094#%5B%E9%A6%99%E6%B8%AFTROJAN%5DBAIDU.HONGKONG.DNSFREE.TOP%3A55094
-trojan://8d23f8a8-64b8-42c4-9c31-304f7c86669c@superjapan1111.dnsfree.top:12387#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DSUPERJAPAN1111.DNSFREE.TOP%3A12387
 trojan://8d23f8a8-64b8-42c4-9c31-304f7c86669c@tls.us01.dnsfree.top:12345?allowInsecure=1#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DTLS.US01.DNSFREE.TOP%3A12345
 trojan://8d2d5953-d649-4034-94f2-72f2df2623da@jgwdb3.gaox.ml:443#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDB3.GAOX.ML%3A443
 trojan://8d4ab0f0-79be-11eb-be0b-1239d0255272@id2-trojan.bonds.id:443?allowInsecure=1#%5B%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9ATROJAN%5DID2-TROJAN.BONDS.ID%3A443
@@ -108,7 +105,6 @@ trojan://9b2caa58-6182-47b6-815f-035a87e014a9@aead.tls.sksupersususu.dnsfree.top
 trojan://9b7195ba-f029-4d7d-a728-ece6e0fdc363@xioix.gq:443?allowInsecure=1#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DXIOIX.GQ%3A443
 trojan://9e7256ac-f3bb-4f60-830f-48e75191c207@TJ-NODE-1-B.GFWAIRPORT.NET:50001?allowInsecure=0#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTJ-NODE-1-B.GFWAIRPORT.NET%3A50001
 trojan://9e7256ac-f3bb-4f60-830f-48e75191c207@TJ-NODE-2-B.GFWAIRPORT.NET:50001?allowInsecure=0#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DTJ-NODE-2-B.GFWAIRPORT.NET%3A50001
-trojan://9e7256ac-f3bb-4f60-830f-48e75191c207@TJ-NODE-3-B.GFWAIRPORT.NET:50001?allowInsecure=0#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DTJ-NODE-3-B.GFWAIRPORT.NET%3A50001
 trojan://9e7256ac-f3bb-4f60-830f-48e75191c207@TJ-NODE-4-B.GFWAIRPORT.NET:50001?allowInsecure=0#%5B%E9%A6%99%E6%B8%AFTROJAN%5DTJ-NODE-4-B.GFWAIRPORT.NET%3A50001
 trojan://9e7256ac-f3bb-4f60-830f-48e75191c207@TJ-NODE-5-B.GFWAIRPORT.NET:50001?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DTJ-NODE-5-B.GFWAIRPORT.NET%3A50001
 trojan://9e92cf38-9f6b-3bae-8061-271f9d0e4ae2@trojan.linkdns.xyz:40207?allowInsecure=1#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTROJAN.LINKDNS.XYZ%3A40207
@@ -122,7 +118,6 @@ trojan://YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3e
 trojan://YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT@2.58.242.43:443#%5B%E5%8F%B0%E6%B9%BETROJAN%5D2.58.242.43%3A443
 trojan://YcQgIbGZNNd1PwsF@misaka1433.tk:443#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DMISAKA1433.TK%3A443
 trojan://a37a5947-0493-4a59-ba4c-5d36dd16063b@pro.tls.hongkongaz.dnsfree.top:55092?allowInsecure=1#%5B%E9%A6%99%E6%B8%AFTROJAN%5DPRO.TLS.HONGKONGAZ.DNSFREE.TOP%3A55092
-trojan://a3a854c6-bef1-4257-a525-b259c6bcca39@us1.qingyun123.xyz:10050#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS1.QINGYUN123.XYZ%3A10050
 trojan://a3fa58b581353bb375d2ddad0f327938@jp-server-02.selfupay.com:443?allowInsecure=1#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJP-SERVER-02.SELFUPAY.COM%3A443
 trojan://a3fa58b581353bb375d2ddad0f327938@ned-server-01.selfupay.com:443?allowInsecure=1#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DNED-SERVER-01.SELFUPAY.COM%3A443
 trojan://a3fa58b581353bb375d2ddad0f327938@usa-server-02.selfupay.com:443?allowInsecure=1#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DUSA-SERVER-02.SELFUPAY.COM%3A443
@@ -133,7 +128,7 @@ trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@20.222.85.252:443?allowInsecure=0&
 trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@20.24.208.59:443?allowInsecure=0&peer=www.0u0-cdn.link&sni=www.0u0-cdn.link#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D20.24.208.59%3A443
 trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@23.101.238.77:443?allowInsecure=0&peer=www.0u0-cdn.link&sni=www.0u0-cdn.link#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5D23.101.238.77%3A443
 trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@52.140.198.220:443?allowInsecure=0&peer=www.0u0-cdn.link&sni=www.0u0-cdn.link#%5B%E6%97%A5%E6%9C%ACTROJAN%5D52.140.198.220%3A443
-trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@shop.ling-car.com:443?allowInsecure=0#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DSHOP.LING-CAR.COM%3A443
+trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@shop.ling-car.com:443?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DSHOP.LING-CAR.COM%3A443
 trojan://b0dd80f5-2e66-4d3c-b41e-f3b10534fd90@nfjp1.qingyun123.xyz:10000#%5B%E6%97%A5%E6%9C%ACTROJAN%5DNFJP1.QINGYUN123.XYZ%3A10000
 trojan://b0dd80f5-2e66-4d3c-b41e-f3b10534fd90@us1.qingyun123.xyz:10050#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS1.QINGYUN123.XYZ%3A10050
 trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@jgwcc3.gaox.ml:443#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DJGWCC3.GAOX.ML%3A443
@@ -159,7 +154,6 @@ trojan://cSD2tExedR5RgGGKtb@os2-7.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6
 trojan://cSD2tExedR5RgGGKtb@os2-8.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DOS2-8.NROJAT.COM%3A443
 trojan://cSD2tExedR5RgGGKtb@ty1-1.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY1-1.NROJAT.COM%3A443
 trojan://cSD2tExedR5RgGGKtb@ty1-2.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY1-2.NROJAT.COM%3A443
-trojan://cSD2tExedR5RgGGKtb@ty1-4.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY1-4.NROJAT.COM%3A443
 trojan://cSD2tExedR5RgGGKtb@ty2-1.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-1.NROJAT.COM%3A443
 trojan://cSD2tExedR5RgGGKtb@ty2-2.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-2.NROJAT.COM%3A443
 trojan://cSD2tExedR5RgGGKtb@ty2-4.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-4.NROJAT.COM%3A443
@@ -172,7 +166,6 @@ trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@rbmf.speedcncnforward3.tk:10001?al
 trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@rbmf.speedcncnforward3.tk:10001?allowInsecure=0&tfo=1#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DRBMF.SPEEDCNCNFORWARD3.TK%3A10001
 trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@rbmf.speedcncnforward3.tk:10004?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DRBMF.SPEEDCNCNFORWARD3.TK%3A10004
 trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@rbmf.speedcncnforward3.tk:10004?allowInsecure=0&tfo=1#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DRBMF.SPEEDCNCNFORWARD3.TK%3A10004
-trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@xjpmf.speedcncnforward2.tk:10001?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DXJPMF.SPEEDCNCNFORWARD2.TK%3A10001
 trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@jgwdb4.gaox.ml:443#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDB4.GAOX.ML%3A443
 trojan://d3b04e55-f2ae-4500-b317-e23946dde463@gy.sharecentrepro.tk:13397?sni=misaka.stockholmcloud.buzz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGY.SHARECENTREPRO.TK%3A13397
 trojan://d9c94f17-e38f-35f6-aa11-d42b68b0dcc0@hhzx2.doubledou.win:4590#%5B%E9%98%BF%E8%81%94%E9%85%8BTROJAN%5DHHZX2.DOUBLEDOU.WIN%3A4590
@@ -185,8 +178,6 @@ trojan://ddcfe6cb-d001-430e-9781-427496e3ed1d@newgy.jidan666.com:23033?sni=jp2.w
 trojan://ddcfe6cb-d001-430e-9781-427496e3ed1d@newgy.jidan666.com:23034?sni=in1.welink.qchwnd.moe#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DNEWGY.JIDAN666.COM%3A23034
 trojan://ddcfe6cb-d001-430e-9781-427496e3ed1d@newgy.jidan666.com:23035?sni=sg1.welink.qchwnd.moe#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DNEWGY.JIDAN666.COM%3A23035
 trojan://dfd4f3f6-22d0-40f0-857d-23ff4358164d@nfjp1.qingyun123.xyz:10000#%5B%E6%97%A5%E6%9C%ACTROJAN%5DNFJP1.QINGYUN123.XYZ%3A10000
-trojan://dfd4f3f6-22d0-40f0-857d-23ff4358164d@nfus.qingyun123.xyz:10050#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DNFUS.QINGYUN123.XYZ%3A10050
-trojan://dongtaiwang.com@trojan1.free4444.xyz:443#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DTROJAN1.FREE4444.XYZ%3A443
 trojan://e23f408a-012e-4030-8b31-02022031cb50@fhcamd1.gaox.ml:443#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DFHCAMD1.GAOX.ML%3A443
 trojan://e37c6d7efa845d60@116.129.253.130:3389?allowInsecure=1#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.130%3A3389
 trojan://e37c6d7efa845d60@116.129.253.134:3389?allowInsecure=1#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.134%3A3389
