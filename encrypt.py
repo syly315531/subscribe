@@ -64,6 +64,51 @@ class URLParseHelper():
             print(e,s)
         return s
 
+    def splitURL(self):
+        _url = self.body if self.body.find('@')>0 else self.decode(self.body)
+        ip_and_port = _url[::-1]
+        ip_and_port = ip_and_port[:ip_and_port.find('@')]
+        ip_and_port = ip_and_port[::-1]
+        ip_and_port = ip_and_port.split(':')
+        
+        return ip_and_port[0],ip_and_port[1],_url
+    
+    def build_query(self,data):
+        try:
+            qList = []
+            
+            for k,v in data.items():
+                v = v if v is not None else ''
+                
+                if k == '':
+                    continue
+                if k == 'tls' and v=='tls':
+                    v = 1
+                    
+                if type(v) == list:
+                    qList.append((k,','.join(v)))
+                else:
+                    qList.append((k,str(v).lower()))
+            # _query = [(k,','.join(v)) for k,v in data.items() if v is not None]
+            _query = urllib.parse.urlencode(qList)
+            # _query = "&".join([ "{}={}".format(k,str(v).lower()) for k,v in data.items() if v is not None])
+        except Exception as e:
+            print(data)
+            raise(e)
+        return _query
+    
+    def build_queryObj(self,querys=None,key=None,value=None):
+        if querys:
+            querys = urllib.parse.parse_qs(querys)
+        else:
+            querys = urllib.parse.parse_qs(self.url.query)
+            
+        if key and value:
+            querys[key] = [value,]
+            
+        return querys
+
+
     def vaild(self,ipAddr:str,port:int):
         try:
             port = int(str(port).replace("'", ""))
@@ -97,6 +142,7 @@ class URLParseHelper():
         # print(response.city.name)  # 城市 Saint Paul
         # print(response)   # 更多参考 ↓
         # print(result)
+        
         return result
     
     def getTagName(self,ipStr,port,quote=False):
@@ -213,19 +259,18 @@ class URLParseHelper():
         url = "{}:{}:{}:{}:{}".format(_ip,_port,_protocol,_cipher,_pparam)
         print(url)
         data['remarks'] = urllib.parse.quote(data['remarks'])
-        query = _password + "/?" + "&".join(["{}={}".format(k,str(v).lower()) for k,v in data.items()])
+        query = _password + "/?" + self.build_query(data)
         url += ":" + query
         url = _scheme + "://" + self.encode(url)
         return url
     
     def ssObj(self):
-        _s = self.body if self.body.find('@')>0 else self.decode(self.body)
-        _s = _s[_s.find('@')+1:]
-        _s = _s.split(':')
-        _newUrl = (self.url.scheme, self.url.netloc, self.url.path, self.url.params, self.url.query, self.getTagName(_s[0],_s[1],True))
+        _ip,_port,_url = self.splitURL()
+        
+        _newUrl = (self.url.scheme, self.url.netloc, self.url.path, self.url.params, self.url.query, self.getTagName(_ip,_port,True))
         _newUrl = urllib.parse.urlunparse(_newUrl)
-        _s.append(_newUrl)
-        return _s
+        
+        return _ip,_port,_newUrl
     
     def ssrObj(self):
         def parse_qs_ssr(url):
@@ -244,8 +289,7 @@ class URLParseHelper():
         # if isexistRemarks:
         #     print(self.decode(_url_qs['remarks'][0].replace(" ", "+")))
         _url_qs['remarks'] = [self.encode(_tagName),]
-        # print(_url_qs)
-        _s[-1] = _url_path + "?" + "&".join(['{}={}'.format(k,','.join(v)) for k,v in _url_qs.items()])
+        _s[-1] = _url_path + "?" + self.build_query(_url_qs)
         _s1 = _s1 if isexistRemarks else self.encode(":".join(_s))
         
         if self.body.find('_')>0:
@@ -261,21 +305,17 @@ class URLParseHelper():
         return self.ssObj()
     
     def vlessObj(self):
-        _s = self.body if self.body.find('@')>0 else self.decode(self.body)
-        _s = _s[_s.find('@')+1:]
-        _s = _s.split(':')
-        _n = self.getTagName(_s[0],_s[1],True)
-        _tagname = urllib.parse.parse_qs(self.url.query)
-        _tagname['alpn'] = [_n]
-        _tagname = [(k,','.join(v)) for k,v in _tagname.items()]
-        _tagname = urllib.parse.urlencode(_tagname)
-        if self.url.fragment !='':
-            _fragment = _n
-        else:
-            _fragment = ''
-        _newUrl  = urllib.parse.urlunparse((self.url.scheme, self.url.netloc, self.url.path, self.url.params, _tagname, _fragment))
-        _s.append(_newUrl)
-        return _s
+        _ip,_port,_url = self.splitURL()
+
+        _tagname = self.getTagName(_ip,_port,True)
+        _query = self.build_queryObj(key='alpn',value=_tagname)
+        _query = self.build_query(_query)
+        
+        _fragment = _tagname if self.url.fragment !='' else ''
+            
+        _newUrl  = urllib.parse.urlunparse((self.url.scheme, self.url.netloc, self.url.path, self.url.params, _query, _fragment))
+        
+        return _ip,_port,_newUrl
     
     def vmess2link(self,data):
         """
@@ -294,58 +334,58 @@ class URLParseHelper():
         "v":2
         }
         """
-        _security = data.pop('scy') if 'scy' in data else None
+        # print(data)
+        # data = {k:v for k,v in data.items() if k != ""}
+        # data = {k:v for k,v in data.items() if v != ""}
+        _security = data.pop('scy') if 'scy' in data else 'auto'
         _uuid,_address,_port = data.pop('id'),data.pop('add'),data.pop('port')
-        url = "{}:{}@{}:{}".format(_security,_uuid,_address,_port)  if _security else "{}@{}:{}".format(_uuid,_address,_port) 
-        
-        data['remarks'] = data.pop('ps')
-        data['remarks']  = urllib.parse.quote(data['remarks'])
-        data['alertId'] = data.pop('aid') if 'aid' in data else None
+        url = "{}:{}@{}:{}".format(_security,_uuid,_address,_port)
+
+        data['remark'] = data.pop('ps')
+        data['remark']  = urllib.parse.quote(data['remark'])
+        if 'alterId' not in data:
+            data['alterId'] = data.pop('aid') if 'aid' in data else ''
         
         if data['net']=='ws':
             data['obfs'] = 'websocket'
             data.pop('net')
             data['obfsParam'] = data.pop('host')
-        
-        query = "&".join([ "{}={}".format(k,str(v).lower()) for k,v in data.items() if v is not None ])
-        url += query
-        # url = urllib.parse.urlunparse(('vmess', self.encode(url), '','', query, ''))
+        print(data)
+        # url += "#" + self.build_query(data)
+        url = urllib.parse.urlunparse(('vmess', self.encode(url), '','', self.build_query(data), ''))
         return url
     
     def vmessObj(self):
-        _s = self.decode(self.body)
-        _s = re.sub("\n",'',_s) or _s.strip()
-        _s = re.sub(' ','',_s)
-        # print(_s)
         try:
-            _s = json.loads(_s)
-            _ipStr = _s['add']
-            _port  = _s['port']
-            _s['ps'] = self.getTagName(_s['add'],_s['port'])
-            _s = json.dumps(_s,ensure_ascii=False)
-            _s = self.encode(_s)
-            _newUrl = urllib.parse.urlunparse((self.url.scheme, _s, '', self.url.params, self.url.query, self.url.fragment))
-            _s = [_ipStr, _port, _newUrl]
+            _s = self.decode(self.body)
+            _s = re.sub("\n",'',_s) or _s.strip()
+            _s = re.sub(' ','',_s)
             
-        except:
-            try:
-                _s = _s[_s.find('@')+1:]
-                if _s.find(':')>0:
-                    _ipStr, _port = _s.split(':')
-                    _queryObj = urllib.parse.parse_qs(self.url.query)
-                    _queryObj['remarks'] = [self.getTagName(_ipStr, _port)]
-                    _queryObj['title'] = [self.getTagName(_ipStr, _port)]
-                    _queryObj = [(k,','.join(v)) for k,v in _queryObj.items()]
-                    _queryObj = urllib.parse.urlencode(_queryObj)
-                    _newUrl = urllib.parse.urlunparse((self.url.scheme, self.url.netloc, self.url.path, self.url.params, _queryObj, self.url.fragment))
-                    _s = [_ipStr, _port, _newUrl]
-                else:
-                    _s = [None,None, None]
-            except:
-                print(self.url)
-                print('-'*100)
-                time.sleep(5)
-                _s = [None,None, None]
+            if _s.find('{')==0:
+                _s = json.loads(_s)
+                _ipStr = _s['add']
+                _port  = _s['port']
+                _s['ps'] = self.getTagName(_s['add'],_s['port'],True)
+                
+                # _s = json.dumps(_s,ensure_ascii=False)
+                # _s = self.encode(_s)
+                # _newUrl = urllib.parse.urlunparse((self.url.scheme, _s, '', self.url.params, self.url.query, self.url.fragment))
+                _newUrl = self.vmess2link(_s)
+                _s = [_ipStr, _port, _newUrl]
+            else:
+                _ipStr,_port,_url = self.splitURL()
+                
+                query = self.build_queryObj(key='remark',value=self.getTagName(_ipStr, _port))
+                query = self.build_query(query)
+                
+                _newUrl = urllib.parse.urlunparse((self.url.scheme, self.url.netloc, self.url.path, self.url.params, query, self.url.fragment))
+                _s = [_ipStr, _port, _newUrl]
+            
+        except Exception as e:
+            print(self.url,e)
+            print('-'*100)
+            time.sleep(5)
+            _s = [None,None, None]
                 
         return _s
     
@@ -466,7 +506,7 @@ def handleUrl(filename='fly.txt'):
     
     for index,url in enumerate(urlList):
         url = str(url) if type(url)==bytes else url
-        print('Current url is:{}/{} {}'.format(index, len(urlList), url))
+        print('Current url is:{}/{} {}'.format(index, len(urlList), url.strip()))
         
         urlObj.parse(url)
         i,p,u = urlObj.rebuild()
@@ -669,25 +709,39 @@ if __name__=="__main__":
             
         case 'debug':
             # print(os.stat('fly2.txt').st_size)
-            uhelper = URLParseHelper()
+            u = URLParseHelper()
             
             with open('collection.txt','r') as f:
                 urlList = f.readlines()
                 
             for url in urlList:
+                print(url)
+                u.parse(url)
                 if url.startswith("vmess"):
-                    uhelper.parse(url)
-                    rst = uhelper.decode(uhelper.body)
-                    if rst.find('{')>=0:
-                        rst = json.loads(rst)
-                        rst = uhelper.vmess2link(rst)
-                        
-                    else:
-                        continue
+                    rst = u.vmessObj()
                     print(rst,type(rst))
                     
                 else:
                     continue
             
+            # url = "ss://YWVzLTEyOC1jZmI6UWF6RWRjVGdiMTU5QCQqQDE0LjI5LjEyNC4xNjg6MjUyMzU=#%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99https%3A%2F%2F1808.ga%20%E8%8A%82%E7%82%B9_118"
+            # url = "ss://YWVzLTEyOC1nY206Y1htNkh6RUdMZUIweUpnaA@120.232.174.85:45793#%E9%A6%99%E6%B8%AF%E6%A0%87%E5%87%86%E4%B8%AD%E7%BB%A7%2006"
+            
+            # uhelper.parse(url)
+            # url = uhelper.body
+            
+            
+            # url = uhelper.decode(url)
+            # url = url[::-1]
+            # url = url[:url.find('@')]
+            # url = url[::-1]
+            # print(url)
+        case 'test':
+            url = "vmess://eyJyZW1hcmsiOiLov4fmnJ/ml7bpl7TvvJoyMDIyLTExLTA5IiwidHlwZSI6bnVsbCwiYWRkIjoiYXBpLnhpbmppZS5ldS5vcmciLCJwb3J0IjoxMDA4NiwiaWQiOiJlMWJkYmI1Ni0yNWU0LTM1MWMtYjAzOS0yNDczOTQ5NjFhYmMiLCJhbHRlcklkIjowLCJuZXQiOiJ0Y3AiLCJwcyI6Iui/h+acn+aXtumXtO+8mjIwMjItMTEtMDkifQ=="
+            u = URLParseHelper()
+            u.parse(url)
+            rst = u.vmessObj()
+            print(rst)
+            
         case _:
-            print('Usage: %s [run | source | fly | split | encode | repair | debug | clash ]' % sys.argv[0])
+            print('Usage: %s [run | source | fly | split | encode | repair | debug | clash |test ]' % sys.argv[0])
