@@ -62,7 +62,10 @@ class URLParseHelper():
                 s = base64.urlsafe_b64encode(bytes(s, 'utf-8'))
             else:
                 s = base64.b64encode(bytes(s, 'utf-8'))
-            s = str(s, 'utf-8')
+                
+            if type(s)==bytes:
+                # s = str(s, 'utf-8')
+                s = s.decode('UTF-8')
         except Exception as e:
             print(e,s)
         return s
@@ -74,12 +77,12 @@ class URLParseHelper():
         ip_and_port = ip_and_port[::-1]
         ip_and_port = ip_and_port.split(':')
         
-        return ip_and_port[0],ip_and_port[1],_url
+        return ip_and_port[0],ip_and_port[1].replace("/", ""),_url
     
     def build_query(self,data):
         try:
             qList = []
-            
+
             for k,v in data.items():
                 v = v if v is not None else ''
                 
@@ -87,18 +90,22 @@ class URLParseHelper():
                     continue
                 if k == 'tls' and v=='tls':
                     v = 1
-                    
+                
+
                 if type(v) == list:
                     qList.append((k,','.join(v)))
+                elif type(v) == str:
+                    qList.append((k,v.lower()))
                 else:
                     qList.append((k,str(v).lower()))
-            # _query = [(k,','.join(v)) for k,v in data.items() if v is not None]
+                    
             _query = urllib.parse.urlencode(qList)
+            # _query = "&".join([ "{}={}".format(t[0],t[1]) for t in qList])
             # _query = "&".join([ "{}={}".format(k,str(v).lower()) for k,v in data.items() if v is not None])
         except Exception as e:
             print(data)
             with open('error.txt','a+') as f:
-                f.write("{},{}\n".format(e,data))
+                f.write("build_query error: {},{}\n".format(e,data))
             raise(e)
         return _query
     
@@ -122,9 +129,8 @@ class URLParseHelper():
             result = sock.connect_ex((ipAddr,port))
         except Exception as e:
             result = -1
-            print(e,ipAddr,port)
             with open('error.txt','a+') as f:
-                f.write("{},{},{}\n".format(e,ipAddr,port))
+                f.write("URL Test Error,{},{},{}\n".format(e,ipAddr,port))
         finally:
             print('Tested',ipAddr,port)
             return True if result == 0 else False
@@ -349,7 +355,7 @@ class URLParseHelper():
         url = "{}:{}@{}:{}".format(_security,_uuid,_address,_port)
 
         data['remark'] = data.pop('ps')
-        data['remark']  = urllib.parse.quote(data['remark'])
+        # data['remark']  = urllib.parse.quote(data['remark'])
         if 'alterId' not in data:
             data['alterId'] = data.pop('aid') if 'aid' in data else ''
         
@@ -358,7 +364,9 @@ class URLParseHelper():
             data['obfs']= 'websocket' 
             data['obfsParam'] = data.pop('host') if 'host' in data else ''
         
-        print(data)
+        if 'url_group' in data:
+            data.pop('url_group')
+        
         # url += "#" + self.build_query(data)
         url = urllib.parse.urlunparse(('vmess', self.encode(url), '','', self.build_query(data), ''))
         return url
@@ -384,9 +392,9 @@ class URLParseHelper():
                 _s = [_ipStr, _port, _newUrl]
             
         except Exception as e:
+            print('-'*50,'vmessObj Error:','-'*50)
             print(self.url,e)
-            print('-'*100)
-            time.sleep(5)
+            time.sleep(1)
             _s = [None,None, None]
                 
         return _s
@@ -416,7 +424,7 @@ class URLParseHelper():
             print('source is: {}'.format(subscribe))
             print('='*50)
             
-            rsp = requests.get(subscribe, timeout=30)
+            rsp = requests.get(subscribe, timeout=5)
             if rsp.status_code==200:
                 rsp = rsp.text
                 rsp = re.sub('\n','',rsp)
@@ -452,7 +460,7 @@ class URLParseHelper():
             print('='*50)
             print('source is: {}'.format(subscribe))
             print('='*50)
-            content = requests.get(subscribe,timeout=30)
+            content = requests.get(subscribe,timeout=5)
             if content.status_code==200:
                 content = content.text
                 
@@ -523,7 +531,7 @@ def handleUrl(filename='fly.txt'):
                 continue
         
         r = urlObj.vaild(i,p)
-        print('Test url result is:',r)
+        print('Test result is:',r)
         
         if r is False:
             continue
@@ -665,6 +673,7 @@ def run_with_args():
     else:
         print("4")
 
+
 if __name__=="__main__":
     import sys
     
@@ -709,9 +718,13 @@ if __name__=="__main__":
                 u.get_from_clash(url)
             
         case 'debug':
-            url = "vmess://eyJhZGQiOiIxMTYuMTYyLjE0LjIyOCIsImFpZCI6MiwiaWQiOiIxYjY5M2ViMy0zMjQxLTM2MmEtOTAwMS01YjUwMzc4OWNmYmUiLCJuZXQiOiJ0Y3AiLCJwb3J0IjoyMDc2MSwicHMiOiJDTl/kuozniLfnv7vlopnnvZFodHRwczovLzE4MDguZ2Eg6IqC54K5Xzg3Iiwic2N5IjoiYWVzLTEyOC1nY20iLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoyfQ=="
             # print(os.stat('fly2.txt').st_size)
             u = URLParseHelper()
+            
+            # url = "vmess://eyJhZGQiOiIxMTkuMTQ3LjIwLjIzNiIsImFpZCI6IjEiLCJob3N0IjoiaW5ncmVzcy1pMS5vbmVib3g2Lm9yZyIsImlkIjoiNzkzODY2ODUtMTZkYS0zMjdjLTllMTQtYWE2ZDcwMmQ4NmJjIiwibmV0Ijoid3MiLCJwYXRoIjoiL2hscy9jY3R2NXBoZC5tM3U4IiwicG9ydCI6IjM4NzAxIiwicHMiOiJDTl/kuozniLfnv7vloplodHRwczovLzE4MDguZ2Eg6IqC54K5XzE0IiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ1cmxfZ3JvdXAiOiJwYXN0ZS5pbiIsInYiOiIyIn0="
+            # u.parse(url)
+            # rst = u.decode(u.body)
+            # print(rst)
             
             with open('collection.txt','r') as f:
                 urlList = f.readlines()
@@ -719,13 +732,17 @@ if __name__=="__main__":
             for url in urlList:
                 # print(url)
                 u.parse(url)
+                if url.find('119.147.20.236')>=0:
+                    print(url)
                 if url.startswith("vmess"):
                     str = u.decode(u.body)
-                    if str.find('wow')>0:
+                    if str.find('119.147.20.236')>=0:
                         print(url,str)
-                    
+                        rst = u.rebuild()
+                        print(rst)
                 else:
                     continue
+           
             
         case _:
             print('Usage: %s [run | source | fly | split | encode | repair | debug | clash ]' % sys.argv[0])
