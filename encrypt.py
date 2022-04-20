@@ -46,9 +46,12 @@ class URLParseHelper():
             else:
                 s = bytes(s, 'utf-8')
                 s = base64.decodebytes(s)
-            s = str(s, encoding='utf-8')
+                
+            if type(s)==bytes:
+                # s = str(s, encoding='UTF-8')
+                s = s.decode('UTF-8')
         except Exception as e:
-            s = s if type(s)==str else str(s)
+            # s = s if type(s)==str else str(s)
             print(e,s)
         
         return s
@@ -94,6 +97,8 @@ class URLParseHelper():
             # _query = "&".join([ "{}={}".format(k,str(v).lower()) for k,v in data.items() if v is not None])
         except Exception as e:
             print(data)
+            with open('error.txt','a+') as f:
+                f.write("{},{}\n".format(e,data))
             raise(e)
         return _query
     
@@ -118,6 +123,8 @@ class URLParseHelper():
         except Exception as e:
             result = -1
             print(e,ipAddr,port)
+            with open('error.txt','a+') as f:
+                f.write("{},{},{}\n".format(e,ipAddr,port))
         finally:
             print('Tested',ipAddr,port)
             return True if result == 0 else False
@@ -337,7 +344,7 @@ class URLParseHelper():
         # print(data)
         # data = {k:v for k,v in data.items() if k != ""}
         # data = {k:v for k,v in data.items() if v != ""}
-        _security = data.pop('scy') if 'scy' in data else 'auto'
+        _security = data.pop('scy') if 'scy' in data else 'none'
         _uuid,_address,_port = data.pop('id'),data.pop('add'),data.pop('port')
         url = "{}:{}@{}:{}".format(_security,_uuid,_address,_port)
 
@@ -346,10 +353,11 @@ class URLParseHelper():
         if 'alterId' not in data:
             data['alterId'] = data.pop('aid') if 'aid' in data else ''
         
-        if data['net']=='ws':
-            data['obfs'] = 'websocket'
-            data.pop('net')
-            data['obfsParam'] = data.pop('host')
+        data['obfs']= data.pop('net')
+        if data['obfs']=='ws':
+            data['obfs']= 'websocket' 
+            data['obfsParam'] = data.pop('host') if 'host' in data else ''
+        
         print(data)
         # url += "#" + self.build_query(data)
         url = urllib.parse.urlunparse(('vmess', self.encode(url), '','', self.build_query(data), ''))
@@ -363,15 +371,9 @@ class URLParseHelper():
             
             if _s.find('{')==0:
                 _s = json.loads(_s)
-                _ipStr = _s['add']
-                _port  = _s['port']
-                _s['ps'] = self.getTagName(_s['add'],_s['port'])
-                
-                # _s = json.dumps(_s,ensure_ascii=False)
-                # _s = self.encode(_s)
-                # _newUrl = urllib.parse.urlunparse((self.url.scheme, _s, '', self.url.params, self.url.query, self.url.fragment))
-                _newUrl = self.vmess2link(_s)
-                _s = [_ipStr, _port, _newUrl]
+                _ipStr,_port = _s['add'],_s['port']
+                _s['ps'] = self.getTagName(_ipStr,_port)
+                _s = [_ipStr, _port, self.vmess2link(_s)]
             else:
                 _ipStr,_port,_url = self.splitURL()
                 
@@ -706,8 +708,8 @@ if __name__=="__main__":
             for url in urlList:
                 u.get_from_clash(url)
             
-            
         case 'debug':
+            url = "vmess://eyJhZGQiOiIxMTYuMTYyLjE0LjIyOCIsImFpZCI6MiwiaWQiOiIxYjY5M2ViMy0zMjQxLTM2MmEtOTAwMS01YjUwMzc4OWNmYmUiLCJuZXQiOiJ0Y3AiLCJwb3J0IjoyMDc2MSwicHMiOiJDTl/kuozniLfnv7vlopnnvZFodHRwczovLzE4MDguZ2Eg6IqC54K5Xzg3Iiwic2N5IjoiYWVzLTEyOC1nY20iLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoyfQ=="
             # print(os.stat('fly2.txt').st_size)
             u = URLParseHelper()
             
@@ -715,33 +717,15 @@ if __name__=="__main__":
                 urlList = f.readlines()
                 
             for url in urlList:
-                print(url)
+                # print(url)
                 u.parse(url)
                 if url.startswith("vmess"):
-                    rst = u.vmessObj()
-                    print(rst,type(rst))
+                    str = u.decode(u.body)
+                    if str.find('wow')>0:
+                        print(url,str)
                     
                 else:
                     continue
             
-            # url = "ss://YWVzLTEyOC1jZmI6UWF6RWRjVGdiMTU5QCQqQDE0LjI5LjEyNC4xNjg6MjUyMzU=#%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99https%3A%2F%2F1808.ga%20%E8%8A%82%E7%82%B9_118"
-            # url = "ss://YWVzLTEyOC1nY206Y1htNkh6RUdMZUIweUpnaA@120.232.174.85:45793#%E9%A6%99%E6%B8%AF%E6%A0%87%E5%87%86%E4%B8%AD%E7%BB%A7%2006"
-            
-            # uhelper.parse(url)
-            # url = uhelper.body
-            
-            
-            # url = uhelper.decode(url)
-            # url = url[::-1]
-            # url = url[:url.find('@')]
-            # url = url[::-1]
-            # print(url)
-        case 'test':
-            url = "vmess://eyJyZW1hcmsiOiLov4fmnJ/ml7bpl7TvvJoyMDIyLTExLTA5IiwidHlwZSI6bnVsbCwiYWRkIjoiYXBpLnhpbmppZS5ldS5vcmciLCJwb3J0IjoxMDA4NiwiaWQiOiJlMWJkYmI1Ni0yNWU0LTM1MWMtYjAzOS0yNDczOTQ5NjFhYmMiLCJhbHRlcklkIjowLCJuZXQiOiJ0Y3AiLCJwcyI6Iui/h+acn+aXtumXtO+8mjIwMjItMTEtMDkifQ=="
-            u = URLParseHelper()
-            u.parse(url)
-            rst = u.vmessObj()
-            print(rst)
-            
         case _:
-            print('Usage: %s [run | source | fly | split | encode | repair | debug | clash |test ]' % sys.argv[0])
+            print('Usage: %s [run | source | fly | split | encode | repair | debug | clash ]' % sys.argv[0])
