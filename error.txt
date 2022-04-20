@@ -1,0 +1,36 @@
+[Errno 8] nodename nor servname provided, or not known,vpn-eu-node00a-bb.hi-l.eu,35780
+[Errno 8] nodename nor servname provided, or not known,vpn-eu-node002-fa.hi-l.eu,4115
+[Errno 8] nodename nor servname provided, or not known,vpn-eu-node002-fa.hi-l.eu,4115
+[Errno 8] nodename nor servname provided, or not known,vpn-eu-node00a-bb.hi-l.eu,35780
+invalid literal for int() with base 10: '10086/',mmn.anycast.gay,10086/
+invalid literal for int() with base 10: '10086/',mmn.anycast.gay,10086/
+invalid literal for int() with base 10: '18584/',183.213.21.67,18584/
+invalid literal for int() with base 10: '18584/',183.232.197.254,18584/
+invalid literal for int() with base 10: '18584/',211.99.100.5,18584/
+invalid literal for int() with base 10: '18584/',42.157.196.250,18584/
+invalid literal for int() with base 10: '18584/',42.157.196.251,18584/
+invalid literal for int() with base 10: '18584/',42.157.196.252,18584/
+invalid literal for int() with base 10: '18584/',42.157.196.253,18584/
+invalid literal for int() with base 10: '18584/',a.secureencryptedvirtualization.com,18584/
+[Errno 8] nodename nor servname provided, or not known,hkt2.node.qchwnd.moe,44614
+[Errno 8] nodename nor servname provided, or not known,trojan-azure-hk-1.forwardserver.xyz,8443
+[Errno 8] nodename nor servname provided, or not known,☞@freeyule,10086
+[Errno 8] nodename nor servname provided, or not known,☞@freeyule,10086
+[Errno 8] nodename nor servname provided, or not known,使用前记得更新订阅,0
+[Errno 8] nodename nor servname provided, or not known,使用前记得更新订阅,0
+[Errno 8] nodename nor servname provided, or not known,uss111.liuwei01.tk,443
+[Errno 8] nodename nor servname provided, or not known,ruuss444.liuwei01.tk,443
+[Errno 8] nodename nor servname provided, or not known,ruuss222.liuwei01.tk,443
+[Errno 8] nodename nor servname provided, or not known,uss222.liuwei01.tk,443
+[Errno 8] nodename nor servname provided, or not known,ruuss333.liuwei01.tk,443
+[Errno 8] nodename nor servname provided, or not known,b>,809
+[Errno 8] nodename nor servname provided, or not known,b>,809
+[Errno 8] nodename nor servname provided, or not known,b>,809
+[Errno 8] nodename nor servname provided, or not known,magic-ddns01.88host.buzz,18096
+[Errno 8] nodename nor servname provided, or not known,magic-ddns01.88host.buzz,18080
+[Errno 8] nodename nor servname provided, or not known,magic-ddns01.88host.buzz,18005
+[Errno 8] nodename nor servname provided, or not known,magic-ddns01.88host.buzz,18072
+[Errno 8] nodename nor servname provided, or not known,magic-ddns02.88host.buzz,18073 
+[Errno 8] nodename nor servname provided, or not known,b>,809
+[Errno 8] nodename nor servname provided, or not known,cloudflare.xrenblog.com,443
+[Errno 8] nodename nor servname provided, or not known,sgp.xrenblog.com,18888
