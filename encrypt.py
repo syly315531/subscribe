@@ -1,3 +1,4 @@
+from ast import keyword
 import base64
 import json
 import os
@@ -716,7 +717,27 @@ if __name__=="__main__":
             
             for url in urlList:
                 u.get_from_clash(url)
+        case 'find':
+            keyword = sys.argv[2]
+            u = URLParseHelper()
             
+            with open('collection.txt','r') as f:
+                urlList = f.readlines()
+                
+            for url in urlList:
+                u.parse(url)
+                if url.find(keyword)>=0:
+                    rst = u.rebuild()
+                    print(url,rst)
+                else:
+                    if url.startswith("vmess"):
+                        str = u.decode(u.body)
+                        if str.find(keyword)>=0:
+                            rst = u.rebuild()
+                            print(url,str,rst)
+                    else:
+                        continue
+                
         case 'debug':
             # print(os.stat('fly2.txt').st_size)
             u = URLParseHelper()
@@ -726,23 +747,5 @@ if __name__=="__main__":
             # rst = u.decode(u.body)
             # print(rst)
             
-            with open('collection.txt','r') as f:
-                urlList = f.readlines()
-                
-            for url in urlList:
-                # print(url)
-                u.parse(url)
-                if url.find('119.147.20.236')>=0:
-                    print(url)
-                if url.startswith("vmess"):
-                    str = u.decode(u.body)
-                    if str.find('119.147.20.236')>=0:
-                        print(url,str)
-                        rst = u.rebuild()
-                        print(rst)
-                else:
-                    continue
-           
-            
         case _:
-            print('Usage: %s [run | source | fly | split | encode | repair | debug | clash ]' % sys.argv[0])
+            print('Usage: %s [run | source | fly | split | encode | repair | debug | clash | find ]' % sys.argv[0])
