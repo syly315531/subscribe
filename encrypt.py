@@ -3,6 +3,7 @@ import base64
 import json
 import os
 import pickle
+import string
 import yaml
 import re
 import shutil
@@ -83,23 +84,25 @@ class URLParseHelper():
     def build_query(self,data):
         try:
             qList = []
-
             for k,v in data.items():
                 v = v if v is not None else ''
                 
                 if k == '':
                     continue
-                if k == 'tls' and v=='tls':
-                    v = 1
+                if k == 'tls':
+                    if v=='tls':
+                        v = '1'
+                    elif v==False:
+                        v = 'none'
+                    elif v is None:
+                        v = 'none'
                 
-
                 if type(v) == list:
-                    qList.append((k,','.join(v)))
-                elif type(v) == str:
-                    qList.append((k,v.lower()))
-                else:
-                    qList.append((k,str(v).lower()))
-                    
+                    v= ','.join(v)
+                elif type(v) == int:
+                    v =str(v)
+                
+                qList.append((k,v.strip().lower()))
             _query = urllib.parse.urlencode(qList)
             # _query = "&".join([ "{}={}".format(t[0],t[1]) for t in qList])
             # _query = "&".join([ "{}={}".format(k,str(v).lower()) for k,v in data.items() if v is not None])
@@ -388,6 +391,8 @@ class URLParseHelper():
                 
                 query = self.build_queryObj(key='remark',value=self.getTagName(_ipStr, _port))
                 query = self.build_query(query)
+                
+                print(query)
                 
                 _newUrl = urllib.parse.urlunparse((self.url.scheme, self.url.netloc, self.url.path, self.url.params, query, self.url.fragment))
                 _s = [_ipStr, _port, _newUrl]
@@ -731,10 +736,10 @@ if __name__=="__main__":
                     print(url,rst)
                 else:
                     if url.startswith("vmess"):
-                        str = u.decode(u.body)
-                        if str.find(keyword)>=0:
+                        _s = u.decode(u.body)
+                        if _s.find(keyword)>=0:
                             rst = u.rebuild()
-                            print(url,str,rst)
+                            print(url,_s,rst)
                     else:
                         continue
                 
