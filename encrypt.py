@@ -4,6 +4,7 @@ import json
 import os
 import pickle
 import string
+from unicodedata import name
 import yaml
 import re
 import shutil
@@ -97,10 +98,17 @@ class URLParseHelper():
                     elif v is None:
                         v = 'none'
                 
+                if v == True:
+                    v = 'true'
+                else:
+                    v = 'false'
+                
                 if type(v) == list:
-                    v= ','.join(v)
+                    v = ','.join(v)
                 elif type(v) == int:
-                    v =str(v)
+                    v = str(v)
+                elif type(v) == bool:
+                    v = str(v)
                 
                 qList.append((k,v.strip().lower()))
             _query = urllib.parse.urlencode(qList)
@@ -236,24 +244,29 @@ class URLParseHelper():
         data = json.dumps(data,ensure_ascii=False)
         data = self.encode(data)
         """
-        
-        #=hk21201.cloudmatrix.xyz&path=/hls/cctv5phd.m3u8&obfs=&alterId=2
-        _scheme,_security,_uuid,_address,_port,data['remarks'] = data.pop('type'), data.pop('cipher'),data.pop('uuid'),data.pop('server'),data.pop('port'),data.pop('name')
-        url = "{}:{}@{}:{}".format(_security,_uuid,_address,_port)
-        
-        if data['network']=='ws':
-            data['obfs'] = 'websocket'
-            data.pop('network')
-            data['obfsParam'] = data['ws-opts']['headers']['Host']
-            data['path']= data['ws-opts']['path']
-            data.pop('ws-opts')
-            data.pop('ws-headers')
-            data.pop('ws-path')
-            data.pop('servername')
-        data['remarks']  = urllib.parse.quote(data['remarks'])
-        query = "&".join([ "{}={}".format(k,str(v).lower()) for k,v in data.items() ])
-        url = urllib.parse.urlunparse((_scheme, self.encode(url), '','', query, ''))
-        return url
+        try:
+            #=hk21201.cloudmatrix.xyz&path=/hls/cctv5phd.m3u8&obfs=&alterId=2
+            _scheme,_security,_uuid,_address,_port,data['remarks'] = data.pop('type'), data.pop('cipher'),data.pop('uuid'),data.pop('server'),data.pop('port'),data.pop('name')
+            url = "{}:{}@{}:{}".format(_security,_uuid,_address,_port)
+            
+            if data['network']=='ws':
+                data['obfs'] = 'websocket'
+                data.pop('network')
+                if 'ws-opts' in data:
+                    data['obfsParam'] = data['ws-opts']['headers']['Host']
+                    data['path']= data['ws-opts']['path']
+                    data.pop('ws-opts')
+                    data.pop('ws-headers')
+                    data.pop('ws-path')
+                if 'servername' in data:    
+                    data.pop('servername')
+            data['remarks']  = urllib.parse.quote(data['remarks'])
+            query = "&".join([ "{}={}".format(k,str(v).lower()) for k,v in data.items() ])
+            url = urllib.parse.urlunparse((_scheme, self.encode(url), '','', query, ''))
+            return url
+        except Exception as e:
+            print(e,data)
+            raise(e)
     
     def build_ssr(self,data):
         """
@@ -271,15 +284,53 @@ class URLParseHelper():
         }
 
         """
-        _scheme,_password,_ip,_port,data['remarks'] = data.pop('type'),data.pop('password'),data.pop('server'),data.pop('port'),data.pop('name')
-        _protocol,_cipher,_pparam = data.pop('protocol'),data.pop('cipher'),data.pop('protocol-param')
-        url = "{}:{}:{}:{}:{}".format(_ip,_port,_protocol,_cipher,_pparam)
-        print(url)
-        data['remarks'] = urllib.parse.quote(data['remarks'])
-        query = _password + "/?" + self.build_query(data)
-        url += ":" + query
-        url = _scheme + "://" + self.encode(url)
-        return url
+        try:
+            _scheme,_password,_ip,_port,data['remarks'] = data.pop('type'),data.pop('password'),data.pop('server'),data.pop('port'),data.pop('name')
+            _protocol,_cipher,_pparam = data.pop('protocol'),data.pop('cipher'),data.pop('protocol-param') if 'protocol-param' in 'data' else ''
+            url = "{}:{}:{}:{}:{}".format(_ip,_port,_protocol,_cipher,_pparam)
+
+            data['remarks'] = urllib.parse.quote(data['remarks'])
+            query = _password + "/?" + self.build_query(data)
+            url += ":" + query
+            url = _scheme + "://" + self.encode(url)
+            return url
+        except Exception as e:
+            print(e,data)
+            raise(e)
+    
+    def build_ss(self,data):
+        """
+        {
+            'name': '🇦🇪AE_04', 
+            'server': '217.138.193.10', 
+            'type': 'ss', 
+            'country': '🇦🇪AE', 
+            'port': 800, 
+            'password': 'G!yBwPWH3Vao', 
+            'cipher': 'chacha20-ietf-poly1305'
+        }
+        """
+        try:
+            _scheme,_password,_ip,_port = data.pop('type'),data.pop('password'),data.pop('server'),data.pop('port')
+            _cipher,_name = data.pop('cipher'),data.pop('name')
+            print(_name)
+            
+            url = "{}://{}@{}:{}".format(_scheme,self.encode("{}:{}".format(_cipher,_password)),_ip,_port)
+            
+            _query = self.build_query(data)
+            if _query:
+                url += "?" + _query
+            
+            _name = _name if _name else 'clash'
+            _name = urllib.parse.quote(_name) 
+            url += "#" + _name
+            
+            
+            
+            return url
+        except Exception as e:
+            print(e,data)
+            raise(e)
     
     def ssObj(self):
         _ip,_port,_url = self.splitURL()
@@ -469,6 +520,8 @@ class URLParseHelper():
             content = requests.get(subscribe,timeout=5)
             if content.status_code==200:
                 content = content.text
+            else:
+                return
                 
             if len(content)<=0:
                 return
@@ -487,6 +540,8 @@ class URLParseHelper():
                     url = self.build_vmess(data)
                 elif data['type']=='ssr':
                     url = self.build_ssr(data)
+                elif data['type']=='ss':
+                    url = self.build_ss(data)
                 else:
                     url = ""
                     print("?"*50)
@@ -505,7 +560,7 @@ class URLParseHelper():
         except Exception as e:
             raise(e)
 
-
+        
 def handleUrl(filename='fly.txt'):
     # filename = os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
     with open(filename,"r") as f:
@@ -682,15 +737,13 @@ def run_with_args():
 
 if __name__=="__main__":
     import sys
-    
+    u = URLParseHelper()
     args = sys.argv[1] if len(sys.argv)>=2 else '_'
     match args:
         case 'run':
             run()
         
         case 'source':
-            u = URLParseHelper()
-    
             with open('source.txt','r') as f:
                 sourcelist = f.readlines()
                 
@@ -716,15 +769,30 @@ if __name__=="__main__":
             repair()
             
         case 'clash':
-            u = URLParseHelper()
+            
             with open('clash.txt','r') as f:
                 urlList = f.readlines()
             
             for url in urlList:
                 u.get_from_clash(url)
+                
+        case 'clash2':
+            with open('clash2.txt','r') as f:
+                urlList = f.readlines()
+            
+            for url in urlList:
+                if url.startswith("#"):
+                    continue
+                
+                _params = "speed=30&type=ss,ssr,trojan,vless,vmess" #"speed=30&c=HK,TW,KR,JP,US&type=ss,ssr,vless,trojan,vmess"
+                if url.find('?')>=0:
+                    url += '&' + _params
+                else: 
+                    url += '?'  + _params
+                    
+                u.get_from_clash(url)
         case 'find':
             keyword = sys.argv[2]
-            u = URLParseHelper()
             
             with open('collection.txt','r') as f:
                 urlList = f.readlines()
@@ -745,12 +813,13 @@ if __name__=="__main__":
                 
         case 'debug':
             # print(os.stat('fly2.txt').st_size)
-            u = URLParseHelper()
-            
-            # url = "vmess://eyJhZGQiOiIxMTkuMTQ3LjIwLjIzNiIsImFpZCI6IjEiLCJob3N0IjoiaW5ncmVzcy1pMS5vbmVib3g2Lm9yZyIsImlkIjoiNzkzODY2ODUtMTZkYS0zMjdjLTllMTQtYWE2ZDcwMmQ4NmJjIiwibmV0Ijoid3MiLCJwYXRoIjoiL2hscy9jY3R2NXBoZC5tM3U4IiwicG9ydCI6IjM4NzAxIiwicHMiOiJDTl/kuozniLfnv7vloplodHRwczovLzE4MDguZ2Eg6IqC54K5XzE0IiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ1cmxfZ3JvdXAiOiJwYXN0ZS5pbiIsInYiOiIyIn0="
+            # vmess://YXV0bzphYmE1MGRkNC01NDg0LTNiMDUtYjE0YS00NjYxY2FmODYyZDVAMTkyLjk2LjIwNC4yNTA6NDQz?country=🇺🇸us&alterId=4&ws-path=/ws&ws-headers={'host': 'usa-washington.lvuft.com'}&http-opts={}&h2-opts={}&tls=true&skip-cert-verify=true&remarks=relay_%f0%9f%87%ba%f0%9f%87%b8us-%f0%9f%87%ba%f0%9f%87%b8us_2115&obfs=websocket
+
+            # url = "YWVzLTI1Ni1jZmI6cnBnYk5uVTlyRERVNGFXWg"
             # u.parse(url)
-            # rst = u.decode(u.body)
+            # rst = u.decode(url)
             # print(rst)
+            removeDuplicateData()
             
         case _:
-            print('Usage: %s [run | source | fly | split | encode | repair | debug | clash | find ]' % sys.argv[0])
+            print('Usage: %s [run | source | fly | split | encode | repair | debug | clash | clash2 | find ]' % sys.argv[0])

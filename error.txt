@@ -526,3 +526,6 @@ build_query error: 'bool' object has no attribute 'strip',{'path': '/hls/cctv5ph
 build_query error: 'bool' object has no attribute 'strip',{'path': '/hls/cctv5phd.m3u8', 'tls': '', 'verify_cert': True, 'type': 'none', 'v': '2', 'class': 0, 'remark': '[日本VMESS]JP04-VM0.ENTRY.IKUUU.CASA:446', 'alterId': '1', 'obfs': 'websocket', 'obfsParam': 'jp04-vm0.entry.ikuuu.casa'}
 build_query error: 'bool' object has no attribute 'strip',{'path': '/hls/cctv5phd.m3u8', 'tls': 'tls', 'verify_cert': True, 'type': 'none', 'v': '2', 'class': 0, 'remark': '[日本VMESS]JP05-VM0.ENTRY.IKUUU.CASA:446', 'alterId': '1', 'obfs': 'websocket', 'obfsParam': 'jp05-tls-vm0.entry.vm-pass.org'}
 build_query error: 'bool' object has no attribute 'strip',{'path': '/hls/cctv5phd.m3u8', 'tls': '', 'verify_cert': True, 'type': 'none', 'v': '2', 'class': 0, 'remark': '[美国VMESS]JP06-VM0.ENTRY.IKUUU.CASA:446', 'alterId': '1', 'obfs': 'websocket', 'obfsParam': 'jp06-vm0.entry.ikuuu.casa'}
+build_query error: 'bool' object has no attribute 'strip',{'country': '🇨🇳 CN', 'useable': True}
+URL Test Error,[Errno 8] nodename nor servname provided, or not known,NULL,11708
+URL Test Error,[Errno 8] nodename nor servname provided, or not known,vpn2.52tgds666.tk,443
