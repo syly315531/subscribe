@@ -49,3 +49,5 @@ https://paste.in/raw/S4QhfR
 https://paste.in/raw/NndaFf
 https://paste.in/raw/c4nOjg
 https://api.wannaflix.link/apiv3.php?type=v2rayng&token=d30416c24baacb53e3b80f6c49233361
+https://www.mikuyun.xyz/api/v1/client/subscribe?token=8791ba36e51adaeb824ab0206a727f38
+https://guolicheng.buzz/api/v1/client/subscribe?token=1bef29a918382a715bc578017f1bc8cf

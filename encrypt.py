@@ -84,31 +84,41 @@ class URLParseHelper():
     
     def build_query(self,data):
         try:
+            if 'remarks' in data:
+                data.pop('remarks')
             qList = []
             for k,v in data.items():
-                v = v if v is not None else ''
+                v = ','.join(v) if type(v)==list else v
                 
                 if k == '':
                     continue
+                
                 if k == 'tls':
                     if v=='tls':
-                        v = '1'
+                        v='1'
                     elif v==False:
-                        v = 'none'
+                        v='none'
                     elif v is None:
-                        v = 'none'
+                        v='none'
+                # elif k == 'remark':
+                #     v=self.encode(v)
                 
-                if v == True:
-                    v = 'true'
-                else:
-                    v = 'false'
+                if v== True:
+                    v='true'
+                if v==False:
+                    v='false'
+                if v== "{}":
+                    v=''
                 
-                if type(v) == list:
+                if type(v)==list:
                     v = ','.join(v)
-                elif type(v) == int:
+                if type(v)==int:
                     v = str(v)
-                elif type(v) == bool:
+                if type(v)==bool:
                     v = str(v)
+                if v.startswith("{") and v.endswith("}"):
+                    v = json.loads(v.replace("'", "\""))
+                    v = ','.join([b for a,b in v.items()])
                 
                 qList.append((k,v.strip().lower()))
             _query = urllib.parse.urlencode(qList)
@@ -129,6 +139,9 @@ class URLParseHelper():
             
         if key and value:
             querys[key] = [value,]
+        
+        if 'alterId' in querys and 'aid' not in querys:
+            querys['aid'] = querys['alterId']
             
         return querys
 
@@ -251,7 +264,6 @@ class URLParseHelper():
             
             if data['network']=='ws':
                 data['obfs'] = 'websocket'
-                data.pop('network')
                 if 'ws-opts' in data:
                     data['obfsParam'] = data['ws-opts']['headers']['Host']
                     data['path']= data['ws-opts']['path']
@@ -412,7 +424,7 @@ class URLParseHelper():
         data['remark'] = data.pop('ps')
         # data['remark']  = urllib.parse.quote(data['remark'])
         if 'alterId' not in data:
-            data['alterId'] = data.pop('aid') if 'aid' in data else ''
+            data['alterId'] = data['aid'] if 'aid' in data else ''
         
         data['obfs']= data.pop('net')
         if data['obfs']=='ws':
@@ -441,6 +453,7 @@ class URLParseHelper():
                 _ipStr,_port,_url = self.splitURL()
                 
                 query = self.build_queryObj(key='remark',value=self.getTagName(_ipStr, _port))
+                print(query)
                 query = self.build_query(query)
                 
                 print(query)
@@ -490,7 +503,7 @@ class URLParseHelper():
                 lines = rsp.splitlines()
                 time.sleep(3)
                 
-                with open(outfile,'r') as f:
+                with open(filename,'r') as f:
                     existList = f.readlines()
                     
                 for line in lines:
@@ -791,6 +804,7 @@ if __name__=="__main__":
                     url += '?'  + _params
                     
                 u.get_from_clash(url)
+        
         case 'find':
             keyword = sys.argv[2]
             
@@ -803,7 +817,7 @@ if __name__=="__main__":
                     rst = u.rebuild()
                     print(url,rst)
                 else:
-                    if url.startswith("vmess"):
+                    if url.startswith("vmess") or url.startswith("ssr"):
                         _s = u.decode(u.body)
                         if _s.find(keyword)>=0:
                             rst = u.rebuild()
@@ -813,13 +827,15 @@ if __name__=="__main__":
                 
         case 'debug':
             # print(os.stat('fly2.txt').st_size)
-            # vmess://YXV0bzphYmE1MGRkNC01NDg0LTNiMDUtYjE0YS00NjYxY2FmODYyZDVAMTkyLjk2LjIwNC4yNTA6NDQz?country=🇺🇸us&alterId=4&ws-path=/ws&ws-headers={'host': 'usa-washington.lvuft.com'}&http-opts={}&h2-opts={}&tls=true&skip-cert-verify=true&remarks=relay_%f0%9f%87%ba%f0%9f%87%b8us-%f0%9f%87%ba%f0%9f%87%b8us_2115&obfs=websocket
 
-            # url = "YWVzLTI1Ni1jZmI6cnBnYk5uVTlyRERVNGFXWg"
+            # url = "vmess://YXV0bzphYmE1MGRkNC01NDg0LTNiMDUtYjE0YS00NjYxY2FmODYyZDVAMTkyLjk2LjIwNC4yNTA6NDQz?country=🇺🇸us&alterId=4&ws-path=/ws&ws-headers={'host': 'usa-washington.lvuft.com'}&http-opts={}&h2-opts={}&tls=true&skip-cert-verify=true&remarks=relay_%f0%9f%87%ba%f0%9f%87%b8us-%f0%9f%87%ba%f0%9f%87%b8us_2115&obfs=h2"
+            # # url ="YXV0bzphYmE1MGRkNC01NDg0LTNiMDUtYjE0YS00NjYxY2FmODYyZDVAMTkyLjk2LjIwNC4yNTA6NDQz"
             # u.parse(url)
-            # rst = u.decode(url)
+            # rst = u.rebuild()
             # print(rst)
-            removeDuplicateData()
+            removeDuplicateData("fly.txt")
+            
+            
             
         case _:
             print('Usage: %s [run | source | fly | split | encode | repair | debug | clash | clash2 | find ]' % sys.argv[0])
