@@ -21,3 +21,7 @@ URL Test Error,[Errno 8] nodename nor servname provided, or not known,b>,809
 URL Test Error,[Errno 8] nodename nor servname provided, or not known,b>,809
 URL Test Error,[Errno 8] nodename nor servname provided, or not known,b>,809
 URL Test Error,[Errno 8] nodename nor servname provided, or not known,b>,809
+build_query error: sequence item 1: expected str instance, list found,{'country': ['🇦🇺au'], 'alterId': ['0'], 'network': ['http'], 'servername': ['43.155.117.192'], 'http-opts': ["{'method': 'get', 'path': ['/']}"], 'h2-opts': ['{}'], 'skip-cert-verify': ['true'], 'remark': ['[中国VMESS]43.155.117.192:37132'], 'aid': ['0']}
+build_query error: sequence item 1: expected str instance, list found,{'country': ['🇦🇺au'], 'alterId': ['0'], 'network': ['http'], 'servername': ['43.154.104.180'], 'http-opts': ["{'method': 'get', 'path': ['/']}"], 'h2-opts': ['{}'], 'skip-cert-verify': ['true'], 'remark': ['[中国VMESS]43.154.104.180:43318'], 'aid': ['0']}
+URL Test Error,[Errno 8] nodename nor servname provided, or not known,使用前记得更新订阅,0
+URL Test Error,[Errno 8] nodename nor servname provided, or not known,jp3.mayiyun.vip,8080

@@ -20,24 +20,52 @@ schemaList = ['ss','ssr','trojan','vless','vmess']
 
 class URLParseHelper():
     
-    def __init__(self,url=None) -> None:
-        self.url = url
-        self.geoDBPath = os.path.abspath("./GeoLite2/GeoLite2-City.mmdb")
+    def __init__(self, url=None, outfile='fly.txt', backupfile='collection.txt') -> None:
+        self.geoDBPath = self.get_filepath("./GeoLite2/GeoLite2-City.mmdb")
         self.geoClient = geoip2.database.Reader(self.geoDBPath)
+        
+        self.url = url
+        
+        self.backupfile = self.get_filepath(backupfile)
+        self.outfile    = self.get_filepath(outfile)
+        
+        with open(self.backupfile,'r') as f:
+            self.existList = f.readlines()
     
     def get_filepath(self,filename):
         return os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
-      
-    def parse(self, url=None):
-        if url:
-            self.url = urllib.parse.urlparse(url.strip('\n'))
-        else:
-            self.url = urllib.parse.urlparse(self.url.strip('\n'))
-        
-        self.body = self.url.netloc + self.url.path
-        # print(self.url)
     
-    def decode(self,s:str, isurl=True):
+    def getResponse(self, url=None, dec=False):
+        self.url = url.strip if url else self.url.strip()
+        
+        try:
+            rsp = requests.get(self.url, timeout=5)
+            if rsp.status_code==200:
+                rsp = rsp.text
+                rsp = re.sub('\n','',rsp)
+
+                rsp = self.strDecode(rsp, False) if dec else rsp
+                time.sleep(3)
+            else:
+                print(rsp.status_code,rsp.url)
+                
+        except Exception as e:
+            rsp = ''
+            raise(e)
+            
+        # return rsp.splitlines()
+        return rsp
+    
+    def parse(self, url=None):
+        self.url = url.strip('\n') if url else self.url.strip('\n')
+        
+        self.urlObj = urllib.parse.urlparse(self.url.strip('\n'))
+        
+        self.body = self.urlObj.netloc + self.urlObj.path
+        
+        return self.urlObj
+    
+    def strDecode(self,s:str, isurl=True):
         s = re.sub('=','',s)
         missing_padding = len(s) % 4
         if missing_padding != 0:
@@ -59,7 +87,7 @@ class URLParseHelper():
         
         return s
 
-    def encode(self,s:str, isurl=True):
+    def strEncode(self,s:str, isurl=True):
         try:
             if isurl:
                 s = base64.urlsafe_b64encode(bytes(s, 'utf-8'))
@@ -74,13 +102,13 @@ class URLParseHelper():
         return s
 
     def splitURL(self):
-        _url = self.body if self.body.find('@')>0 else self.decode(self.body)
+        _url = self.body if self.body.find('@')>0 else self.strDecode(self.body)
         ip_and_port = _url[::-1]
         ip_and_port = ip_and_port[:ip_and_port.find('@')]
         ip_and_port = ip_and_port[::-1]
         ip_and_port = ip_and_port.split(':')
         
-        return ip_and_port[0],ip_and_port[1].replace("/", ""),_url
+        return ip_and_port[0], ip_and_port[1].replace("/", ""), _url
     
     def build_query(self,data):
         try:
@@ -101,7 +129,7 @@ class URLParseHelper():
                     elif v is None:
                         v='none'
                 # elif k == 'remark':
-                #     v=self.encode(v)
+                #     v=self.strEncode(v)
                 
                 if v== True:
                     v='true'
@@ -135,7 +163,7 @@ class URLParseHelper():
         if querys:
             querys = urllib.parse.parse_qs(querys)
         else:
-            querys = urllib.parse.parse_qs(self.url.query)
+            querys = urllib.parse.parse_qs(self.urlObj.query)
             
         if key and value:
             querys[key] = [value,]
@@ -144,7 +172,6 @@ class URLParseHelper():
             querys['aid'] = querys['alterId']
             
         return querys
-
 
     def vaild(self,ipAddr:str,port:int):
         try:
@@ -185,9 +212,9 @@ class URLParseHelper():
     
     def getTagName(self,ipStr,port,quote=False):
         if quote:
-            return urllib.parse.quote('[{}{}]{}:{}'.format(self.getCountry(ipStr),self.url.scheme.upper(),ipStr.upper(),port))
+            return urllib.parse.quote('[{}{}]{}:{}'.format(self.getCountry(ipStr),self.urlObj.scheme.upper(),ipStr.upper(),port))
         else:
-            return '[{}{}]{}:{}'.format(self.getCountry(ipStr),self.url.scheme.upper(),ipStr.upper(),port)
+            return '[{}{}]{}:{}'.format(self.getCountry(ipStr),self.urlObj.scheme.upper(),ipStr.upper(),port)
     
     def build_trojan(self,data):
         _scheme,_password,_ip,_port,_name = data.pop('type'),data.pop('password'),data.pop('server'),data.pop('port'),data.pop('name')
@@ -255,7 +282,7 @@ class URLParseHelper():
             "sni": ""
         }
         data = json.dumps(data,ensure_ascii=False)
-        data = self.encode(data)
+        data = self.strEncode(data)
         """
         try:
             #=hk21201.cloudmatrix.xyz&path=/hls/cctv5phd.m3u8&obfs=&alterId=2
@@ -274,7 +301,7 @@ class URLParseHelper():
                     data.pop('servername')
             data['remarks']  = urllib.parse.quote(data['remarks'])
             query = "&".join([ "{}={}".format(k,str(v).lower()) for k,v in data.items() ])
-            url = urllib.parse.urlunparse((_scheme, self.encode(url), '','', query, ''))
+            url = urllib.parse.urlunparse((_scheme, self.strEncode(url), '','', query, ''))
             return url
         except Exception as e:
             print(e,data)
@@ -304,7 +331,7 @@ class URLParseHelper():
             data['remarks'] = urllib.parse.quote(data['remarks'])
             query = _password + "/?" + self.build_query(data)
             url += ":" + query
-            url = _scheme + "://" + self.encode(url)
+            url = _scheme + "://" + self.strEncode(url)
             return url
         except Exception as e:
             print(e,data)
@@ -327,7 +354,7 @@ class URLParseHelper():
             _cipher,_name = data.pop('cipher'),data.pop('name')
             print(_name)
             
-            url = "{}://{}@{}:{}".format(_scheme,self.encode("{}:{}".format(_cipher,_password)),_ip,_port)
+            url = "{}://{}@{}:{}".format(_scheme,self.strEncode("{}:{}".format(_cipher,_password)),_ip,_port)
             
             _query = self.build_query(data)
             if _query:
@@ -347,7 +374,7 @@ class URLParseHelper():
     def ssObj(self):
         _ip,_port,_url = self.splitURL()
         
-        _newUrl = (self.url.scheme, self.url.netloc, self.url.path, self.url.params, self.url.query, self.getTagName(_ip,_port,True))
+        _newUrl = (self.urlObj.scheme, self.urlObj.netloc, self.urlObj.path, self.urlObj.params, self.urlObj.query, self.getTagName(_ip,_port,True))
         _newUrl = urllib.parse.urlunparse(_newUrl)
         
         return _ip,_port,_newUrl
@@ -358,7 +385,7 @@ class URLParseHelper():
             return _u.path, urllib.parse.parse_qs(_u.query)
 
         _s1 = self.body[0:self.body.find('_')] if self.body.find('_')>0 else self.body
-        _s = self.decode(_s1)
+        _s = self.strDecode(_s1)
         _s = _s.strip().split(':')
         # print(_s)
         _tagName = self.getTagName(_s[0],_s[1])
@@ -367,15 +394,15 @@ class URLParseHelper():
         # print(_url_qs)
         isexistRemarks = 'remarks' in _url_qs
         # if isexistRemarks:
-        #     print(self.decode(_url_qs['remarks'][0].replace(" ", "+")))
-        _url_qs['remarks'] = [self.encode(_tagName),]
+        #     print(self.strDecode(_url_qs['remarks'][0].replace(" ", "+")))
+        _url_qs['remarks'] = [self.strEncode(_tagName),]
         _s[-1] = _url_path + "?" + self.build_query(_url_qs)
-        _s1 = _s1 if isexistRemarks else self.encode(":".join(_s))
+        _s1 = _s1 if isexistRemarks else self.strEncode(":".join(_s))
         
         if self.body.find('_')>0:
-            _newUrl = self.url.scheme + '://' + _s1 + '_' + self.encode('remarks={}'.format(_tagName))
+            _newUrl = self.urlObj.scheme + '://' + _s1 + '_' + self.strEncode('remarks={}'.format(_tagName))
         else:
-            _newUrl = self.url.scheme + '://' + self.encode(":".join(_s))
+            _newUrl = self.urlObj.scheme + '://' + self.strEncode(":".join(_s))
         
         print(_newUrl)
         
@@ -391,9 +418,9 @@ class URLParseHelper():
         _query = self.build_queryObj(key='alpn',value=_tagname)
         _query = self.build_query(_query)
         
-        _fragment = _tagname if self.url.fragment !='' else ''
+        _fragment = _tagname if self.urlObj.fragment !='' else ''
             
-        _newUrl  = urllib.parse.urlunparse((self.url.scheme, self.url.netloc, self.url.path, self.url.params, _query, _fragment))
+        _newUrl  = urllib.parse.urlunparse((self.urlObj.scheme, self.urlObj.netloc, self.urlObj.path, self.urlObj.params, _query, _fragment))
         
         return _ip,_port,_newUrl
     
@@ -435,12 +462,12 @@ class URLParseHelper():
             data.pop('url_group')
         
         # url += "#" + self.build_query(data)
-        url = urllib.parse.urlunparse(('vmess', self.encode(url), '','', self.build_query(data), ''))
+        url = urllib.parse.urlunparse(('vmess', self.strEncode(url), '','', self.build_query(data), ''))
         return url
     
     def vmessObj(self):
         try:
-            _s = self.decode(self.body)
+            _s = self.strDecode(self.body)
             _s = re.sub("\n",'',_s) or _s.strip()
             _s = re.sub(' ','',_s)
             
@@ -458,7 +485,7 @@ class URLParseHelper():
                 
                 print(query)
                 
-                _newUrl = urllib.parse.urlunparse((self.url.scheme, self.url.netloc, self.url.path, self.url.params, query, self.url.fragment))
+                _newUrl = urllib.parse.urlunparse((self.urlObj.scheme, self.urlObj.netloc, self.urlObj.path, self.urlObj.params, query, self.urlObj.fragment))
                 _s = [_ipStr, _port, _newUrl]
             
         except Exception as e:
@@ -469,62 +496,61 @@ class URLParseHelper():
                 
         return _s
     
-    def rebuild(self):
+    def rebuild(self,url=None):
         try:
-            if self.url.scheme == 'ss':
+            if url:
+                self.url = url.strip()
+                self.parse(self.url)
+                
+            if self.urlObj.scheme == 'ss':
                 r = self.ssObj()
-            elif self.url.scheme == 'ssr':
+            elif self.urlObj.scheme == 'ssr':
                 r = self.ssrObj()
-            elif self.url.scheme == 'trojan':
+            elif self.urlObj.scheme == 'trojan':
                 r = self.trojanObj()
-            elif self.url.scheme == 'vless':
+            elif self.urlObj.scheme == 'vless':
                 r = self.vlessObj()
-            elif self.url.scheme == 'vmess':
+            elif self.urlObj.scheme == 'vmess':
                 r = self.vmessObj()
             else:
                 r = [None,None,None]
         except Exception as e:
-            print(e, self.url)
+            print(e, self.urlObj)
         return r
 
-    def getSubscribeContent(self,subscribe,filename='collection.txt',outfile='fly.txt'):
+    def writeIntoFile(self, url):
+        url = url.strip()
+        if (url + '\n') not in self.existList:
+            print('Add URL is:',url)
+            with open(self.outfile,"a+") as f2:
+                f2.write(url + '\n')
+            with open(self.backupfile,"a+") as f3:
+                f3.write(url + '\n')
+        else:
+            print('Ignore the URL',url)
+
+    def getSubscribeContent(self,subscribe):
         try:
             subscribe = re.sub('\n','',subscribe)
             print('='*50)
             print('source is: {}'.format(subscribe))
             print('='*50)
             
-            rsp = requests.get(subscribe, timeout=5)
-            if rsp.status_code==200:
-                rsp = rsp.text
-                rsp = re.sub('\n','',rsp)
-
-                rsp = self.decode(rsp, False)
-                lines = rsp.splitlines()
-                time.sleep(3)
-                
-                with open(filename,'r') as f:
-                    existList = f.readlines()
+            lines = self.getResponse(subscribe)
+            lines = lines.splitlines()
                     
-                for line in lines:
-                    if line.startswith(tuple(['{}://'.format(s) for s in schemaList])):
-                        if (line + '\n') not in existList:
-                            print('Add URL is:',line)
-                            with open(filename,"a+") as f2:
-                                f2.write(line + '\n')
-                            with open(outfile,"a+") as f3:
-                                f3.write(line + '\n')
-                        else:
-                            print('Ignore the URL',line)
-                    else:
-                        continue
-            else:
-                print(rsp.status_code,rsp.url)
+            for line in lines:
+                if line.startswith(tuple(['{}://'.format(s) for s in schemaList])):
+                    self.writeIntoFile(line)
+                else:
+                    continue
+        
             
         except Exception as e:
             print(e,subscribe)
+            raise(e)
 
-    def get_from_clash(self,subscribe,filename='collection.txt',outfile='fly.txt'):
+    def get_from_clash(self,subscribe):
         try:
             subscribe = re.sub('\n','',subscribe)
             print('='*50)
@@ -543,9 +569,6 @@ class URLParseHelper():
             content = content['proxies']
             # print(content,type(content))
             
-            with open(filename,'r') as f:
-                existList = f.readlines()
-            
             for data in content:
                 if data['type']=='trojan':
                     url = self.build_trojan(data)
@@ -562,57 +585,67 @@ class URLParseHelper():
                     print("?"*50)
                     time.sleep(3)
                 
-                if (url + '\n') not in existList:
-                    print('Add URL is:',url)
-                    with open(filename,"a+") as f2:
-                        f2.write(url + '\n')
-                    with open(outfile,"a+") as f3:
-                        f3.write(url + '\n')
-                else:
-                    print('Ignore the URL',url)
+                self.writeIntoFile(url)
+                
         except Exception as e:
             raise(e)
 
-        
-def handleUrl(filename='fly.txt'):
-    # filename = os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
-    with open(filename,"r") as f:
-        urlList = f.readlines()
-        
-    with open(filename,"w") as f:
-        f.seek(0)
-        f.truncate()
-    
-    
-    urlObj = URLParseHelper()
-    urlList = list(set(urlList))
-    urlList = sorted(urlList)
-    
-    for index,url in enumerate(urlList):
-        url = str(url) if type(url)==bytes else url
-        print('Current url is:{}/{} {}'.format(index, len(urlList), url.strip()))
-        
-        urlObj.parse(url)
-        i,p,u = urlObj.rebuild()
-        
-        if i is None:
-            if i==p==u:
-                # with open("{}.txt".format(filename),'a+') as f:
-                #     f.writelines(url + '\n')
-                continue
+    def find(self, keyword):
+        rst = []
+        for url in self.existList:
+            url = url.strip()
+            self.parse(url)
+            if url.find(keyword)>=0:
+                rst.append((url, self.rebuild(), None))
             else:
+                if url.startswith("vmess") or url.startswith("ssr"):
+                    _s = self.strDecode(self.body)
+                    if _s.find(keyword)>=0:
+                        rst.append((url, self.rebuild(), _s))
+                    else:
+                        continue
+        
+        return rst
+        
+    def handleUrl(self,filename=None):
+        
+        self.outfile = self.get_filepath(filename) if filename else self.outfile
+        
+        with open(self.outfile,"r") as f:
+            urlList = f.readlines()
+            
+        with open(self.outfile,"w") as f:
+            f.seek(0)
+            f.truncate()
+        
+        
+        urlList = list(set(urlList))
+        urlList = sorted(urlList)
+        
+        for index,url in enumerate(urlList):
+            url = str(url) if type(url)==bytes else url
+            print('Current url is:{}/{} {}'.format(index, len(urlList), url.strip()))
+            
+            self.parse(url)
+            i,p,u = self.rebuild()
+            
+            if i is None:
                 print('Address is None')
                 continue
-        
-        r = urlObj.vaild(i,p)
-        print('Test result is:',r)
-        
-        if r is False:
-            continue
-        
-        with open(filename,'a+') as f:
-            f.writelines(u + '\n')
             
+            r = self.vaild(i,p)
+            print('Test result is:',r)
+            
+            if r is False:
+                continue
+            
+            with open(self.outfile,'a+') as f:
+                f.writelines(u + '\n')
+                
+            print('-'*100,'\n')
+
+
+
 def splitFiles(filename="fly.txt"):
     filename = os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
     
@@ -631,7 +664,6 @@ def splitFiles(filename="fly.txt"):
                 continue
             with open("{}.txt".format(u.split(':')[0]),'a+') as f:
                 f.writelines(u + '\n')
-
 
 def encrypt_base64(filename='fly.txt'):
     _file = os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
@@ -678,10 +710,13 @@ def run():
         
     for index,source in enumerate(sourcelist) :
         print("********** Get Subscribe {}/{} **********".format(index+1,len(sourcelist)))
+        if source.startswith("#"):
+            continue
+        
         time.sleep(1)
         u.getSubscribeContent(source)
     
-    removeDuplicateData('collection.txt')
+    removeDuplicateData(u.collection)
     
         
     # fList = walkFile()
@@ -690,16 +725,38 @@ def run():
     # fList.remove('test')
     
     # for f in fList:
-        # handleUrl(f)
+        # u.handleUrl(f)
         # removeDuplicateData('fly')
         
-    handleUrl('fly.txt')
-    encrypt_base64('fly.txt')
+    u.handleUrl(u.outfile)
+    encrypt_base64(u.outfile)
     
-    splitFiles('fly.txt')
+    splitFiles(u.outfile)
     for s in schemaList:
         encrypt_base64('{}.txt'.format(s))
 
+def clash():
+    clashfiles = ['clash.txt','clash2.txt']
+    u = URLParseHelper()
+    
+    for cf in clashfiles:
+        with open(cf,'r') as f:
+            urlList = f.readlines()
+    
+        for index,url in enumerate(urlList) :
+            print("********** Get Subscribe {}/{} **********".format(index+1,len(urlList)))
+            if url.startswith("#"):
+                continue
+            
+            if cf =='clash2.txt':
+                _params = "speed=30&type=ss,ssr,trojan,vless,vmess" #"speed=30&c=HK,TW,KR,JP,US&type=ss,ssr,vless,trojan,vmess"
+            
+                if url.find('?')>=0:
+                    url += '&' + _params
+                else: 
+                    url += '?'  + _params
+                
+            u.get_from_clash(url)
 
 def repair():
     aList = []
@@ -754,6 +811,7 @@ if __name__=="__main__":
     args = sys.argv[1] if len(sys.argv)>=2 else '_'
     match args:
         case 'run':
+            clash()
             run()
         
         case 'source':
@@ -763,79 +821,54 @@ if __name__=="__main__":
             for source in sourcelist:
                 u.getSubscribeContent(source)
             
-            removeDuplicateData('collection.txt')
+            removeDuplicateData(u.collection)
         
         case 'fly':
-            handleUrl('fly.txt')
-            encrypt_base64('fly.txt')
+            u.handleUrl(u.outfile)
+            encrypt_base64(u.outfile)
         
         case 'split':
-            splitFiles('fly.txt')
+            splitFiles(u.outfile)
         
         case 'encode':
-            encrypt_base64('fly.txt')
+            encrypt_base64(u.outfile)
             
             for s in schemaList:
                 encrypt_base64('{}.txt'.format(s))
         
         case 'repair':
             repair()
-            
+                
         case 'clash':
-            
-            with open('clash.txt','r') as f:
-                urlList = f.readlines()
-            
-            for url in urlList:
-                u.get_from_clash(url)
-                
-        case 'clash2':
-            with open('clash2.txt','r') as f:
-                urlList = f.readlines()
-            
-            for url in urlList:
-                if url.startswith("#"):
-                    continue
-                
-                _params = "speed=30&type=ss,ssr,trojan,vless,vmess" #"speed=30&c=HK,TW,KR,JP,US&type=ss,ssr,vless,trojan,vmess"
-                if url.find('?')>=0:
-                    url += '&' + _params
-                else: 
-                    url += '?'  + _params
-                    
-                u.get_from_clash(url)
+            clash()
         
         case 'find':
-            keyword = sys.argv[2]
+           
+            rst = u.find(sys.argv[2])
             
-            with open('collection.txt','r') as f:
-                urlList = f.readlines()
-                
-            for url in urlList:
-                u.parse(url)
-                if url.find(keyword)>=0:
-                    rst = u.rebuild()
-                    print(url,rst)
-                else:
-                    if url.startswith("vmess") or url.startswith("ssr"):
-                        _s = u.decode(u.body)
-                        if _s.find(keyword)>=0:
-                            rst = u.rebuild()
-                            print(url,_s,rst)
-                    else:
-                        continue
+            for r in rst:
+                for a in r:
+                    print(a)
+                print('-'*100)
                 
         case 'debug':
             # print(os.stat('fly2.txt').st_size)
 
             # url = "vmess://YXV0bzphYmE1MGRkNC01NDg0LTNiMDUtYjE0YS00NjYxY2FmODYyZDVAMTkyLjk2LjIwNC4yNTA6NDQz?country=🇺🇸us&alterId=4&ws-path=/ws&ws-headers={'host': 'usa-washington.lvuft.com'}&http-opts={}&h2-opts={}&tls=true&skip-cert-verify=true&remarks=relay_%f0%9f%87%ba%f0%9f%87%b8us-%f0%9f%87%ba%f0%9f%87%b8us_2115&obfs=h2"
-            # # url ="YXV0bzphYmE1MGRkNC01NDg0LTNiMDUtYjE0YS00NjYxY2FmODYyZDVAMTkyLjk2LjIwNC4yNTA6NDQz"
-            # u.parse(url)
+            # url = "YXV0bzphYmE1MGRkNC01NDg0LTNiMDUtYjE0YS00NjYxY2FmODYyZDVAMTkyLjk2LjIwNC4yNTA6NDQz"
+            
+            for url in u.existList:
+                if url.startswith("ssr"):
+                    # print(url)
+                    u.parse(url)
+                    rst = u.strDecode(u.body)
+                    if rst.find('remarks')<0:
+                        print(rst)
+                else:
+                    continue
             # rst = u.rebuild()
             # print(rst)
-            removeDuplicateData("fly.txt")
-            
-            
-            
+            # removeDuplicateData(u.outfile)
+
         case _:
             print('Usage: %s [run | source | fly | split | encode | repair | debug | clash | clash2 | find ]' % sys.argv[0])
