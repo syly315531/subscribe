@@ -1,20 +1,15 @@
-from ast import keyword
 import base64
 import json
 import os
-import pickle
-import string
-from unicodedata import name
-import yaml
 import re
 import shutil
 import socket
 import time
 import urllib
-from xmlrpc.client import boolean
 
 import geoip2.database
 import requests
+import yaml
 
 schemaList = ['ss','ssr','trojan','vless','vmess']
 
