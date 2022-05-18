@@ -25,7 +25,7 @@ class URLParseHelper():
         self.outfile    = self.get_filepath(outfile)
         
         with open(self.backupfile,'r') as f:
-            self.existList = f.readlines()
+            self.existList = [ h.strip() for h in f.readlines() if h.strip().startswith("#")==False]
     
     def get_filepath(self,filename):
         return os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
@@ -46,7 +46,7 @@ class URLParseHelper():
                 
         except Exception as e:
             rsp = ''
-            raise(e)
+            # raise(e)
             
         # return rsp.splitlines()
         return rsp
@@ -607,7 +607,7 @@ class URLParseHelper():
         self.outfile = self.get_filepath(filename) if filename else self.outfile
         
         with open(self.outfile,"r") as f:
-            urlList = f.readlines()
+            urlList = [ h.strip for h in f.readlines() if h.strip().startswith("#")==False ]
             
         with open(self.outfile,"w") as f:
             f.seek(0)
@@ -645,7 +645,7 @@ def splitFiles(filename="fly.txt"):
     filename = os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
     
     with open(filename,'r') as f:
-        resultList = f.readlines()
+        resultList = [ h.strip() for h in f.readlines() if h.strip().startswith("#")==False]
           
     for sch in schemaList:
         sList = [u.strip() for u in resultList if u.startswith("{}://".format(sch))]
@@ -701,7 +701,7 @@ def run():
     u = URLParseHelper()
     
     with open('source.txt','r') as f:
-        sourcelist = f.readlines()
+        sourcelist = [ h.strip() for h in f.readlines() if h.strip().startswith("#") == False ]
         
     for index,source in enumerate(sourcelist) :
         print("********** Get Subscribe {}/{} **********".format(index+1,len(sourcelist)))
@@ -711,7 +711,7 @@ def run():
         time.sleep(1)
         u.getSubscribeContent(source)
     
-    removeDuplicateData(u.collection)
+    removeDuplicateData(u.backupfile)
     
         
     # fList = walkFile()
@@ -736,7 +736,7 @@ def clash():
     
     for cf in clashfiles:
         with open(cf,'r') as f:
-            urlList = f.readlines()
+            urlList = [h.strip() for h in f.readlines() if h.strip().startswith("#")==False]
     
         for index,url in enumerate(urlList) :
             print("********** Get Subscribe {}/{} **********".format(index+1,len(urlList)))
@@ -811,7 +811,7 @@ if __name__=="__main__":
         
         case 'source':
             with open('source.txt','r') as f:
-                sourcelist = f.readlines()
+                sourcelist = [h.strip() for h in f.readlines() if h.strip().startswith("#")==False]
                 
             for source in sourcelist:
                 u.getSubscribeContent(source)
