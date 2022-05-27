@@ -31,10 +31,16 @@ class URLParseHelper():
         return os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
     
     def getResponse(self, url=None, dec=False):
-        self.url = url.strip if url else self.url.strip()
-        
+        self.url = url.strip() if url else self.url.strip()
+        headers = {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+            "accept-encoding": "gzip, deflate",
+            "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36",
+        }
         try:
-            rsp = requests.get(self.url, timeout=5)
+            print(self.url)
+            rsp = requests.get(self.url, headers=headers, timeout=5)
             if rsp.status_code==200:
                 rsp = rsp.text
                 rsp = re.sub('\n','',rsp)
@@ -43,6 +49,7 @@ class URLParseHelper():
                 time.sleep(3)
             else:
                 print(rsp.status_code,rsp.url)
+                raise(rsp.status_code)
                 
         except Exception as e:
             rsp = ''
@@ -52,9 +59,9 @@ class URLParseHelper():
         return rsp
     
     def parse(self, url=None):
-        self.url = url.strip('\n') if url else self.url.strip('\n')
+        self.url = url.strip() if url else self.url.strip()
         
-        self.urlObj = urllib.parse.urlparse(self.url.strip('\n'))
+        self.urlObj = urllib.parse.urlparse(self.url.strip())
         
         self.body = self.urlObj.netloc + self.urlObj.path
         
@@ -531,7 +538,7 @@ class URLParseHelper():
             print('source is: {}'.format(subscribe))
             print('='*50)
             
-            lines = self.getResponse(subscribe)
+            lines = self.getResponse(subscribe,True)
             lines = lines.splitlines()
                     
             for line in lines:
@@ -543,6 +550,7 @@ class URLParseHelper():
             
         except Exception as e:
             print(e,subscribe)
+            
             raise(e)
 
     def get_from_clash(self,subscribe):
@@ -583,7 +591,8 @@ class URLParseHelper():
                 self.writeIntoFile(url)
                 
         except Exception as e:
-            raise(e)
+            return None
+            # raise(e)
 
     def find(self, keyword):
         rst = []
@@ -607,7 +616,7 @@ class URLParseHelper():
         self.outfile = self.get_filepath(filename) if filename else self.outfile
         
         with open(self.outfile,"r") as f:
-            urlList = [ h.strip for h in f.readlines() if h.strip().startswith("#")==False ]
+            urlList = [ h.strip() for h in f.readlines() if h.strip().startswith("#")==False ]
             
         with open(self.outfile,"w") as f:
             f.seek(0)
@@ -849,21 +858,10 @@ if __name__=="__main__":
         case 'debug':
             # print(os.stat('fly2.txt').st_size)
 
-            # url = "vmess://YXV0bzphYmE1MGRkNC01NDg0LTNiMDUtYjE0YS00NjYxY2FmODYyZDVAMTkyLjk2LjIwNC4yNTA6NDQz?country=🇺🇸us&alterId=4&ws-path=/ws&ws-headers={'host': 'usa-washington.lvuft.com'}&http-opts={}&h2-opts={}&tls=true&skip-cert-verify=true&remarks=relay_%f0%9f%87%ba%f0%9f%87%b8us-%f0%9f%87%ba%f0%9f%87%b8us_2115&obfs=h2"
-            # url = "YXV0bzphYmE1MGRkNC01NDg0LTNiMDUtYjE0YS00NjYxY2FmODYyZDVAMTkyLjk2LjIwNC4yNTA6NDQz"
+            url = 'https://4g.quoctai.xyz/api/v1/client/subscribe?token=5140fc60610c394f91cc01b48bfec425'
             
-            for url in u.existList:
-                if url.startswith("ssr"):
-                    # print(url)
-                    u.parse(url)
-                    rst = u.strDecode(u.body)
-                    if rst.find('remarks')<0:
-                        print(rst)
-                else:
-                    continue
-            # rst = u.rebuild()
-            # print(rst)
-            # removeDuplicateData(u.outfile)
+            rst = u.getResponse(url)
+            print(rst)
 
         case _:
             print('Usage: %s [run | source | fly | split | encode | repair | debug | clash | clash2 | find ]' % sys.argv[0])

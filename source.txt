@@ -11,7 +11,7 @@ https://api.qiduo.eu.org/link/w5C4SyBGl8teBzgn?sub=3
 https://welink345.com/api/v1/client/subscribe?token=7a170e144680acc79f392c78b56f13ac
 https://api.dingyueddnshub.xyz/link/thKFcM7EDUrLLmUM?sub=1
 https://subscribe.bityun.org/api/v1/client/subscribe?token=86f5945b1b229dacfa3ec03b781c4f8c
-https://4g.quoctai.xyz/api/v1/client/subscribe?token=5140fc60610c394f91cc01b48bfec425
+# https://4g.quoctai.xyz/api/v1/client/subscribe?token=5140fc60610c394f91cc01b48bfec425
 https://sub.upyun.online/api/v1/client/subscribe?token=924e3311b17b24b3e83c884f1bdb334b
 https://subv2.nanoport.xyz/api/v1/client/subscribe?token=7be6b5e73cce47c6e74117d22d65197b
 https://v2r.yydsvpn.xyz/api/v1/client/subscribe?token=653f3aa43aa0b4bbd36a0e23d47fa687
@@ -42,7 +42,7 @@ https://subscribe.bkcloud.cyou/link/L1IBPLR6TZOC4PFC?sub=2
 https://ling.0u0-cdn.link/api/v1/client/subscribe?token=e321093cf01f5b56685fc4bf09d48b5c
 https://pro.losadhwselfff2332dasd.xyz/link/yhqXWD5bx0VNZnic?sub=2
 https://fast.losadhwselfff2332dasd.xyz/link/y2YolZHmf9rGyOck?sub=1
-https://subscribe.fenglingcloud.com/api/v1/client/subscribe?token=dae922cb11780ef90559298702c82d9f
+# https://subscribe.fenglingcloud.com/api/v1/client/subscribe?token=dae922cb11780ef90559298702c82d9f
 https://paste.in/raw/dGlJKy
 https://paste.in/raw/GrNcK0
 https://paste.in/raw/S4QhfR
@@ -57,5 +57,3 @@ https://www.mikuyun.xyz/api/v1/client/subscribe?token=8791ba36e51adaeb824ab0206a
 https://guolicheng.buzz/api/v1/client/subscribe?token=1bef29a918382a715bc578017f1bc8cf
 https://api.wannaflix.link/apiv3.php?type=v2rayng&token=d30416c24baacb53e3b80f6c49233361
 https://api.wannaflix.link/apiv3.php?type=v2rayng&token=d30416c24baacb53e3b80f6c49233361
-https://fast.losadhwselfff2332dasd.xyz/link/y2YolZHmf9rGyOck?sub=1
-https://subscribe.fenglingcloud.com/api/v1/client/subscribe?token=dae922cb11780ef90559298702c82d9f
