@@ -825,7 +825,7 @@ if __name__=="__main__":
             for source in sourcelist:
                 u.getSubscribeContent(source)
             
-            removeDuplicateData(u.collection)
+            removeDuplicateData(u.backupfile)
         
         case 'fly':
             u.handleUrl(u.outfile)
