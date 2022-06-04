@@ -660,3 +660,5 @@ build_query error: 'NoneType' object has no attribute 'startswith',{'remark': '[
 build_query error: 'NoneType' object has no attribute 'startswith',{'remark': '[美国VMESS]MATRIXAP.COM:10086', 'type': None, 'aid': 0, 'alterId': 0, 'obfs': 'tcp'}
 build_query error: 'NoneType' object has no attribute 'startswith',{'remark': '[美国VMESS]MATRIXAP.COM:10086', 'type': None, 'aid': 0, 'alterId': 0, 'obfs': 'tcp'}
 build_query error: 'NoneType' object has no attribute 'startswith',{'remark': '[美国VMESS]API.XINJIE.EU.ORG:10086', 'type': None, 'alterId': 0, 'obfs': 'tcp'}
+build_query error: 'NoneType' object has no attribute 'startswith',{'v': 2, 'aid': 0, 'type': None, 'path': '/', 'tls': True, 'sni': '', 'remark': '[未知VMESS]NL.ORACLEUSA.ML:2053', 'alterId': 0, 'obfs': 'websocket', 'obfsParam': 'nl.oracleusa.ml'}
+build_query error: 'NoneType' object has no attribute 'startswith',{'v': 2, 'aid': 0, 'type': None, 'path': '/happy', 'tls': True, 'sni': '', 'remark': '[未知VMESS]V2RAY.788644.XYZ:443', 'alterId': 0, 'obfs': 'websocket', 'obfsParam': 'v2ray.788644.xyz'}

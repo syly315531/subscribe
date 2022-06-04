@@ -900,9 +900,9 @@ if __name__=="__main__":
                 'ss://YWVzLTI1Ni1jZmI6VlA4WlB4UXBKdFpSQ2pmWkA2Mi4yMTYuOTEuMjI5OjkwODA#%5B%E7%BE%8E%E5%9B%BDSS%5D62.216.91.229:9080',
                 'ss://YWVzLTI1Ni1jZmI6dkRTOUcycEAxODUuNC42NS42OjIxMjQ3#%5B%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6SS%5D185.4.65.6:21247',
             ]
-            for u in urlList:
+            for url in urlList:
                 with open(u.outfile,"a+") as f2:
-                    f2.write(u.strip() + '\n')
+                    f2.write(url.strip() + '\n')
                 
         case 'debug':
             print("File Size(B):",os.stat(u.outfile).st_size)
