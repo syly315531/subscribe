@@ -119,7 +119,6 @@ class URLParseHelper():
             qList = []
             for k,v in data.items():
                 v = ','.join(v) if type(v)==list else v
-                
                 if k == '':
                     continue
                 
@@ -132,7 +131,8 @@ class URLParseHelper():
                         v='none'
                 # elif k == 'remark':
                 #     v=self.strEncode(v)
-                
+                if v==None:
+                    v=''
                 if v== True:
                     v='true'
                 if v==False:
@@ -465,7 +465,6 @@ class URLParseHelper():
         
         if 'url_group' in data:
             data.pop('url_group')
-        
         # url += "#" + self.build_query(data)
         url = urllib.parse.urlunparse(('vmess', self.strEncode(url), '','', self.build_query(data), ''))
         return url
@@ -475,6 +474,7 @@ class URLParseHelper():
             _s = self.strDecode(self.body)
             _s = re.sub("\n",'',_s) or _s.strip()
             _s = re.sub(' ','',_s)
+            
             
             if _s.find('{')==0:
                 _s = json.loads(_s)
@@ -903,9 +903,46 @@ if __name__=="__main__":
             for url in urlList:
                 with open(u.outfile,"a+") as f2:
                     f2.write(url.strip() + '\n')
+            
+        case 'bug3':
+            with open("error.txt",'r') as f:
+                urlList = [ h.strip().replace("build_query error: 'NoneType' object has no attribute 'startswith',", '') for h in f.readlines() if h.strip().startswith("build_query error: 'NoneType' object has no attribute 'startswith',")]
+            urlList=sorted(list(set(urlList)))
+            
+            # urlList = [ json.loads(h)['remark'] for h in urlList]
+            # print(urlList)
+            alist = []
+            for h in urlList:
+                h = re.findall(r"'remark': '(.*),\s'",h)[0].split(',')[0]
+                h = re.findall(r"](.*)'",h)[0]
+                h = h.split(":")[0]
+                alist.append(h.lower())
+            # print(alist)
+            alist=sorted(list(set(alist)))
+            for a in alist:
+                print(a)
+                if a in ['af01.uwork.mobi','azure-f4s-hk.transfer-xray.tk','https://t.me/buyebuye','使用前记得更新订阅','柠檬国际机场']:
+                    continue
+                
+                rst = u.find(a)
+                for r in rst:
+                    if isinstance(r[0],list):
+                        continue
+                    if r[0].startswith(tuple(schemaList)):
+                        # print(r[0])
+                        with open(u.outfile,"a+") as f2:
+                            f2.write(r[0] + '\n')
+                        print('-'*100)
                 
         case 'debug':
             print("File Size(B):",os.stat(u.outfile).st_size)
+            
+            urlList = u.find("43.155.117.192".lower())
+            
+            for url in urlList:
+                print(url[0])
+                rst = u.rebuild(url[0])
+                print(rst[2])
             
         case _:
             print('Usage: %s [run | source | fly | split | encode | repair | debug | clash | clash2 | find ]' % sys.argv[0])
