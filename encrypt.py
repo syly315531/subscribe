@@ -46,7 +46,7 @@ class URLParseHelper():
                 rsp = re.sub('\n','',rsp)
 
                 rsp = self.strDecode(rsp, False) if dec else rsp
-                time.sleep(3)
+                # time.sleep(3)
             else:
                 print(rsp.status_code,rsp.url)
                 raise(rsp.status_code)
@@ -182,7 +182,10 @@ class URLParseHelper():
             sock.settimeout(2)
             result = sock.connect_ex((ipAddr,port))
         except Exception as e:
-            result = -1
+            if e.find("nodename nor servname provided")>0 and ipAddr not in ['使用前记得更新订阅','NULL','8.8.8.8']:
+                result = 0
+            else:
+                result = -1
             with open('error.txt','a+') as f:
                 f.write("URL Test Error,{},{},{}\n".format(e,ipAddr,port))
         finally:
@@ -493,7 +496,7 @@ class URLParseHelper():
         except Exception as e:
             print('-'*50,'vmessObj Error:','-'*50)
             print(self.url,e)
-            time.sleep(1)
+            # time.sleep(1)
             _s = [None,None, None]
                 
         return _s
@@ -586,7 +589,7 @@ class URLParseHelper():
                     print("?"*50)
                     print(data)
                     print("?"*50)
-                    time.sleep(3)
+                    # time.sleep(3)
                 
                 self.writeIntoFile(url)
                 
@@ -647,7 +650,6 @@ class URLParseHelper():
                 f.writelines(u + '\n')
                 
             print('-'*100,'\n')
-
 
 
 def splitFiles(filename="fly.txt"):
@@ -717,7 +719,7 @@ def run():
         if source.startswith("#"):
             continue
         
-        time.sleep(1)
+        # time.sleep(1)
         u.getSubscribeContent(source)
     
     removeDuplicateData(u.backupfile)
@@ -855,13 +857,55 @@ if __name__=="__main__":
                     print(a)
                 print('-'*100)
                 
+        case 'bug1':
+            # Part 1: handle error.txt
+            with open("error.txt",'r') as f:
+                urlList = [ h.strip().split(',')[3] for h in f.readlines() if h.strip().startswith("URL Test Error")]
+            urlList=sorted(list(set(urlList)))
+
+            for a in urlList:
+                print(a)
+                if a in ['af01.uwork.mobi','azure-f4s-hk.transfer-xray.tk','https://t.me/buyebuye','使用前记得更新订阅','柠檬国际机场']:
+                    continue
+                
+                rst = u.find(a)
+                    
+                for r in rst:
+                    if isinstance(r[0],list):
+                        continue
+                    if r[0].startswith(tuple(schemaList)):
+                        # print(r[0])
+                        with open(u.outfile,"a+") as f2:
+                            f2.write(r[0] + '\n')
+                        print('-'*100)
+                        
+        case 'bug2':
+            # Part 2
+            urlList = [
+                'vmess://YXV0bzo3OTM4NjY4NS0xNmRhLTMyN2MtOWUxNC1hYTZkNzAyZDg2YmNAaW5ncmVzcy1pMS5vbmVib3g2Lm9yZzozODcwMQ?remarks=github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B7%B1%E5%9C%B3%E5%B8%82%E8%85%BE%E8%AE%AF%E4%BA%91%2039&obfsParam=ingress-i1.onebox6.org&path=/hls/cctv5phd.m3u8&obfs=websocket&alterId=1',
+                'vmess://YXV0bzpiZjY3NDM3ZS02YzkwLTQ1Y2EtYWJjMi1jNzI0MGE1Y2UyYWFAMTA0LjE2LjE2Mi4xNjoyMDUz?remarks=github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDCloudFlare%E5%85%AC%E5%8F%B8CDN%E8%8A%82%E7%82%B9%2025&obfsParam=foxus.fovi.tk&path=/eisasqa&obfs=websocket&tls=1&peer=foxus.fovi.tk&alterId=0',
+                'vmess://YXV0bzo3OTM4NjY4NS0xNmRhLTMyN2MtOWUxNC1hYTZkNzAyZDg2YmNAaW5ncmVzcy1pMS5vbmVib3g2Lm9yZzozODEwNg?remarks=github.com/freefq%20-%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%94%B5%E4%BF%A1%2038&obfsParam=www.ivpnpro.net&path=/hls/cctv5phd.m3u8&obfs=websocket&alterId=1',
+                'vmess://YXV0bzo3OTM4NjY4NS0xNmRhLTMyN2MtOWUxNC1hYTZkNzAyZDg2YmNAaW5ncmVzcy1pMS5vbmVib3g2Lm9yZzozODEwNg?remarks=github.com/freefq%20-%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%94%B5%E4%BF%A1%2038&obfsParam=www.ivpnpro.net&path=/hls/cctv5phd.m3u8&obfs=websocket&alterId=1',
+                'vmess://YXV0bzo5ZWE3MGQ1Ny05Y2I2LTNiZDAtYWU0MS01NjAxZTUxNmRjYzZAYmdwdjIua3R5anNxLmNvbToxMjIyMw?remarks=%25f0%259f%2587%25a8%25f0%259f%2587%25b3%20cn_77%2520%7C48.41mb&obfs=none&alterId=0',
+                'vmess://YXV0bzo5ZWE3MGQ1Ny05Y2I2LTNiZDAtYWU0MS01NjAxZTUxNmRjYzZAYmdwdjIua3R5anNxLmNvbToxMjIyMw?remarks=%5B%E4%B8%AD%E5%9B%BDvmess%5Dbgpv2.ktyjsq.com:12223&obfs=none&alterId=0',
+                'ss://YWVzLTI1Ni1jZmI6dkRTOUcycEAxODUuNC42NS42OjIxMjQ3#%5B%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6SS%5D185.4.65.6:21247',
+                'trojan://e37c6d7efa845d60@116.129.253.130:3389?allowInsecure=1#CN_116.129.253.130:3389',
+                'trojan://5c5ceb40-902b-11eb-945a-1239d0255272@sg1-trojan.bonds.id:443?allowInsecure=1#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSG1-TROJAN.BONDS.ID:443',
+                'vmess://YXV0bzo3OTM4NjY4NS0xNmRhLTMyN2MtOWUxNC1hYTZkNzAyZDg2YmNAaW5ncmVzcy1pMS5vbmVib3g2Lm9yZzozODIwMQ?remarks=ingress-i1.onebox6.org&obfsParam=ingress-i1.onebox6.org&path=/hls/cctv5phd.m3u8&obfs=websocket&alterId=1',
+                'vmess://YXV0bzpkYjVkMWFhMy05MDhiLTQ0ZDEtYmUwYS00ZTZhOGQ0ZTRjZGFAbHUxLmdvZ29nb28uY3lvdTo0NDM?remarks=lu1.gogogoo.cyou&obfsParam=lu1.gogogoo.cyou&path=/go&obfs=websocket&tls=1&peer=lu1.gogogoo.cyou&alterId=0',
+                'vmess://YXV0bzo3OTM4NjY4NS0xNmRhLTMyN2MtOWUxNC1hYTZkNzAyZDg2YmNAaW5ncmVzcy1pMS5vbmVib3g2Lm9yZzozODcwMQ?remarks=ingress-i1.onebox6.org:38701&obfsParam=ingress-i1.onebox6.org&path=/hls/cctv5phd.m3u8&obfs=websocket&alterId=1',
+                'ssr://aWVwbHN6aGstc3oucXFnZy53b3JrOjUyMzA2OmF1dGhfYWVzMTI4X21kNTphZXMtMjU2LWNmYjp0bHMxLjJfdGlja2V0X2F1dGg6YUVkclVUWTVNVFYwUkEvP3JlbWFya3M9UTA1ZjVMcU01NGkzNTctNzVhS1pJR2gwZEhCek9pOHZNVGd3T0M1bllTRG9pb0xuZ3JsZk1USXgmcHJvdG9wYXJhbT1NemN6T0RBNmF6UldTamxUZVVGMU13Jm9iZnNwYXJhbT1ZV3BoZUM1dGFXTnliM052Wm5RdVkyOXQ',
+                'ss://YWVzLTEyOC1nY206ZGVzcGVyYWRvai5jb21fZnJlZV9wcm94eV9kMzltQDEwMS4xMzIuMTkyLjIxMjozMDAwMw#%5B%E4%B8%AD%E5%9B%BDSS%5D101.132.192.212:30003',
+                'ss://YWVzLTI1Ni1jZmI6Y3A4cFJTVUF5TGhUZlZXSEAyMTMuMTgzLjU5LjE5MTo5MDY0#%5B%E8%8D%B7%E5%85%B0SS%5D213.183.59.191:9064',
+                'ss://YWVzLTI1Ni1jZmI6VlA4WlB4UXBKdFpSQ2pmWkA2Mi4yMTYuOTEuMjI5OjkwODA#%5B%E7%BE%8E%E5%9B%BDSS%5D62.216.91.229:9080',
+                'ss://YWVzLTI1Ni1jZmI6dkRTOUcycEAxODUuNC42NS42OjIxMjQ3#%5B%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6SS%5D185.4.65.6:21247',
+            ]
+            for u in urlList:
+                with open(u.outfile,"a+") as f2:
+                    f2.write(u.strip() + '\n')
+                
         case 'debug':
-            # print(os.stat('fly2.txt').st_size)
-
-            url = 'https://4g.quoctai.xyz/api/v1/client/subscribe?token=5140fc60610c394f91cc01b48bfec425'
+            print("File Size(B):",os.stat(u.outfile).st_size)
             
-            rst = u.getResponse(url)
-            print(rst)
-
         case _:
             print('Usage: %s [run | source | fly | split | encode | repair | debug | clash | clash2 | find ]' % sys.argv[0])
