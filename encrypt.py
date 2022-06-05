@@ -126,6 +126,7 @@ class URLParseHelper():
         ip_and_port = _url[::-1]
         ip_and_port = ip_and_port[:ip_and_port.find('@')]
         ip_and_port = ip_and_port[::-1]
+        ip_and_port = re.sub('\/|\'','',ip_and_port)
         ip_and_port = ip_and_port.split(':')
 
         return ip_and_port[0], ip_and_port[1].replace("/", ""), _url
