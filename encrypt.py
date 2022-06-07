@@ -144,7 +144,7 @@ class URLParseHelper():
                 v = str(v) if isinstance(v, (bool, int, float))  else v
                 v = ','.join(v) if isinstance(v, list) else v
                 
-                print(k, v, type(v))
+                # print(k, v, type(v))
 
                 if k == 'tls':
                     if v == 'tls':
@@ -190,7 +190,7 @@ class URLParseHelper():
             sock.settimeout(2)
             result = sock.connect_ex((ipAddr, port))
         except Exception as e:
-            if e.find("nodename nor servname provided") > 0 and ipAddr not in ['使用前记得更新订阅', 'NULL', '8.8.8.8']:
+            if str(e).find("nodename nor servname provided") > 0 and ipAddr not in ['使用前记得更新订阅', 'NULL', '8.8.8.8']:
                 result = 0
             else:
                 result = -1
@@ -650,10 +650,16 @@ class URLParseHelper():
 
         for index, url in enumerate(urlList):
             url = str(url) if type(url) == bytes else url
+            if url.find('14.29.124.')>0:
+                continue
+            
             print('Current url is:{}/{} {}'.format(index, len(urlList), url.strip()))
 
             self.parse(url)
             i, p, u = self.rebuild()
+            
+            if i in ['14.29.124.168','14.29.124.174']:
+                continue
 
             if i is None:
                 print('Address is None')
