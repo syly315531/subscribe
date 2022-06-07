@@ -650,8 +650,6 @@ class URLParseHelper():
 
         for index, url in enumerate(urlList):
             url = str(url) if type(url) == bytes else url
-            if url.find('14.29.124.')>0:
-                continue
             
             print('Current url is:{}/{} {}'.format(index, len(urlList), url.strip()))
 
