@@ -1,543 +1,317 @@
-trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B3%20%5B06-05%5D%7Coslook%7C%E5%8D%B0%E5%BA%A6%28IN%29India%2FHyderabad_26
-trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B3%20mattkaydiary.com%7C%E5%8D%B0%E5%BA%A6%28IN%29India%2FHyderabad_26
-trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@fhcarm1.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-%E9%AB%98%E9%80%9F%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90%EF%BC%9Av1.mk%2Fvip
-trojan://081a4198-d664-4bc5-a7c6-e35982da964b@jgwhdlb4.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B3%20%E5%8D%B0%E5%BA%A6%20001
-trojan://081a4198-d664-4bc5-a7c6-e35982da964b@jgwhdlb4.gaox.ml:443?security=tls&type=tcp&headerType=none#_129
-trojan://0f7989cf-99a8-41b2-9ade-f8c77bccebad@129.154.60.36:10000?security=tls&sni=kr.alinkrelay.com&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%20%E5%A4%A7%E7%B1%B3%E7%B2%A5-%E9%9F%A9%E5%9B%BD1%200.5x
-trojan://0f7989cf-99a8-41b2-9ade-f8c77bccebad@144.24.65.17:10000?security=tls&sni=kr.alinkrelay.com&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%20%E5%A4%A7%E7%B1%B3%E7%B2%A5-%E9%9F%A9%E5%9B%BD2%200.5x
-trojan://0f7989cf-99a8-41b2-9ade-f8c77bccebad@144.24.78.6:10000?security=tls&sni=kr.alinkrelay.com&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%20%E5%A4%A7%E7%B1%B3%E7%B2%A5-%E9%9F%A9%E5%9B%BD3%200.5x
-trojan://0f7989cf-99a8-41b2-9ade-f8c77bccebad@azhk.node.qchwnd.moe:10204?security=tls&sni=cdn.qchwnd.moe&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%E5%A4%A7%E7%B1%B3%E7%B2%A5-%E9%A6%99%E6%B8%AF%E2%80%A2%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E2%80%A21x
-trojan://0f7989cf-99a8-41b2-9ade-f8c77bccebad@hk.node.qchwnd.moe:10218?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%E5%A4%A7%E7%B1%B3%E7%B2%A5-%E9%A6%99%E6%B8%AF%E2%80%A2HGC%E2%80%A20.1x
-trojan://0f7989cf-99a8-41b2-9ade-f8c77bccebad@kr.alinkrelay.com:10000?security=tls&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%20%E5%A4%A7%E7%B1%B3%E7%B2%A5-%E9%9F%A9%E5%9B%BD%E2%80%A2%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%200.5x
-trojan://118fc04e-fb8c-4154-9092-352cf1958fcd@free.spcloud.us:21010?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20_US_%E7%BE%8E%E5%9B%BD_2
-trojan://1529baee-f263-48a4-b95b-ac0a49814268@112.64.105.203:44605?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://1529baee-f263-48a4-b95b-ac0a49814268@112.64.105.203:44608?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://1529baee-f263-48a4-b95b-ac0a49814268@112.64.105.203:44611?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://1529baee-f263-48a4-b95b-ac0a49814268@112.64.105.203:44612?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://1529baee-f263-48a4-b95b-ac0a49814268@139.162.47.114:44605?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://1529baee-f263-48a4-b95b-ac0a49814268@223.17.43.52:44601?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://1529baee-f263-48a4-b95b-ac0a49814268@83.150.217.62:44612?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://207eed47-ffdd-4bd4-91c1-719ac25c9cee@gy01.20220512.cyou:34568?security=tls&sni=gy01.20220512.cyou&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://207eed47-ffdd-4bd4-91c1-719ac25c9cee@gy01.20220512.cyou:34568?sni=gy01.20220512.cyou#%f0%9f%87%ad%f0%9f%87%b0+%e9%a6%99%e6%b8%af(TG%e9%a2%91%e9%81%93%3a%40kxswa)
-trojan://214bb2d0-7309-4649-a398-0fbf7ac387fa@hk04.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20-HK-%E5%A4%A7%E7%B1%B3%E7%B2%A5-57_57
-trojan://253152b0-e018-11ec-b935-225401db9d57@sghe.tjvpn.org:443?security=tls&sni=video.joox.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20002
-trojan://253152b0-e018-11ec-b935-225401db9d57@sghe.tjvpn.org:443?security=tls&sni=video.joox.com&type=tcp&headerType=none#_88
-trojan://253152b0-e018-11ec-b935-225401db9d57@sghe.tjvpn.org:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20Relay_%F0%9F%87%B8%F0%9F%87%ACSG-%F0%9F%87%B8%F0%9F%87%ACSG_2682
-trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@game.tcpbbr.net:5228?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20_HK_%E9%A6%99%E6%B8%AF
-trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@jp.tcpbbr.net:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20_JP_%E6%97%A5%E6%9C%AC_3
-trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443#%f0%9f%87%ad%f0%9f%87%b0+%e9%a6%99%e6%b8%af(nodefree.org%2b%e5%85%8d%e8%b4%b9%e8%8a%82%e7%82%b9%e6%af%8f%e6%97%a5%e6%9b%b4%e6%96%b0)
-trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%28nodefree.org%2B%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0%29
-trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@tw.tcpbbr.net:443#%f0%9f%87%a8%f0%9f%87%b3+_TW_%e5%8f%b0%e6%b9%be
-trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@tw.tcpbbr.net:443?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20_TW_%E5%8F%B0%E6%B9%BE
-trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@us2.tcpbbr.net:443?security=tls&sni=hgc1.tcpbbr.net&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E7%BE%8E%E5%9B%BD%28nodefree.org%2B%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0%29_2
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr01.wangxd.life:3052?security=tls&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr01.wangxd.life:3052?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E7%BE%8E%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_1
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr01.wangxd.life:3052?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20github.com%2Ffreefq%20-%20%E7%BE%8E%E5%9B%BD%20%202
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr04.wangxd.life:3052#Relay_%f0%9f%87%a6%f0%9f%87%baAU-%f0%9f%87%a6%f0%9f%87%baAU_04
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr04.wangxd.life:3052?security=tls&type=tcp&headerType=none#%F0%9F%87%A6%F0%9F%87%BA%20github.com%2Ffreefq%20-%20%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%20%206
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr04.wangxd.life:3052?security=tls&type=tcp&headerType=none#Relay_%F0%9F%87%A6%F0%9F%87%BAAU-%F0%9F%87%A6%F0%9F%87%BAAU_04
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr05.wangxd.life:3052?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20Relay_%F0%9F%87%BA%F0%9F%87%B8US-%F0%9F%87%BA%F0%9F%87%B8US_40
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@lsj02.wangxd.life:3052?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20005
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@lsj02.wangxd.life:3052?security=tls&type=tcp&headerType=none#US_358%20%7C%207.46Mb
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.11:443?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.12:443?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.13:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.14:443?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.15:443?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.15:443?security=tls&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20003
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.15:443?security=tls&type=tcp&headerType=none#_128
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.16:443?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.16:443?security=tls&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20006
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.17:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.18:443?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.18:443?security=tls&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20002
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.18:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://3yFq7NCP53mVfpXJz3@212.81.47.18:443?security=tls&type=tcp&headerType=none#_127
-trojan://3yFq7NCP53mVfpXJz3@au2-1.nigirocloud.com:443#US_545
-trojan://3yFq7NCP53mVfpXJz3@au2-1.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20001
-trojan://3yFq7NCP53mVfpXJz3@au2-1.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20Relay_%F0%9F%87%A9%F0%9F%87%AADE-%F0%9F%87%AC%F0%9F%87%A7GB_14
-trojan://3yFq7NCP53mVfpXJz3@au2-1.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E8%8D%B7%E5%85%B0%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_2
-trojan://3yFq7NCP53mVfpXJz3@au2-1.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AA%20github.com%2Ffreefq%20-%20%E7%91%9E%E5%85%B8%20%2021
-trojan://3yFq7NCP53mVfpXJz3@au2-1.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-%E9%AB%98%E9%80%9F%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90%EF%BC%9Av1.mk%2Fvip
-trojan://3yFq7NCP53mVfpXJz3@au2-1.nigirocloud.com:443?security=tls&type=tcp&headerType=none#US_545
-trojan://3yFq7NCP53mVfpXJz3@au2-1.nigirocloud.com:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://3yFq7NCP53mVfpXJz3@au2-2.nigirocloud.com:443?security=tls&sni=au2-2.nigirocloud.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E7%BE%8E%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29
-trojan://3yFq7NCP53mVfpXJz3@au2-2.nigirocloud.com:443?security=tls&sni=au2-2.nigirocloud.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E7%BE%8E%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_2
-trojan://3yFq7NCP53mVfpXJz3@au2-2.nigirocloud.com:443?security=tls&sni=au2-2.nigirocloud.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://3yFq7NCP53mVfpXJz3@au2-2.nigirocloud.com:443?security=tls&sni=au2-2.nigirocloud.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-%E9%AB%98%E9%80%9F%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90%EF%BC%9Av1.mk%2Fvip
-trojan://3yFq7NCP53mVfpXJz3@au2-2.nigirocloud.com:443?security=tls&sni=au2-2.nigirocloud.com&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://3yFq7NCP53mVfpXJz3@au2-2.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20Relay_%F0%9F%87%A9%F0%9F%87%AADE-%F0%9F%87%AC%F0%9F%87%A7GB_15
-trojan://3yFq7NCP53mVfpXJz3@au2-2.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AA%20github.com%2Ffreefq%20-%20%E7%91%9E%E5%85%B8%20%2011
-trojan://3yFq7NCP53mVfpXJz3@au2-2.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AA%20v2rayfree.eu.org%20-%20%E7%91%9E%E5%85%B8%20%2035
-trojan://3yFq7NCP53mVfpXJz3@au2-2.nigirocloud.com:443?sni=au2-2.nigirocloud.com#%f0%9f%87%af%f0%9f%87%b5+%e7%be%8e%e5%9b%bd(nodefree.org%e5%85%8d%e8%b4%b9%e8%8a%82%e7%82%b9%e6%97%a5%e6%9b%b4)_2
-trojan://3yFq7NCP53mVfpXJz3@au2-3.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20Relay_%F0%9F%87%A9%F0%9F%87%AADE-%F0%9F%87%AC%F0%9F%87%A7GB_16
-trojan://3yFq7NCP53mVfpXJz3@au2-3.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E8%8D%B7%E5%85%B0%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_3
-trojan://3yFq7NCP53mVfpXJz3@au2-3.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AA%20github.com%2Ffreefq%20-%20%E7%91%9E%E5%85%B8%20%2013
-trojan://3yFq7NCP53mVfpXJz3@au2-3.nigirocloud.com:443?security=tls&type=tcp&headerType=none#Relay_%F0%9F%87%A9%F0%9F%87%AADE-%F0%9F%87%AC%F0%9F%87%A7GB_10
-trojan://3yFq7NCP53mVfpXJz3@au2-3.nigirocloud.com:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://3yFq7NCP53mVfpXJz3@au2-4.nigirocloud.com:443#Relay_%f0%9f%87%a9%f0%9f%87%aaDE-%f0%9f%87%ac%f0%9f%87%a7GB_11
-trojan://3yFq7NCP53mVfpXJz3@au2-4.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://3yFq7NCP53mVfpXJz3@au2-4.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20Relay_%F0%9F%87%A9%F0%9F%87%AADE-%F0%9F%87%AC%F0%9F%87%A7GB_13
-trojan://3yFq7NCP53mVfpXJz3@au2-4.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E8%8D%B7%E5%85%B0%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_1
-trojan://3yFq7NCP53mVfpXJz3@au2-4.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-%E9%AB%98%E9%80%9F%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90%EF%BC%9Av1.mk%2Fvip
-trojan://3yFq7NCP53mVfpXJz3@au2-4.nigirocloud.com:443?security=tls&type=tcp&headerType=none#Relay_%F0%9F%87%A9%F0%9F%87%AADE-%F0%9F%87%AC%F0%9F%87%A7GB_11
-trojan://3yFq7NCP53mVfpXJz3@au2-4.nigirocloud.com:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://4b8f1bc5-9b36-4df8-9e4f-5864b330632f@331tw9.fans8.xyz:443?security=tls&sni=331tw9.fans8.xyz&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E5%8F%B0%E6%B9%BE%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_1
-trojan://4b8f1bc5-9b36-4df8-9e4f-5864b330632f@527hk5.fans8.xyz:443?security=tls&sni=527hk5.fans8.xyz&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E5%8F%B0%E6%B9%BE%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_2
-trojan://4b8f1bc5-9b36-4df8-9e4f-5864b330632f@tx49sg.fans8.xyz:443?security=tls&sni=tx49sg.fans8.xyz&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29
-trojan://54080134-2cba-4535-8599-95650bd9aa54@jgwhdlb2.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B3%20_IN_%E5%8D%B0%E5%BA%A6
-trojan://55af954a-7634-4f28-8acf-8a64ca9fc4cd@an011.oioav.com:52306?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E7%BE%8E%E5%9B%BD%28nodefree.org%2B%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0%29_3
-trojan://55af954a-7634-4f28-8acf-8a64ca9fc4cd@an011.oioav.com:52306?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://5c5ceb40-902b-11eb-945a-1239d0255272@sg1-trojan.bonds.id:443?allowInsecure=1#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSG1-TROJAN.BONDS.ID:443
-trojan://5d07c2f7-830b-4e29-aeb1-67cd98293ec6@gy01.20220512.cyou:34568#%e8%bf%99%e4%ba%9b%e8%8a%82%e7%82%b9%e5%8f%aa%e8%83%bd%e5%a4%87%e7%94%a8%e6%88%96%e8%80%85%e9%98%b2%e6%ad%a2%e5%a4%b1%e8%81%94%ef%bc%8c%e8%99%bd%e7%84%b6%e8%b4%a8%e9%87%8f%e5%b9%b6%e4%b8%8d%e6%98%af%e5%be%88%e5%a5%bd%ef%bc%8c%e4%b9%9f%e8%af%b7%e4%bd%8e%e8%b0%83%e4%bd%bf%e7%94%a8%3a)
-trojan://5d07c2f7-830b-4e29-aeb1-67cd98293ec6@gy01.20220512.cyou:34568?security=tls&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://5d07c2f7-830b-4e29-aeb1-67cd98293ec6@gy01.20220512.cyou:34568?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20Relay_%F0%9F%87%AD%F0%9F%87%B0HK-%F0%9F%87%AD%F0%9F%87%B0HK_20
-trojan://5d07c2f7-830b-4e29-aeb1-67cd98293ec6@gy01.20220512.cyou:34568?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20github.com%2Ffreefq%20-%20%E9%A6%99%E6%B8%AFAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2035
-trojan://5d07c2f7-830b-4e29-aeb1-67cd98293ec6@gy01.20220512.cyou:34568?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20v2rayfree.eu.org%20-%20%E9%A6%99%E6%B8%AFAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2030
-trojan://5d07c2f7-830b-4e29-aeb1-67cd98293ec6@gy01.20220512.cyou:34568?security=tls&type=tcp&headerType=none#Relay_-%F0%9F%87%AD%F0%9F%87%B0HK_1462
-trojan://5d07c2f7-830b-4e29-aeb1-67cd98293ec6@gy01.20220512.cyou:34568?security=tls&type=tcp&headerType=none#_93
-trojan://662dde24-c50c-4011-82b0-5c306afc56f2@cc.tianxiedaiweige.tk:443?security=tls&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://662dde24-c50c-4011-82b0-5c306afc56f2@cc.tianxiedaiweige.tk:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20Relay_%F0%9F%87%BA%F0%9F%87%B8US-%F0%9F%87%BA%F0%9F%87%B8US_41
-trojan://662dde24-c50c-4011-82b0-5c306afc56f2@cc.tianxiedaiweige.tk:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://6f0a9d0fa39d65fa@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@jgwcc1.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20_GB_%E8%8B%B1%E5%9B%BD
-trojan://711aabc21e45ae31@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://711aabc21e45ae31@c0fd425.ga.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-30
-trojan://711aabc21e45ae31@c0fd425.ga.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-30%202
-trojan://711aabc21e45ae31@c0fd425.ga.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-30
-trojan://711aabc21e45ae31@c0fd425.ga.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-30
-trojan://711aabc21e45ae31@c0fd425.ga.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-30%202
-trojan://711aabc21e45ae31@c0fd425.ga.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-30
-trojan://711aabc21e45ae31@c0fd425.ga.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-30%202
-trojan://711aabc21e45ae31@c0fd425.ga.gladns.com:3386?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20UK-GLaDOS-GEO-30
-trojan://711aabc21e45ae31@c0fd425.gb.gladns.com:3381?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-GLaDOS-GEO-31
-trojan://711aabc21e45ae31@c0fd425.gb.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-31
-trojan://711aabc21e45ae31@c0fd425.gb.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-31%202
-trojan://711aabc21e45ae31@c0fd425.gb.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-31
-trojan://711aabc21e45ae31@c0fd425.gb.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-31
-trojan://711aabc21e45ae31@c0fd425.gb.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-31%202
-trojan://711aabc21e45ae31@c0fd425.gb.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-31
-trojan://711aabc21e45ae31@c0fd425.gb.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-31%202
-trojan://711aabc21e45ae31@c0fd425.gb.gladns.com:3386?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20UK-GLaDOS-GEO-31
-trojan://711aabc21e45ae31@c0fd425.gc.gladns.com:3381?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-GLaDOS-GEO-32
-trojan://711aabc21e45ae31@c0fd425.gc.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-32
-trojan://711aabc21e45ae31@c0fd425.gc.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-32%202
-trojan://711aabc21e45ae31@c0fd425.gc.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-32
-trojan://711aabc21e45ae31@c0fd425.gc.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-32%202
-trojan://711aabc21e45ae31@c0fd425.gc.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-32
-trojan://711aabc21e45ae31@c0fd425.gc.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-32%202
-trojan://711aabc21e45ae31@c0fd425.gc.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-32
-trojan://711aabc21e45ae31@c0fd425.gc.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-32%202
-trojan://711aabc21e45ae31@c0fd425.gc.gladns.com:3386?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20UK-GLaDOS-GEO-32
-trojan://711aabc21e45ae31@c0fd425.pa.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-30
-trojan://711aabc21e45ae31@c0fd425.pa.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-30%202
-trojan://711aabc21e45ae31@c0fd425.pb.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-31
-trojan://711aabc21e45ae31@c0fd425.pb.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-31%202
-trojan://711aabc21e45ae31@c0fd425.pc.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-32
-trojan://711aabc21e45ae31@c0fd425.pc.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-32%202
-trojan://711aabc21e45ae31@c0fd425.pd.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-33
-trojan://711aabc21e45ae31@c0fd425.pd.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-33%202
-trojan://711aabc21e45ae31@c0fd425.pe.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-34
-trojan://711aabc21e45ae31@c0fd425.pe.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-34%202
-trojan://711aabc21e45ae31@c0fd425.pf.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-35
-trojan://711aabc21e45ae31@c0fd425.pf.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-35%202
-trojan://711aabc21e45ae31@c0fd425.pg.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-36
-trojan://711aabc21e45ae31@c0fd425.ph.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-37
-trojan://711aabc21e45ae31@c0fd425.pi.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-38
-trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20%5B06-04%5D%7Coslook%7C%E8%8B%B1%E5%9B%BD%28GB%29United%2BKiongdom%2FSlough_27
-trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20%5B06-05%5D%7Coslook%7C%E8%8B%B1%E5%9B%BD%28GB%29United%2BKiongdom%2FSlough_27
-trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20mattkaydiary.com%7C%E8%8B%B1%E5%9B%BD%28GB%29United%2BKiongdom%2FSlough_27
-trojan://7Z29DRr1ts@cp-asus.ml:50275?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%5B06-05%5D%7Coslook%7C%E6%96%B0%E5%8A%A0%E5%9D%A1%28SG%29Singapore%2FSingapore_8
-trojan://7Z29DRr1ts@cp-asus.ml:50275?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20mattkaydiary.com%7C%E6%96%B0%E5%8A%A0%E5%9D%A1%28SG%29Singapore%2FSingapore_8
-trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443#%f0%9f%87%ad%f0%9f%87%b0+%5b06-05%5d%7coslook%7c%e4%b8%ad%e5%9b%bd%e9%a6%99%e6%b8%af%e7%89%b9%e5%88%ab%e8%a1%8c%e6%94%bf%e5%8c%ba(HK)Hongkong%2bSAR%2bChina%2fHong%2bKong_42
-trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%5B06-05%5D%7Coslook%7C%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%28HK%29Hongkong%2BSAR%2BChina%2FHong%2BKong_42
-trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20mattkaydiary.com%7C%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF%E7%89%B9%E5%88%AB%E8%A1%8C%E6%94%BF%E5%8C%BA%28HK%29Hongkong%2BSAR%2BChina%2FHong%2BKong_42
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azhk.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azhk.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E7%BE%8E%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_4
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azhk.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20Relay_%F0%9F%87%BA%F0%9F%87%B8US-%F0%9F%87%BA%F0%9F%87%B8US_37
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azhk.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20github.com%2Ffreefq%20-%20%E7%BE%8E%E5%9B%BDMicrosoft%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2034
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azhk.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20v2rayfree.eu.org%20-%20%E7%BE%8E%E5%9B%BDMicrosoft%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2024
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azhk.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azrb.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20003
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azrb.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20Relay_%F0%9F%87%BA%F0%9F%87%B8US-%F0%9F%87%BA%F0%9F%87%B8US_3085
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azrb.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20Relay_%F0%9F%87%BA%F0%9F%87%B8US-%F0%9F%87%BA%F0%9F%87%B8US_39
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azrb.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20github.com%2Ffreefq%20-%20%E7%BE%8E%E5%9B%BDMicrosoft%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2029
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azrb.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#JP_251%20%7C%202.47Mb
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azrb.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#JP_265
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@shs.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@shs.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20Relay_%F0%9F%87%BA%F0%9F%87%B8US-%F0%9F%87%BA%F0%9F%87%B8US_38
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@shs.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20v2rayfree.eu.org%20-%20%E7%BE%8E%E5%9B%BDNokia%205
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@shs.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&sni=xjp.ziqiyun.xyz&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&sni=xjp.ziqiyun.xyz&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-%E9%AB%98%E9%80%9F%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90%EF%BC%9Av1.mk%2Fvip
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E7%BE%8E%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_1
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20008
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20Relay_%F0%9F%87%BA%F0%9F%87%B8US-%F0%9F%87%BA%F0%9F%87%B8US_42
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20github.com%2Ffreefq%20-%20%E7%BE%8E%E5%9B%BD%20%2016
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20v2rayfree.eu.org%20-%20%E7%BE%8E%E5%9B%BD%20%206
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#_127%20%7C%204.82Mb
-trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#_95
-trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us01.yiyodns.xyz:443?security=tls&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us01.yiyodns.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20github.com%2Ffreefq%20-%20%E7%BE%8E%E5%9B%BD%E6%83%A0%E6%99%AEHP%209
-trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us01.yiyodns.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20v2rayfree.eu.org%20-%20%E7%BE%8E%E5%9B%BD%E6%83%A0%E6%99%AEHP%2011
-trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us02.yiyodns.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28%E6%AC%A2%E8%BF%8E%E8%AE%A2%E9%98%85Youtube%E7%A0%B4%E8%A7%A3%E8%B5%84%E6%BA%90%E5%90%9B%29
-trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us02.yiyodns.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-%E9%AB%98%E9%80%9F%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90%EF%BC%9Av1.mk%2Fvip
-trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us02.yiyodns.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20github.com%2Ffreefq%20-%20%E7%BE%8E%E5%9B%BD%E6%83%A0%E6%99%AEHP%207
-trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us02.yiyodns.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20v2rayfree.eu.org%20-%20%E7%BE%8E%E5%9B%BD%E6%83%A0%E6%99%AEHP%2010
-trojan://7ed7b710-d331-43df-8e37-a1d330409ed2@gy01.20220512.cyou:34568?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-%E9%AB%98%E9%80%9F%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90%EF%BC%9Av1.mk%2Fvip
-trojan://7ed7b710-d331-43df-8e37-a1d330409ed2@gy01.20220512.cyou:34568?security=tls&type=tcp&headerType=none#HK_247
-trojan://7x42LetRa0@106.180.225.69:1443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%20004
-trojan://7x42LetRa0@106.180.225.69:1443?security=tls&type=tcp&headerType=none#_108
-trojan://8140f380-9ac5-3731-a689-3e0f0c386634@s233.s2022.xyz:39747#_126
-trojan://8140f380-9ac5-3731-a689-3e0f0c386634@s233.s2022.xyz:39747?security=tls&type=tcp&headerType=none#_126
-trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@daily-1-cn-route.teacher2040.com:41605?sni=daily-tls-1.teacher2040.com#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DDAILY-1-CN-ROUTE.TEACHER2040.COM%3A41605
+trojan://081a4198-d664-4bc5-a7c6-e35982da964b@jgwhdlb4.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E5%8D%B0%E5%BA%A6TROJAN%5DJGWHDLB4.GAOX.ML%3A443
+trojan://08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DSSL.TCPBBR.NET%3A443
+trojan://0f7989cf-99a8-41b2-9ade-f8c77bccebad@kr.alinkrelay.com:10000?security=tls&type=tcp&headerType=none#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DKR.ALINKRELAY.COM%3A10000
+trojan://118fc04e-fb8c-4154-9092-352cf1958fcd@free.spcloud.us:21010?security=tls&type=tcp&headerType=none#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DFREE.SPCLOUD.US%3A21010
+trojan://1529baee-f263-48a4-b95b-ac0a49814268@139.162.47.114:44605?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D139.162.47.114%3A44605
+trojan://1529baee-f263-48a4-b95b-ac0a49814268@223.17.43.52:44601?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#%5B%E9%A6%99%E6%B8%AFTROJAN%5D223.17.43.52%3A44601
+trojan://1529baee-f263-48a4-b95b-ac0a49814268@83.150.217.62:44612?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#%5B%E5%B7%B4%E8%A5%BFTROJAN%5D83.150.217.62%3A44612
+trojan://18825786@v.9051246.xyz:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DV.9051246.XYZ%3A443
+trojan://18e513fe-f7f4-353d-84ca-bc9646fb2528mielink@210.152.13.168:443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5D210.152.13.168%3A443
+trojan://214bb2d0-7309-4649-a398-0fbf7ac387fa@hk04.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou:443?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DHK04.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.YIYUAN.CYOU%3A443
+trojan://23115_5a451f03@tky3.ssgnode.ga:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTKY3.SSGNODE.GA%3A443
+trojan://253152b0-e018-11ec-b935-225401db9d57@sghe.tjvpn.org:443?security=tls&sni=video.joox.com&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSGHE.TJVPN.ORG%3A443
+trojan://253152b0-e018-11ec-b935-225401db9d57@sghe.tjvpn.org:443?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSGHE.TJVPN.ORG%3A443
+trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443#%5B%E9%A6%99%E6%B8%AFTROJAN%5DSSL.TCPBBR.NET%3A443
+trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?security=tls&type=tcp&headerType=none#%5B%E9%A6%99%E6%B8%AFTROJAN%5DSSL.TCPBBR.NET%3A443
+trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@tw.tcpbbr.net:443#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
+trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@tw.tcpbbr.net:443?security=tls&type=tcp&headerType=none#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
+trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@us2.tcpbbr.net:443?security=tls&sni=hgc1.tcpbbr.net&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS2.TCPBBR.NET%3A443
+trojan://283695dc-fcc8-11ea-8684-f23c913c8d2b@api.tcpbbr.net:443?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DAPI.TCPBBR.NET%3A443
+trojan://283695dc-fcc8-11ea-8684-f23c913c8d2b@tw.tcpbbr.net:443?country=🇹🇼 tw&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
+trojan://283695dc-fcc8-11ea-8684-f23c913c8d2b@us2.tcpbbr.net:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS2.TCPBBR.NET%3A443
+trojan://28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://28d98f761aca9d636f44db62544628eb@184.168.127.50:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D184.168.127.50%3A443
+trojan://28d98f761aca9d636f44db62544628eb@72.167.45.6:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
+trojan://2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d@us2.tcpbbr.net:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS2.TCPBBR.NET%3A443
+trojan://36ebef7d1b1d6205fd0c55f28800e674@184.168.127.50:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D184.168.127.50%3A443
+trojan://36ebef7d1b1d6205fd0c55f28800e674@72.167.45.6:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
+trojan://36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://38239dd0-902b-11eb-afc1-1239d0255272@us-trojan.bonds.id:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS-TROJAN.BONDS.ID%3A443
+trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr01.wangxd.life:3052?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DKR01.WANGXD.LIFE%3A3052
+trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr04.wangxd.life:3052#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DKR04.WANGXD.LIFE%3A3052
+trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr04.wangxd.life:3052?security=tls&type=tcp&headerType=none#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DKR04.WANGXD.LIFE%3A3052
+trojan://3b43ffda-8b5c-3480-87f9-d4b069d7457a@s228.s2022.xyz:42406?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DS228.S2022.XYZ%3A42406
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DCC2.DOUBLEDOU.WIN%3A4584
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cera.doubledou.win:4586?country=🇿🇦 za&skip-cert-verify=true&udp=true#%5B%E5%8D%97%E9%9D%9ETROJAN%5DCERA.DOUBLEDOU.WIN%3A4586
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cuvip.doubledou.win:4583?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DCUVIP.DOUBLEDOU.WIN%3A4583
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@hkcn2.doubledou.win:4588?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHKCN2.DOUBLEDOU.WIN%3A4588
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@sol.doubledou.win:4588?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DSOL.DOUBLEDOU.WIN%3A4588
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@v2losdmit1.doubledou.win:6674?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DV2LOSDMIT1.DOUBLEDOU.WIN%3A6674
+trojan://3yFq7NCP53mVfpXJz3@212.81.47.11:443?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D212.81.47.11%3A443
+trojan://3yFq7NCP53mVfpXJz3@212.81.47.12:443?country=🇩🇪 de&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D212.81.47.12%3A443
+trojan://3yFq7NCP53mVfpXJz3@212.81.47.12:443?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D212.81.47.12%3A443
+trojan://3yFq7NCP53mVfpXJz3@212.81.47.13:443?country=🇩🇪 de&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D212.81.47.13%3A443
+trojan://3yFq7NCP53mVfpXJz3@212.81.47.13:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D212.81.47.13%3A443
+trojan://3yFq7NCP53mVfpXJz3@212.81.47.14:443?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D212.81.47.14%3A443
+trojan://3yFq7NCP53mVfpXJz3@212.81.47.15:443?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D212.81.47.15%3A443
+trojan://3yFq7NCP53mVfpXJz3@212.81.47.15:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D212.81.47.15%3A443
+trojan://3yFq7NCP53mVfpXJz3@212.81.47.16:443?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D212.81.47.16%3A443
+trojan://3yFq7NCP53mVfpXJz3@212.81.47.16:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D212.81.47.16%3A443
+trojan://3yFq7NCP53mVfpXJz3@212.81.47.17:443?country=🇩🇪 de&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D212.81.47.17%3A443
+trojan://3yFq7NCP53mVfpXJz3@212.81.47.17:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D212.81.47.17%3A443
+trojan://3yFq7NCP53mVfpXJz3@au2-1.nigirocloud.com:443#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAU2-1.NIGIROCLOUD.COM%3A443
+trojan://3yFq7NCP53mVfpXJz3@au2-1.nigirocloud.com:443?country=🇩🇪 de&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAU2-1.NIGIROCLOUD.COM%3A443
+trojan://3yFq7NCP53mVfpXJz3@au2-1.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAU2-1.NIGIROCLOUD.COM%3A443
+trojan://3yFq7NCP53mVfpXJz3@au2-2.nigirocloud.com:443?security=tls&sni=au2-2.nigirocloud.com&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAU2-2.NIGIROCLOUD.COM%3A443
+trojan://3yFq7NCP53mVfpXJz3@au2-2.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAU2-2.NIGIROCLOUD.COM%3A443
+trojan://3yFq7NCP53mVfpXJz3@au2-2.nigirocloud.com:443?sni=au2-2.nigirocloud.com#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAU2-2.NIGIROCLOUD.COM%3A443
+trojan://3yFq7NCP53mVfpXJz3@au2-3.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAU2-3.NIGIROCLOUD.COM%3A443
+trojan://3yFq7NCP53mVfpXJz3@au2-4.nigirocloud.com:443#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAU2-4.NIGIROCLOUD.COM%3A443
+trojan://3yFq7NCP53mVfpXJz3@au2-4.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAU2-4.NIGIROCLOUD.COM%3A443
+trojan://41742_920c8caa@hk31.ssgnode.ga:443?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHK31.SSGNODE.GA%3A443
+trojan://44742458-ae53-3490-aeb6-a1a23d54c2be@s244.s2022.xyz:30300?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DS244.S2022.XYZ%3A30300
+trojan://486dd7e4-24bc-498a-b4f0-ecd704f8d8cd@139.162.124.250:28443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5D139.162.124.250%3A28443
+trojan://486dd7e4-24bc-498a-b4f0-ecd704f8d8cd@165.22.93.103:28443?country=🇩🇪 de&skip-cert-verify=true&udp=true#%5B%E5%BE%B7%E5%9B%BDTROJAN%5D165.22.93.103%3A28443
+trojan://486dd7e4-24bc-498a-b4f0-ecd704f8d8cd@206.189.156.88:28443?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D206.189.156.88%3A28443
+trojan://4b8f1bc5-9b36-4df8-9e4f-5864b330632f@527hk5.fans8.xyz:443?security=tls&sni=527hk5.fans8.xyz&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D527HK5.FANS8.XYZ%3A443
+trojan://4c7985e0-79e8-11eb-b8d3-1239d0255272@sg3-trojan.bonds.id:443?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSG3-TROJAN.BONDS.ID%3A443
+trojan://4f7dc540-d244-4e64-af21-4b5bb300add3@www.tokyo2023.ga:443?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DWWW.TOKYO2023.GA%3A443
+trojan://4f7dc540-d244-4e64-af21-4b5bb300add3@www.tokyo2023.ga:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DWWW.TOKYO2023.GA%3A443
+trojan://5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d@ssl.tcpbbr.net:443?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DSSL.TCPBBR.NET%3A443
+trojan://5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d@us2.tcpbbr.net:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS2.TCPBBR.NET%3A443
+trojan://5c5ceb40-902b-11eb-945a-1239d0255272@sg1-trojan.bonds.id:443?allowInsecure=1#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSG1-TROJAN.BONDS.ID%3A443
+trojan://5c5ceb40-902b-11eb-945a-1239d0255272@sg1-trojan.bonds.id:443?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSG1-TROJAN.BONDS.ID%3A443
+trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@ssl.tcpbbr.net:443?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DSSL.TCPBBR.NET%3A443
+trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@tw.tcpbbr.net:443?country=🇹🇼 tw&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
+trojan://6f0a9d0fa39d65fa@5.44.249.43:3389?country=🏁 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://6f0a9d0fa39d65fa@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@jgwcc1.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DJGWCC1.GAOX.ML%3A443
+trojan://711aabc21e45ae31@5.44.249.43:3389?country=🏁 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://711aabc21e45ae31@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://72e9af0c-83b4-4069-8406-7fd8ee3e474a@80.78.132.177:28443?country=🇩🇪 de&skip-cert-verify=true&udp=true#%5B%E5%BE%B7%E5%9B%BDTROJAN%5D80.78.132.177%3A28443
+trojan://7Z29DRr1ts@cp-asus.ml:50275?security=tls&type=tcp&headerType=none#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DCP-ASUS.ML%3A50275
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443#%5B%E9%A6%99%E6%B8%AFTROJAN%5DSSL.TCPBBR.NET%3A443
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DSSL.TCPBBR.NET%3A443
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?security=tls&type=tcp&headerType=none#%5B%E9%A6%99%E6%B8%AFTROJAN%5DSSL.TCPBBR.NET%3A443
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@us2.tcpbbr.net:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS2.TCPBBR.NET%3A443
+trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azhk.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DAZHK.ZIQIYUN.XYZ%3A443
+trojan://7b561e94-42f3-4f92-979c-4cf97c328025@azrb.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DAZRB.ZIQIYUN.XYZ%3A443
+trojan://7d46f885-c7e4-30d4-8a00-36aa6530b0cf@s69.s2022.xyz:30661?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DS69.S2022.XYZ%3A30661
+trojan://7e6256a0-b4ab-11eb-bc8f-1239d0255272@nl-trojan.bonds.id:443?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DNL-TROJAN.BONDS.ID%3A443
+trojan://7x42LetRa0@106.180.225.69:1443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5D106.180.225.69%3A1443
+trojan://7x42LetRa0@106.180.225.69:1443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5D106.180.225.69%3A1443
+trojan://8140f380-9ac5-3731-a689-3e0f0c386634@s233.s2022.xyz:39747#%5B%E9%A6%99%E6%B8%AFTROJAN%5DS233.S2022.XYZ%3A39747
+trojan://8140f380-9ac5-3731-a689-3e0f0c386634@s233.s2022.xyz:39747?security=tls&type=tcp&headerType=none#%5B%E9%A6%99%E6%B8%AFTROJAN%5DS233.S2022.XYZ%3A39747
+trojan://82a115db-6e59-4319-9730-8f5638908d59YWVzLTI1Ni1nY2023115_5a451f03@tky3.ssgnode.ga:443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTKY3.SSGNODE.GA%3A443
+trojan://82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@tky3.ssgnode.ga:443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTKY3.SSGNODE.GA%3A443
+trojan://82lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@tky3.ssgnode.ga:443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTKY3.SSGNODE.GA%3A443
+trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@daily-1-cn-route.teacher2040.com:41605?sni=daily-tls-1.teacher2040.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDAILY-1-CN-ROUTE.TEACHER2040.COM%3A41605
 trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@daily-3-cn-route.teacher2040.com:43603?sni=daily-tls-1.teacher2040.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDAILY-3-CN-ROUTE.TEACHER2040.COM%3A43603
 trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@daily-4-cn-route.teacher2040.com:43604?sni=daily-tls-1.teacher2040.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDAILY-4-CN-ROUTE.TEACHER2040.COM%3A43604
+trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@hk-cn.teacher2040.com:43505?sni=hk-cn.teacher2040.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHK-CN.TEACHER2040.COM%3A43505
+trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@hk.teacher2040.com:43080?sni=hk.teacher2040.com#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHK.TEACHER2040.COM%3A43080
+trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@jp-cn.teacher2040.com:43506?sni=jp-cn.teacher2040.com#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJP-CN.TEACHER2040.COM%3A43506
+trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@jp.teacher2040.com:43242?sni=jp.teacher2040.com#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJP.TEACHER2040.COM%3A43242
 trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@sg-cn.teacher2050.com:43508?sni=sg-cn.teacher2050.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DSG-CN.TEACHER2050.COM%3A43508
 trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@sg.teacher2050.com:43244?sni=sg.teacher2050.com#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DSG.TEACHER2050.COM%3A43244
 trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@streaming-cn.teacher2040.com:43500?sni=streaming-cn.teacher2040.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DSTREAMING-CN.TEACHER2040.COM%3A43500
-trojan://8UnS7eSMi8OFKfje@charge.starspace.link:443?security=tls&type=tcp&headerType=none#US_163%20TG%40peekfun%20%7C%202.72Mb
-trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-sg01.yiyodns.xyz:443?security=tls&sni=tj-sg01.yiyodns.xyz&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-sg02.yiyodns.xyz:443?security=tls&sni=tj-sg02.yiyodns.xyz&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-tw01.yiyodns.xyz:443?security=tls&sni=tj-tw01.yiyodns.xyz&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-tw02.yiyodns.xyz:443?security=tls&sni=tj-tw02.yiyodns.xyz&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-us01.yiyodns.xyz:443?security=tls&sni=tj-us01.yiyodns.xyz&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-us02.yiyodns.xyz:443?security=tls&sni=tj-us02.yiyodns.xyz&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://8d0db1d1-62a2-4d8b-b272-e4f364e064c6@198.200.51.219:26969?security=tls&sni=us-05.bbbb.pw&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20011
-trojan://8d0db1d1-62a2-4d8b-b272-e4f364e064c6@198.200.51.219:26969?security=tls&sni=us-05.bbbb.pw&type=tcp&headerType=none#_145
-trojan://8d0db1d1-62a2-4d8b-b272-e4f364e064c6@shcm.pdjc.cc:42000?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://8d0db1d1-62a2-4d8b-b272-e4f364e064c6@shcm.pdjc.cc:42000?security=tls&type=tcp&headerType=none#_144
-trojan://8d2d5953-d649-4034-94f2-72f2df2623da@jgwdb3.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%20003
-trojan://8d2d5953-d649-4034-94f2-72f2df2623da@jgwdb3.gaox.ml:443?security=tls&type=tcp&headerType=none#_103
-trojan://920bab6b-c9e2-440e-b18b-d39ab09926cb@cm-jm.okvpn.xyz:20004?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://95548a85-e567-364b-8fbe-e845e6ec8371@s256.s2022.xyz:38209?security=tls&sni=s256.s2022.xyz&type=tcp&headerType=none#HK3
-trojan://95548a85-e567-364b-8fbe-e845e6ec8371@s256.s2022.xyz:38209?sni=s256.s2022.xyz#HK3
-trojan://96673fe8-2a45-4cca-bb6b-108b88aa4a4e@139.162.124.250:28443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%20001
-trojan://96673fe8-2a45-4cca-bb6b-108b88aa4a4e@139.162.124.250:28443?security=tls&type=tcp&headerType=none#JP_264
-trojan://96673fe8-2a45-4cca-bb6b-108b88aa4a4e@155.248.172.87:28443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20004
-trojan://96673fe8-2a45-4cca-bb6b-108b88aa4a4e@155.248.172.87:28443?security=tls&type=tcp&headerType=none#JP_266
-trojan://96673fe8-2a45-4cca-bb6b-108b88aa4a4e@185.126.148.96:28443?security=tls&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%B4%20%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A%20001
-trojan://96673fe8-2a45-4cca-bb6b-108b88aa4a4e@185.126.148.96:28443?security=tls&type=tcp&headerType=none#HK_248
-trojan://9a27800ca7b52ee0@103.56.60.235:3381?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://9a27800ca7b52ee0@103.56.62.145:3381?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://9a27800ca7b52ee0@116.129.253.134:3381?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://9a27800ca7b52ee0@116.129.254.29:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://9a27800ca7b52ee0@116.129.254.47:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://9a27800ca7b52ee0@120.233.186.71:3381?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://9a27800ca7b52ee0@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://9c289eb1-59b1-49ff-9c80-9a3c879c654e@527hk5.fans8.xyz:443?security=tls&sni=527hk5.fans8.xyz&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK
-trojan://9c289eb1-59b1-49ff-9c80-9a3c879c654e@527hk5.fans8.xyz:443?security=tls&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://9c289eb1-59b1-49ff-9c80-9a3c879c654e@527hk5.fans8.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20v2rayfree.eu.org%20-%20%E6%97%A5%E6%9C%AC%20%203
-trojan://9c289eb1-59b1-49ff-9c80-9a3c879c654e@527hk5.fans8.xyz:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://9c289eb1-59b1-49ff-9c80-9a3c879c654e@hk64.fans8.xyz:443?security=tls&sni=hk64.fans8.xyz&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG
-trojan://9c289eb1-59b1-49ff-9c80-9a3c879c654e@hk64.fans8.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20github.com%2Ffreefq%20-%20%E6%97%A5%E6%9C%AC%20%201
-trojan://9c289eb1-59b1-49ff-9c80-9a3c879c654e@hk64.fans8.xyz:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20v2rayfree.eu.org%20-%20%E6%97%A5%E6%9C%AC%20%2016
-trojan://9c289eb1-59b1-49ff-9c80-9a3c879c654e@hk64.fans8.xyz:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://9c822f05-cfdc-479a-9534-60f3d4127435@jgwcc2.gaox.ml:443#_138
-trojan://9c822f05-cfdc-479a-9534-60f3d4127435@jgwcc2.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20010
-trojan://9c822f05-cfdc-479a-9534-60f3d4127435@jgwcc2.gaox.ml:443?security=tls&type=tcp&headerType=none#_138
-trojan://9cbbeb3c-d2b6-482c-97c1-1e037f0102f2@165.154.243.157:48002?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%A6%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20003
-trojan://9cbbeb3c-d2b6-482c-97c1-1e037f0102f2@165.154.243.157:48002?security=tls&type=tcp&headerType=none#_116
-trojan://W8gVbKNAZlFzgGPn@storage.starspace.link:443?security=tls&type=tcp&headerType=none#storage.starspace.link%3A443
-trojan://WDNMDC@greenfishpowered.cn:10086?security=tls&sni=payday2.eu.org&type=tcp&headerType=none#%EF%B8%8F%E2%80%8D%F0%9F%8C%88Update%2B2022%2F05%2F13
-trojan://WDNMDM@greenfishpowered.cn:10086?security=tls&sni=payday2.eu.org&type=tcp&headerType=none#%EF%B8%8F%E2%80%8D%F0%9F%8C%88%5BTG%E7%94%B5%E6%8A%A5%E9%A2%91%E9%81%93%5Dhttps%3A%2F%2Ft.me%2Fpayday501
-trojan://WDNMDN@greenfishpowered.cn:10086?security=tls&sni=payday2.eu.org&type=tcp&headerType=none#%EF%B8%8F%E2%80%8D%F0%9F%8C%88%5BTG%E7%94%B5%E6%8A%A5%E7%BE%A4%5Dhttps%3A%2F%2Ft.me%2Fpayday4478
-trojan://a170b44c2dfac9e6@116.129.254.29:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://a170b44c2dfac9e6@116.129.254.47:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://acf34fb3-6fed-40c6-b6ab-b5bedf5827a2@gy01.20220512.cyou:34568#%f0%9f%87%ba%f0%9f%87%b8+%e7%be%8e%e5%9b%bd+002
-trojan://acf34fb3-6fed-40c6-b6ab-b5bedf5827a2@gy01.20220512.cyou:34568?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20Relay_%F0%9F%87%AD%F0%9F%87%B0HK-%F0%9F%87%AD%F0%9F%87%B0HK_2141
-trojan://acf34fb3-6fed-40c6-b6ab-b5bedf5827a2@gy01.20220512.cyou:34568?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20002
-trojan://acf34fb3-6fed-40c6-b6ab-b5bedf5827a2@gy01.20220512.cyou:34568?security=tls&type=tcp&headerType=none#HK_244
-trojan://af630252-aecc-45cf-b174-5e0782396874@cn.speedabc.xyz:42004?security=tls&sni=sg1.speedaccelerate.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E4%B8%AD%E5%9B%BD_%5B%E6%99%B4%E5%9B%AD%5D%3C01%2F06%E2%96%AA%E8%8A%82%E6%97%A5%E5%BF%AB%E4%B9%90%3E%5B%E5%85%B3%E6%B3%A8%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8D%E8%BF%B7%E8%B7%AF%5D%3C%E5%85%8D%E8%B4%B9%E2%96%AA%E5%88%86%E4%BA%AB%3E%5B%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0%5D%3C%E7%99%BD%E5%AB%96%E8%87%B3%E4%B8%8A%3E_133
-trojan://afbba9fe-80f3-4fbd-837c-35ede864fea6@tj-11.t8737.shop:11223?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20github.com%2Ffreefq%20-%20%E7%BE%8E%E5%9B%BD%20%2010
-trojan://b23ecb07-1cd3-4490-b4eb-4d32cd0b9249@bai-piao-wang-zhe-iplc2.98848.xyz:443?security=tls&sni=bai-piao-wang-zhe-iplc2.98848.xyz&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@jgwcc3.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%AC%A7%E6%B4%B2%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_3
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58804?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58805?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58807?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58809?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58824?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%A9%20%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58825?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B9%F0%9F%87%AD%20%E6%B3%B0%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58828?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20%E4%BF%84%E7%BD%97%E6%96%AF%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58806?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58808?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58810?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58812?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B3%20%E5%8D%B0%E5%BA%A6%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58813?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20%E4%BF%84%E7%BD%97%E6%96%AF%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58819?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58820?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58829?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%A9%20%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58830?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B9%F0%9F%87%AD%20%E6%B3%B0%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58831?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%BB%F0%9F%87%B3%20%E8%B6%8A%E5%8D%97%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58832?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://ba4fedf8c217c146@120.236.197.205:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s2.upyun.online:12340?security=tls&sni=free.upyun.online&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E8%8B%B1%E5%9B%BD%28nodefree.org%E6%97%A5%E6%9B%B4%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%29
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s4.upyun.online:12340?security=tls&sni=free.upyun.online&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%AC%A7%E6%B4%B2%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29
-trojan://c0669346-7ba9-4fda-91a4-238fb8d0a4d2@jp1.v2yyds.cc:32111?security=tls&type=tcp&headerType=none#Relay__%202.86Mb%20%7C%202.23Mb
-trojan://c0669346-7ba9-4fda-91a4-238fb8d0a4d2@sg1.v2yyds.cc:32110?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20_SG_%E6%96%B0%E5%8A%A0%E5%9D%A1-%3E%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD
-trojan://c0669346-7ba9-4fda-91a4-238fb8d0a4d2@sg2.v2yyds.cc:32110?security=tls&sni=sg2.v2yyds.cc&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E5%88%86%E4%BA%AB%29_3
-trojan://c0669346-7ba9-4fda-91a4-238fb8d0a4d2@sg3.v2yyds.cc:32110?security=tls&sni=sg3.v2yyds.cc&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28ios%E5%B0%8F%E7%81%AB%E7%AE%AD%E8%BD%AF%E4%BB%B6%7Cioskaka.com%29%205
-trojan://c09eb137-bf68-4658-84e0-102d94b74168@jgwdj4.gaox.ml:443?security=tls&sni=jgwdj4.gaox.ml&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://c09eb137-bf68-4658-84e0-102d94b74168@jgwdj4.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-%E9%AB%98%E9%80%9F%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90%EF%BC%9Av1.mk%2Fvip
-trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%5B06-05%5D%7Coslook%7C%E6%97%A5%E6%9C%AC%28JP%29Japan%2FOsaka_9
-trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20mattkaydiary.com%7C%E6%97%A5%E6%9C%AC%28JP%29Japan%2FOsaka_9
-trojan://c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26@jgwxn2.gaox.ml:443?security=tls&sni=jgwxn2.gaox.ml&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%AC%A7%E6%B4%B2%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_1
-trojan://c8054dfc-513e-3558-9d2a-bccd10494898@s256.s2022.xyz:38209?security=tls&sni=s256.s2022.xyz&type=tcp&headerType=none#HK2
-trojan://c8054dfc-513e-3558-9d2a-bccd10494898@s256.s2022.xyz:38209?sni=s256.s2022.xyz#HK2
-trojan://c8bae3de-16ed-4247-8a99-f38ef79a4b51@bai-piao-wang-zhe10.98848.xyz:48240?security=tls&sni=bai-piao-wang-zhe10.98848.xyz&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20081
-trojan://c8bae3de-16ed-4247-8a99-f38ef79a4b51@bai-piao-wang-zhe10.98848.xyz:48240?security=tls&sni=bai-piao-wang-zhe10.98848.xyz&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20099
-trojan://c8bae3de-16ed-4247-8a99-f38ef79a4b51@bai-piao-wang-zhe10.98848.xyz:48240?security=tls&sni=bai-piao-wang-zhe10.98848.xyz&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://c8bae3de-16ed-4247-8a99-f38ef79a4b51@bai-piao-wang-zhe10.98848.xyz:48240?sni=bai-piao-wang-zhe10.98848.xyz#%f0%9f%87%ba%f0%9f%87%b8+%e7%be%8e%e5%9b%bd(TG%e9%a2%91%e9%81%93%3a%40kxswa)
-trojan://c94c922d-c833-48c1-b9d1-81c8b7b826f9@155.248.172.87:28443?security=tls&type=tcp&headerType=none#_124
-trojan://c94c922d-c833-48c1-b9d1-81c8b7b826f9@185.126.148.209:28443?security=tls&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%B4%20%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A%20002
-trojan://c94c922d-c833-48c1-b9d1-81c8b7b826f9@185.126.148.209:28443?security=tls&type=tcp&headerType=none#_117
-trojan://c94c922d-c833-48c1-b9d1-81c8b7b826f9@185.126.148.213:28443?security=tls&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%B4%20%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A%20003
-trojan://c94c922d-c833-48c1-b9d1-81c8b7b826f9@185.126.148.213:28443?security=tls&type=tcp&headerType=none#_120
-trojan://ca4596fb9bc63cf2@116.129.254.29:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://ca4596fb9bc63cf2@116.129.254.47:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://ca4596fb9bc63cf2@134.195.101.32:3389?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://ca4596fb9bc63cf2@32e3a78.ga.gladns.com:3381?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-GLaDOS-GEO-00
-trojan://ca4596fb9bc63cf2@32e3a78.ga.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-00
-trojan://ca4596fb9bc63cf2@32e3a78.ga.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-00%202
-trojan://ca4596fb9bc63cf2@32e3a78.ga.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-00
-trojan://ca4596fb9bc63cf2@32e3a78.ga.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-00
-trojan://ca4596fb9bc63cf2@32e3a78.ga.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-00%202
-trojan://ca4596fb9bc63cf2@32e3a78.ga.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-00
-trojan://ca4596fb9bc63cf2@32e3a78.ga.gladns.com:3386?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20UK-GLaDOS-GEO-00
-trojan://ca4596fb9bc63cf2@32e3a78.gb.gladns.com:3381?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-GLaDOS-GEO-01
-trojan://ca4596fb9bc63cf2@32e3a78.gb.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-01
-trojan://ca4596fb9bc63cf2@32e3a78.gb.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-01%202
-trojan://ca4596fb9bc63cf2@32e3a78.gb.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-01
-trojan://ca4596fb9bc63cf2@32e3a78.gb.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-01
-trojan://ca4596fb9bc63cf2@32e3a78.gb.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-01
-trojan://ca4596fb9bc63cf2@32e3a78.gb.gladns.com:3386?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20UK-GLaDOS-GEO-01
-trojan://ca4596fb9bc63cf2@32e3a78.gc.gladns.com:3381?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-GLaDOS-GEO-02
-trojan://ca4596fb9bc63cf2@32e3a78.gc.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-02
-trojan://ca4596fb9bc63cf2@32e3a78.gc.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-02
-trojan://ca4596fb9bc63cf2@32e3a78.gc.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-02
-trojan://ca4596fb9bc63cf2@32e3a78.gc.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-02%202
-trojan://ca4596fb9bc63cf2@32e3a78.gc.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-02
-trojan://ca4596fb9bc63cf2@32e3a78.gc.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-02%202
-trojan://ca4596fb9bc63cf2@32e3a78.gc.gladns.com:3386?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20UK-GLaDOS-GEO-02
-trojan://ca4596fb9bc63cf2@32e3a78.pa.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-00
-trojan://ca4596fb9bc63cf2@32e3a78.pb.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-01
-trojan://ca4596fb9bc63cf2@32e3a78.pb.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-01%202
-trojan://ca4596fb9bc63cf2@32e3a78.pc.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-02
-trojan://ca4596fb9bc63cf2@32e3a78.pc.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-02%202
-trojan://ca4596fb9bc63cf2@32e3a78.pd.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-03
-trojan://ca4596fb9bc63cf2@32e3a78.pe.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-04
-trojan://ca4596fb9bc63cf2@32e3a78.pe.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-04%202
-trojan://ca4596fb9bc63cf2@32e3a78.pf.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-05
-trojan://ca4596fb9bc63cf2@32e3a78.pf.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-05%202
-trojan://ca4596fb9bc63cf2@32e3a78.pg.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-06
-trojan://ca4596fb9bc63cf2@32e3a78.ph.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-07
-trojan://ca4596fb9bc63cf2@32e3a78.ph.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-07%202
-trojan://ca4596fb9bc63cf2@32e3a78.pi.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-08
-trojan://ca4596fb9bc63cf2@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@jgwxn3.gaox.ml:443#%f0%9f%87%a6%f0%9f%87%ba+%e6%be%b3%e5%a4%a7%e5%88%a9%e4%ba%9a(TG%e9%a2%91%e9%81%93%3a%40kxswa)
-trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@jgwxn3.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%A6%F0%9F%87%BA%20%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@jgwxn3.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29
-trojan://cd39f62aed7b90f6@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?security=tls&sni=jp-bgp.speedaccelerate.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%5B06-05%5D%7Coslook%7C%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF%2F%E4%B8%AD%E5%9B%BD%E5%8F%B0%E6%B9%BE%28CN%29China%2FShenzhen%2F%28%E5%8F%AF%E8%83%BD%E6%98%AF%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9%29_25
-trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?security=tls&sni=jp-bgp.speedaccelerate.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20mattkaydiary.com%7C%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF%2F%E4%B8%AD%E5%9B%BD%E5%8F%B0%E6%B9%BE%28CN%29China%2FShenzhen%2F%E5%B0%8F%E4%B8%9C%E7%9A%84%E7%A8%8B%E5%BA%8F%E6%9C%AA%E8%83%BD%E7%B2%BE%E5%87%86%E8%AF%86%E5%88%AB%28%E5%8F%AF%E8%83%BD%E6%98%AF%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9%29_25
-trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@ceshi.speedcncnforward3.tk:8443?allowInsecure=0#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DCESHI.SPEEDCNCNFORWARD3.TK%3A8443
-trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@ceshi.speedcncnforward3.tk:8443?allowInsecure=0&tfo=1#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DCESHI.SPEEDCNCNFORWARD3.TK%3A8443
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@107.167.24.6:17001?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20009
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@107.167.24.6:17001?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20024
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@107.167.24.6:17001?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@107.167.24.6:17001?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US%2062
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@107.167.24.6:17001?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@107.167.24.6:17001?security=tls&type=tcp&headerType=none#_130
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@hk001.369boy.com:30156#%f0%9f%87%ad%f0%9f%87%b0+Relay_%f0%9f%87%ad%f0%9f%87%b0HK-%f0%9f%87%ad%f0%9f%87%b0HK_598
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@hk001.369boy.com:30156?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20Relay_%F0%9F%87%AD%F0%9F%87%B0HK-%F0%9F%87%AD%F0%9F%87%B0HK_598
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@hk001.369boy.com:30156?security=tls&type=tcp&headerType=none#HK_245
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@hk002.369boy.com:10087#HK_243
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@hk002.369boy.com:10087?security=tls&type=tcp&headerType=none#HK_243
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@hk003.369boy.com:32502?security=tls&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20Relay_%F0%9F%87%AD%F0%9F%87%B0HK-%F0%9F%87%AD%F0%9F%87%B0HK_601
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa002.369boy.com:12001?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E7%BE%8E%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_1
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa003.369boy.com:13011?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E7%BE%8E%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_2
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa004.369boy.com:14001?security=tls&sni=usa004.369boy.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20080
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa004.369boy.com:14001?security=tls&sni=usa004.369boy.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20098
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa004.369boy.com:14001?security=tls&sni=usa004.369boy.com&type=tcp&headerType=none#_105_29.36Mb%20%7C11.74Mb
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa004.369boy.com:14001?security=tls&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa004.369boy.com:14001?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa005.369boy.com:15001?security=tls&sni=usa005.369boy.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20079
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa005.369boy.com:15001?security=tls&sni=usa005.369boy.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20097
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa005.369boy.com:15001?security=tls&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa005.369boy.com:15001?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E7%BE%8E%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_2
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa005.369boy.com:15001?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa006.369boy.com:16001?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E7%BE%8E%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_1
-trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@usa006.369boy.com:16001?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://d66013c645b93c5c@0a39e00.ga.gladns.com:3381?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-GLaDOS-GEO-20
-trojan://d66013c645b93c5c@0a39e00.ga.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-20
-trojan://d66013c645b93c5c@0a39e00.ga.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-20%202
-trojan://d66013c645b93c5c@0a39e00.ga.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-20
-trojan://d66013c645b93c5c@0a39e00.ga.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-20
-trojan://d66013c645b93c5c@0a39e00.ga.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-20%202
-trojan://d66013c645b93c5c@0a39e00.ga.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-20
-trojan://d66013c645b93c5c@0a39e00.ga.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-20%202
-trojan://d66013c645b93c5c@0a39e00.ga.gladns.com:3386?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20UK-GLaDOS-GEO-20
-trojan://d66013c645b93c5c@0a39e00.gb.gladns.com:3381?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-GLaDOS-GEO-21
-trojan://d66013c645b93c5c@0a39e00.gb.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-21
-trojan://d66013c645b93c5c@0a39e00.gb.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-21%202
-trojan://d66013c645b93c5c@0a39e00.gb.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-21
-trojan://d66013c645b93c5c@0a39e00.gb.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-21
-trojan://d66013c645b93c5c@0a39e00.gb.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-21%202
-trojan://d66013c645b93c5c@0a39e00.gb.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-21
-trojan://d66013c645b93c5c@0a39e00.gb.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-21%202
-trojan://d66013c645b93c5c@0a39e00.gb.gladns.com:3386?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20UK-GLaDOS-GEO-21
-trojan://d66013c645b93c5c@0a39e00.gc.gladns.com:3381?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-GLaDOS-GEO-22
-trojan://d66013c645b93c5c@0a39e00.gc.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-22
-trojan://d66013c645b93c5c@0a39e00.gc.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-22%202
-trojan://d66013c645b93c5c@0a39e00.gc.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-22
-trojan://d66013c645b93c5c@0a39e00.gc.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-22
-trojan://d66013c645b93c5c@0a39e00.gc.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-22%202
-trojan://d66013c645b93c5c@0a39e00.gc.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-22
-trojan://d66013c645b93c5c@0a39e00.gc.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-22%202
-trojan://d66013c645b93c5c@0a39e00.gc.gladns.com:3386?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20UK-GLaDOS-GEO-22
-trojan://d66013c645b93c5c@0a39e00.pa.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-20
-trojan://d66013c645b93c5c@0a39e00.pa.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-20%202
-trojan://d66013c645b93c5c@0a39e00.pb.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-21
-trojan://d66013c645b93c5c@0a39e00.pb.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-21%202
-trojan://d66013c645b93c5c@0a39e00.pc.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-22
-trojan://d66013c645b93c5c@0a39e00.pc.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-22%202
-trojan://d66013c645b93c5c@0a39e00.pd.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-23
-trojan://d66013c645b93c5c@0a39e00.pd.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-23%202
-trojan://d66013c645b93c5c@0a39e00.pe.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-24
-trojan://d66013c645b93c5c@0a39e00.pe.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-24%202
-trojan://d66013c645b93c5c@0a39e00.pf.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-25
-trojan://d66013c645b93c5c@0a39e00.pf.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-25%202
-trojan://d66013c645b93c5c@0a39e00.pg.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-26
-trojan://d66013c645b93c5c@0a39e00.ph.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-27
-trojan://d66013c645b93c5c@0a39e00.pi.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-28
-trojan://d66013c645b93c5c@0a39e00.pi.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-28%202
-trojan://d66013c645b93c5c@116.129.254.29:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://d66013c645b93c5c@116.129.254.47:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://d66013c645b93c5c@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443#%f0%9f%87%af%f0%9f%87%b5+%5b06-05%5d%7coslook%7c%e6%97%a5%e6%9c%ac(JP)Japan%2fTokyo_16
-trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%5B06-05%5D%7Coslook%7C%E6%97%A5%E6%9C%AC%28JP%29Japan%2FTokyo_16
-trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20mattkaydiary.com%7C%E6%97%A5%E6%9C%AC%28JP%29Japan%2FTokyo_16
-trojan://dbf9bf9c-2c3f-474a-8031-d4c00666a989@fhcamd2.gaox.ml:443?security=tls&sni=fhcamd2.gaox.ml&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%28Youtube%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E5%AE%A4%29%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%2039
-trojan://dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3@cn201.03linecn.xyz:52104?security=tls&sni=ssl.ddnsnode.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_2
-trojan://dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3@lt02.03linecn.xyz:52104?security=tls&sni=ssl.ddnsnode.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_1
-trojan://e37c6d7efa845d60@116.129.253.130:3389?allowInsecure=1#CN_116.129.253.130:3389
-trojan://e37c6d7efa845d60@116.129.253.130:3389?security=tls&type=tcp&headerType=none#%28Youtube%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E5%AE%A4%29%F0%9F%87%A8%F0%9F%87%B3%E4%B8%AD%E5%9B%BD
-trojan://e37c6d7efa845d60@116.129.253.177:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%28Youtube%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E5%AE%A4%29%F0%9F%87%A8%F0%9F%87%B3%E4%B8%AD%E5%9B%BD%202
-trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%5B06-05%5D%7Coslook%7C%E6%96%B0%E5%8A%A0%E5%9D%A1%28SG%29Singapore%2FSingapore_28
-trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E7%BE%8E%E5%9B%BD%28nodefree.org%2B%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0%29
-trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20mattkaydiary.com%7C%E6%96%B0%E5%8A%A0%E5%9D%A1%28SG%29Singapore%2FSingapore_28
-trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%5B06-05%5D%7Coslook%7C%E7%BE%8E%E5%9B%BD%28US%29USA%2FScottsdale_12
-trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20mattkaydiary.com%7C%E7%BE%8E%E5%9B%BD%28US%29USA%2FScottsdale_12
-trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@jgwxn4.gaox.ml:443?security=tls&sni=jgwxn4.gaox.ml&type=tcp&headerType=none#%F0%9F%87%A6%F0%9F%87%BA%20%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@jgwxn4.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%28nodefree.org%2B%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0%29
-trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@jgwxn4.gaox.ml:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@csltv.bdpyyds.top:44444?security=tls&sni=csltv.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@csltv.bdpyyds.top:51005?security=tls&sni=csltv.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@csltv.bdpyyds.top:51006?security=tls&sni=csltv.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@csltv.bdpyyds.top:53001?security=tls&sni=csltv.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@gzydhkt.bdpyyds.top:22747?security=tls&sni=gzydhkt.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@gzydhkt.bdpyyds.top:22748?security=tls&sni=gzydhkt.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@hkc.bdpyyds.top:13131?security=tls&sni=hkc.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26001?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26003?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26005?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26006?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26007?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26010?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@twb.bdpyyds.top:15001?security=tls&sni=twb.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@twb.bdpyyds.top:15003?security=tls&sni=twb.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@twb.bdpyyds.top:32002?security=tls&sni=twb.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20%E4%B8%AD%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@twb.bdpyyds.top:33201?security=tls&sni=twb.bdpyyds.top&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%9B%B4%E6%96%B0%E4%BA%8E06%2F06
-trojan://f0de3134-aef4-45b5-a135-3a82321bbac6@bai-piao-wang-zhe10.98848.xyz:50858#%f0%9f%87%af%f0%9f%87%b5+%e7%be%8e%e5%9b%bd(nodefree.org%e5%85%8d%e8%b4%b9%e8%8a%82%e7%82%b9%e6%97%a5%e6%9b%b4)_1
-trojan://f0de3134-aef4-45b5-a135-3a82321bbac6@bai-piao-wang-zhe10.98848.xyz:50858?security=tls&sni=bai-piao-wang-zhe10.98848.xyz&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20082
-trojan://f0de3134-aef4-45b5-a135-3a82321bbac6@bai-piao-wang-zhe10.98848.xyz:50858?security=tls&sni=bai-piao-wang-zhe10.98848.xyz&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20100
-trojan://f0de3134-aef4-45b5-a135-3a82321bbac6@bai-piao-wang-zhe10.98848.xyz:50858?security=tls&sni=bai-piao-wang-zhe10.98848.xyz&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://f0de3134-aef4-45b5-a135-3a82321bbac6@bai-piao-wang-zhe10.98848.xyz:50858?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E7%BE%8E%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_1
-trojan://f0de3134-aef4-45b5-a135-3a82321bbac6@bai-piao-wang-zhe10.98848.xyz:50858?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28%E6%AC%A2%E8%BF%8E%E8%AE%A2%E9%98%85Youtube%E7%A0%B4%E8%A7%A3%E8%B5%84%E6%BA%90%E5%90%9B%29
-trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@jgw2.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%AC%A7%E6%B4%B2%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_2
-trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@jgw2.gaox.ml:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://f2e42655-93af-4191-96cd-0b726490c0e9@45.137.97.205:58000?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E7%BE%8E%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_2
-trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20github.com%2Ffreefq%20-%20%E7%BE%8E%E5%9B%BD%20%2012
-trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20github.com%2Ffreefq%20-%20%E7%BE%8E%E5%9B%BD%20%2036
-trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?security=tls&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20v2rayfree.eu.org%20-%20%E7%BE%8E%E5%9B%BD%20%2036
-trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://f4a6a397-0007-4e45-800c-16d8a7a587ed@bai-piao-wang-zhe.98848.xyz:443?security=tls&sni=bai-piao-wang-zhe.98848.xyz&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
-trojan://f736834f-1fc8-4738-9884-9afe0eb0d818@ca1.trojan.tel:443?security=tls&sni=douyincdn.com&type=tcp&headerType=none#%40SSRSUB-trojan%E5%8A%A0%E6%8B%BF%E5%A4%A7T03-%E4%BB%98%E8%B4%B9%E6%8E%A8%E8%8D%90%3Adlj.tf%2Fssrsub
-trojan://f736834f-1fc8-4738-9884-9afe0eb0d818@ca1.trojan.tel:443?security=tls&sni=douyincdn.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%A6%20%40SSRSUB-trojan%E5%8A%A0%E6%8B%BF%E5%A4%A7T03-%E4%BB%98%E8%B4%B9%E6%8E%A8%E8%8D%90%3Adlj.tf%2Fssrsub
-trojan://f736834f-1fc8-4738-9884-9afe0eb0d818@ca1.trojan.tel:443?security=tls&sni=douyincdn.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%A6%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20009
-trojan://f736834f-1fc8-4738-9884-9afe0eb0d818@jp1.trojan.tel:443?security=tls&sni=douyincdn.com&type=tcp&headerType=none#%40SSRSUB-trojan%E6%97%A5%E6%9C%ACT01-%E4%BB%98%E8%B4%B9%E6%8E%A8%E8%8D%90%3Adlj.tf%2Fssrsub
-trojan://f736834f-1fc8-4738-9884-9afe0eb0d818@jp1.trojan.tel:443?security=tls&sni=douyincdn.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%40SSRSUB-trojan%E6%97%A5%E6%9C%ACT01-%E4%BB%98%E8%B4%B9%E6%8E%A8%E8%8D%90%3Adlj.tf%2Fssrsub
-trojan://f736834f-1fc8-4738-9884-9afe0eb0d818@jp1.trojan.tel:443?security=tls&sni=douyincdn.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%20010
-trojan://f736834f-1fc8-4738-9884-9afe0eb0d818@jp2.trojan.tel:443?security=tls&sni=douyincdn.com&type=tcp&headerType=none#%40SSRSUB-trojan%E6%97%A5%E6%9C%ACT02-%E4%BB%98%E8%B4%B9%E6%8E%A8%E8%8D%90%3Adlj.tf%2Fssrsub
-trojan://f736834f-1fc8-4738-9884-9afe0eb0d818@jp2.trojan.tel:443?security=tls&sni=douyincdn.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%40SSRSUB-trojan%E6%97%A5%E6%9C%ACT02-%E4%BB%98%E8%B4%B9%E6%8E%A8%E8%8D%90%3Adlj.tf%2Fssrsub
-trojan://f736834f-1fc8-4738-9884-9afe0eb0d818@jp2.trojan.tel:443?security=tls&sni=douyincdn.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%20011
-trojan://fastssh.com@sg1.vless.co:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28%E6%AC%A2%E8%BF%8E%E8%AE%A2%E9%98%85Youtube%E7%A0%B4%E8%A7%A3%E8%B5%84%E6%BA%90%E5%90%9B%29
-trojan://fbd77250-a674-4a24-be1a-d1a76f695c34@jp.456url.com:10086?security=tls&sni=jp.456url.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP%7C%E6%97%A5%E6%9C%AC%7CTR%7C01
-trojan://fbd77250-a674-4a24-be1a-d1a76f695c34@jp.456url.com:10087?security=tls&sni=jp.456url.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP%7C%E6%97%A5%E6%9C%AC%7CTR%7C02
-trojan://fbd77250-a674-4a24-be1a-d1a76f695c34@us.456url.com:10086?security=tls&sni=us.456url.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20The%20Sandbox%7C%E7%BE%8E%E5%9B%BD%7CTR%7C01
-trojan://fbd77250-a674-4a24-be1a-d1a76f695c34@us.456url.com:10086?security=tls&sni=us.456url.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US%7C%E7%BE%8E%E5%9B%BD%7CIP6%7CTR%7C01
-trojan://fbd77250-a674-4a24-be1a-d1a76f695c34@us.456url.com:10087?security=tls&sni=us.456url.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20The%20Sandbox%7C%E7%BE%8E%E5%9B%BD%7CTR%7C02
-trojan://fbd77250-a674-4a24-be1a-d1a76f695c34@us.456url.com:10087?security=tls&sni=us.456url.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US%7C%E7%BE%8E%E5%9B%BD%7CIP6%7CTR%7C02
-trojan://ffec9f6ea19e1dd1@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28TG%E9%A2%91%E9%81%93%3A%40kxswa%29
-trojan://ffec9f6ea19e1dd1@5fc3d08.ga.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-10
-trojan://ffec9f6ea19e1dd1@5fc3d08.ga.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-10%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.ga.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-10
-trojan://ffec9f6ea19e1dd1@5fc3d08.ga.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-10
-trojan://ffec9f6ea19e1dd1@5fc3d08.ga.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-10
-trojan://ffec9f6ea19e1dd1@5fc3d08.ga.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-10%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.ga.gladns.com:3386?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20UK-GLaDOS-GEO-10
-trojan://ffec9f6ea19e1dd1@5fc3d08.gb.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-11
-trojan://ffec9f6ea19e1dd1@5fc3d08.gb.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-11%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.gb.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-11
-trojan://ffec9f6ea19e1dd1@5fc3d08.gb.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-11
-trojan://ffec9f6ea19e1dd1@5fc3d08.gb.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-11
-trojan://ffec9f6ea19e1dd1@5fc3d08.gb.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-11%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.gb.gladns.com:3386?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20UK-GLaDOS-GEO-11
-trojan://ffec9f6ea19e1dd1@5fc3d08.gc.gladns.com:3381?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US-GLaDOS-GEO-12
-trojan://ffec9f6ea19e1dd1@5fc3d08.gc.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-12
-trojan://ffec9f6ea19e1dd1@5fc3d08.gc.gladns.com:3382?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP-GLaDOS-GEO-12%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.gc.gladns.com:3383?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%B3%20TW-GLaDOS-GEO-12
-trojan://ffec9f6ea19e1dd1@5fc3d08.gc.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-12
-trojan://ffec9f6ea19e1dd1@5fc3d08.gc.gladns.com:3384?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20HK-GLaDOS-GEO-12%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.gc.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-12
-trojan://ffec9f6ea19e1dd1@5fc3d08.gc.gladns.com:3385?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20SG-GLaDOS-GEO-12%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.gc.gladns.com:3386?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20UK-GLaDOS-GEO-12
-trojan://ffec9f6ea19e1dd1@5fc3d08.pa.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-10
-trojan://ffec9f6ea19e1dd1@5fc3d08.pa.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-10%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.pb.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-11
-trojan://ffec9f6ea19e1dd1@5fc3d08.pb.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-11%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.pc.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-12
-trojan://ffec9f6ea19e1dd1@5fc3d08.pc.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-12%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.pd.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-13
-trojan://ffec9f6ea19e1dd1@5fc3d08.pe.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-14
-trojan://ffec9f6ea19e1dd1@5fc3d08.pe.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-14%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.pf.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-15
-trojan://ffec9f6ea19e1dd1@5fc3d08.pg.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-16
-trojan://ffec9f6ea19e1dd1@5fc3d08.pg.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-16%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.ph.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-17
-trojan://ffec9f6ea19e1dd1@5fc3d08.ph.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-17%202
-trojan://ffec9f6ea19e1dd1@5fc3d08.pi.gladns.com:3389?security=tls&sni=n2.gladns.com&type=tcp&headerType=none#GLaDOS-N2-18
-trojan://kGrwqmB1nEKUsDwE@v2cross.com.05.v2ce.com:443?security=tls&type=tcp&headerType=none#v2cross.com.05.v2ce.com%3A443
-trojan://mDmaAWoWXB@bai-piao-wang-zhe10.98848.xyz:22168#_%e6%b2%b9%e7%ae%a1%ef%bc%9a%e5%85%a8%e7%bd%91%e6%9c%80%e5%bc%ba%e7%99%bd%e5%ab%96
-trojan://mDmaAWoWXB@bai-piao-wang-zhe10.98848.xyz:22168?security=tls&sni=bai-piao-wang-zhe10.98848.xyz&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20083
-trojan://mDmaAWoWXB@bai-piao-wang-zhe10.98848.xyz:22168?security=tls&sni=bai-piao-wang-zhe10.98848.xyz&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20101
-trojan://mDmaAWoWXB@bai-piao-wang-zhe10.98848.xyz:22168?security=tls&sni=bai-piao-wang-zhe10.98848.xyz&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20US%202163
-trojan://mDmaAWoWXB@bai-piao-wang-zhe10.98848.xyz:22168?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E7%BE%8E%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29_3
-trojan://mDmaAWoWXB@bai-piao-wang-zhe10.98848.xyz:22168?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://mMQ6qJB9xbhiRvgg@v2cross.com.01.v2ce.com:443?security=tls&sni=v2cross.com.01.v2ce.com&type=tcp&headerType=none#v2cross.com
-trojan://mMQ6qJB9xbhiRvgg@v2cross.com.01.v2ce.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%8D%B7%E5%85%8B%28nodefree.org%2B%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0%29
-trojan://pA52tFTlGZ@2.tiantang.cf:59195?security=tls&type=tcp&headerType=none#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%3A%29
-trojan://pA52tFTlGZ@2.tiantang.cf:59195?security=tls&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B3%20github.com%2Ffreefq%20-%20%E5%8D%B0%E5%BA%A6%20%2030
-trojan://pA52tFTlGZ@2.tiantang.cf:59195?security=tls&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B3%20v2rayfree.eu.org%20-%20%E5%8D%B0%E5%BA%A6%20%2034
-trojan://pA52tFTlGZ@2.tiantang.cf:59195?security=tls&type=tcp&headerType=none#Relay_%F0%9F%87%AE%F0%9F%87%B3IN-%F0%9F%87%AE%F0%9F%87%B3IN_14
-trojan://pA52tFTlGZ@2.tiantang.cf:59195?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
-trojan://ruWkGdbUKT4RN7kZ8t@ty2-1.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20_JP_%E6%97%A5%E6%9C%AC_1
-trojan://ruWkGdbUKT4RN7kZ8t@ty2-5.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20_JP_%E6%97%A5%E6%9C%AC_2
-trojan://ruWkGdbUKT4RN7kZ8t@ty2-6.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%97%A5%E6%9C%AC%28nodefree.org%2B%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0%29
-trojan://ruWkGdbUKT4RN7kZ8t@ty2-7.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20_%E6%97%A5%E6%9C%AC%28nodefree.org%2B%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0%29
-trojan://vGWCNNfBHwSY6m6M@v2cross.com.04.v2ce.com:443?security=tls&type=tcp&headerType=none#v2cross.com.04.v2ce.com%3A443
-trojan://zhang1990@zk518.tk:8443?security=tls&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E9%9F%A9%E5%9B%BD%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29
+trojan://8723E8EE-D100-A8BF-4E77-F734A7A3651B@tw-cn.teacher2040.com:43520?sni=tw-cn.teacher2040.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTW-CN.TEACHER2040.COM%3A43520
+trojan://87d5ee80-9dfa-4cb5-b644-062803bd0c19@cn2hn.sub-nthu.com:35002?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN2HN.SUB-NTHU.COM%3A35002
+trojan://87d5ee80-9dfa-4cb5-b644-062803bd0c19@shlt.sub-nthu.com:35001?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DSHLT.SUB-NTHU.COM%3A35001
+trojan://87d5ee80-9dfa-4cb5-b644-062803bd0c19@ygzyd.sub-nthu.com:35001?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DYGZYD.SUB-NTHU.COM%3A35001
+trojan://87d5ee80-9dfa-4cb5-b644-062803bd0c19@ygzyd.sub-nthu.com:35003?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DYGZYD.SUB-NTHU.COM%3A35003
+trojan://87d5ee80-9dfa-4cb5-b644-062803bd0c19@ygzyd.sub-nthu.com:35005?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DYGZYD.SUB-NTHU.COM%3A35005
+trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-tw01.yiyodns.xyz:443?security=tls&sni=tj-tw01.yiyodns.xyz&type=tcp&headerType=none#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTJ-TW01.YIYODNS.XYZ%3A443
+trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-tw02.yiyodns.xyz:443?security=tls&sni=tj-tw02.yiyodns.xyz&type=tcp&headerType=none#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTJ-TW02.YIYODNS.XYZ%3A443
+trojan://8d0db1d1-62a2-4d8b-b272-e4f364e064c6@shcm.pdjc.cc:42000?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DSHCM.PDJC.CC%3A42000
+trojan://8d2d5953-d649-4034-94f2-72f2df2623da@jgwdb3.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDB3.GAOX.ML%3A443
+trojan://8d4ab0f0-79be-11eb-be0b-1239d0255272@id2-trojan.bonds.id:443?country=🇮🇩 id&skip-cert-verify=true&udp=true#%5B%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9ATROJAN%5DID2-TROJAN.BONDS.ID%3A443
+trojan://920bab6b-c9e2-440e-b18b-d39ab09926cb@cm-jm.okvpn.xyz:20004?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCM-JM.OKVPN.XYZ%3A20004
+trojan://94af0550-902b-11eb-b135-1239d0255272@nl-trojan.bonds.id:443?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DNL-TROJAN.BONDS.ID%3A443
+trojan://95548a85-e567-364b-8fbe-e845e6ec8371@s256.s2022.xyz:38209?security=tls&sni=s256.s2022.xyz&type=tcp&headerType=none#%5B%E9%A6%99%E6%B8%AFTROJAN%5DS256.S2022.XYZ%3A38209
+trojan://95548a85-e567-364b-8fbe-e845e6ec8371@s256.s2022.xyz:38209?sni=s256.s2022.xyz#%5B%E9%A6%99%E6%B8%AFTROJAN%5DS256.S2022.XYZ%3A38209
+trojan://96673fe8-2a45-4cca-bb6b-108b88aa4a4e@139.162.124.250:28443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5D139.162.124.250%3A28443
+trojan://96673fe8-2a45-4cca-bb6b-108b88aa4a4e@139.162.124.250:28443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5D139.162.124.250%3A28443
+trojan://96673fe8-2a45-4cca-bb6b-108b88aa4a4e@155.248.172.87:28443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5D155.248.172.87%3A28443
+trojan://96673fe8-2a45-4cca-bb6b-108b88aa4a4e@206.189.156.88:28443?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D206.189.156.88%3A28443
+trojan://96884680-77e6-11eb-8d67-1239d0255272@nl-trojan.bonds.id:443?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DNL-TROJAN.BONDS.ID%3A443
+trojan://97fdf760-7bbf-11eb-8e14-1239d0255272@sg3-trojan.bonds.id:443?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSG3-TROJAN.BONDS.ID%3A443
+trojan://9a27800ca7b52ee0@103.56.60.235:3381?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.60.235%3A3381
+trojan://9a27800ca7b52ee0@103.56.60.235:3385?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.60.235%3A3385
+trojan://9a27800ca7b52ee0@103.56.62.145:3381?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.62.145%3A3381
+trojan://9a27800ca7b52ee0@103.56.62.145:3385?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.62.145%3A3385
+trojan://9a27800ca7b52ee0@116.129.253.130:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.130%3A3389
+trojan://9a27800ca7b52ee0@116.129.253.134:3381?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.134%3A3381
+trojan://9a27800ca7b52ee0@116.129.253.134:3385?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.134%3A3385
+trojan://9a27800ca7b52ee0@116.129.254.29:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.29%3A3389
+trojan://9a27800ca7b52ee0@116.129.254.29:3389?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.29%3A3389
+trojan://9a27800ca7b52ee0@116.129.254.47:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.47%3A3389
+trojan://9a27800ca7b52ee0@116.129.254.47:3389?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.47%3A3389
+trojan://9a27800ca7b52ee0@120.233.186.250:3385?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D120.233.186.250%3A3385
+trojan://9a27800ca7b52ee0@120.233.186.71:3381?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D120.233.186.71%3A3381
+trojan://9a27800ca7b52ee0@5.44.249.43:3389?country=🏁 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://9a27800ca7b52ee0@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://9b7195ba-f029-4d7d-a728-ece6e0fdc363@xioix.gq:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DXIOIX.GQ%3A443
+trojan://9c289eb1-59b1-49ff-9c80-9a3c879c654e@527hk5.fans8.xyz:443?security=tls&sni=527hk5.fans8.xyz&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D527HK5.FANS8.XYZ%3A443
+trojan://9c289eb1-59b1-49ff-9c80-9a3c879c654e@527hk5.fans8.xyz:443?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D527HK5.FANS8.XYZ%3A443
+trojan://9c289eb1-59b1-49ff-9c80-9a3c879c654e@hk64.fans8.xyz:443?security=tls&sni=hk64.fans8.xyz&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHK64.FANS8.XYZ%3A443
+trojan://9c289eb1-59b1-49ff-9c80-9a3c879c654e@hk64.fans8.xyz:443?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHK64.FANS8.XYZ%3A443
+trojan://9c822f05-cfdc-479a-9534-60f3d4127435@jgwcc2.gaox.ml:443#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWCC2.GAOX.ML%3A443
+trojan://9c822f05-cfdc-479a-9534-60f3d4127435@jgwcc2.gaox.ml:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWCC2.GAOX.ML%3A443
+trojan://9c822f05-cfdc-479a-9534-60f3d4127435@jgwcc2.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWCC2.GAOX.ML%3A443
+trojan://9cbbeb3c-d2b6-482c-97c1-1e037f0102f2@165.154.243.157:48002?security=tls&type=tcp&headerType=none#%5B%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6TROJAN%5D165.154.243.157%3A48002
+trojan://L1qNeGrY58ApwrRA@www.zx07.top:443?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DWWW.ZX07.TOP%3A443
+trojan://SfobRIcergHchqBFzzua@hk-hkg-sh-hk-02-tr.cdn.savoy.click:21089?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHK-HKG-SH-HK-02-TR.CDN.SAVOY.CLICK%3A21089
+trojan://SfobRIcergHchqBFzzua@jp-tyo-04-tr.cdn.savoy.click:889?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DJP-TYO-04-TR.CDN.SAVOY.CLICK%3A889
+trojan://TZLajhUSac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://UiLPqefVfielqkDjEwBV@jp-tyo-04-tr.cdn.savoy.click:889?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DJP-TYO-04-TR.CDN.SAVOY.CLICK%3A889
+trojan://YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://YWVzLTI1Ni1nY206WWlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT@2.58.242.43:443?country=🇹🇼 tw&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5D2.58.242.43%3A443
+trojan://YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://YWVzLTI1NlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://YWVzLTI1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://a170b44c2dfac9e6@116.129.254.29:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.29%3A3389
+trojan://a170b44c2dfac9e6@116.129.254.29:3389?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.29%3A3389
+trojan://a170b44c2dfac9e6@116.129.254.47:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.47%3A3389
+trojan://a170b44c2dfac9e6@116.129.254.47:3389?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.47%3A3389
+trojan://a1718180-d616-4b71-9bb6-3e96ba20f921@jgw3.gaox.ml:443?country=🇰🇷 kr&skip-cert-verify=true&udp=true#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DJGW3.GAOX.ML%3A443
+trojan://a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@72.167.45.6:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@jp-server-02.selfupay.com:443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJP-SERVER-02.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://a3fa58b581353bb375d2ddad0fac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://af630252-aecc-45cf-b174-5e0782396874@cn.speedabc.xyz:42004?security=tls&sni=sg1.speedaccelerate.com&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN.SPEEDABC.XYZ%3A42004
+trojan://afbba9fe-80f3-4fbd-837c-35ede864fea6@tj-11.t8737.shop:11223?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DTJ-11.T8737.SHOP%3A11223
+trojan://b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9@tw.tcpbbr.net:443?country=🇹🇼 tw&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
+trojan://b23ecb07-1cd3-4490-b4eb-4d32cd0b9249@bai-piao-wang-zhe-iplc2.98848.xyz:443?security=tls&sni=bai-piao-wang-zhe-iplc2.98848.xyz&type=tcp&headerType=none#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DBAI-PIAO-WANG-ZHE-IPLC2.98848.XYZ%3A443
+trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@jgwcc3.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWCC3.GAOX.ML%3A443
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58804?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58804
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58805?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58805
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58807?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58807
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58809?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58809
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58824?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58824
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58825?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58825
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58828?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58828
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58806?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58806
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58808?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58808
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58810?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58810
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58812?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58812
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58813?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58813
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58819?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58819
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58820?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58820
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58829?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58829
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58830?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58830
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58831?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58831
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58832?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58832
+trojan://b4cd9d4f-8e00-3eba-8693-aaf6bdca8079@s245.s2022.xyz:32686?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DS245.S2022.XYZ%3A32686
+trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@jp.useanlo.cf:10203?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJP.USEANLO.CF%3A10203
+trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@jp.useanlo.cf:6523?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJP.USEANLO.CF%3A6523
+trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@www.anloao.cf:9053?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DWWW.ANLOAO.CF%3A9053
+trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@www.anlocl.gq:20521?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DWWW.ANLOCL.GQ%3A20521
+trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@www.anlocl.gq:30521?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DWWW.ANLOCL.GQ%3A30521
+trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@www.anloe.ga:9063?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DWWW.ANLOE.GA%3A9063
+trojan://b7e0e71f-070c-437a-9826-6e23caeb0307@jgw4.gaox.ml:443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DJGW4.GAOX.ML%3A443
+trojan://bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nYlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://bc7593fe-0lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03@tky3.ssgnode.ga:443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTKY3.SSGNODE.GA%3A443
+trojan://c09eb137-bf68-4658-84e0-102d94b74168@jgwdj4.gaox.ml:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDJ4.GAOX.ML%3A443
+trojan://c09eb137-bf68-4658-84e0-102d94b74168@jgwdj4.gaox.ml:443?security=tls&sni=jgwdj4.gaox.ml&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDJ4.GAOX.ML%3A443
+trojan://c09eb137-bf68-4658-84e0-102d94b74168@jgwdj4.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDJ4.GAOX.ML%3A443
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWDB2.GAOX.ML%3A443
+trojan://c8054dfc-513e-3558-9d2a-bccd10494898@s256.s2022.xyz:38209?security=tls&sni=s256.s2022.xyz&type=tcp&headerType=none#%5B%E9%A6%99%E6%B8%AFTROJAN%5DS256.S2022.XYZ%3A38209
+trojan://c8054dfc-513e-3558-9d2a-bccd10494898@s256.s2022.xyz:38209?sni=s256.s2022.xyz#%5B%E9%A6%99%E6%B8%AFTROJAN%5DS256.S2022.XYZ%3A38209
+trojan://c8bae3de-16ed-4247-8a99-f38ef79a4b51@bai-piao-wang-zhe10.98848.xyz:48240?security=tls&sni=bai-piao-wang-zhe10.98848.xyz&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DBAI-PIAO-WANG-ZHE10.98848.XYZ%3A48240
+trojan://c8bae3de-16ed-4247-8a99-f38ef79a4b51@bai-piao-wang-zhe10.98848.xyz:48240?sni=bai-piao-wang-zhe10.98848.xyz#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DBAI-PIAO-WANG-ZHE10.98848.XYZ%3A48240
+trojan://c94c922d-c833-48c1-b9d1-81c8b7b826f9@155.248.172.87:28443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5D155.248.172.87%3A28443
+trojan://ca4596fb9bc63cf2@103.56.60.235:3385?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.60.235%3A3385
+trojan://ca4596fb9bc63cf2@103.56.62.145:3385?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.62.145%3A3385
+trojan://ca4596fb9bc63cf2@116.129.253.130:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.130%3A3389
+trojan://ca4596fb9bc63cf2@116.129.253.134:3385?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.134%3A3385
+trojan://ca4596fb9bc63cf2@116.129.254.29:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.29%3A3389
+trojan://ca4596fb9bc63cf2@116.129.254.29:3389?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.29%3A3389
+trojan://ca4596fb9bc63cf2@116.129.254.47:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.47%3A3389
+trojan://ca4596fb9bc63cf2@116.129.254.47:3389?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.47%3A3389
+trojan://ca4596fb9bc63cf2@120.233.186.250:3385?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D120.233.186.250%3A3385
+trojan://ca4596fb9bc63cf2@134.195.101.32:3389?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D134.195.101.32%3A3389
+trojan://ca4596fb9bc63cf2@5.44.249.43:3389?country=🏁 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://ca4596fb9bc63cf2@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@jgwxn3.gaox.ml:443#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJGWXN3.GAOX.ML%3A443
+trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@jgwxn3.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJGWXN3.GAOX.ML%3A443
+trojan://ccf1ee40-b4ab-11eb-b421-1239d0255272@us-trojan.bonds.id:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS-TROJAN.BONDS.ID%3A443
+trojan://cd39f62aed7b90f6@5.44.249.43:3389?country=🏁 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://cd39f62aed7b90f6@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://cdcf03f6-5326-4496-a1d1-03bb098ad56f@a2.centaur.network:8081?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DA2.CENTAUR.NETWORK%3A8081
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?security=tls&sni=jp-bgp.speedaccelerate.com&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN.SPEEDABC.XYZ%3A32002
+trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@107.167.24.6:17001?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D107.167.24.6%3A17001
+trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@107.167.24.6:17001?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D107.167.24.6%3A17001
+trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@hk003.369boy.com:32502?security=tls&type=tcp&headerType=none#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHK003.369BOY.COM%3A32502
+trojan://d66013c645b93c5c@103.56.60.235:3385?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.60.235%3A3385
+trojan://d66013c645b93c5c@103.56.62.145:3385?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.62.145%3A3385
+trojan://d66013c645b93c5c@116.129.253.130:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.130%3A3389
+trojan://d66013c645b93c5c@116.129.253.134:3385?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.134%3A3385
+trojan://d66013c645b93c5c@116.129.254.29:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.29%3A3389
+trojan://d66013c645b93c5c@116.129.254.29:3389?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.29%3A3389
+trojan://d66013c645b93c5c@116.129.254.47:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.47%3A3389
+trojan://d66013c645b93c5c@116.129.254.47:3389?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.47%3A3389
+trojan://d66013c645b93c5c@120.233.186.250:3385?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D120.233.186.250%3A3385
+trojan://d66013c645b93c5c@5.44.249.43:3389?country=🏁 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://d66013c645b93c5c@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDJ3.GAOX.ML%3A443
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDJ3.GAOX.ML%3A443
+trojan://dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3@cn201.03linecn.xyz:52104?security=tls&sni=ssl.ddnsnode.com&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN201.03LINECN.XYZ%3A52104
+trojan://dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3@lt02.03linecn.xyz:52104?security=tls&sni=ssl.ddnsnode.com&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT02.03LINECN.XYZ%3A52104
+trojan://e37c6d7efa845d60@116.129.253.130:3389?allowInsecure=1#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.130%3A3389
+trojan://e37c6d7efa845d60@116.129.253.130:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.130%3A3389
+trojan://e37c6d7efa845d60@116.129.253.130:3389?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.130%3A3389
+trojan://e37c6d7efa845d60@116.129.253.177:3389?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.177%3A3389
+trojan://e37c6d7efa845d60@116.129.254.47:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.47%3A3389
+trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@jgwxn4.gaox.ml:443?security=tls&sni=jgwxn4.gaox.ml&type=tcp&headerType=none#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJGWXN4.GAOX.ML%3A443
+trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@jgwxn4.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJGWXN4.GAOX.ML%3A443
+trojan://eda8a8e5-1076-4d7b-b1d0-5003a0350073@cn2hn.sub-nthu.com:35000?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN2HN.SUB-NTHU.COM%3A35000
+trojan://eda8a8e5-1076-4d7b-b1d0-5003a0350073@cn2hn.sub-nthu.com:35002?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN2HN.SUB-NTHU.COM%3A35002
+trojan://eda8a8e5-1076-4d7b-b1d0-5003a0350073@cn2hn.sub-nthu.com:35003?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN2HN.SUB-NTHU.COM%3A35003
+trojan://eda8a8e5-1076-4d7b-b1d0-5003a0350073@cn2hn.sub-nthu.com:35007?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN2HN.SUB-NTHU.COM%3A35007
+trojan://eda8a8e5-1076-4d7b-b1d0-5003a0350073@shlt.sub-nthu.com:35000?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DSHLT.SUB-NTHU.COM%3A35000
+trojan://eda8a8e5-1076-4d7b-b1d0-5003a0350073@shlt.sub-nthu.com:35003?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DSHLT.SUB-NTHU.COM%3A35003
+trojan://eda8a8e5-1076-4d7b-b1d0-5003a0350073@shlt.sub-nthu.com:35007?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DSHLT.SUB-NTHU.COM%3A35007
+trojan://eda8a8e5-1076-4d7b-b1d0-5003a0350073@ygzyd.sub-nthu.com:35000?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DYGZYD.SUB-NTHU.COM%3A35000
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@csltv.bdpyyds.top:44444?security=tls&sni=csltv.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCSLTV.BDPYYDS.TOP%3A44444
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@csltv.bdpyyds.top:51005?security=tls&sni=csltv.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCSLTV.BDPYYDS.TOP%3A51005
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@csltv.bdpyyds.top:51006?security=tls&sni=csltv.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCSLTV.BDPYYDS.TOP%3A51006
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@csltv.bdpyyds.top:53001?security=tls&sni=csltv.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCSLTV.BDPYYDS.TOP%3A53001
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@gzydhkt.bdpyyds.top:22747?security=tls&sni=gzydhkt.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYDHKT.BDPYYDS.TOP%3A22747
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@gzydhkt.bdpyyds.top:22748?security=tls&sni=gzydhkt.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYDHKT.BDPYYDS.TOP%3A22748
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@hkc.bdpyyds.top:13131?security=tls&sni=hkc.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHKC.BDPYYDS.TOP%3A13131
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26001?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTESHU.BDPYYDS.TOP%3A26001
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26003?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTESHU.BDPYYDS.TOP%3A26003
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26005?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTESHU.BDPYYDS.TOP%3A26005
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26006?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTESHU.BDPYYDS.TOP%3A26006
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26007?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTESHU.BDPYYDS.TOP%3A26007
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26010?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTESHU.BDPYYDS.TOP%3A26010
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@twb.bdpyyds.top:15001?security=tls&sni=twb.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTWB.BDPYYDS.TOP%3A15001
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@twb.bdpyyds.top:15003?security=tls&sni=twb.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTWB.BDPYYDS.TOP%3A15003
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@twb.bdpyyds.top:32002?security=tls&sni=twb.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTWB.BDPYYDS.TOP%3A32002
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@twb.bdpyyds.top:33201?security=tls&sni=twb.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTWB.BDPYYDS.TOP%3A33201
+trojan://f0de3134-aef4-45b5-a135-3a82321bbac6@bai-piao-wang-zhe10.98848.xyz:50858#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DBAI-PIAO-WANG-ZHE10.98848.XYZ%3A50858
+trojan://f0de3134-aef4-45b5-a135-3a82321bbac6@bai-piao-wang-zhe10.98848.xyz:50858?security=tls&sni=bai-piao-wang-zhe10.98848.xyz&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DBAI-PIAO-WANG-ZHE10.98848.XYZ%3A50858
+trojan://f0de3134-aef4-45b5-a135-3a82321bbac6@bai-piao-wang-zhe10.98848.xyz:50858?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DBAI-PIAO-WANG-ZHE10.98848.XYZ%3A50858
+trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@jgw2.gaox.ml:443?country=🇰🇷 kr&skip-cert-verify=true&udp=true#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DJGW2.GAOX.ML%3A443
+trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@jgw2.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DJGW2.GAOX.ML%3A443
+trojan://f2e42655-93af-4191-96cd-0b726490c0e9@45.137.97.205:58000?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D45.137.97.205%3A58000
+trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DFHCARM2.GAOX.ML%3A443
+trojan://f6f2072a2e4cfc91@116.129.253.130:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.130%3A3389
+trojan://fastssh.com@sg1.vless.co:443?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSG1.VLESS.CO%3A443
+trojan://fbd77250-a674-4a24-be1a-d1a76f695c34@jp.456url.com:10086?security=tls&sni=jp.456url.com&type=tcp&headerType=none#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DJP.456URL.COM%3A10086
+trojan://fbd77250-a674-4a24-be1a-d1a76f695c34@jp.456url.com:10087?security=tls&sni=jp.456url.com&type=tcp&headerType=none#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DJP.456URL.COM%3A10087
+trojan://ffec9f6ea19e1dd1@5.44.249.43:3389?country=🏁 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://ffec9f6ea19e1dd1@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@tky3.ssgnode.ga:443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTKY3.SSGNODE.GA%3A443
+trojan://mDmaAWoWXB@bai-piao-wang-zhe10.98848.xyz:22168#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DBAI-PIAO-WANG-ZHE10.98848.XYZ%3A22168
+trojan://mDmaAWoWXB@bai-piao-wang-zhe10.98848.xyz:22168?security=tls&sni=bai-piao-wang-zhe10.98848.xyz&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DBAI-PIAO-WANG-ZHE10.98848.XYZ%3A22168
+trojan://mDmaAWoWXB@bai-piao-wang-zhe10.98848.xyz:22168?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DBAI-PIAO-WANG-ZHE10.98848.XYZ%3A22168
+trojan://pA52tFTlGZ@2.tiantang.cf:59195?security=tls&type=tcp&headerType=none#%5B%E6%9C%AA%E7%9F%A5TROJAN%5D2.TIANTANG.CF%3A59195
+trojan://ruWkGdbUKT4RN7kZ8t@ty2-1.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-1.NIGIROCLOUD.COM%3A443
+trojan://ruWkGdbUKT4RN7kZ8t@ty2-5.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-5.NIGIROCLOUD.COM%3A443
+trojan://share.mjj-home.com@api.mjj-home.com:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAPI.MJJ-HOME.COM%3A443
