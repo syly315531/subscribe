@@ -57,3 +57,4 @@ https://www.mikuyun.xyz/api/v1/client/subscribe?token=8791ba36e51adaeb824ab0206a
 https://guolicheng.buzz/api/v1/client/subscribe?token=1bef29a918382a715bc578017f1bc8cf
 https://api.wannaflix.link/apiv3.php?type=v2rayng&token=d30416c24baacb53e3b80f6c49233361
 https://api.wannaflix.link/apiv3.php?type=v2rayng&token=d30416c24baacb53e3b80f6c49233361
+https://888ssr.xyz/link/2HnlNe5vMLmOwOjN?sub=3&extend=1
