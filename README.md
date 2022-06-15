@@ -2,10 +2,12 @@
 
 ## 功能说明
 * 从`source.txt`中自动读取信息，并自动解析url，补充到`collection.txt`和`fly.txt`中
+* 从`clash.txt`和`clash2.txt`中解析出地址添加到`fly.txt`
 * 从`fly.txt`读取url，并解码和解构url
 * 提取IP地址和端口，通过IP地址获得国家信息
 * 验证端口连通，剔除`fly.txt`中无法连接的url
 * 修改url的备注名，格式为`[国家 协议]IPAddress:Port`，重新对url进行encode
+* 按照协议从fly.txt文件中分离出多个文件
 * 加密后生成订阅文件
 
 ## 预览

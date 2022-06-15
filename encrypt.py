@@ -540,6 +540,7 @@ class URLParseHelper():
                 r = [None, None, None]
         except Exception as e:
             print(e, self.urlObj)
+            r = [None, None, None]
         return r
 
     def writeIntoFile(self, url):
