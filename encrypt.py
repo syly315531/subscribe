@@ -12,6 +12,9 @@ import requests
 import yaml
 
 schemaList = ['ss', 'ssr', 'trojan', 'vless', 'vmess']
+with open(".ignoreList.txt","r") as f:
+    ignoreList = f.readlines()
+# ignoreList =  ['14.29.124.168','14.29.124.174','af01.uwork.mobi', 'azure-f4s-hk.transfer-xray.tk', 'https://t.me/buyebuye', '使用前记得更新订阅', '柠檬国际机场','0']
 
 class URLParseHelper():
 
@@ -501,7 +504,8 @@ class URLParseHelper():
                 _s = json.loads(_s)
                 _ipStr, _port = _s['add'], _s['port']
                 _s['ps'] = self.getTagName(_ipStr, _port)
-                _s = [_ipStr, _port, self.vmess2link(_s)]
+                # _s = [_ipStr, _port, self.vmess2link(_s)]
+                _s = [_ipStr, _port, "vmess://{}".format(self.strEncode(json.dumps(_s),False))]
             else:
                 _ipStr, _port, _url = self.splitURL()
 
@@ -657,7 +661,7 @@ class URLParseHelper():
             self.parse(url)
             i, p, u = self.rebuild()
             
-            if i in ['14.29.124.168','14.29.124.174']:
+            if i in ignoreList:
                 continue
 
             if i is None:
@@ -908,9 +912,10 @@ if __name__ == "__main__":
                            if h.strip().startswith("URL Test Error")]
             urlList = sorted(list(set(urlList)))
 
-            for a in urlList:
+            for index,a in enumerate(urlList) :
+                print("="*50,index,"/",len(urlList),"="*50)
                 print(a)
-                if a in ['af01.uwork.mobi', 'azure-f4s-hk.transfer-xray.tk', 'https://t.me/buyebuye', '使用前记得更新订阅', '柠檬国际机场']:
+                if a in ignoreList:
                     continue
 
                 rst = u.find(a)
@@ -967,7 +972,7 @@ if __name__ == "__main__":
             alist = sorted(list(set(alist)))
             for a in alist:
                 print(a)
-                if a in ['af01.uwork.mobi', 'azure-f4s-hk.transfer-xray.tk', 'https://t.me/buyebuye', '使用前记得更新订阅', '柠檬国际机场']:
+                if a in ignoreList:
                     continue
 
                 rst = u.find(a)
