@@ -13,7 +13,7 @@ import yaml
 
 schemaList = ['ss', 'ssr', 'trojan', 'vless', 'vmess']
 with open("ignoreList.txt","r", encoding="utf8") as f:
-    ignoreList = f.readlines()
+    ignoreList = [i.strip() for i in f.readlines() if i.strip().startswith("#")==False]
 # ignoreList =  ['14.29.124.168','14.29.124.174','af01.uwork.mobi', 'azure-f4s-hk.transfer-xray.tk', 'https://t.me/buyebuye', '使用前记得更新订阅', '柠檬国际机场','0']
 
 class URLParseHelper():
@@ -907,9 +907,10 @@ if __name__ == "__main__":
 
         case 'bug1':
             # Part 1: handle error.txt
-            with open("error.txt", 'r') as f:
-                urlList = [h.strip().split(',')[3] for h in f.readlines()
-                           if h.strip().startswith("URL Test Error")]
+            with open("error.txt", 'r', encoding="utf8") as f:
+                #urlList = [h.strip().split(',')[3] for h in f.readlines() if h.strip().startswith("URL Test Error,[Errno 8]")]
+                urlList = [h.strip().split(',')[2] for h in f.readlines() if h.strip().startswith("URL Test Error,[Errno 11001]") or h.strip().startswith("URL Test Error,[Errno 11002]")]
+
             urlList = sorted(list(set(urlList)))
 
             for index,a in enumerate(urlList) :
