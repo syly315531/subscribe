@@ -12,7 +12,7 @@ import requests
 import yaml
 
 schemaList = ['ss', 'ssr', 'trojan', 'vless', 'vmess']
-with open(".ignoreList.txt","r") as f:
+with open("ignoreList.txt","r", encoding="utf8") as f:
     ignoreList = f.readlines()
 # ignoreList =  ['14.29.124.168','14.29.124.174','af01.uwork.mobi', 'azure-f4s-hk.transfer-xray.tk', 'https://t.me/buyebuye', '使用前记得更新订阅', '柠檬国际机场','0']
 
