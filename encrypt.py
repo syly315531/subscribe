@@ -863,6 +863,16 @@ if __name__ == "__main__":
     u = URLParseHelper()
     args = sys.argv[1] if len(sys.argv) >= 2 else '_'
     match args:
+        case 'addsource':
+            with open("source.txt",'r', encoding="utf8") as f:
+                sourceList = [h.strip() for h in f.readlines() if h.strip().startswith("#")==False]
+            if sys.argv[2] not in sourceList:
+                with open("source.txt",'a+', encoding="utf8") as f:
+                    f.write(sys.argv[2]+"\n")
+                print("Source Count:", len(sourceList)+1)
+            else:
+                print("This URL is Exist!")
+                
         case 'run':
             clash()
             run()
@@ -908,27 +918,41 @@ if __name__ == "__main__":
         case 'bug1':
             # Part 1: handle error.txt
             with open("error.txt", 'r', encoding="utf8") as f:
-                #urlList = [h.strip().split(',')[3] for h in f.readlines() if h.strip().startswith("URL Test Error,[Errno 8]")]
-                urlList = [h.strip().split(',')[2] for h in f.readlines() if h.strip().startswith("URL Test Error,[Errno 11001]") or h.strip().startswith("URL Test Error,[Errno 11002]")]
+                aList = [h.strip() for h in f.readlines()]
+                # urlList = [h.strip().split(',')[3] for h in f.readlines() if h.strip().startswith("URL Test Error,[Errno 8]")]
+                # urlList = [h.strip().split(',')[2] for h in f.readlines() if h.strip().startswith("URL Test Error,[Errno 11001]") or h.strip().startswith("URL Test Error,[Errno 11002]")]
 
-            urlList = sorted(list(set(urlList)))
-
-            for index,a in enumerate(urlList) :
-                print("="*50,index,"/",len(urlList),"="*50)
-                print(a)
-                if a in ignoreList:
+            # urlList = sorted(list(set(urlList)))
+            for index,line in enumerate(aList):
+                print("{}/{}".format(index,len(aList)).center(100,"="))
+                print(line)
+                if line.strip().startswith("URL Test Error,[Errno 8]"):
+                    _url = line.strip().split(',')[3] 
+                elif line.strip().startswith("URL Test Error,[Errno 11001]") or line.strip().startswith("URL Test Error,[Errno 11002]"):
+                    _url = line.strip().split(',')[2]
+                else:
                     continue
-
-                rst = u.find(a)
-
+                
+                if _url in ignoreList:
+                    continue
+                print(_url.center(100,"*"))
+                
+                rst = u.find(_url)
                 for r in rst:
                     if isinstance(r[0], list):
                         continue
                     if r[0].startswith(tuple(schemaList)):
-                        # print(r[0])
                         with open(u.outfile, "a+") as f2:
                             f2.write(r[0] + '\n')
-                        print('-'*100)
+                            
+                        print(r[0].center(200,'='))
+                    
+                for i in range(aList.count(line)):
+                    aList.remove(line)
+                    
+            with open("error.txt","w",encoding="utf8") as f:
+                for b in aList:
+                    f.write(b.strip() + "\n")
 
         case 'bug2':
             # Part 2
@@ -995,6 +1019,14 @@ if __name__ == "__main__":
             for index,url in enumerate(urlList):
                 print("="*50,index+1,"/",len(urlList),"="*50)
                 print(url[0])
+
+        case 'test':
+            l = ['a','b','c','d','a','b','c','d']
+            for char in l:
+                print(char)
+                for i in range(l.count("c")):
+                    l.remove("c")      
+            print(l.count("c"))
 
         case _:
             print(
