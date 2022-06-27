@@ -167,7 +167,7 @@ class URLParseHelper():
             # _query = "&".join([ "{}={}".format(k,str(v).lower()) for k,v in data.items() if v is not None])
         except Exception as e:
             print(data)
-            with open('error.txt', 'a+') as f:
+            with open('error.txt', 'a+',encoding="utf8") as f:
                 f.write("build_query error: {},{}\n".format(e, data))
             raise(e)
         return _query
@@ -197,7 +197,7 @@ class URLParseHelper():
                 result = 0
             else:
                 result = -1
-            with open('error.txt', 'a+') as f:
+            with open('error.txt', 'a+', encoding="utf8") as f:
                 f.write("URL Test Error,{},{},{}\n".format(e, ipAddr, port))
         finally:
             print('Tested', ipAddr, port)
@@ -956,7 +956,7 @@ if __name__ == "__main__":
                     f2.write(url.strip() + '\n')
 
         case 'bug3':
-            with open("error.txt", 'r') as f:
+            with open("error.txt", 'r',encoding="utf8") as f:
                 urlList = [h.strip().replace("build_query error: 'NoneType' object has no attribute 'startswith',", '') for h in f.readlines(
                 ) if h.strip().startswith("build_query error: 'NoneType' object has no attribute 'startswith',")]
             urlList = sorted(list(set(urlList)))
