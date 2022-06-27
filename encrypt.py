@@ -1,3 +1,4 @@
+from asyncio import FastChildWatcher
 import base64
 import json
 import os
@@ -26,6 +27,7 @@ class URLParseHelper():
 
         self.backupfile = self.get_filepath(backupfile)
         self.outfile = self.get_filepath(outfile)
+        self.errorfile = self.get_filepath("error.txt")
 
         with open(self.backupfile, 'r') as f:
             self.existList = [h.strip() for h in f.readlines()
@@ -167,7 +169,7 @@ class URLParseHelper():
             # _query = "&".join([ "{}={}".format(k,str(v).lower()) for k,v in data.items() if v is not None])
         except Exception as e:
             print(data)
-            with open('error.txt', 'a+',encoding="utf8") as f:
+            with open(self.errorfile , 'a+',encoding="utf8") as f:
                 f.write("build_query error: {},{}\n".format(e, data))
             raise(e)
         return _query
@@ -197,7 +199,7 @@ class URLParseHelper():
                 result = 0
             else:
                 result = -1
-            with open('error.txt', 'a+', encoding="utf8") as f:
+            with open(self.errorfile , 'a+', encoding="utf8") as f:
                 f.write("URL Test Error,{},{},{}\n".format(e, ipAddr, port))
         finally:
             print('Tested', ipAddr, port)
@@ -549,10 +551,9 @@ class URLParseHelper():
 
     def writeIntoFile(self, url):
         url = url.strip()
-        if (url + '\n') not in self.existList:
+        if url not in self.existList:
             print('Add URL is:', url)
-            with open(self.outfile, "a+") as f2:
-                f2.write(url + '\n')
+            self.add(url)
             with open(self.backupfile, "a+") as f3:
                 f3.write(url + '\n')
         else:
@@ -674,11 +675,20 @@ class URLParseHelper():
             if r is False:
                 continue
 
-            with open(self.outfile, 'a+') as f:
-                f.writelines(u + '\n')
-
+            self.add(u)
             print('-'*100, '\n')
 
+    def add(self,url,chk=False):
+        url = url.strip()
+        if chk:
+            with open(self.outfile,"r",encoding="utf8") as f:
+                _alist= [h.strip() for h in f.readlines()]
+            if url in _alist:
+                return "This URL is Exist"
+            
+        with open(self.outfile,"a+",encoding="utf8") as f:
+            f.write(url+"\n")
+        return "Add a URL:" + url
 
 def splitFiles(filename="fly.txt"):
     filename = os.path.join(os.path.dirname(
@@ -702,7 +712,6 @@ def splitFiles(filename="fly.txt"):
             with open("{}.txt".format(u.split(':')[0]), 'a+') as f:
                 f.writelines(u + '\n')
 
-
 def encrypt_base64(filename='fly.txt'):
     _file = os.path.join(os.path.dirname(os.path.abspath(__file__)), filename)
     print(_file.split('.')[:-1])
@@ -720,7 +729,6 @@ def encrypt_base64(filename='fly.txt'):
     with open(filename.split('.')[0], "w") as f:
         f.write(encodeStr)
 
-
 def walkFile(file="."):
     fileList = []
     for root, dirs, files in os.walk(file):
@@ -732,7 +740,6 @@ def walkFile(file="."):
         fileList += [f for f in files if f.endswith('txt')]
     return fileList
 
-
 def removeDuplicateData(filename='collection.txt'):
     with open(filename, 'r') as f:
         sl = f.readlines()
@@ -741,7 +748,6 @@ def removeDuplicateData(filename='collection.txt'):
 
     with open(filename, 'w+') as f:
         f.write("".join(sl))
-
 
 def run():
     u = URLParseHelper()
@@ -770,12 +776,12 @@ def run():
     # removeDuplicateData('fly')
 
     u.handleUrl(u.outfile)
+    clean_error()
     encrypt_base64(u.outfile)
 
     splitFiles(u.outfile)
     for s in schemaList:
         encrypt_base64('{}.txt'.format(s))
-
 
 def clash():
     clashfiles = ['clash.txt', 'clash2.txt']
@@ -803,7 +809,6 @@ def clash():
 
             u.get_from_clash(url)
 
-
 def repair():
     aList = []
     filename = 'fly.txt'
@@ -821,13 +826,49 @@ def repair():
         if len(u) <= 0:
             continue
 
-        with open(filename, 'a+') as f:
+        with open(filename, 'a+', encoding="utf8") as f:
             f.writelines(u + '\n')
 
     if os.stat(filename).st_size == 0:
         os.remove(filename)
         shutil.copy('collection.txt', filename)
+        
+def clean_error():
+    
+    with open(u.errorfile , 'r', encoding="utf8") as f:
+        aList = [h.strip() for h in f.readlines()]
 
+    for index,line in enumerate(aList):
+        print("{}/{}".format(index,len(aList)).center(100,"="))
+        print(line)
+        if line.strip().startswith("URL Test Error,[Errno 8]"):
+            _url = line.strip().split(',')[3] 
+        elif line.strip().startswith("URL Test Error,[Errno 11001]") or line.strip().startswith("URL Test Error,[Errno 11002]"):
+            _url = line.strip().split(',')[2]
+        else:
+            continue
+        
+        if _url in ignoreList:
+            continue
+        print(_url.center(100,"*"))
+        
+        rst = u.find(_url)
+        for r in rst:
+            if isinstance(r[0], list):
+                continue
+            if r[0].startswith(tuple(schemaList)):
+                # with open(u.outfile, "a+") as f2:
+                #     f2.write(r[0] + '\n')
+                u.add(r[0])
+                    
+                print(r[0].center(200,'='))
+            
+        for i in range(aList.count(line)):
+            aList.remove(line)
+            
+    with open(u.errorfile ,"w",encoding="utf8") as f:
+        for b in aList:
+            f.write(b.strip() + "\n")
 
 def run_with_args():
     import argparse
@@ -917,42 +958,7 @@ if __name__ == "__main__":
 
         case 'bug1':
             # Part 1: handle error.txt
-            with open("error.txt", 'r', encoding="utf8") as f:
-                aList = [h.strip() for h in f.readlines()]
-                # urlList = [h.strip().split(',')[3] for h in f.readlines() if h.strip().startswith("URL Test Error,[Errno 8]")]
-                # urlList = [h.strip().split(',')[2] for h in f.readlines() if h.strip().startswith("URL Test Error,[Errno 11001]") or h.strip().startswith("URL Test Error,[Errno 11002]")]
-
-            # urlList = sorted(list(set(urlList)))
-            for index,line in enumerate(aList):
-                print("{}/{}".format(index,len(aList)).center(100,"="))
-                print(line)
-                if line.strip().startswith("URL Test Error,[Errno 8]"):
-                    _url = line.strip().split(',')[3] 
-                elif line.strip().startswith("URL Test Error,[Errno 11001]") or line.strip().startswith("URL Test Error,[Errno 11002]"):
-                    _url = line.strip().split(',')[2]
-                else:
-                    continue
-                
-                if _url in ignoreList:
-                    continue
-                print(_url.center(100,"*"))
-                
-                rst = u.find(_url)
-                for r in rst:
-                    if isinstance(r[0], list):
-                        continue
-                    if r[0].startswith(tuple(schemaList)):
-                        with open(u.outfile, "a+") as f2:
-                            f2.write(r[0] + '\n')
-                            
-                        print(r[0].center(200,'='))
-                    
-                for i in range(aList.count(line)):
-                    aList.remove(line)
-                    
-            with open("error.txt","w",encoding="utf8") as f:
-                for b in aList:
-                    f.write(b.strip() + "\n")
+            clean_error()
 
         case 'bug2':
             # Part 2
@@ -976,11 +982,10 @@ if __name__ == "__main__":
                 'ss://YWVzLTI1Ni1jZmI6dkRTOUcycEAxODUuNC42NS42OjIxMjQ3#%5B%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6SS%5D185.4.65.6:21247',
             ]
             for url in urlList:
-                with open(u.outfile, "a+") as f2:
-                    f2.write(url.strip() + '\n')
+                u.add(url)
 
         case 'bug3':
-            with open("error.txt", 'r',encoding="utf8") as f:
+            with open(u.errorfile , 'r',encoding="utf8") as f:
                 urlList = [h.strip().replace("build_query error: 'NoneType' object has no attribute 'startswith',", '') for h in f.readlines(
                 ) if h.strip().startswith("build_query error: 'NoneType' object has no attribute 'startswith',")]
             urlList = sorted(list(set(urlList)))
@@ -1006,8 +1011,7 @@ if __name__ == "__main__":
                         continue
                     if r[0].startswith(tuple(schemaList)):
                         # print(r[0])
-                        with open(u.outfile, "a+") as f2:
-                            f2.write(r[0] + '\n')
+                        u.add(r[0])
                         print('-'*100)
 
         case 'debug':
