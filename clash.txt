@@ -16,3 +16,4 @@ https://halocloud.us/api/v1/client/subscribe?token=83233a3285e73d2cf585e026cd29d
 https://node.apqiang.com/link/gkdHMmNU0xRdcRF5?list=shadowrocket
 https://node.apqiang.com/link/gkdHMmNU0xRdcRF5?clash=1&extend=1
 https://c1n.cn/1jN3H
+https://api.wannaflix.link/apiv3.php?type=v2rayng&token=d30416c24baacb53e3b80f6c49233361

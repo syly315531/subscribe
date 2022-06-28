@@ -28,7 +28,7 @@ class URLParseHelper():
         self.outfile = self.get_filepath(outfile)
         self.errorfile = self.get_filepath("error.txt")
 
-        with open(self.backupfile, 'r') as f:
+        with open(self.backupfile, 'r', encoding='utf8') as f:
             self.existList = [h.strip() for h in f.readlines()
                               if h.strip().startswith("#") == False]
 
@@ -144,9 +144,9 @@ class URLParseHelper():
                 if k == '':
                     continue
                 
+                v = ','.join(v) if isinstance(v, list) else v
                 v = '' if self.isEmpty(v) else v
                 v = str(v) if isinstance(v, (bool, int, float))  else v
-                v = ','.join(v) if isinstance(v, list) else v
                 
                 # print(k, v, type(v))
 
@@ -553,7 +553,7 @@ class URLParseHelper():
         if url not in self.existList:
             print('Add URL is:', url)
             self.add(url)
-            with open(self.backupfile, "a+") as f3:
+            with open(self.backupfile, "a+", encoding='utf8') as f3:
                 f3.write(url + '\n')
         else:
             print('Ignore the URL', url)
@@ -642,11 +642,11 @@ class URLParseHelper():
         self.outfile = self.get_filepath(
             filename) if filename else self.outfile
 
-        with open(self.outfile, "r") as f:
+        with open(self.outfile, "r", encoding='utf8') as f:
             urlList = [h.strip() for h in f.readlines()
                        if h.strip().startswith("#") == False]
 
-        with open(self.outfile, "w") as f:
+        with open(self.outfile, "w", encoding='utf8') as f:
             f.seek(0)
             f.truncate()
 
@@ -693,7 +693,7 @@ def splitFiles(filename="fly.txt"):
     filename = os.path.join(os.path.dirname(
         os.path.abspath(__file__)), filename)
 
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf8') as f:
         resultList = [h.strip() for h in f.readlines()
                       if h.strip().startswith("#") == False]
 
@@ -701,14 +701,14 @@ def splitFiles(filename="fly.txt"):
         sList = [u.strip()
                  for u in resultList if u.startswith("{}://".format(sch))]
 
-        with open('{}.txt'.format(sch), "w") as f:
+        with open('{}.txt'.format(sch), "w", encoding='utf8') as f:
             f.seek(0)
             f.truncate()
 
         for u in sList:
             if len(u) <= 0:
                 continue
-            with open("{}.txt".format(u.split(':')[0]), 'a+') as f:
+            with open("{}.txt".format(u.split(':')[0]), 'a+', encoding='utf8') as f:
                 f.writelines(u + '\n')
 
 def encrypt_base64(filename='fly.txt'):
@@ -719,13 +719,13 @@ def encrypt_base64(filename='fly.txt'):
         return False
 
     removeDuplicateData(filename)
-    with open(filename, "r+") as f:
+    with open(filename, "r+", encoding='utf8') as f:
         encodeStr = f.read()
         encodeStr = bytes(encodeStr, 'utf-8')
         encodeStr = base64.b64encode(encodeStr)
         encodeStr = str(encodeStr, 'utf-8')
 
-    with open(filename.split('.')[0], "w") as f:
+    with open(filename.split('.')[0], "w", encoding='utf8') as f:
         f.write(encodeStr)
 
 def walkFile(file="."):
@@ -740,18 +740,18 @@ def walkFile(file="."):
     return fileList
 
 def removeDuplicateData(filename='collection.txt'):
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf8') as f:
         sl = f.readlines()
 
     sl = sorted(list(set(sl)))
 
-    with open(filename, 'w+') as f:
+    with open(filename, 'w+', encoding='utf8') as f:
         f.write("".join(sl))
 
 def run():
     u = URLParseHelper()
 
-    with open('source.txt', 'r') as f:
+    with open('source.txt', 'r', encoding='utf8') as f:
         sourcelist = [h.strip() for h in f.readlines()
                       if h.strip().startswith("#") == False]
 
@@ -787,7 +787,7 @@ def clash():
     u = URLParseHelper()
 
     for cf in clashfiles:
-        with open(cf, 'r') as f:
+        with open(cf, 'r', encoding='utf8') as f:
             urlList = [h.strip() for h in f.readlines()
                        if h.strip().startswith("#") == False]
 
@@ -813,10 +813,10 @@ def repair():
     filename = 'fly.txt'
 
     for s in schemaList:
-        with open('{}.txt'.format(s)) as f:
+        with open('{}.txt'.format(s), encoding='utf8') as f:
             aList += f.readlines()
 
-    with open(filename, "w") as f:
+    with open(filename, "w", encoding='utf8') as f:
         f.seek(0)
         f.truncate()
 
@@ -856,7 +856,7 @@ def clean_error():
             if isinstance(r[0], list):
                 continue
             if r[0].startswith(tuple(schemaList)):
-                # with open(u.outfile, "a+") as f2:
+                # with open(u.outfile, "a+", encoding='utf8') as f2:
                 #     f2.write(r[0] + '\n')
                 u.add(r[0])
                     
@@ -918,7 +918,7 @@ if __name__ == "__main__":
             run()
 
         case 'source':
-            with open('source.txt', 'r') as f:
+            with open('source.txt', 'r', encoding='utf8') as f:
                 sourcelist = [h.strip() for h in f.readlines()
                               if h.strip().startswith("#") == False]
 
