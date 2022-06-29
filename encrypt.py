@@ -509,19 +509,23 @@ class URLParseHelper():
                 _s = [_ipStr, _port, "vmess://{}".format(self.strEncode(json.dumps(_s),False))]
             else:
                 _ipStr, _port, _url = self.splitURL()
-
-                query = self.build_queryObj(
-                    key='remark', value=self.getTagName(_ipStr, _port))
-                query = self.build_query(query)
-                _newUrl = urllib.parse.urlunparse(
-                    (self.urlObj.scheme, self.urlObj.netloc, self.urlObj.path, self.urlObj.params, query, self.urlObj.fragment))
+                
+                try:
+                    query = self.build_queryObj(
+                        key='remark', value=self.getTagName(_ipStr, _port))
+                    print(query)
+                    query = self.build_query(query)
+                    _newUrl = urllib.parse.urlunparse(
+                        (self.urlObj.scheme, self.urlObj.netloc, self.urlObj.path, self.urlObj.params, query, self.urlObj.fragment))
+                    
+                except Exception as e:
+                    raise(e)
+                
                 _s = [_ipStr, _port, _newUrl]
 
         except Exception as e:
-            print('-'*50, 'vmessObj Error:', '-'*50)
-            print(self.url, e)
-            # time.sleep(1)
-            _s = [None, None, None]
+            print('vmessObj Error:{}'.format(e).center(100,"-"))
+            _s = [_ipStr, _port, self.url]
 
         return _s
 
@@ -776,6 +780,7 @@ def run():
 
     u.handleUrl(u.outfile)
     clean_error()
+    removeDuplicateData(u.outfile)
     encrypt_base64(u.outfile)
 
     splitFiles(u.outfile)
@@ -836,15 +841,24 @@ def clean_error():
     
     with open(u.errorfile , 'r', encoding="utf8") as f:
         aList = [h.strip() for h in f.readlines()]
-
+    bList = []
     for index,line in enumerate(aList):
         print("{}/{}".format(index,len(aList)).center(100,"="))
         print(line)
+        if line in bList:
+            continue
+        
         if line.strip().startswith("URL Test Error,[Errno 8]"):
             _url = line.strip().split(',')[3] 
         elif line.strip().startswith("URL Test Error,[Errno 11001]") or line.strip().startswith("URL Test Error,[Errno 11002]"):
             _url = line.strip().split(',')[2]
+        # elif line.strip().startswith("build_query error: sequence item 1: expected str instance, list found"):
+        #     if line not in bList:
+        #         bList.append(line)
+        #     continue
         else:
+            if line not in bList:
+                bList.append(line)
             continue
         
         if _url in ignoreList:
@@ -862,12 +876,13 @@ def clean_error():
                     
                 print(r[0].center(200,'='))
             
-        for i in range(aList.count(line)):
-            aList.remove(line)
+        # for i in range(aList.count(line)):
+        #     aList.remove(line)
             
     with open(u.errorfile ,"w",encoding="utf8") as f:
-        for b in aList:
+        for b in bList:
             f.write(b.strip() + "\n")
+    removeDuplicateData(u.outfile)
 
 def run_with_args():
     import argparse
@@ -948,7 +963,7 @@ if __name__ == "__main__":
 
         case 'find':
 
-            rst = u.find(sys.argv[2])
+            rst = u.find(sys.argv[2].lower())
 
             for r in rst:
                 for a in r:
