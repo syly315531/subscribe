@@ -19,3 +19,4 @@ https://c1n.cn/1jN3H
 https://api.wannaflix.link/apiv3.php?type=v2rayng&token=d30416c24baacb53e3b80f6c49233361
 https://muniucloud.net/link/zcbhgcpH2RqCZW74?clash=2
 https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fsub.elkcloud.cc%2Flink%2F5VdpZH0lXNI5DsEN%3Fsub%3D3&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_AdblockPlus.ini
+https://j20-cloud.com/link/sja9wp8r4huhuakh?clash=1
