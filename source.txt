@@ -132,7 +132,7 @@ https://cylink.moe/link/vgxqYH03lHKVefRk?sub=1
 https://paste.gg/p/anonymous/b68673decc7c412cb7a46f07daf463a9/files/8ec471ba99bb4c5fb2841da752e6b1ff/raw
 https://www.mnucv.xyz/api/v1/client/subscribe?token=091de46ee0bda13704de9432fa6af39b
 https://www.mnucv.xyz/api/v1/client/subscribe?token=e34abdad144fdc366f7232681a9098c4
-https://jetstream.site/api/v1/public/services/41618/55d7412e848eedfb93100a9c56f570f8?client=shadowrocket
+# https://jetstream.site/api/v1/public/services/41618/55d7412e848eedfb93100a9c56f570f8?client=shadowrocket
 https://sub.oceancloud.asia/link/1rgiu71yl11nrjvl?sub=3&extend=1
 https://52xiaohongniang.com/link/cy7icncjjanigt3m?sub=3
 https://sockboom.me/link/vpyy3cdbiu6vsspe?sub=1&extend=1
