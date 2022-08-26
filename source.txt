@@ -12,7 +12,7 @@ https://welink345.com/api/v1/client/subscribe?token=7a170e144680acc79f392c78b56f
 https://api.dingyueddnshub.xyz/link/thKFcM7EDUrLLmUM?sub=1
 https://subscribe.bityun.org/api/v1/client/subscribe?token=86f5945b1b229dacfa3ec03b781c4f8c
 # https://4g.quoctai.xyz/api/v1/client/subscribe?token=5140fc60610c394f91cc01b48bfec425
-https://sub.upyun.online/api/v1/client/subscribe?token=924e3311b17b24b3e83c884f1bdb334b
+# B https://sub.upyun.online/api/v1/client/subscribe?token=924e3311b17b24b3e83c884f1bdb334b
 https://subv2.nanoport.xyz/api/v1/client/subscribe?token=7be6b5e73cce47c6e74117d22d65197b
 https://v2r.yydsvpn.xyz/api/v1/client/subscribe?token=653f3aa43aa0b4bbd36a0e23d47fa687
 https://doubledou.win/link/u5agDinK3eTEKLbQ?client=v2
@@ -55,7 +55,7 @@ https://xn--9kqv03dn4b.xyz/api/v1/client/subscribe?token=e34dd8bb41e5e1a71ebae8f
 https://www.mikuyun.xyz/api/v1/client/subscribe?token=8791ba36e51adaeb824ab0206a727f38
 https://guolicheng.buzz/api/v1/client/subscribe?token=1bef29a918382a715bc578017f1bc8cf
 https://888ssr.xyz/link/2HnlNe5vMLmOwOjN?sub=3&extend=1
-https://jiedian1.coding.net/p/1/d/1/git/raw/master/1.txt?download=true
+# https://jiedian1.coding.net/p/1/d/1/git/raw/master/1.txt?download=true
 https://subscribe.quickconnect.buzz/api/v1/client/subscribe?token=05f5a3ae6b21800ac7c9a48bb10faa88
 https://halocloud.us/api/v1/client/subscribe?token=83233a3285e73d2cf585e026cd29d6bd
 https://mzyglc.xyz/api/v1/client/subscribe?token=9b201501d3fe94cff9aaa2add5c546f9
@@ -85,7 +85,7 @@ https://j20-cloud.com/link/yphdy6z3apme0d6q?sub=3
 https://pindan.tk/api/v1/client/subscribe?token=8772403b756fdbc1734af20b1f0ca314
 https://pindan.tk/api/v1/client/subscribe?token=c3ba69f70f3b2401dd8b6bebf512d627
 https://v1.mk/J5FaAsn
-https://www.fengcheyun.xyz/api/v1/client/subscribe?token=da82b2985d21cb36bd277692bb9f94f6
+# https://www.fengcheyun.xyz/api/v1/client/subscribe?token=da82b2985d21cb36bd277692bb9f94f6
 https://guolicheng.buzz/api/v1/client/subscribe?token=6302b977d5c55bcfb0b8680ea1034a02
 https://mzyglc.xyz/api/v1/client/subscribe?token=3caab1cd08ae358440ff62b811b29344
 https://mzyglc.xyz/api/v1/client/subscribe?token=9071816c92eb9c8faaba738931043f43
@@ -103,7 +103,7 @@ https://yamcode.com/raw/xbhdsufoqh
 https://sub.hazz.win/api/v1/client/subscribe?token=be655d04de20377e2fc60333deb186c4
 https://api.fuzzypn.me/api/v1/client/subscribe?token=f93b87c6320559525cd300cdbe11c574
 https://zingfast.vn/api/v1/client/subscribe?token=6907f27af39ee5a985a8d784383089f7
-https://www.fengcheyun.xyz/api/v1/client/subscribe?token=5f4c7981a116ae423c021df1dabb2241
+# https://www.fengcheyun.xyz/api/v1/client/subscribe?token=5f4c7981a116ae423c021df1dabb2241
 https://kanao.xyz/link/xeehgg9shtq5umee?sub=4
 https://kanao.xyz/link/uj9xrcm3j7lfdpes?sub=4
 https://subtail.2elh8f.com/link/rqn1hvde6rjipjl0?sub=1
