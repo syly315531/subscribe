@@ -3,63 +3,79 @@ trojan://0f7989cf-99a8-41b2-9ade-f8c77bccebad@129.154.60.36:10000?security=tls&s
 trojan://0f7989cf-99a8-41b2-9ade-f8c77bccebad@144.24.65.17:10000?security=tls&sni=kr.alinkrelay.com&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%20%E5%A4%A7%E7%B1%B3%E7%B2%A5-%E9%9F%A9%E5%9B%BD2%200.5x
 trojan://0f7989cf-99a8-41b2-9ade-f8c77bccebad@144.24.78.6:10000?security=tls&sni=kr.alinkrelay.com&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%20%E5%A4%A7%E7%B1%B3%E7%B2%A5-%E9%9F%A9%E5%9B%BD3%200.5x
 trojan://0f7989cf-99a8-41b2-9ade-f8c77bccebad@kr.alinkrelay.com:10000?security=tls&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%20%E5%A4%A7%E7%B1%B3%E7%B2%A5-%E9%9F%A9%E5%9B%BD%E2%80%A2%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%200.5x
-trojan://1529baee-f263-48a4-b95b-ac0a49814268@223.17.43.52:44601?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#%5B%E9%A6%99%E6%B8%AFTROJAN%5D223.17.43.52%3A44601
 trojan://1529baee-f263-48a4-b95b-ac0a49814268@83.150.217.62:44612?security=tls&sni=t.me.vpnhat&type=tcp&headerType=none#%5B%E5%B7%B4%E8%A5%BFTROJAN%5D83.150.217.62%3A44612
 trojan://177501cc-f0c2-3cc3-b9a7-8c1e8e27655f@pp1.zhengzhongfeizhu.xyz:34003?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DPP1.ZHENGZHONGFEIZHU.XYZ%3A34003
 trojan://18e513fe-f7f4-353d-84ca-bc9646fb2528mielink@170.81.43.148:443#%5B%E5%B7%B4%E8%A5%BFTROJAN%5D170.81.43.148%3A443
 trojan://18e513fe-f7f4-353d-84ca-bc9646fb2528mielink@185.135.81.207:443#%5B%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6TROJAN%5D185.135.81.207%3A443
 trojan://1925c4ba-616a-416f-a494-392f2ba9eb77@hkt2.node.qchwnd.moe:44614?sni=hkt2.node.qchwnd.moe&allowInsecure=0#HK_%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99https%3A%2F%2F1808.ga%20%E8%8A%82%E7%82%B9_8
 trojan://1a1247ea6cb266b4@106.75.233.91:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D106.75.233.91%3A3389
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58805?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58805
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58809?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58809
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58811?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58811
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58814?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58814
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58816?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58816
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58817?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58817
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58821?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58821
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58824?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58824
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58825?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58825
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58828?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58828
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58806?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58806
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58810?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58810
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58812?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58812
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58813?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58813
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58818?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58818
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58827?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58827
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58829?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58829
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58830?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58830
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58831?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58831
-trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58832?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58832
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58801?peer=soolos.xyz&sni=soolos.xyz#%E9%A6%99%E6%B8%AF%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58803?peer=soolos.xyz&sni=soolos.xyz#%E9%A6%99%E6%B8%AF%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE1%E5%8F%B7%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58804?peer=soolos.xyz&sni=soolos.xyz#%E9%A6%99%E6%B8%AF%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE1%E5%8F%B7%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58805?peer=soolos.xyz&sni=soolos.xyz#%E6%97%A5%E6%9C%AC%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58807?peer=soolos.xyz&sni=soolos.xyz#%E6%96%B0%E5%8A%A0%E5%9D%A1%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58809?peer=soolos.xyz&sni=soolos.xyz#%E9%9F%A9%E5%9B%BD%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58811?peer=soolos.xyz&sni=soolos.xyz#%E5%8D%B0%E5%BA%A6%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58814?peer=soolos.xyz&sni=soolos.xyz#%E8%B6%8A%E5%8D%97%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58816?peer=soolos.xyz&sni=soolos.xyz#%E7%BE%8E%E5%9B%BD%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58817?peer=soolos.xyz&sni=soolos.xyz#%E7%BE%8E%E5%9B%BD%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58821?peer=soolos.xyz&sni=soolos.xyz#%E5%8F%B0%E6%B9%BE%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58824?peer=soolos.xyz&sni=soolos.xyz#%E5%8D%B0%E5%B0%BC%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58825?peer=soolos.xyz&sni=soolos.xyz#%E6%B3%B0%E5%9B%BD%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D%09
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@dx.yhy520.xyz:58828?peer=soolos.xyz&sni=soolos.xyz#%E4%BF%84%E7%BD%97%E6%96%AF%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58802?peer=soolos.xyz&sni=soolos.xyz#%E9%A6%99%E6%B8%AF%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE2%E5%8F%B7%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58806?peer=soolos.xyz&sni=soolos.xyz#%E6%97%A5%E6%9C%AC%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58808?peer=soolos.xyz&sni=soolos.xyz#%E6%96%B0%E5%8A%A0%E5%9D%A1%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58810?peer=soolos.xyz&sni=soolos.xyz#%E9%9F%A9%E5%9B%BD%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58812?peer=soolos.xyz&sni=soolos.xyz#%E5%8D%B0%E5%BA%A6%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58813?peer=soolos.xyz&sni=soolos.xyz#%E4%BF%84%E7%BD%97%E6%96%AF%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58818?peer=soolos.xyz&sni=soolos.xyz#%E7%BE%8E%E5%9B%BD%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58819?peer=soolos.xyz&sni=soolos.xyz#%E9%A6%99%E6%B8%AF%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE2%E5%8F%B7%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58820?peer=soolos.xyz&sni=soolos.xyz#%E9%A6%99%E6%B8%AF%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58827?peer=soolos.xyz&sni=soolos.xyz#%E5%8F%B0%E6%B9%BE%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58829?peer=soolos.xyz&sni=soolos.xyz#%E5%8D%B0%E5%B0%BC%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58830?peer=soolos.xyz&sni=soolos.xyz#%E6%B3%B0%E5%9B%BD%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58831?peer=soolos.xyz&sni=soolos.xyz#%E8%B6%8A%E5%8D%97%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://1f15de95-28f9-3859-ad06-2f5bbf08c260@lt.yhy520.xyz:58832?peer=soolos.xyz&sni=soolos.xyz#%E7%BE%8E%E5%9B%BD%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
 trojan://214bb2d0-7309-4649-a398-0fbf7ac387fa@jp06.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou:443?allowInsecure=1&sni=gamecdn.cc#JP_%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99https%3A%2F%2F1808.ga%20%E8%8A%82%E7%82%B9_74
 trojan://214bb2d0-7309-4649-a398-0fbf7ac387fa@zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou:10726?allowInsecure=1&sni=gamecdn.cc#CN_%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99https%3A%2F%2F1808.ga%20%E8%8A%82%E7%82%B9_73
 trojan://214bb2d0-7309-4649-a398-0fbf7ac387fa@zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou:10726?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1&sni=zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou#CN_https%3A%2F%2F1808.ga%20%E8%8A%82%E7%82%B9_90
+trojan://217c396e-e3b7-4c43-8e76-6ad8130a73ed@08e7642f-a70d-4fdc-9c3e-d77fa0fe0e16.ed6e2c67-b607-48a7-8498-6a0b15891991.317aa722-1472-407a-b579-7bbaf58f47e9.yiyuan.cyou:12001?allowInsecure=1&peer=13-251-128-188.nhost.00cdn.com&tfo=1#%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E8%AF%B7%E5%88%B7%E6%96%B0%E8%AE%A2%E9%98%85%EF%BC%8C%E9%82%80%E8%AF%B760%25%E8%BF%94%E5%88%A9
+trojan://217c396e-e3b7-4c43-8e76-6ad8130a73ed@08e7642f-a70d-4fdc-9c3e-d77fa0fe0e16.ed6e2c67-b607-48a7-8498-6a0b15891991.317aa722-1472-407a-b579-7bbaf58f47e9.yiyuan.cyou:12001?allowInsecure=1&peer=13-251-128-188.nhost.00cdn.com&tfo=1#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF%2001%20%7C%20%E5%B9%BF%E6%B8%AF%20IEPL
+trojan://217c396e-e3b7-4c43-8e76-6ad8130a73ed@08e7642f-a70d-4fdc-9c3e-d77fa0fe0e16.ed6e2c67-b607-48a7-8498-6a0b15891991.317aa722-1472-407a-b579-7bbaf58f47e9.yiyuan.cyou:12001?allowInsecure=1&peer=13-251-128-188.nhost.00cdn.com&tfo=1#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF%2002%20%7C%20%E5%B9%BF%E6%B8%AF%20IEPL
+trojan://217c396e-e3b7-4c43-8e76-6ad8130a73ed@08e7642f-a70d-4fdc-9c3e-d77fa0fe0e16.ed6e2c67-b607-48a7-8498-6a0b15891991.317aa722-1472-407a-b579-7bbaf58f47e9.yiyuan.cyou:12001?allowInsecure=1&peer=13-251-128-188.nhost.00cdn.com&tfo=1#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF%2003%20%7C%20%E5%B9%BF%E6%B8%AF%20IEPL
+trojan://217c396e-e3b7-4c43-8e76-6ad8130a73ed@08e7642f-a70d-4fdc-9c3e-d77fa0fe0e16.ed6e2c67-b607-48a7-8498-6a0b15891991.317aa722-1472-407a-b579-7bbaf58f47e9.yiyuan.cyou:12001?allowInsecure=1&peer=13-251-128-188.nhost.00cdn.com&tfo=1#%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AF%2004%20%7C%20%E5%B9%BF%E6%B8%AF%20IEPL
+trojan://217c396e-e3b7-4c43-8e76-6ad8130a73ed@08e7642f-a70d-4fdc-9c3e-d77fa0fe0e16.ed6e2c67-b607-48a7-8498-6a0b15891991.317aa722-1472-407a-b579-7bbaf58f47e9.yiyuan.cyou:12001?allowInsecure=1&peer=13-251-128-188.nhost.00cdn.com&tfo=1#HKy
+trojan://217c396e-e3b7-4c43-8e76-6ad8130a73ed@08e7642f-a70d-4fdc-9c3e-d77fa0fe0e16.ed6e2c67-b607-48a7-8498-6a0b15891991.317aa722-1472-407a-b579-7bbaf58f47e9.yiyuan.cyou:12001?sni=13-251-128-188.nhost.00cdn.com&skip-cert-verify=true#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%2001%20%7C%20%E5%B9%BF%E6%B8%AF%20IEPL
+trojan://217c396e-e3b7-4c43-8e76-6ad8130a73ed@08e7642f-a70d-4fdc-9c3e-d77fa0fe0e16.ed6e2c67-b607-48a7-8498-6a0b15891991.317aa722-1472-407a-b579-7bbaf58f47e9.yiyuan.cyou:12001?sni=13-251-128-188.nhost.00cdn.com&skip-cert-verify=true#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%2002%20%7C%20%E5%B9%BF%E6%B8%AF%20IEPL
+trojan://217c396e-e3b7-4c43-8e76-6ad8130a73ed@08e7642f-a70d-4fdc-9c3e-d77fa0fe0e16.ed6e2c67-b607-48a7-8498-6a0b15891991.317aa722-1472-407a-b579-7bbaf58f47e9.yiyuan.cyou:12001?sni=13-251-128-188.nhost.00cdn.com&skip-cert-verify=true#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%2003%20%7C%20%E5%B9%BF%E6%B8%AF%20IEPL
+trojan://217c396e-e3b7-4c43-8e76-6ad8130a73ed@08e7642f-a70d-4fdc-9c3e-d77fa0fe0e16.ed6e2c67-b607-48a7-8498-6a0b15891991.317aa722-1472-407a-b579-7bbaf58f47e9.yiyuan.cyou:12001?sni=13-251-128-188.nhost.00cdn.com&skip-cert-verify=true#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%2004%20%7C%20%E5%B9%BF%E6%B8%AF%20IEPL
+trojan://217c396e-e3b7-4c43-8e76-6ad8130a73ed@08e7642f-a70d-4fdc-9c3e-d77fa0fe0e16.ed6e2c67-b607-48a7-8498-6a0b15891991.317aa722-1472-407a-b579-7bbaf58f47e9.yiyuan.cyou:12001?sni=13-251-128-188.nhost.00cdn.com&skip-cert-verify=true#%F0%9F%87%AD%F0%9F%87%B0%20HKy
+trojan://217c396e-e3b7-4c43-8e76-6ad8130a73ed@08e7642f-a70d-4fdc-9c3e-d77fa0fe0e16.ed6e2c67-b607-48a7-8498-6a0b15891991.317aa722-1472-407a-b579-7bbaf58f47e9.yiyuan.cyou:12001?sni=13-251-128-188.nhost.00cdn.com&skip-cert-verify=true#%F0%9F%87%B8%F0%9F%87%AC%20%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E8%AF%B7%E5%88%B7%E6%96%B0%E8%AE%A2%E9%98%85%EF%BC%8C%E9%82%80%E8%AF%B760%25%E8%BF%94%E5%88%A9
+trojan://219e8c98-4250-48f8-8538-8b23e6708f02@gdcm3.relay.qchwnd.moe:10211?allowInsecure=0&peer=id.node.qchwnd.moe&sni=id.node.qchwnd.moe#%F0%9F%87%AE%F0%9F%87%A9%20%5B%E5%B9%BF%E6%B8%AF%5D%E5%8D%B0%E5%B0%BC%E2%80%A21x
+trojan://219e8c98-4250-48f8-8538-8b23e6708f02@gdcm3.relay.qchwnd.moe:10221?allowInsecure=0&peer=sg3.alink.qchwnd.moe&sni=sg3.alink.qchwnd.moe#%F0%9F%87%B8%F0%9F%87%AC%20%5B%E5%B9%BF%E6%B8%AF%5D%E6%96%B0%E5%8A%A0%E5%9D%A1%E2%80%A21x
 trojan://219e8c98-4250-48f8-8538-8b23e6708f02@gdcm3.relay.qchwnd.moe:60600?allowInsecure=0&peer=hkt2.node.qchwnd.moe&sni=hkt2.node.qchwnd.moe#%F0%9F%87%AD%F0%9F%87%B0%20%5B%E5%B9%BF%E6%B8%AF%5D%E9%A6%99%E6%B8%AF2%E2%80%A2HKT%E2%80%A20.5x
+trojan://219e8c98-4250-48f8-8538-8b23e6708f02@gdcm3.relay.qchwnd.moe:60601?allowInsecure=0&peer=tw.node.qchwnd.moe&sni=tw.node.qchwnd.moe#%F0%9F%87%B9%F0%9F%87%BC%20%5B%E5%B9%BF%E6%B8%AF%5D%E5%8F%B0%E7%81%A31%E2%80%A2HiNet%E2%80%A21x
+trojan://219e8c98-4250-48f8-8538-8b23e6708f02@gdcm3.relay.qchwnd.moe:60602?allowInsecure=0&peer=hkt.node.qchwnd.moe&sni=hkt.node.qchwnd.moe#%F0%9F%87%AD%F0%9F%87%B0%20%5B%E5%B9%BF%E6%B8%AF%5D%E9%A6%99%E6%B8%AF4%E2%80%A2HKT%E2%80%A21x
+trojan://219e8c98-4250-48f8-8538-8b23e6708f02@gdcm3.relay.qchwnd.moe:60609?allowInsecure=0&peer=hk.node.qchwnd.moe&sni=hk.node.qchwnd.moe#%F0%9F%87%AD%F0%9F%87%B0%5B%E5%B9%BF%E6%B8%AF%5D%E9%A6%99%E6%B8%AF3%E2%80%A2HGC%E2%80%A21x
 trojan://219e8c98-4250-48f8-8538-8b23e6708f02@kr.alinkrelay.com:10000?allowInsecure=0#%F0%9F%87%B0%F0%9F%87%B7%20%5B%E6%B2%AA%E6%97%A5%5D%E9%9F%A9%E5%9B%BD1%E2%80%A2%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%200.5x
 trojan://22e7ebb2dc8ab524@211.72.35.153:3389?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E5%8F%B0%E6%B9%BETROJAN%5D211.72.35.153%3A3389
 trojan://253152b0-e018-11ec-b935-225401db9d57@sghe.tjvpn.org:443?security=tls&sni=video.joox.com&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSGHE.TJVPN.ORG%3A443
 trojan://253152b0-e018-11ec-b935-225401db9d57@sghe.tjvpn.org:443?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSGHE.TJVPN.ORG%3A443
 trojan://274c1b23-2bfe-40ac-943c-ebc1aa044b22@41.216.177.41:443?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E6%84%8F%E5%A4%A7%E5%88%A9TROJAN%5D41.216.177.41%3A443
-trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@tw.tcpbbr.net:443#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
-trojan://280a1162-00cb-11ec-a8bf-f23c91cfbbc9@tw.tcpbbr.net:443?security=tls&type=tcp&headerType=none#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
-trojan://283695dc-fcc8-11ea-8684-f23c913c8d2b@tw.tcpbbr.net:443?allowInsecure=1#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
-trojan://283695dc-fcc8-11ea-8684-f23c913c8d2b@tw.tcpbbr.net:443?country=棣冨毈棣冨毎 tw&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
-trojan://283695dc-fcc8-11ea-8684-f23c913c8d2b@tw.tcpbbr.net:443?country=棣冨毈棣冨毎tw&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
-trojan://283695dc-fcc8-11ea-8684-f23c913c8d2b@tw.tcpbbr.net:443?country=🇹🇼 tw&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
-trojan://28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
-trojan://28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
-trojan://28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://2752e6eb-a19b-4217-b33a-d94d07f7f07d@ru.hootfun.top:42332?allowInsecure=1&peer=ru.hootfun.top&sni=ru.hootfun.top#%E4%BF%84%E7%BD%97%E6%96%AF-%E7%94%B5%E4%BF%A1%E8%81%94%E9%80%9A%E4%BC%98%E5%8C%96
+trojan://28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬 ca&skip-cert-verify=true&udp=true#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://28d98f761aca9d636f44db62544628eb@184.168.127.50:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D184.168.127.50%3A443
 trojan://28d98f761aca9d636f44db62544628eb@184.168.127.50:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D184.168.127.50%3A443
 trojan://28d98f761aca9d636f44db62544628eb@185.126.116.235:443?country=🇷🇴 ro&skip-cert-verify=true&udp=true#%5B%E7%91%9E%E5%A3%ABTROJAN%5D185.126.116.235%3A443
-trojan://28d98f761aca9d636f44db62544628eb@5.183.177.111:443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5D5.183.177.111%3A443
 trojan://28d98f761aca9d636f44db62544628eb@72.167.45.6:443?allowInsecure=1#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
 trojan://28d98f761aca9d636f44db62544628eb@72.167.45.6:443?country=棣冨毉棣冨毇 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
 trojan://28d98f761aca9d636f44db62544628eb@72.167.45.6:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
 trojan://28d98f761aca9d636f44db62544628eb@72.167.45.6:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
-trojan://28d98f761aca9d636f44db62544628eb@81.90.189.85:443?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D81.90.189.85%3A443
 trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@161.129.60.17:25634?sni=111-47-215-139.nhost.00cdn.com#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5D161.129.60.17%3A25634
 trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@161.129.60.17:25634?sni=ip3884414509.mobgslb.tbcache.com#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5D161.129.60.17%3A25634
-trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@211.23.149.95:25634?sni=111-47-215-139.nhost.00cdn.com#%5B%E5%8F%B0%E6%B9%BETROJAN%5D211.23.149.95%3A25634
 trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@ntw01.vsvideo.live:25634?sni=111-47-215-139.nhost.00cdn.com#lv1%20%E5%8F%B0%E6%B9%BEHinet1%20%E7%9B%B4%E8%BF%9E
 trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@ntw02.vsvideo.live:25634?sni=ip3884414509.mobgslb.tbcache.com#lv1%20%E5%8F%B0%E6%B9%BEHinet2%20%E7%9B%B4%E8%BF%9E
 trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@pp1.zhengzhongfeizhu.xyz:32001?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DPP1.ZHENGZHONGFEIZHU.XYZ%3A32001
@@ -75,30 +91,6 @@ trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@pp1.zhengzhongfeizhu.xyz:34003?cou
 trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@pp1.zhengzhongfeizhu.xyz:34003?sni=111-47-215-139.nhost.00cdn.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DPP1.ZHENGZHONGFEIZHU.XYZ%3A34003
 trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@pp1.zhengzhongfeizhu.xyz:34004?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DPP1.ZHENGZHONGFEIZHU.XYZ%3A34004
 trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@pp1.zhengzhongfeizhu.xyz:34004?sni=111-47-215-139.nhost.00cdn.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DPP1.ZHENGZHONGFEIZHU.XYZ%3A34004
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1&sni=free.upyun.online#CN_https%3A%2F%2F1808.ga%20%E8%8A%82%E7%82%B9_73
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_37%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_43%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_45%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_46%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_51%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_63%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_66%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_67%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_73%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_80%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳cn&skip-cert-verify=true&udp=true
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳cn&skip-cert-verify=true&udp=true#Relay_%F0%9F%87%A8%F0%9F%87%B3CN-%F0%9F%87%AC%F0%9F%87%A7GB_349
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳cn&skip-cert-verify=true&udp=true#Relay_%F0%9F%87%A8%F0%9F%87%B3CN-%F0%9F%87%B1%F0%9F%87%BALU_350
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?country=🇨🇳cn&skip-cert-verify=true&udp=true#Relay_%F0%9F%87%A8%F0%9F%87%B3CN-%F0%9F%87%B1%F0%9F%87%BALU_353
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s2.upyun.online:12340?sni=free.upyun.online#CN_%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99%20https%3A%2F%2F1808.ga%20%E8%8A%82%E7%82%B9_65
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s4.upyun.online:12340?country=🇬🇧 gb&skip-cert-verify=true&udp=true#%F0%9F%87%AC%F0%9F%87%A7%20GB_50%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s4.upyun.online:12340?country=🇬🇧 gb&skip-cert-verify=true&udp=true#%F0%9F%87%AC%F0%9F%87%A7%20GB_52%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s4.upyun.online:12340?country=🇬🇧 gb&skip-cert-verify=true&udp=true#%F0%9F%87%AC%F0%9F%87%A7%20GB_71%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s4.upyun.online:12340?country=🇬🇧 gb&skip-cert-verify=true&udp=true#%F0%9F%87%AC%F0%9F%87%A7%20GB_72%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s4.upyun.online:12340?country=🇬🇧 gb&skip-cert-verify=true&udp=true#%F0%9F%87%AC%F0%9F%87%A7%20GB_82%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s4.upyun.online:12340?country=🇬🇧 gb&skip-cert-verify=true&udp=true#%F0%9F%87%AC%F0%9F%87%A7%20GB_85%20TG%40peekfun
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s4.upyun.online:12340?country=🇬🇧gb&skip-cert-verify=true&udp=true
-trojan://316b40c0-0dab-4ea1-9666-ac1658b033b2@s4.upyun.online:12340?country=🇬🇧gb&skip-cert-verify=true&udp=true#Relay_%F0%9F%87%AC%F0%9F%87%A7GB-%F0%9F%87%AC%F0%9F%87%A7GB_528
 trojan://360682ce-eb02-3db3-af46-462a5eacb710@p1kr11.verypinknipple.xyz:3389#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DP1KR11.VERYPINKNIPPLE.XYZ%3A3389
 trojan://36ebef7d1b1d6205fd0c55f28800e674@184.168.127.50:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D184.168.127.50%3A443
 trojan://36ebef7d1b1d6205fd0c55f28800e674@184.168.127.50:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D184.168.127.50%3A443
@@ -106,21 +98,36 @@ trojan://36ebef7d1b1d6205fd0c55f28800e674@185.126.116.235:443?country=🇷🇴 r
 trojan://36ebef7d1b1d6205fd0c55f28800e674@72.167.45.6:443?country=棣冨毉棣冨毇 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
 trojan://36ebef7d1b1d6205fd0c55f28800e674@72.167.45.6:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
 trojan://36ebef7d1b1d6205fd0c55f28800e674@72.167.45.6:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
-trojan://36ebef7d1b1d6205fd0c55f28800e674@hk-server-01.selfupay.com:443?country=棣冨毆棣冨毀ro&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DHK-SERVER-01.SELFUPAY.COM%3A443
-trojan://36ebef7d1b1d6205fd0c55f28800e674@hk-server-02.selfupay.com:443?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DHK-SERVER-02.SELFUPAY.COM%3A443
-trojan://36ebef7d1b1d6205fd0c55f28800e674@hk-server-02.selfupay.com:443?country=棣冨毆棣冨毀ro&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DHK-SERVER-02.SELFUPAY.COM%3A443
-trojan://36ebef7d1b1d6205fd0c55f28800e674@jp-server-02.selfupay.com:443?country=棣冨殹棣冨毃jp&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJP-SERVER-02.SELFUPAY.COM%3A443
-trojan://36ebef7d1b1d6205fd0c55f28800e674@sg-server-01.selfupay.com:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DSG-SERVER-01.SELFUPAY.COM%3A443
-trojan://36ebef7d1b1d6205fd0c55f28800e674@usa-server-02.selfupay.com:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DUSA-SERVER-02.SELFUPAY.COM%3A443
-trojan://36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
-trojan://36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
-trojan://36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://36ebef7d1b1d6205fd0c55f28800e674@hk-server-01.selfupay.com:443?country=棣冨毆棣冨毀ro&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DHK-SERVER-01.SELFUPAY.COM%3A443
+trojan://36ebef7d1b1d6205fd0c55f28800e674@hk-server-02.selfupay.com:443?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DHK-SERVER-02.SELFUPAY.COM%3A443
+trojan://36ebef7d1b1d6205fd0c55f28800e674@hk-server-02.selfupay.com:443?country=棣冨毆棣冨毀ro&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DHK-SERVER-02.SELFUPAY.COM%3A443
+trojan://36ebef7d1b1d6205fd0c55f28800e674@jp-server-02.selfupay.com:443?country=棣冨殹棣冨毃jp&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DJP-SERVER-02.SELFUPAY.COM%3A443
+trojan://36ebef7d1b1d6205fd0c55f28800e674@sg-server-01.selfupay.com:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DSG-SERVER-01.SELFUPAY.COM%3A443
+trojan://36ebef7d1b1d6205fd0c55f28800e674@usa-server-02.selfupay.com:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUSA-SERVER-02.SELFUPAY.COM%3A443
+trojan://36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬 ca&skip-cert-verify=true&udp=true#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DCA-TROJAN.BONDS.ID%3A443
+trojan://36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://38239dd0-902b-11eb-afc1-1239d0255272@us-trojan.bonds.id:443?country=棣冨毉棣冨毇 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS-TROJAN.BONDS.ID%3A443
 trojan://38239dd0-902b-11eb-afc1-1239d0255272@us-trojan.bonds.id:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS-TROJAN.BONDS.ID%3A443
 trojan://38239dd0-902b-11eb-afc1-1239d0255272@us-trojan.bonds.id:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS-TROJAN.BONDS.ID%3A443
-trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=棣冨殹棣冨毃 jp&skip-cert-verify=true&udp=true#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DCC2.DOUBLEDOU.WIN%3A4584
-trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=棣冨殹棣冨毃jp&skip-cert-verify=true&udp=true#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DCC2.DOUBLEDOU.WIN%3A4584
-trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DCC2.DOUBLEDOU.WIN%3A4584
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_105%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_106%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_121%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_128%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_129%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_131%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_135%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_139%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_146%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_65%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_67%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_68%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_86%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_90%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_91%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_95%20TG%40peekfun
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵jp&skip-cert-verify=true&udp=true
+trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cc2.doubledou.win:4584?country=🇯🇵jp&skip-cert-verify=true&udp=true#Relay_%F0%9F%87%AF%F0%9F%87%B5JP-%F0%9F%87%AF%F0%9F%87%B5JP_585
 trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cuvip.doubledou.win:4583?country=棣冨毉棣冨毇 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DCUVIP.DOUBLEDOU.WIN%3A4583
 trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cuvip.doubledou.win:4583?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DCUVIP.DOUBLEDOU.WIN%3A4583
 trojan://3c91d857-2d40-39b9-81c0-f6adde8037ff@cuvip.doubledou.win:4583?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DCUVIP.DOUBLEDOU.WIN%3A4583
@@ -174,19 +181,11 @@ trojan://41742_920c8caa@hk31.ssgnode.ga:443?country=棣冨殶棣冨殺 hk&skip-c
 trojan://41742_920c8caa@hk31.ssgnode.ga:443?country=棣冨殶棣冨殺hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHK31.SSGNODE.GA%3A443
 trojan://41742_920c8caa@hk31.ssgnode.ga:443?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHK31.SSGNODE.GA%3A443
 trojan://41742_920c8caa@hk31.ssgnode.ga:443?sni=hk31.ssgnode.ga#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHK31.SSGNODE.GA%3A443
-trojan://4809af3e-b8f2-4f07-9cfb-79d0a7bb1219@s2.upyun.online:12340#%252yeCN2ye3592ye%25200.24Mb
-trojan://4b0a60e7-4975-43e8-b9b0-1d156ce98693@625us.ok365.cyou:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D625US.OK365.CYOU%3A443
-trojan://4b0a60e7-4975-43e8-b9b0-1d156ce98693@715hk01.ok365.cyou:80?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5D715HK01.OK365.CYOU%3A80
 trojan://4b0a60e7-4975-43e8-b9b0-1d156ce98693@724tw01.ok365.cyou:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5D724TW01.OK365.CYOU%3A443
-trojan://4b0a60e7-4975-43e8-b9b0-1d156ce98693@73hk01.ok365.cyou:80?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5D73HK01.OK365.CYOU%3A80
-trojan://4b0a60e7-4975-43e8-b9b0-1d156ce98693@73hk02.ok365.cyou:12399?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5D73HK02.OK365.CYOU%3A12399
 trojan://4b3903e2-f2a2-4831-95be-03cc8e3a7244@azhk.fenglingcloud.com:28007?allowInsecure=1#HK_%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99https%3A%2F%2F1808.ga%20%E8%8A%82%E7%82%B9_105
-trojan://4c7985e0-79e8-11eb-b8d3-1239d0255272@sg3-trojan.bonds.id:443?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSG3-TROJAN.BONDS.ID%3A443
 trojan://4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3@gzyd1.52147.top:30010?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30010
 trojan://4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3@gzyd1.52147.top:30080?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30080
 trojan://4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3@gzyd1.52147.top:30180?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30180
-trojan://4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3@gzyd2.52147.top:30010?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30010
-trojan://4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3@gzyd2.52147.top:30180?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30180
 trojan://4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3@hnyd.52147.top:30010?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHNYD.52147.TOP%3A30010
 trojan://4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3@hnyd.52147.top:30180?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHNYD.52147.TOP%3A30180
 trojan://4f7dc540-d244-4e64-af21-4b5bb300add3@www.tokyo2023.ga:443?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DWWW.TOKYO2023.GA%3A443
@@ -195,26 +194,22 @@ trojan://4f7dc540-d244-4e64-af21-4b5bb300add3@www.tokyo2023.ga:443?country=棣�
 trojan://4f7dc540-d244-4e64-af21-4b5bb300add3@www.tokyo2023.ga:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DWWW.TOKYO2023.GA%3A443
 trojan://4f7dc540-d244-4e64-af21-4b5bb300add3@www.tokyo2023.ga:443?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DWWW.TOKYO2023.GA%3A443
 trojan://4f7dc540-d244-4e64-af21-4b5bb300add3@www.tokyo2023.ga:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DWWW.TOKYO2023.GA%3A443
+trojan://501c5492-d6c7-4119-b470-67189394d9a7@825hk01.tfzhc.top:443?sni=825hk01.tfzhc.top&allowInsecure=0#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D825HK01.TFZHC.TOP%3A443
 trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@gzyd1.52147.top:30120?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30120
 trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@gzyd1.52147.top:30130?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30130
-trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@gzyd2.52147.top:30120?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30120
-trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@gzyd2.52147.top:30130?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30130
 trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@hnyd.52147.top:30120?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHNYD.52147.TOP%3A30120
 trojan://559cccaf-1a5c-4a8d-99fe-b27463f2d88d@in1.qingyun123.xyz:443#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DIN1.QINGYUN123.XYZ%3A443
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@aj.shenseven.xyz:12053?allowInsecure=1&peer=qt21.shenseven.xyz&sni=qt21.shenseven.xyz#%E3%80%8C%F0%9F%87%AD%F0%9F%87%B0%E3%80%8D%E5%85%AB%E8%9B%9B%E7%9F%9B%E3%80%8C%E4%B8%AD%E8%BD%AC%E3%80%8D%E2%98%85%E2%98%85
+trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@aj.shenseven.xyz:12096?allowInsecure=1&peer=qt18.shenseven.xyz&sni=qt18.shenseven.xyz#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DAJ.SHENSEVEN.XYZ%3A12096
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@aj.shenseven.xyz:12096?allowInsecure=1&peer=qt18.shenseven.xyz&sni=qt18.shenseven.xyz#%E3%80%8C%F0%9F%87%AF%F0%9F%87%B5%E3%80%8D%E8%BE%9F%E9%82%AA%E5%89%91%E3%80%8C%E8%A7%A3%E9%94%81%E3%80%8D%E2%9C%B0
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@aj.shenseven.xyz:32096?allowInsecure=1&peer=qt22.shenseven.xyz&sni=qt22.shenseven.xyz#%E3%80%8C%F0%9F%87%B8%F0%9F%87%AC%E3%80%8D%E5%86%A5%E7%8E%8B%E5%89%91%E3%80%8C%E4%B8%AD%E8%BD%AC%E3%80%8D%E2%98%85
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@aj.shenseven.xyz:52096?allowInsecure=1&peer=qt42.shenseven.xyz&sni=qt42.shenseven.xyz#%E3%80%8C%F0%9F%87%AF%F0%9F%87%B5%E3%80%8D%E5%A4%AA%E6%9E%81%E5%9B%BE%E3%80%8C%E8%A7%A3%E9%94%81%E3%80%8D%E2%98%85
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@dk.shenseven.xyz:43443?allowInsecure=1&peer=qt12.shenseven.xyz&sni=qt12.shenseven.xyz#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DDK.SHENSEVEN.XYZ%3A43443
-trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@dk.shenseven.xyz:52022?allowInsecure=1&peer=qt2.shenseven.xyz&sni=qt2.shenseven.xyz#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DDK.SHENSEVEN.XYZ%3A52022
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@dk.shenseven.xyz:52087?allowInsecure=1&peer=qt41.shenseven.xyz&sni=qt41.shenseven.xyz#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DDK.SHENSEVEN.XYZ%3A52087
 trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@dk.shenseven.xyz:52096?allowInsecure=1&peer=qt3.shenseven.xyz&sni=qt3.shenseven.xyz#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DDK.SHENSEVEN.XYZ%3A52096
-trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@fk.shenseven.xyz:21314?allowInsecure=1&peer=qt13.shenseven.xyz&sni=qt13.shenseven.xyz#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DFK.SHENSEVEN.XYZ%3A21314
-trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@fk.shenseven.xyz:32096?allowInsecure=1&peer=qt4.shenseven.xyz&sni=qt4.shenseven.xyz#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DFK.SHENSEVEN.XYZ%3A32096
-trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@fk.shenseven.xyz:52087?allowInsecure=1&peer=qt25.shenseven.xyz&sni=qt25.shenseven.xyz#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DFK.SHENSEVEN.XYZ%3A52087
-trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt32.shenseven.xyz:2087?allowInsecure=1&peer=qt32.shenseven.xyz&sni=qt32.shenseven.xyz#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DQT32.SHENSEVEN.XYZ%3A2087
-trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt57.shenseven.xyz:443?allowInsecure=1&peer=qt57.shenseven.xyz&sni=qt57.shenseven.xyz#%5B%E6%84%8F%E5%A4%A7%E5%88%A9TROJAN%5DQT57.SHENSEVEN.XYZ%3A443
-trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt58.shenseven.xyz:2083?allowInsecure=1&peer=qt58.shenseven.xyz&sni=qt58.shenseven.xyz#%5B%E6%84%8F%E5%A4%A7%E5%88%A9TROJAN%5DQT58.SHENSEVEN.XYZ%3A2083
+trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@fk.shenseven.xyz:32096?allowInsecure=1&peer=qt4.shenseven.xyz&sni=qt4.shenseven.xyz#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DFK.SHENSEVEN.XYZ%3A32096
+trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@fk.shenseven.xyz:52087?allowInsecure=1&peer=qt25.shenseven.xyz&sni=qt25.shenseven.xyz#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DFK.SHENSEVEN.XYZ%3A52087
+trojan://5701fb16-1c35-40b2-84f9-9b953404cbcd@qt58.shenseven.xyz:2083?allowInsecure=1&peer=qt58.shenseven.xyz&sni=qt58.shenseven.xyz#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DQT58.SHENSEVEN.XYZ%3A2083
 trojan://57aa53f3afbd@qwanck.xyz:443?country=🇮🇷 ir&skip-cert-verify=true&udp=true#%F0%9F%87%AE%F0%9F%87%B7%20IR_119%20%7C238.39Mb
 trojan://57aa53f3afbd@qwanck.xyz:443?country=🇮🇷 ir&skip-cert-verify=true&udp=true#%F0%9F%87%AE%F0%9F%87%B7%20IR_62%20TG%40peekfun
 trojan://57aa53f3afbd@qwanck.xyz:443?country=🇮🇷 ir&skip-cert-verify=true&udp=true#%F0%9F%87%AE%F0%9F%87%B7%20IR_64%20TG%40peekfun
@@ -249,16 +244,15 @@ trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@tw.tcpbbr.net:443?country=棣冨�
 trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@tw.tcpbbr.net:443?country=棣冨毈棣冨毎tw&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
 trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@tw.tcpbbr.net:443?country=🇹🇼 tw&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
 trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@tw.tcpbbr.net:443?sni=tw.tcpbbr.net#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
-trojan://5d2f53fb-cc28-3f91-9844-02a4ccedfd4a@agals02.subyyds.xyz:992#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAGALS02.SUBYYDS.XYZ%3A992
 trojan://5de8dcaa-2747-4221-9bff-afc0272b3fc4@zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou:10724?allowInsecure=1&sni=zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou#CN_%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99https%3A%2F%2F1808.ga%20%E8%8A%82%E7%82%B9_238
 trojan://5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101@hk05.kuli888.xyz:580#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHK05.KULI888.XYZ%3A580
 trojan://5eaea1b9-b977-3391-b7cb-370addb40ce2@cscu.wecanfly.top:51132?sni=sni.gouziyun.top#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCSCU.WECANFLY.TOP%3A51132
 trojan://5eaea1b9-b977-3391-b7cb-370addb40ce2@fsyd.wecanfly.top:51133?sni=sni.gouziyun.top#CN_%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99%E7%BD%91https%3A%2F%2F1808.ga_115
 trojan://5eaea1b9-b977-3391-b7cb-370addb40ce2@fsyd.wecanfly.top:51219?sni=fsyd.wecanfly.top#CN_%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99%E7%BD%91https%3A%2F%2F1808.ga_113
-trojan://5eaea1b9-b977-3391-b7cb-370addb40ce2@hygz.doggogogo.top:50102?sni=sni.gouziyun.top#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHYGZ.DOGGOGOGO.TOP%3A50102
 trojan://5eaea1b9-b977-3391-b7cb-370addb40ce2@hygz.doggogogo.top:53030?sni=hygz.doggogogo.top#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHYGZ.DOGGOGOGO.TOP%3A53030
+trojan://5eaea1b9-b977-3391-b7cb-370addb40ce2@zj1.doggogogo.top:51132?sni=sni.gouziyun.top#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DZJ1.DOGGOGOGO.TOP%3A51132
 trojan://5eaea1b9-b977-3391-b7cb-370addb40ce2@zj1.doggogogo.top:51132?sni=sni.gouziyun.top#CN_%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99%E7%BD%91https%3A%2F%2F1808.ga_112
-trojan://5efe3c05-b123-4688-92b9-f6dc5099811f@deu001.laxiyun.com:10086#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DDEU001.LAXIYUN.COM%3A10086
+trojan://5efe3c05-b123-4688-92b9-f6dc5099811f@deu001.laxiyun.com:10086#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DDEU001.LAXIYUN.COM%3A10086
 trojan://5efe3c05-b123-4688-92b9-f6dc5099811f@jp001.laxiyun.com:10086#github.com/freefq%20-%20%E6%97%A5%E6%9C%AC%E4%B8%9C%E4%BA%AC%E9%83%BD%E5%93%81%E5%B7%9D%E5%8C%BALinode%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%204
 trojan://5efe3c05-b123-4688-92b9-f6dc5099811f@jp001.laxiyun.com:10086?country=🇯🇵jp&skip-cert-verify=true&udp=true#Relay_%20%7C33.77Mb
 trojan://5efe3c05-b123-4688-92b9-f6dc5099811f@jp001.laxiyun.com:10086?country=🇯🇵jp&skip-cert-verify=true&udp=true#Relay_%F0%9F%87%AF%F0%9F%87%B5JP-%F0%9F%87%AF%F0%9F%87%B5JP_19%20%7C87.93Mb
@@ -315,38 +309,37 @@ trojan://6f0a9d0fa39d65fa@5.44.249.43:3389?allowInsecureHostname=1&allowInsecure
 trojan://6f0a9d0fa39d65fa@5.44.249.43:3389?country=棣冨极 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
 trojan://6f0a9d0fa39d65fa@5.44.249.43:3389?country=棣冨极zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
 trojan://6f0a9d0fa39d65fa@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
-trojan://704585e5-cb0c-4354-83d5-8756ba9a05ad@o05.trojan.tel:18443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DO05.TROJAN.TEL%3A18443
 trojan://704585e5-cb0c-4354-83d5-8756ba9a05ad@o06.trojan.tel:18443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DO06.TROJAN.TEL%3A18443
 trojan://704585e5-cb0c-4354-83d5-8756ba9a05ad@o07.trojan.tel:18443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DO07.TROJAN.TEL%3A18443
-trojan://704585e5-cb0c-4354-83d5-8756ba9a05ad@o10.trojan.tel:18443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DO10.TROJAN.TEL%3A18443
+trojan://704585e5-cb0c-4354-83d5-8756ba9a05ad@o10.trojan.tel:18443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DO10.TROJAN.TEL%3A18443
 trojan://704585e5-cb0c-4354-83d5-8756ba9a05ad@t01.tgfaka.com:18443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DT01.TGFAKA.COM%3A18443
 trojan://704585e5-cb0c-4354-83d5-8756ba9a05ad@t03.tgfaka.com:18443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DT03.TGFAKA.COM%3A18443
 trojan://704585e5-cb0c-4354-83d5-8756ba9a05ad@t04.tgfaka.com:18443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DT04.TGFAKA.COM%3A18443
 trojan://704585e5-cb0c-4354-83d5-8756ba9a05ad@t06.tgfaka.com:18443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DT06.TGFAKA.COM%3A18443
 trojan://711aabc21e45ae31@5.44.249.43:3389?country=棣冨极 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
 trojan://711aabc21e45ae31@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
-trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DJGWLD3.GAOX.ML%3A443
-trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?country=棣冨殲棣冨殭 gb&skip-cert-verify=true&udp=true#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DJGWLD3.GAOX.ML%3A443
-trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?country=棣冨殲棣冨殭gb&skip-cert-verify=true&udp=true#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DJGWLD3.GAOX.ML%3A443
-trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DJGWLD3.GAOX.ML%3A443
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DJGWLD3.GAOX.ML%3A443
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?country=棣冨殲棣冨殭 gb&skip-cert-verify=true&udp=true#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DJGWLD3.GAOX.ML%3A443
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?country=棣冨殲棣冨殭gb&skip-cert-verify=true&udp=true#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DJGWLD3.GAOX.ML%3A443
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DJGWLD3.GAOX.ML%3A443
 trojan://721c60a2-86a4-44c6-8f82-8fc80f6ad8ab@t3.ssrsub.com:8443#ss
-trojan://749247ba-f14d-4cca-a0a1-096629ccad5e@gy.moonfree.top:10000?allowInsecure=1&peer=trrbv3.moonfree.top&sni=trrbv3.moonfree.top#%5B%E9%A6%99%E6%B8%AFTROJAN%5DGY.MOONFREE.TOP%3A10000
-trojan://749247ba-f14d-4cca-a0a1-096629ccad5e@gy.moonfree.top:10001?allowInsecure=1&peer=trsgv3.moonfree.top&sni=trsgv3.moonfree.top#%5B%E9%A6%99%E6%B8%AFTROJAN%5DGY.MOONFREE.TOP%3A10001
-trojan://749247ba-f14d-4cca-a0a1-096629ccad5e@gy.moonfree.top:10002?allowInsecure=1&peer=trydv3.moonfree.top&sni=trydv3.moonfree.top#%5B%E9%A6%99%E6%B8%AFTROJAN%5DGY.MOONFREE.TOP%3A10002
-trojan://749247ba-f14d-4cca-a0a1-096629ccad5e@rk59.moonfree.top:443?allowInsecure=1&peer=rk59.moonfree.top&sni=rk59.moonfree.top#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DRK59.MOONFREE.TOP%3A443
+trojan://749247ba-f14d-4cca-a0a1-096629ccad5e@rk59.moonfree.top:443?allowInsecure=1&peer=rk59.moonfree.top&sni=rk59.moonfree.top#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DRK59.MOONFREE.TOP%3A443
 trojan://749247ba-f14d-4cca-a0a1-096629ccad5e@rn1107.moonfree.top:443?allowInsecure=1&peer=rn1107.moonfree.top&sni=rn1107.moonfree.top#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DRN1107.MOONFREE.TOP%3A443
-trojan://749247ba-f14d-4cca-a0a1-096629ccad5e@sh.moonfree.top:10000?allowInsecure=1&peer=trrbv3.moonfree.top&sni=trrbv3.moonfree.top#%5B%E6%97%A5%E6%9C%ACTROJAN%5DSH.MOONFREE.TOP%3A10000
 trojan://749247ba-f14d-4cca-a0a1-096629ccad5e@sh.moonfree.top:10001?allowInsecure=1&peer=trsgv3.moonfree.top&sni=trsgv3.moonfree.top#%5B%E6%97%A5%E6%9C%ACTROJAN%5DSH.MOONFREE.TOP%3A10001
 trojan://749247ba-f14d-4cca-a0a1-096629ccad5e@sh.moonfree.top:10002?allowInsecure=1&peer=trydv3.moonfree.top&sni=trydv3.moonfree.top#%5B%E6%97%A5%E6%9C%ACTROJAN%5DSH.MOONFREE.TOP%3A10002
 trojan://749247ba-f14d-4cca-a0a1-096629ccad5e@uscera.moonfree.top:443?allowInsecure=1&peer=uscera.moonfree.top&sni=uscera.moonfree.top#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUSCERA.MOONFREE.TOP%3A443
-trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20710?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAZGY001.XIBA1.XYZ%3A20710
-trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20711?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAZGY001.XIBA1.XYZ%3A20711
-trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20712?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAZGY001.XIBA1.XYZ%3A20712
-trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20713?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAZGY001.XIBA1.XYZ%3A20713
+trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20710?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DAZGY001.XIBA1.XYZ%3A20710
+trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20711?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5DAZGY001.XIBA1.XYZ%3A20711
 trojan://75699d6f-fc6d-3bc8-98d7-4b525f63a9f7@trojan.linkdns.xyz:40226?sni=trojan.linkdns.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTROJAN.LINKDNS.XYZ%3A40226
 trojan://7688df6f-bf65-3368-b55e-d78efea6a582@pp1.zhengzhongfeizhu.xyz:32001?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DPP1.ZHENGZHONGFEIZHU.XYZ%3A32001
 trojan://7688df6f-bf65-3368-b55e-d78efea6a582@pp1.zhengzhongfeizhu.xyz:34002?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DPP1.ZHENGZHONGFEIZHU.XYZ%3A34002
 trojan://7688df6f-bf65-3368-b55e-d78efea6a582@pp1.zhengzhongfeizhu.xyz:34003?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DPP1.ZHENGZHONGFEIZHU.XYZ%3A34003
+trojan://7934b860-42ce-46bc-bff5-2c359cced9ed@az.az-bgp.chuangshi999.xyz:30484?allowInsecure=1&peer=xjp1.xinjiapo1.xyz&tfo=1#%E6%96%B0%E5%8A%A0%E5%9D%A1%E2%9C%88%EF%B8%8F%E4%B8%AD%E8%BD%AC%20%5B%E5%B9%BF%E5%B7%9EBGP%5D
+trojan://7934b860-42ce-46bc-bff5-2c359cced9ed@az.az-bgp.chuangshi999.xyz:39124?allowInsecure=1&peer=hg1.hanguo1.xyz&tfo=1#%E9%9F%A9%E5%9B%BD%E2%9C%88%EF%B8%8F%E4%B8%AD%E8%BD%AC%20%5B%E5%B9%BF%E5%B7%9EBGP%5D
+trojan://7934b860-42ce-46bc-bff5-2c359cced9ed@hlu.bgp2.liuliangzhuanfa.xyz:26539?allowInsecure=1&peer=xjp1.xinjiapo1.xyz&tfo=1#%E6%96%B0%E5%8A%A0%E5%9D%A1%E2%9C%88%EF%B8%8F%E4%B8%AD%E8%BD%AC%20%20%5B%E6%B9%98%E6%B2%AABGP%5D
+trojan://7934b860-42ce-46bc-bff5-2c359cced9ed@hlu.bgp2.liuliangzhuanfa.xyz:31097?allowInsecure=1&peer=aa1.liumeit.xyz&tfo=1#%E5%8F%B0%E6%B9%BE%E2%9C%88%EF%B8%8F%E4%B8%AD%E8%BD%AC%20%20%5B%E6%B9%98%E6%B2%AABGP%5D
+trojan://7934b860-42ce-46bc-bff5-2c359cced9ed@hlu.bgp2.liuliangzhuanfa.xyz:42167?allowInsecure=1&peer=els1.eluosi1.xyz&tfo=1#%E4%BF%84%E7%BD%97%E6%96%AF%E2%9C%88%EF%B8%8F%E4%B8%AD%E8%BD%AC%20%20%5B%E6%B9%98%E6%B2%AABGP%5D
+trojan://7934b860-42ce-46bc-bff5-2c359cced9ed@hlu.bgp2.liuliangzhuanfa.xyz:45379?allowInsecure=1&peer=xg1.xianggang1.xyz&tfo=1#%E9%A6%99%E6%B8%AF%E2%9C%88%EF%B8%8F%E4%B8%AD%E8%BD%AC%20%5B%E6%B9%98%E6%B2%AABGP%5D
 trojan://794871c6-022b-4498-b816-296e8a581d86@ss2.2046.gq:4443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DSS2.2046.GQ%3A4443
 trojan://7Z29DRr1ts@cp-asus.ml:50275?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%5B06-05%5D%7Coslook%7C%E6%96%B0%E5%8A%A0%E5%9D%A1%28SG%29Singapore%2FSingapore_8
 trojan://7Z29DRr1ts@cp-asus.ml:50275?security=tls&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20mattkaydiary.com%7C%E6%96%B0%E5%8A%A0%E5%9D%A1%28SG%29Singapore%2FSingapore_8
@@ -374,16 +367,11 @@ trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&t
 trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#_%E6%B2%B9%E7%AE%A1%EF%BC%9A%E5%85%A8%E7%BD%91%E6%9C%80%E5%BC%BA%E7%99%BD%E5%AB%96
 trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#_127%20%7C%204.82Mb
 trojan://7b561e94-42f3-4f92-979c-4cf97c328025@xjp.ziqiyun.xyz:443?security=tls&type=tcp&headerType=none#_95
-trojan://7c9b7560-b0f7-11eb-a397-1239d0255272@fr-trojan.bonds.id:443?country=🇫🇷 fr&skip-cert-verify=true&udp=true#%5B%E6%B3%95%E5%9B%BDTROJAN%5DFR-TROJAN.BONDS.ID%3A443
 trojan://7e6256a0-b4ab-11eb-bc8f-1239d0255272@nl-trojan.bonds.id:443?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DNL-TROJAN.BONDS.ID%3A443
 trojan://7f77298a-cc14-45dd-a145-28f522443379@gzyd1.52147.top:30080?allowInsecure=0&peer=huayun.xyz&sni=huayun.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30080
 trojan://7f77298a-cc14-45dd-a145-28f522443379@gzyd1.52147.top:30120?allowInsecure=0&peer=huayun.xyz&sni=huayun.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30120
 trojan://7f77298a-cc14-45dd-a145-28f522443379@gzyd1.52147.top:30130?allowInsecure=0&peer=huayun.xyz&sni=huayun.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30130
 trojan://7f77298a-cc14-45dd-a145-28f522443379@gzyd1.52147.top:30170?allowInsecure=0&peer=huayun.xyz&sni=huayun.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30170
-trojan://7f77298a-cc14-45dd-a145-28f522443379@gzyd2.52147.top:30080?allowInsecure=0&peer=huayun.xyz&sni=huayun.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30080
-trojan://7f77298a-cc14-45dd-a145-28f522443379@gzyd2.52147.top:30120?allowInsecure=0&peer=huayun.xyz&sni=huayun.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30120
-trojan://7f77298a-cc14-45dd-a145-28f522443379@gzyd2.52147.top:30130?allowInsecure=0&peer=huayun.xyz&sni=huayun.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30130
-trojan://7f77298a-cc14-45dd-a145-28f522443379@gzyd2.52147.top:30170?allowInsecure=0&peer=huayun.xyz&sni=huayun.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30170
 trojan://7f77298a-cc14-45dd-a145-28f522443379@hnyd.52147.top:30080?allowInsecure=0&peer=huayun.xyz&sni=huayun.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHNYD.52147.TOP%3A30080
 trojan://7f77298a-cc14-45dd-a145-28f522443379@hnyd.52147.top:30120?allowInsecure=0&peer=huayun.xyz&sni=huayun.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHNYD.52147.TOP%3A30120
 trojan://7f77298a-cc14-45dd-a145-28f522443379@hnyd.52147.top:30130?allowInsecure=0&peer=huayun.xyz&sni=huayun.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHNYD.52147.TOP%3A30130
@@ -419,8 +407,6 @@ trojan://87d5ee80-9dfa-4cb5-b644-062803bd0c19@ygzyd.sub-nthu.com:35003?country=�
 trojan://87d5ee80-9dfa-4cb5-b644-062803bd0c19@ygzyd.sub-nthu.com:35005?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DYGZYD.SUB-NTHU.COM%3A35005
 trojan://87d5ee80-9dfa-4cb5-b644-062803bd0c19@ygzyd.sub-nthu.com:35005?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DYGZYD.SUB-NTHU.COM%3A35005
 trojan://8JYTzmWdnn5Ilft0@miner-one.pickaxe.sh:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%207
-trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-us01.yiyodns.xyz:443?security=tls&sni=tj-us01.yiyodns.xyz&type=tcp&headerType=none#%5B%E6%84%8F%E5%A4%A7%E5%88%A9TROJAN%5DTJ-US01.YIYODNS.XYZ%3A443
-trojan://8d0db1d1-62a2-4d8b-b272-e4f364e064c6@shcm.pdjc.cc:42000?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DSHCM.PDJC.CC%3A42000
 trojan://9029864a78d29a43@116.129.253.177:3389#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.177%3A3389
 trojan://9029864a78d29a43@116.129.253.177:3389?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.177%3A3389
 trojan://9029864a78d29a43@116.129.253.177:3389?country=棣冨殮棣冨殾cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.177%3A3389
@@ -430,11 +416,6 @@ trojan://94af0550-902b-11eb-b135-1239d0255272@nl-trojan.bonds.id:443?country=�
 trojan://96673fe8-2a45-4cca-bb6b-108b88aa4a4e@210.0.158.220:28443?country=棣冨殶棣冨殺 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5D210.0.158.220%3A28443
 trojan://96673fe8-2a45-4cca-bb6b-108b88aa4a4e@210.0.158.220:28443?country=🇭🇰 hk&skip-cert-verify=true&udp=true#%5B%E9%A6%99%E6%B8%AFTROJAN%5D210.0.158.220%3A28443
 trojan://96884680-77e6-11eb-8d67-1239d0255272@nl-trojan.bonds.id:443?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DNL-TROJAN.BONDS.ID%3A443
-trojan://97fdf760-7bbf-11eb-8e14-1239d0255272@sg3-trojan.bonds.id:443?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSG3-TROJAN.BONDS.ID%3A443
-trojan://9a27800ca7b52ee0@103.56.60.235:3381?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.60.235%3A3381
-trojan://9a27800ca7b52ee0@103.56.60.235:3385?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.60.235%3A3385
-trojan://9a27800ca7b52ee0@103.56.62.145:3381?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.62.145%3A3381
-trojan://9a27800ca7b52ee0@103.56.62.145:3385?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.62.145%3A3385
 trojan://9a27800ca7b52ee0@106.75.233.91:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D106.75.233.91%3A3389
 trojan://9a27800ca7b52ee0@116.129.253.130:3389?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.130%3A3389
 trojan://9a27800ca7b52ee0@116.129.253.134:3381?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.134%3A3381
@@ -445,7 +426,6 @@ trojan://9a27800ca7b52ee0@116.129.254.29:3389?country=棣冨殮棣冨殾 cn&skip
 trojan://9a27800ca7b52ee0@116.129.254.29:3389?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.29%3A3389
 trojan://9a27800ca7b52ee0@116.129.254.47:3389?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.47%3A3389
 trojan://9a27800ca7b52ee0@116.129.254.47:3389?security=tls&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.47%3A3389
-trojan://9a27800ca7b52ee0@134.195.101.32:3389?country=🏁 zz&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D134.195.101.32%3A3389
 trojan://9a27800ca7b52ee0@5.44.249.43:3389?country=棣冨极 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
 trojan://9a27800ca7b52ee0@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
 trojan://9c822f05-cfdc-479a-9534-60f3d4127435@jgwcc2.gaox.ml:443#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWCC2.GAOX.ML%3A443
@@ -460,7 +440,6 @@ trojan://9e92cf38-9f6b-3bae-8061-271f9d0e4ae2@trojan.linkdns.xyz:40207?allowInse
 trojan://9e92cf38-9f6b-3bae-8061-271f9d0e4ae2@trojan.linkdns.xyz:40207?sni=trojan.linkdns.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTROJAN.LINKDNS.XYZ%3A40207
 trojan://9e92cf38-9f6b-3bae-8061-271f9d0e4ae2@trojan.linkdns.xyz:40217?sni=trojan.linkdns.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTROJAN.LINKDNS.XYZ%3A40217
 trojan://INvx7sPho8PyTLS6@meet-one.defun.us:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2010
-trojan://LiX1tV@141.98.168.251:443?country=🇷🇺 ru&skip-cert-verify=true&udp=true#%5B%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6TROJAN%5D141.98.168.251%3A443
 trojan://MhPG7g9x2Etb4Hspsb@os2-2.sstr-api.xyz:443?sni=os2-2.sstr-api.xyz#%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99%E7%BD%91https%3A%2F%2F1808.ga_2
 trojan://NWGdxI6dQo@sg.gtss.tk:443#github.com/freefq%20-%20%E8%8B%B1%E5%9B%BD%20%2056
 trojan://NWGdxI6dQo@sg.gtss.tk:443#github.com/freefq%20-%20%E8%8B%B1%E5%9B%BD%20%2058
@@ -470,7 +449,6 @@ trojan://OEfntmUGHmwQnNGr@shop-one.defun.us:443#github.com/freefq%20-%20%E7%BE%8
 trojan://OEfntmUGHmwQnNGr@shop-one.defun.us:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%F0%9F%87%BA%F0%9F%87%B8%20US_140%20%7C31.74Mb
 trojan://OzKXGbFNHwAurRQ0@shop-two.defun.us:8080#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2015
 trojan://OzKXGbFNHwAurRQ0@shop-two.defun.us:8080?country=🇺🇸us&skip-cert-verify=true&udp=true#Relay_%20%7C115.44Mb
-trojan://PHnvNV7HGp@119.59.116.248:17159?country=🇹🇭 th&skip-cert-verify=true&udp=true#%5B%E6%B3%B0%E5%9B%BDTROJAN%5D119.59.116.248%3A17159
 trojan://PMQFH35hsbfi5tnw@values.pickaxe.sh:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%F0%9F%87%BA%F0%9F%87%B8%20US_142%20TG%40peekfun
 trojan://PMQFH35hsbfi5tnw@values.pickaxe.sh:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%F0%9F%87%BA%F0%9F%87%B8%20US_145%20TG%40peekfun
 trojan://PMQFH35hsbfi5tnw@values.pickaxe.sh:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%F0%9F%87%BA%F0%9F%87%B8%20US_165%20TG%40peekfun
@@ -481,11 +459,13 @@ trojan://Rq8MSfJZYw9pcmB3@us-03.pickaxe.sh:443#github.com/freefq%20-%20%E7%BE%8E
 trojan://SfobRIcergHchqBFzzua@hk-hkg-sh-hk-02-tr.cdn.savoy.click:21089?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHK-HKG-SH-HK-02-TR.CDN.SAVOY.CLICK%3A21089
 trojan://SfobRIcergHchqBFzzua@hk-hkg-sh-hk-02-tr.cdn.savoy.click:21089?country=棣冨殮棣冨殾cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHK-HKG-SH-HK-02-TR.CDN.SAVOY.CLICK%3A21089
 trojan://SfobRIcergHchqBFzzua@hk-hkg-sh-hk-02-tr.cdn.savoy.click:21089?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHK-HKG-SH-HK-02-TR.CDN.SAVOY.CLICK%3A21089
+trojan://SfobRIcergHchqBFzzua@hk-hkg-shhk-001-tr.cdn.savoy.click:20089?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DHK-HKG-SHHK-001-TR.CDN.SAVOY.CLICK%3A20089
 trojan://SfobRIcergHchqBFzzua@hk-hkg-shhk-001-tr.cdn.savoy.click:20089?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_40%20TG%40peekfun
 trojan://SfobRIcergHchqBFzzua@hk-hkg-shhk-001-tr.cdn.savoy.click:20089?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_42%20TG%40peekfun
 trojan://SfobRIcergHchqBFzzua@hk-hkg-shhk-001-tr.cdn.savoy.click:20089?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_44%20TG%40peekfun
 trojan://SfobRIcergHchqBFzzua@hk-hkg-shhk-001-tr.cdn.savoy.click:20089?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_48%20TG%40peekfun
 trojan://SfobRIcergHchqBFzzua@hk-hkg-shhk-001-tr.cdn.savoy.click:20089?country=🇨🇳cn&skip-cert-verify=true&udp=true
+trojan://SfobRIcergHchqBFzzua@hk-hkg-shhk-001-tr.cdn.savoy.click:20089?country=🇨🇳cn&skip-cert-verify=true&udp=true#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DHK-HKG-SHHK-001-TR.CDN.SAVOY.CLICK%3A20089
 trojan://SfobRIcergHchqBFzzua@hk-hkg-shhk-001-tr.cdn.savoy.click:20089?country=🇨🇳cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3CN_352
 trojan://SfobRIcergHchqBFzzua@hk-hkg-shhk-001-tr.cdn.savoy.click:20089?country=🇨🇳cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3CN_354
 trojan://SfobRIcergHchqBFzzua@hk-hkg-shhk-001-tr.cdn.savoy.click:20089?country=🇨🇳cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3CN_358
@@ -508,7 +488,7 @@ trojan://UvhTLyCf27fjxqPQ@shop-three.defun.us:443#github.com/freefq%20-%20%E7%BE
 trojan://UvhTLyCf27fjxqPQ@shop-three.defun.us:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%F0%9F%87%BA%F0%9F%87%B8%20US_159%20%7C31.29Mb
 trojan://UvhTLyCf27fjxqPQ@shop-three.defun.us:443?country=🇺🇸us&skip-cert-verify=true&udp=true#Relay_%20%7C122.02Mb
 trojan://VQcup0dd7ulkb1pV@us-01.pickaxe.sh:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9A%E5%B7%9E%E6%B4%9B%E6%9D%89%E7%9F%B6DMIT%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%205
-trojan://W8gVbKNAZlFzgGPn@storage.starspace.link:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DSTORAGE.STARSPACE.LINK%3A443
+trojan://VjXDl4Gf5j@8.9.30.35:8080#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D8.9.30.35%3A8080
 trojan://YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
@@ -556,28 +536,26 @@ trojan://a170b44c2dfac9e6@120.132.50.158:3389?allowInsecureHostname=1&allowInsec
 trojan://a170b44c2dfac9e6@211.72.35.153:3389?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E5%8F%B0%E6%B9%BETROJAN%5D211.72.35.153%3A3389
 trojan://a1718180-d616-4b71-9bb6-3e96ba20f921@jgw3.gaox.ml:443#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DJGW3.GAOX.ML%3A443
 trojan://a1718180-d616-4b71-9bb6-3e96ba20f921@jgw3.gaox.ml:443?allowInsecure=1#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DJGW3.GAOX.ML%3A443
-trojan://a1718180-d616-4b71-9bb6-3e96ba20f921@jgw3.gaox.ml:443?country=棣冨殺棣冨毆kr&skip-cert-verify=true&udp=true#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DJGW3.GAOX.ML%3A443
 trojan://a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://a3fa58b581353bb375d2ddad0f327938@184.168.127.50:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D184.168.127.50%3A443
 trojan://a3fa58b581353bb375d2ddad0f327938@185.126.116.235:443?country=🇷🇴 ro&skip-cert-verify=true&udp=true#%5B%E7%91%9E%E5%A3%ABTROJAN%5D185.126.116.235%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@5.183.177.111:443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5D5.183.177.111%3A443
 trojan://a3fa58b581353bb375d2ddad0f327938@72.167.45.6:443?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
 trojan://a3fa58b581353bb375d2ddad0f327938@72.167.45.6:443?country=棣冨毉棣冨毇 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
 trojan://a3fa58b581353bb375d2ddad0f327938@72.167.45.6:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
 trojan://a3fa58b581353bb375d2ddad0f327938@72.167.45.6:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D72.167.45.6%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@hk-server-01.selfupay.com:443?country=棣冨毆棣冨毀ro&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DHK-SERVER-01.SELFUPAY.COM%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@hk-server-02.selfupay.com:443?country=棣冨毆棣冨毀ro&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DHK-SERVER-02.SELFUPAY.COM%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@jp-server-02.selfupay.com:443?allowInsecure=1#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJP-SERVER-02.SELFUPAY.COM%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@jp-server-02.selfupay.com:443?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJP-SERVER-02.SELFUPAY.COM%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@jp-server-02.selfupay.com:443?country=棣冨殹棣冨毃 jp&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJP-SERVER-02.SELFUPAY.COM%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@jp-server-02.selfupay.com:443?country=棣冨殹棣冨毃jp&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJP-SERVER-02.SELFUPAY.COM%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@ned-server-01.selfupay.com:443?allowInsecure=1#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DNED-SERVER-01.SELFUPAY.COM%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@ned-server-01.selfupay.com:443?country=棣冨殾棣冨殼nl&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DNED-SERVER-01.SELFUPAY.COM%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@sg-server-01.selfupay.com:443?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DSG-SERVER-01.SELFUPAY.COM%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@sg-server-01.selfupay.com:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DSG-SERVER-01.SELFUPAY.COM%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@usa-server-02.selfupay.com:443?allowInsecure=1#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DUSA-SERVER-02.SELFUPAY.COM%3A443
-trojan://a3fa58b581353bb375d2ddad0f327938@usa-server-02.selfupay.com:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DUSA-SERVER-02.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@hk-server-01.selfupay.com:443?country=棣冨毆棣冨毀ro&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DHK-SERVER-01.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@hk-server-02.selfupay.com:443?country=棣冨毆棣冨毀ro&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DHK-SERVER-02.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@jp-server-02.selfupay.com:443?allowInsecure=1#%5B%E8%8D%B7%E5%85%B0TROJAN%5DJP-SERVER-02.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@jp-server-02.selfupay.com:443?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E8%8D%B7%E5%85%B0TROJAN%5DJP-SERVER-02.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@jp-server-02.selfupay.com:443?country=棣冨殹棣冨毃 jp&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DJP-SERVER-02.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@jp-server-02.selfupay.com:443?country=棣冨殹棣冨毃jp&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DJP-SERVER-02.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@ned-server-01.selfupay.com:443?allowInsecure=1#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DNED-SERVER-01.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@ned-server-01.selfupay.com:443?country=棣冨殾棣冨殼nl&skip-cert-verify=true&udp=true#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DNED-SERVER-01.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@sg-server-01.selfupay.com:443?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E8%8D%B7%E5%85%B0TROJAN%5DSG-SERVER-01.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@sg-server-01.selfupay.com:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DSG-SERVER-01.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@usa-server-02.selfupay.com:443?allowInsecure=1#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUSA-SERVER-02.SELFUPAY.COM%3A443
+trojan://a3fa58b581353bb375d2ddad0f327938@usa-server-02.selfupay.com:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUSA-SERVER-02.SELFUPAY.COM%3A443
 trojan://a3fa58b581353bb375d2ddad0f327938ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://a3fa58b581353bb375d2ddad0f327938ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://a3fa58b581353bb375d2ddad0f327938ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
@@ -588,7 +566,6 @@ trojan://a3fa58b581353bb375d2ddad0fac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-troja
 trojan://a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
-trojan://a5c3127e-b34c-41d4-a02d-2ce4a1fe11ec@20.24.44.36:443?allowInsecure=0&peer=www.0u0-cdn.link&sni=www.0u0-cdn.link#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D20.24.44.36%3A443
 trojan://ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9@cm.3sx.xyz:12301?allowInsecure=1&peer=douyincdn.com&sni=douyincdn.com#HKG%2001%20x1.0%20%5BTrojan%5D%20%5B%E4%B8%AD%E8%BD%89%5D
 trojan://ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9@cm.3sx.xyz:12302?allowInsecure=1&peer=douyincdn.com&sni=douyincdn.com#HKG%2002%20x1.0%20%5BTrojan%5D%20%5B%E4%B8%AD%E8%BD%89%5D
 trojan://ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9@cm.3sx.xyz:12303?allowInsecure=1&peer=douyincdn.com&sni=douyincdn.com#HKG%2003%20x1.0%20%5BTrojan%5D%20%5B%E4%B8%AD%E8%BD%89%5D
@@ -602,7 +579,7 @@ trojan://ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣
 trojan://ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://ae71ffdc-3206-3b4d-3f4e-e3b63684a556@lsj03.wangxd.life:3052?country=🇺🇸us&skip-cert-verify=true&udp=true#%20%7C43.28Mb
-trojan://af630252-aecc-45cf-b174-5e0782396874@cn.speedabc.xyz:42004?security=tls&sni=sg1.speedaccelerate.com&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN.SPEEDABC.XYZ%3A42004
+trojan://af630252-aecc-45cf-b174-5e0782396874@cn.speedabc.xyz:42004?security=tls&sni=sg1.speedaccelerate.com&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E4%B8%AD%E5%9B%BD_%5B%E6%99%B4%E5%9B%AD%5D%3C01%2F06%E2%96%AA%E8%8A%82%E6%97%A5%E5%BF%AB%E4%B9%90%3E%5B%E5%85%B3%E6%B3%A8%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8D%E8%BF%B7%E8%B7%AF%5D%3C%E5%85%8D%E8%B4%B9%E2%96%AA%E5%88%86%E4%BA%AB%3E%5B%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0%5D%3C%E7%99%BD%E5%AB%96%E8%87%B3%E4%B8%8A%3E_133
 trojan://b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9@tw.tcpbbr.net:443?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
 trojan://b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9@tw.tcpbbr.net:443?country=棣冨毈棣冨毎 tw&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
 trojan://b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9@tw.tcpbbr.net:443?country=棣冨毈棣冨毎tw&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTW.TCPBBR.NET%3A443
@@ -612,7 +589,7 @@ trojan://b254acd1-b7ee-36d6-a0d7-718d5c079f1e@azmf.cydonia.club:43110?sni=linode
 trojan://b254acd1-b7ee-36d6-a0d7-718d5c079f1e@azmf.cydonia.club:43110?sni=linode-sg-1.scandia.club&udp=true#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20%E2%9E%A4%2001%EF%BD%9C%E7%BB%B4%E6%8A%A4
 trojan://b254acd1-b7ee-36d6-a0d7-718d5c079f1e@azmf.cydonia.club:43110?sni=linode-us-2.scandia.club&udp=true#%F0%9F%87%BA%F0%9F%87%B2%20%E7%BE%8E%E5%9B%BD%20%E2%9E%A4%2001%EF%BD%9C%E7%BB%B4%E6%8A%A4
 trojan://b2614adb-5be1-4f13-bf87-2c38f02642f8@o06.trojan.tel:18443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DO06.TROJAN.TEL%3A18443
-trojan://b2614adb-5be1-4f13-bf87-2c38f02642f8@o10.trojan.tel:18443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DO10.TROJAN.TEL%3A18443
+trojan://b2614adb-5be1-4f13-bf87-2c38f02642f8@o10.trojan.tel:18443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DO10.TROJAN.TEL%3A18443
 trojan://b2614adb-5be1-4f13-bf87-2c38f02642f8@t03.tgfaka.com:18443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DT03.TGFAKA.COM%3A18443
 trojan://b2614adb-5be1-4f13-bf87-2c38f02642f8@t06.tgfaka.com:18443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DT06.TGFAKA.COM%3A18443
 trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@jgwcc3.gaox.ml:443#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWCC3.GAOX.ML%3A443
@@ -621,29 +598,28 @@ trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@jgwcc3.gaox.ml:443?country=棣冨�
 trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@jgwcc3.gaox.ml:443?country=棣冨殹棣冨毃jp&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWCC3.GAOX.ML%3A443
 trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@jgwcc3.gaox.ml:443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWCC3.GAOX.ML%3A443
 trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@jgwcc3.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWCC3.GAOX.ML%3A443
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58804?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58804
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58805?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58805
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58807?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58807
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58809?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58809
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58824?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58824
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58825?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58825
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58828?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58828
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58806?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58806
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58808?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58808
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58810?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58810
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58812?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58812
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58813?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58813
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58819?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58819
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58820?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58820
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58829?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58829
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58830?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58830
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58831?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58831
-trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58832?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58832
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58804?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58805?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58807?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58809?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58824?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%A9%20%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58825?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B9%F0%9F%87%AD%20%E6%B3%B0%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@dx.yhy520.xyz:58828?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20%E4%BF%84%E7%BD%97%E6%96%AF%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58806?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58808?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58810?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58812?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B3%20%E5%8D%B0%E5%BA%A6%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58813?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20%E4%BF%84%E7%BD%97%E6%96%AF%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58819?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58820?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58829?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%A9%20%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58830?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%B9%F0%9F%87%AD%20%E6%B3%B0%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58831?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%BB%F0%9F%87%B3%20%E8%B6%8A%E5%8D%97%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
+trojan://b3fb6e7d-58ad-3558-bb67-c3e3ed4361b3@lt.yhy520.xyz:58832?security=tls&sni=telegram.channel.p2psharing&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28%E7%BB%BF%E5%A4%B4%E5%A4%96%E7%BD%91%E9%9B%86%E5%9B%A2%29%28Public%29
 trojan://b649e273-0aec-3245-b20f-efd7220f00af@aus1.elkcloud.cf:443?sni=aus1.elkcloud.cf#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DAUS1.ELKCLOUD.CF%3A443
 trojan://b649e273-0aec-3245-b20f-efd7220f00af@de1.elkcloud.cf:443?sni=de1.elkcloud.cf#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DDE1.ELKCLOUD.CF%3A443
 trojan://b649e273-0aec-3245-b20f-efd7220f00af@gb1.elkcloud.cf:443?sni=gb1.elkcloud.cf#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DGB1.ELKCLOUD.CF%3A443
 trojan://b649e273-0aec-3245-b20f-efd7220f00af@ind1.elkcloud.cf:443?sni=ind1.elkcloud.cf#%5B%E5%8D%B0%E5%BA%A6TROJAN%5DIND1.ELKCLOUD.CF%3A443
-trojan://b649e273-0aec-3245-b20f-efd7220f00af@jp3.elkcloud.cf:443?sni=jp3.elkcloud.cf#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJP3.ELKCLOUD.CF%3A443
 trojan://b649e273-0aec-3245-b20f-efd7220f00af@jp4.elkcloud.cf:443?sni=jp4.elkcloud.cf#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJP4.ELKCLOUD.CF%3A443
 trojan://b649e273-0aec-3245-b20f-efd7220f00af@sg1.elkcloud.cf:10000?sni=sg1.elkcloud.cf#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSG1.ELKCLOUD.CF%3A10000
 trojan://b649e273-0aec-3245-b20f-efd7220f00af@sg2.elkcloud.cf:443?sni=sg2.elkcloud.cf#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSG2.ELKCLOUD.CF%3A443
@@ -653,12 +629,9 @@ trojan://b649e273-0aec-3245-b20f-efd7220f00af@us1.elkcloud.cf:443?sni=us1.elkclo
 trojan://b649e273-0aec-3245-b20f-efd7220f00af@us2.elkcloud.cf:443?sni=us2.elkcloud.cf#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS2.ELKCLOUD.CF%3A443
 trojan://b649e273-0aec-3245-b20f-efd7220f00af@us3.elkcloud.cf:443?sni=us3.elkcloud.cf#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS3.ELKCLOUD.CF%3A443
 trojan://b649e273-0aec-3245-b20f-efd7220f00af@us5.elkcloud.cf:443?sni=us5.elkcloud.cf#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS5.ELKCLOUD.CF%3A443
-trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@jp.useanlo.cf:10203?country=棣冨殾棣冨殼 nl&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJP.USEANLO.CF%3A10203
-trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@jp.useanlo.cf:10203?country=棣冨殾棣冨殼nl&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJP.USEANLO.CF%3A10203
-trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@jp.useanlo.cf:10203?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJP.USEANLO.CF%3A10203
-trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@jp.useanlo.cf:6523?country=棣冨殾棣冨殼 nl&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJP.USEANLO.CF%3A6523
-trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@jp.useanlo.cf:6523?country=棣冨殾棣冨殼nl&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJP.USEANLO.CF%3A6523
-trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@jp.useanlo.cf:6523?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJP.USEANLO.CF%3A6523
+trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@jp.useanlo.cf:6523?country=棣冨殾棣冨殼 nl&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJP.USEANLO.CF%3A6523
+trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@jp.useanlo.cf:6523?country=棣冨殾棣冨殼nl&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJP.USEANLO.CF%3A6523
+trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@jp.useanlo.cf:6523?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJP.USEANLO.CF%3A6523
 trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@www.anloao.cf:9053?country=棣冨毉棣冨毇 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DWWW.ANLOAO.CF%3A9053
 trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@www.anloao.cf:9053?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DWWW.ANLOAO.CF%3A9053
 trojan://b64b0f9c-23df-3112-a790-d8aa068aa2fe@www.anloao.cf:9053?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DWWW.ANLOAO.CF%3A9053
@@ -697,17 +670,6 @@ trojan://bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-
 trojan://bc7593fe-0lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://bc7593fe-0lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://bc7593fe-0lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s2.upyun.online:12340?country=🇺🇸 us&skip-cert-verify=true&udp=true#%F0%9F%87%BA%F0%9F%87%B8%20US_128%20TG%40peekfun
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s2.upyun.online:12340?country=🇺🇸 us&skip-cert-verify=true&udp=true#%F0%9F%87%BA%F0%9F%87%B8%20US_129%20TG%40peekfun
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s2.upyun.online:12340?country=🇺🇸 us&skip-cert-verify=true&udp=true#%F0%9F%87%BA%F0%9F%87%B8%20US_148%20TG%40peekfun
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s2.upyun.online:12340?country=🇺🇸 us&skip-cert-verify=true&udp=true#%F0%9F%87%BA%F0%9F%87%B8%20US_149%20TG%40peekfun
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s2.upyun.online:12340?country=🇺🇸 us&skip-cert-verify=true&udp=true#%F0%9F%87%BA%F0%9F%87%B8%20US_157%20TG%40peekfun
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s2.upyun.online:12340?security=tls&sni=free.upyun.online&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E8%8B%B1%E5%9B%BD%28nodefree.org%E6%97%A5%E6%9B%B4%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%29
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s4.upyun.online:12340?country=🇩🇪 de&skip-cert-verify=true&udp=true#%F0%9F%87%A9%F0%9F%87%AA%20DE_70%20TG%40peekfun
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s4.upyun.online:12340?country=🇩🇪 de&skip-cert-verify=true&udp=true#%F0%9F%87%A9%F0%9F%87%AA%20DE_71%20TG%40peekfun
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s4.upyun.online:12340?country=🇩🇪 de&skip-cert-verify=true&udp=true#%F0%9F%87%A9%F0%9F%87%AA%20DE_79%20TG%40peekfun
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s4.upyun.online:12340?country=🇩🇪 de&skip-cert-verify=true&udp=true#%F0%9F%87%A9%F0%9F%87%AA%20DE_84%20TG%40peekfun
-trojan://c0276440-f163-4f40-a08c-78b158ce6c4f@s4.upyun.online:12340?security=tls&sni=free.upyun.online&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20%E6%AC%A7%E6%B4%B2%28nodefree.org%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9%E6%97%A5%E6%9B%B4%29
 trojan://c0669346-7ba9-4fda-91a4-238fb8d0a4d2@jp1.v2yyds.cc:32111?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%F0%9F%87%AF%F0%9F%87%B5%20JP_149%20TG%40peekfun
 trojan://c0669346-7ba9-4fda-91a4-238fb8d0a4d2@jp1.v2yyds.cc:32111?security=tls&type=tcp&headerType=none#Relay__%202.86Mb%20%7C%202.23Mb
 trojan://c09eb137-bf68-4658-84e0-102d94b74168@jgwdj4.gaox.ml:443#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDJ4.GAOX.ML%3A443
@@ -717,19 +679,13 @@ trojan://c09eb137-bf68-4658-84e0-102d94b74168@jgwdj4.gaox.ml:443?country=棣冨�
 trojan://c09eb137-bf68-4658-84e0-102d94b74168@jgwdj4.gaox.ml:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDJ4.GAOX.ML%3A443
 trojan://c09eb137-bf68-4658-84e0-102d94b74168@jgwdj4.gaox.ml:443?security=tls&sni=jgwdj4.gaox.ml&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDJ4.GAOX.ML%3A443
 trojan://c09eb137-bf68-4658-84e0-102d94b74168@jgwdj4.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDJ4.GAOX.ML%3A443
-trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWDB2.GAOX.ML%3A443
-trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?country=棣冨毉棣冨毇 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWDB2.GAOX.ML%3A443
-trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWDB2.GAOX.ML%3A443
-trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJGWDB2.GAOX.ML%3A443
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DJGWDB2.GAOX.ML%3A443
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DJGWDB2.GAOX.ML%3A443
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DJGWDB2.GAOX.ML%3A443
 trojan://c35ff7bd-3596-48df-8cfc-41f8c576ab4e@gzyd1.52147.top:30010?allowInsecure=0&peer=download.windowsupdate1.com&sni=download.windowsupdate1.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30010
 trojan://c35ff7bd-3596-48df-8cfc-41f8c576ab4e@gzyd1.52147.top:30080?allowInsecure=0&peer=download.windowsupdate1.com&sni=download.windowsupdate1.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30080
 trojan://c35ff7bd-3596-48df-8cfc-41f8c576ab4e@gzyd1.52147.top:30120?allowInsecure=0&peer=download.windowsupdate1.com&sni=download.windowsupdate1.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30120
 trojan://c35ff7bd-3596-48df-8cfc-41f8c576ab4e@gzyd1.52147.top:30130?allowInsecure=0&peer=download.windowsupdate1.com&sni=download.windowsupdate1.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD1.52147.TOP%3A30130
-trojan://c35ff7bd-3596-48df-8cfc-41f8c576ab4e@gzyd2.52147.top:30010?allowInsecure=0&peer=download.windowsupdate1.com&sni=download.windowsupdate1.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30010
-trojan://c35ff7bd-3596-48df-8cfc-41f8c576ab4e@gzyd2.52147.top:30080?allowInsecure=0&peer=download.windowsupdate1.com&sni=download.windowsupdate1.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30080
-trojan://c35ff7bd-3596-48df-8cfc-41f8c576ab4e@gzyd2.52147.top:30120?allowInsecure=0&peer=download.windowsupdate1.com&sni=download.windowsupdate1.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30120
-trojan://c35ff7bd-3596-48df-8cfc-41f8c576ab4e@gzyd2.52147.top:30130?allowInsecure=0&peer=download.windowsupdate1.com&sni=download.windowsupdate1.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30130
-trojan://c35ff7bd-3596-48df-8cfc-41f8c576ab4e@gzyd2.52147.top:30180?allowInsecure=0&peer=download.windowsupdate1.com&sni=download.windowsupdate1.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DGZYD2.52147.TOP%3A30180
 trojan://c35ff7bd-3596-48df-8cfc-41f8c576ab4e@hnyd.52147.top:30010?allowInsecure=0&peer=download.windowsupdate1.com&sni=download.windowsupdate1.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHNYD.52147.TOP%3A30010
 trojan://c35ff7bd-3596-48df-8cfc-41f8c576ab4e@hnyd.52147.top:30080?allowInsecure=0&peer=download.windowsupdate1.com&sni=download.windowsupdate1.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHNYD.52147.TOP%3A30080
 trojan://c35ff7bd-3596-48df-8cfc-41f8c576ab4e@hnyd.52147.top:30120?allowInsecure=0&peer=download.windowsupdate1.com&sni=download.windowsupdate1.com#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DHNYD.52147.TOP%3A30120
@@ -745,7 +701,6 @@ trojan://c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0@ai2.susenl.com:10030#github.com/fr
 trojan://c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0@ai2.susenl.com:30010#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2013
 trojan://c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0@ai2.susenl.com:30010#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2040
 trojan://c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0@ai2.susenl.com:30010?allowInsecure=1#US_%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99https%3A%2F%2F1808.ga%20%E8%8A%82%E7%82%B9_98
-trojan://c9a3a61d-5d49-4158-9e60-6fa32684b122@111.45.29.75:30003?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D111.45.29.75%3A30003
 trojan://c9a3a61d-5d49-4158-9e60-6fa32684b122@cm.spacez.cloud:30002?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCM.SPACEZ.CLOUD%3A30002
 trojan://c9a3a61d-5d49-4158-9e60-6fa32684b122@cm.spacez.cloud:30003?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCM.SPACEZ.CLOUD%3A30003
 trojan://cSD2tExedR5RgGGKtb@os1-1.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DOS1-1.NROJAT.COM%3A443
@@ -765,9 +720,6 @@ trojan://cSD2tExedR5RgGGKtb@ty1-2.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6
 trojan://cSD2tExedR5RgGGKtb@ty2-1.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-1.NROJAT.COM%3A443
 trojan://cSD2tExedR5RgGGKtb@ty2-2.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-2.NROJAT.COM%3A443
 trojan://cSD2tExedR5RgGGKtb@ty2-4.nrojat.com:443?allowInsecure=1#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-4.NROJAT.COM%3A443
-trojan://cUDgjDkSfn@104.129.63.65:8443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D104.129.63.65%3A8443
-trojan://ca4596fb9bc63cf2@103.56.60.235:3385?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.60.235%3A3385
-trojan://ca4596fb9bc63cf2@103.56.62.145:3385?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.62.145%3A3385
 trojan://ca4596fb9bc63cf2@106.75.233.91:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D106.75.233.91%3A3389
 trojan://ca4596fb9bc63cf2@116.129.253.130:3389?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.130%3A3389
 trojan://ca4596fb9bc63cf2@116.129.253.134:3384?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.134%3A3384
@@ -782,30 +734,37 @@ trojan://ca4596fb9bc63cf2@5.44.249.43:3389?country=棣冨极 zz&skip-cert-verify
 trojan://ca4596fb9bc63cf2@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
 trojan://ca911d30af65ef1b@116.129.253.177:3389?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.177%3A3389
 trojan://ca911d30af65ef1b@116.129.253.177:3389?country=棣冨殮棣冨殾cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.177%3A3389
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58805?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58805
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58809?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58809
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58811?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58811
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58814?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58814
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58816?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58816
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58817?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58817
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58821?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58821
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58824?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58824
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58825?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58825
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58828?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DDX.YHY520.XYZ%3A58828
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58806?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58806
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58810?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58810
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58812?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58812
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58813?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58813
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58818?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58818
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58827?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58827
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58829?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58829
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58830?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58830
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58831?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58831
-trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58832?peer=soolos.xyz&sni=soolos.xyz#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DLT.YHY520.XYZ%3A58832
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58801?peer=soolos.xyz&sni=soolos.xyz#%E9%A6%99%E6%B8%AF%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58803?peer=soolos.xyz&sni=soolos.xyz#%E9%A6%99%E6%B8%AF%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE1%E5%8F%B7%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58804?peer=soolos.xyz&sni=soolos.xyz#%E9%A6%99%E6%B8%AF%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE1%E5%8F%B7%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58805?peer=soolos.xyz&sni=soolos.xyz#%E6%97%A5%E6%9C%AC%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58807?peer=soolos.xyz&sni=soolos.xyz#%E6%96%B0%E5%8A%A0%E5%9D%A1%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58809?peer=soolos.xyz&sni=soolos.xyz#%E9%9F%A9%E5%9B%BD%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58811?peer=soolos.xyz&sni=soolos.xyz#%E5%8D%B0%E5%BA%A6%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58814?peer=soolos.xyz&sni=soolos.xyz#%E8%B6%8A%E5%8D%97%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58816?peer=soolos.xyz&sni=soolos.xyz#%E7%BE%8E%E5%9B%BD%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58817?peer=soolos.xyz&sni=soolos.xyz#%E7%BE%8E%E5%9B%BD%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58821?peer=soolos.xyz&sni=soolos.xyz#%E5%8F%B0%E6%B9%BE%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58824?peer=soolos.xyz&sni=soolos.xyz#%E5%8D%B0%E5%B0%BC%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58825?peer=soolos.xyz&sni=soolos.xyz#%E6%B3%B0%E5%9B%BD%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D%09
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@dx.yhy520.xyz:58828?peer=soolos.xyz&sni=soolos.xyz#%E4%BF%84%E7%BD%97%E6%96%AF%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58802?peer=soolos.xyz&sni=soolos.xyz#%E9%A6%99%E6%B8%AF%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE2%E5%8F%B7%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58806?peer=soolos.xyz&sni=soolos.xyz#%E6%97%A5%E6%9C%AC%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58808?peer=soolos.xyz&sni=soolos.xyz#%E6%96%B0%E5%8A%A0%E5%9D%A1%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58810?peer=soolos.xyz&sni=soolos.xyz#%E9%9F%A9%E5%9B%BD%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58812?peer=soolos.xyz&sni=soolos.xyz#%E5%8D%B0%E5%BA%A6%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58813?peer=soolos.xyz&sni=soolos.xyz#%E4%BF%84%E7%BD%97%E6%96%AF%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58818?peer=soolos.xyz&sni=soolos.xyz#%E7%BE%8E%E5%9B%BD%20%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58819?peer=soolos.xyz&sni=soolos.xyz#%E9%A6%99%E6%B8%AF%20%E2%9D%80%E5%A4%A7%E5%A6%AE%E5%A6%AE2%E5%8F%B7%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58820?peer=soolos.xyz&sni=soolos.xyz#%E9%A6%99%E6%B8%AF%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58827?peer=soolos.xyz&sni=soolos.xyz#%E5%8F%B0%E6%B9%BE%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58829?peer=soolos.xyz&sni=soolos.xyz#%E5%8D%B0%E5%B0%BC%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58830?peer=soolos.xyz&sni=soolos.xyz#%E6%B3%B0%E5%9B%BD%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58831?peer=soolos.xyz&sni=soolos.xyz#%E8%B6%8A%E5%8D%97%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
+trojan://cb0a815b-c6e5-35ba-8dbc-be884c5f24ec@lt.yhy520.xyz:58832?peer=soolos.xyz&sni=soolos.xyz#%E7%BE%8E%E5%9B%BD%20%E2%9D%80%E5%8E%9F%E7%94%9F%E2%9D%80%E5%B0%8F%E5%A6%AE%E5%A6%AE%E2%9D%801%E5%80%8D
 trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@jgwxn3.gaox.ml:443#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJGWXN3.GAOX.ML%3A443
 trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@jgwxn3.gaox.ml:443?country=棣冨殬棣冨毉 au&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJGWXN3.GAOX.ML%3A443
 trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@jgwxn3.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJGWXN3.GAOX.ML%3A443
-trojan://cb5e2135-4d64-4454-be98-5bae4f2618d1@usfree2.jiantian.xyz:32462?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUSFREE2.JIANTIAN.XYZ%3A32462
 trojan://ccf1ee40-b4ab-11eb-b421-1239d0255272@us-trojan.bonds.id:443?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS-TROJAN.BONDS.ID%3A443
 trojan://ccf1ee40-b4ab-11eb-b421-1239d0255272@us-trojan.bonds.id:443?country=棣冨毉棣冨毇 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS-TROJAN.BONDS.ID%3A443
 trojan://ccf1ee40-b4ab-11eb-b421-1239d0255272@us-trojan.bonds.id:443?country=棣冨毉棣冨毇 us&useable=true&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS-TROJAN.BONDS.ID%3A443
@@ -815,54 +774,31 @@ trojan://cd39f62aed7b90f6@5.44.249.43:3389?allowInsecureHostname=1&allowInsecure
 trojan://cd39f62aed7b90f6@5.44.249.43:3389?country=棣冨极 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
 trojan://cd39f62aed7b90f6@5.44.249.43:3389?country=棣冨极zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
 trojan://cd39f62aed7b90f6@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
-trojan://ce433528-39fa-4711-bc0d-25a5b1579574@in-01.licom.ml:8443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E5%8D%B0%E5%BA%A6TROJAN%5DIN-01.LICOM.ML%3A8443
-trojan://ce433528-39fa-4711-bc0d-25a5b1579574@kr-01.licom.ml:11050?country=🇫🇷 fr&skip-cert-verify=true&udp=true#%5B%E6%B3%95%E5%9B%BDTROJAN%5DKR-01.LICOM.ML%3A11050
-trojan://ce433528-39fa-4711-bc0d-25a5b1579574@us-05.licom.ml:12501?country=🇬🇧 gb&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS-05.LICOM.ML%3A12501
-trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?security=tls&sni=jp-bgp.speedaccelerate.com&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN.SPEEDABC.XYZ%3A32002
-trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:10001?allowInsecure=0#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DHKMF2.SPEEDCNCNFORWARD3.TK%3A10001
-trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:10001?allowInsecure=0&tfo=1#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DHKMF2.SPEEDCNCNFORWARD3.TK%3A10001
-trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:10003?allowInsecure=0&tfo=1#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DHKMF2.SPEEDCNCNFORWARD3.TK%3A10003
-trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:10004?allowInsecure=0#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DHKMF2.SPEEDCNCNFORWARD3.TK%3A10004
-trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:10004?allowInsecure=0&tfo=1#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DHKMF2.SPEEDCNCNFORWARD3.TK%3A10004
-trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:80?allowInsecure=0#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DHKMF2.SPEEDCNCNFORWARD3.TK%3A80
-trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:80?allowInsecure=0&tfo=1#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DHKMF2.SPEEDCNCNFORWARD3.TK%3A80
-trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:8443?allowInsecure=1#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DHKMF2.SPEEDCNCNFORWARD3.TK%3A8443
-trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:8443?allowInsecure=1&tfo=1#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DHKMF2.SPEEDCNCNFORWARD3.TK%3A8443
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@in-01.licom.ml:8443?country=🇯🇵 jp&skip-cert-verify=true&udp=true#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DIN-01.LICOM.ML%3A8443
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@kr-01.licom.ml:11050?country=🇫🇷 fr&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DKR-01.LICOM.ML%3A11050
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?security=tls&sni=jp-bgp.speedaccelerate.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20%5B06-05%5D%7Coslook%7C%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF%2F%E4%B8%AD%E5%9B%BD%E5%8F%B0%E6%B9%BE%28CN%29China%2FShenzhen%2F%28%E5%8F%AF%E8%83%BD%E6%98%AF%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9%29_25
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?security=tls&sni=jp-bgp.speedaccelerate.com&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0%20mattkaydiary.com%7C%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF%2F%E4%B8%AD%E5%9B%BD%E5%8F%B0%E6%B9%BE%28CN%29China%2FShenzhen%2F%E5%B0%8F%E4%B8%9C%E7%9A%84%E7%A8%8B%E5%BA%8F%E6%9C%AA%E8%83%BD%E7%B2%BE%E5%87%86%E8%AF%86%E5%88%AB%28%E5%8F%AF%E8%83%BD%E6%98%AF%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9%29_25
+trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:10001?allowInsecure=0#%E9%A6%99%E6%B8%AF%E8%8A%82%E7%82%B92%28%E5%85%8D%E8%B4%B9%29%E5%80%8D%E7%8E%87%280%E5%80%8D%E7%8E%87%E4%B8%8D%E6%B6%88%E8%80%97%E6%B5%81%E9%87%8F%29
+trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:10001?allowInsecure=0&tfo=1#%E9%A6%99%E6%B8%AF%E8%8A%82%E7%82%B92%28%E5%85%8D%E8%B4%B9%29%E5%80%8D%E7%8E%87%280%E5%80%8D%E7%8E%87%E4%B8%8D%E6%B6%88%E8%80%97%E6%B5%81%E9%87%8F%29
+trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:10003?allowInsecure=0#%E9%A6%99%E6%B8%AF%E8%8A%82%E7%82%B92%28%E5%85%8D%E8%B4%B9%29%E5%80%8D%E7%8E%87%280%E5%80%8D%E7%8E%87%E4%B8%8D%E6%B6%88%E8%80%97%E6%B5%81%E9%87%8F%29
+trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:10003?allowInsecure=0&tfo=1#%E9%A6%99%E6%B8%AF%E8%8A%82%E7%82%B92%28%E5%85%8D%E8%B4%B9%29%E5%80%8D%E7%8E%87%280%E5%80%8D%E7%8E%87%E4%B8%8D%E6%B6%88%E8%80%97%E6%B5%81%E9%87%8F%29
+trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:10004?allowInsecure=0#%E9%A6%99%E6%B8%AF%E8%8A%82%E7%82%B92%28%E5%85%8D%E8%B4%B9%29%E5%80%8D%E7%8E%87%280%E5%80%8D%E7%8E%87%E4%B8%8D%E6%B6%88%E8%80%97%E6%B5%81%E9%87%8F%29
+trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:10004?allowInsecure=0&tfo=1#%E9%A6%99%E6%B8%AF%E8%8A%82%E7%82%B92%28%E5%85%8D%E8%B4%B9%29%E5%80%8D%E7%8E%87%280%E5%80%8D%E7%8E%87%E4%B8%8D%E6%B6%88%E8%80%97%E6%B5%81%E9%87%8F%29
+trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:80?allowInsecure=0#%E9%A6%99%E6%B8%AF%E8%8A%82%E7%82%B92%28%E5%85%8D%E8%B4%B9%29%E5%80%8D%E7%8E%87%280%E5%80%8D%E7%8E%87%E4%B8%8D%E6%B6%88%E8%80%97%E6%B5%81%E9%87%8F%29
+trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:80?allowInsecure=0&tfo=1#%E9%A6%99%E6%B8%AF%E8%8A%82%E7%82%B92%28%E5%85%8D%E8%B4%B9%29%E5%80%8D%E7%8E%87%280%E5%80%8D%E7%8E%87%E4%B8%8D%E6%B6%88%E8%80%97%E6%B5%81%E9%87%8F%29
+trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:8443?allowInsecure=1#%E9%A6%99%E6%B8%AF%E8%8A%82%E7%82%B92%28%E5%85%8D%E8%B4%B9%29%E5%80%8D%E7%8E%87%280%E5%80%8D%E7%8E%87%E4%B8%8D%E6%B6%88%E8%80%97%E6%B5%81%E9%87%8F%29
+trojan://d0173f59-c7e7-4bb0-bc09-3da657c70dd6@hkmf2.speedcncnforward3.tk:8443?allowInsecure=1&tfo=1#%E9%A6%99%E6%B8%AF%E8%8A%82%E7%82%B92%28%E5%85%8D%E8%B4%B9%29%E5%80%8D%E7%8E%87%280%E5%80%8D%E7%8E%87%E4%B8%8D%E6%B6%88%E8%80%97%E6%B5%81%E9%87%8F%29
 trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@jgwdb4.gaox.ml:443#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDB4.GAOX.ML%3A443
 trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@jgwdb4.gaox.ml:443?country=棣冨殬棣冨毉 au&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDB4.GAOX.ML%3A443
 trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@jgwdb4.gaox.ml:443?country=棣冨殹棣冨毃jp&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDB4.GAOX.ML%3A443
 trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@jgwdb4.gaox.ml:443?country=🇦🇺 au&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDB4.GAOX.ML%3A443
-trojan://d25d5129-26b6-4db5-8411-39064eee8b35@awssg2.crunode.top:1400?allowInsecure=0#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DAWSSG2.CRUNODE.TOP%3A1400
-trojan://d25d5129-26b6-4db5-8411-39064eee8b35@ch1.nodegz.top:453?allowInsecure=0#%5B%E7%91%9E%E5%A3%ABTROJAN%5DCH1.NODEGZ.TOP%3A453
 trojan://d25d5129-26b6-4db5-8411-39064eee8b35@jpaz.crunode.top:1600?allowInsecure=0#%E6%97%A5%E6%9C%AC%C2%B2
 trojan://d25d5129-26b6-4db5-8411-39064eee8b35@jpgmo.crunode.top:443?allowInsecure=0#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJPGMO.CRUNODE.TOP%3A443
 trojan://d25d5129-26b6-4db5-8411-39064eee8b35@jpl1.crunode.top:1600?allowInsecure=0#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJPL1.CRUNODE.TOP%3A1600
 trojan://d25d5129-26b6-4db5-8411-39064eee8b35@jpone.crunode.top:1600?allowInsecure=0#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJPONE.CRUNODE.TOP%3A1600
-trojan://d25d5129-26b6-4db5-8411-39064eee8b35@kh1.nodegz.top:444?allowInsecure=0#%5B%E6%9F%AC%E5%9F%94%E5%AF%A8TROJAN%5DKH1.NODEGZ.TOP%3A444
-trojan://d25d5129-26b6-4db5-8411-39064eee8b35@sg1.crunode.top:1600?allowInsecure=0#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DSG1.CRUNODE.TOP%3A1600
-trojan://d25d5129-26b6-4db5-8411-39064eee8b35@sgd1.crunode.top:1600?allowInsecure=0#%5B%E6%97%A5%E6%9C%ACTROJAN%5DSGD1.CRUNODE.TOP%3A1600
 trojan://d25d5129-26b6-4db5-8411-39064eee8b35@us1.crunode.top:1400?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS1.CRUNODE.TOP%3A1400
-trojan://d25d5129-26b6-4db5-8411-39064eee8b35@us2.nodegz.top:453?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS2.NODEGZ.TOP%3A453
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@hkgc1.flazewang.xyz:443?allowInsecure=0#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHKGC1.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@hkgc2.flazewang.xyz:443?allowInsecure=0#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHKGC2.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@hkgc3.flazewang.xyz:443?allowInsecure=0#%5B%E9%A6%99%E6%B8%AFTROJAN%5DHKGC3.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@jpaz1.flazewang.xyz:443?allowInsecure=0#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJPAZ1.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@jpaz2.flazewang.xyz:443?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJPAZ2.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@jpaz3.flazewang.xyz:443?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DJPAZ3.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@jplsnode.flazewang.xyz:443?allowInsecure=0#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJPLSNODE.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@jplsnode2.flazewang.xyz:443?allowInsecure=0#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJPLSNODE2.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@krlsnode1.flazewang.xyz:443?allowInsecure=0#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DKRLSNODE1.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@krlsnode2.flazewang.xyz:443?allowInsecure=0#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DKRLSNODE2.FLAZEWANG.XYZ%3A443
 trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@orauk2.flazewang.xyz:443?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DORAUK2.FLAZEWANG.XYZ%3A443
 trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@oraukgo.flazewang.xyz:443?allowInsecure=0#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DORAUKGO.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@twgc1.flazewang.xyz:443?allowInsecure=0#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTWGC1.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@twgc2.flazewang.xyz:443?allowInsecure=0#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTWGC2.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@twgc3.flazewang.xyz:443?allowInsecure=0#%5B%E5%8F%B0%E6%B9%BETROJAN%5DTWGC3.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@uswestaz1.flazewang.xyz:443?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUSWESTAZ1.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@uswestaz2.flazewang.xyz:443?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUSWESTAZ2.FLAZEWANG.XYZ%3A443
-trojan://d47ec8f8-e3cb-4d54-b43e-ad19ba2efe7c@uswestaz3.flazewang.xyz:443?allowInsecure=0#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUSWESTAZ3.FLAZEWANG.XYZ%3A443
-trojan://d66013c645b93c5c@103.56.60.235:3385?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.60.235%3A3385
-trojan://d66013c645b93c5c@103.56.62.145:3385?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D103.56.62.145%3A3385
 trojan://d66013c645b93c5c@106.75.233.91:3389?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D106.75.233.91%3A3389
 trojan://d66013c645b93c5c@116.129.253.130:3389?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.130%3A3389
 trojan://d66013c645b93c5c@116.129.253.134:3384?country=馃嚚馃嚦 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.134%3A3384
@@ -875,12 +811,12 @@ trojan://d66013c645b93c5c@116.129.254.47:3389?security=tls&type=tcp&headerType=n
 trojan://d66013c645b93c5c@134.195.101.32:3389?country=🏁 zz&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D134.195.101.32%3A3389
 trojan://d66013c645b93c5c@5.44.249.43:3389?country=棣冨极 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
 trojan://d66013c645b93c5c@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
+trojan://d8713e9c-b73d-4179-bddf-b975847ec6f5@t03.ssrsub.com:1852?security=tls&sni=d76bb35696.wns.windows.com&type=tcp&headerType=none#%5B%E6%8D%B7%E5%85%8BTROJAN%5DT03.SSRSUB.COM%3A1852
 trojan://d8aacec8-e256-427b-a927-0c6013f6595b@t2.ssrsub.com:833#github.com/freefq%20-%20%E4%BF%84%E7%BD%97%E6%96%AF%20%2010
 trojan://d8aacec8-e256-427b-a927-0c6013f6595b@t4.ssrsub.com:833#github.com/freefq%20-%20%E4%BF%84%E7%BD%97%E6%96%AF%20%207
 trojan://d8aacec8-e256-427b-a927-0c6013f6595b@t5.ssrsub.com:833#github.com/freefq%20-%20%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B0%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9A%E5%B7%9E%E6%96%B0%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9A%208
-trojan://d9c94f17-e38f-35f6-aa11-d42b68b0dcc0@hhzx2.doubledou.win:4590#%5B%E9%98%BF%E8%81%94%E9%85%8BTROJAN%5DHHZX2.DOUBLEDOU.WIN%3A4590
-trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDJ3.GAOX.ML%3A443
-trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5DJGWDJ3.GAOX.ML%3A443
+trojan://d9c94f17-e38f-35f6-aa11-d42b68b0dcc0@hhzx2.doubledou.win:4590#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DHHZX2.DOUBLEDOU.WIN%3A4590
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443#%5B%E5%BE%B7%E5%9B%BDTROJAN%5DJGWDJ3.GAOX.ML%3A443
 trojan://dbf9bf9c-2c3f-474a-8031-d4c00666a989@fhcamd2.gaox.ml:443?country=棣冨毉棣冨毇 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DFHCAMD2.GAOX.ML%3A443
 trojan://dbf9bf9c-2c3f-474a-8031-d4c00666a989@fhcamd2.gaox.ml:443?country=棣冨毉棣冨毇us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DFHCAMD2.GAOX.ML%3A443
 trojan://dbf9bf9c-2c3f-474a-8031-d4c00666a989@fhcamd2.gaox.ml:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DFHCAMD2.GAOX.ML%3A443
@@ -889,9 +825,9 @@ trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s1.hazz.win:12340?allowInsecure=1&
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s1.hazz.win:12340?allowInsecure=1&peer=static.dingtalk.com&sni=static.dingtalk.com#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DS1.HAZZ.WIN%3A12340
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s1.hazz.win:12340?country=棣冨毉棣冨毇 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DS1.HAZZ.WIN%3A12340
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s1.hazz.win:12340?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DS1.HAZZ.WIN%3A12340
-trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?allowInsecure=1&peer=edge.apple.com&sni=edge.apple.com#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DS2.HAZZ.WIN%3A12340
-trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?allowInsecure=1&peer=static.dingtalk.com&sni=static.dingtalk.com#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DS2.HAZZ.WIN%3A12340
-trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DS2.HAZZ.WIN%3A12340
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?allowInsecure=1&peer=edge.apple.com&sni=edge.apple.com#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DS2.HAZZ.WIN%3A12340
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?allowInsecure=1&peer=static.dingtalk.com&sni=static.dingtalk.com#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DS2.HAZZ.WIN%3A12340
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DS2.HAZZ.WIN%3A12340
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340?allowInsecure=1&peer=edge.apple.com&sni=edge.apple.com#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DS3.HAZZ.WIN%3A12340
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340?allowInsecure=1&peer=static.dingtalk.com&sni=static.dingtalk.com#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DS3.HAZZ.WIN%3A12340
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DS3.HAZZ.WIN%3A12340
@@ -919,16 +855,14 @@ trojan://e37c6d7efa845d60@116.129.253.191:3389?allowInsecureHostname=1&allowInse
 trojan://e37c6d7efa845d60@116.129.253.227:3389?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.227%3A3389
 trojan://e37c6d7efa845d60@116.129.254.47:3389?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.254.47%3A3389
 trojan://e37c6d7efa845d60@120.132.50.158:3389?allowInsecure=1#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D120.132.50.158%3A3389
-trojan://e4307a50-9853-11ec-9b4b-1239d0255272@fr-trojan.bonds.id:443?country=🇫🇷 fr&skip-cert-verify=true&udp=true#%5B%E6%B3%95%E5%9B%BDTROJAN%5DFR-TROJAN.BONDS.ID%3A443
-trojan://e49f9132-4f1c-4a11-998f-0b90697254e6@bai-piao-wang-zhe.iplc.nl.884899.cf:443?country=🇳🇱 nl&skip-cert-verify=true&udp=true#%5B%E8%8D%B7%E5%85%B0TROJAN%5DBAI-PIAO-WANG-ZHE.IPLC.NL.884899.CF%3A443
 trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-106.mitoption.com:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUSA-SR-106.MITOPTION.COM%3A443
-trojan://e64b7c51-d368-4bb2-ba0b-32aeb5e9d8c6@tt0.tjvpn.top:2083?allowInsecure=0&peer=tt0.tjvpn.top&sni=tt0.tjvpn.top#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DTT0.TJVPN.TOP%3A2083
-trojan://e64b7c51-d368-4bb2-ba0b-32aeb5e9d8c6@tt3.tjvpn.top:2053?allowInsecure=0&peer=tt3.tjvpn.top&sni=tt3.tjvpn.top#%5B%E8%8B%B1%E5%9B%BDTROJAN%5DTT3.TJVPN.TOP%3A2053
 trojan://e64b7c51-d368-4bb2-ba0b-32aeb5e9d8c6@tt5.tjvpn.top:8443?allowInsecure=0&peer=tt5.tjvpn.top&sni=tt5.tjvpn.top#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DTT5.TJVPN.TOP%3A8443
 trojan://e64b7c51-d368-4bb2-ba0b-32aeb5e9d8c6@tt6.tjvpn.top:443?allowInsecure=0&peer=tt6.tjvpn.top&sni=tt6.tjvpn.top#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTT6.TJVPN.TOP%3A443
 trojan://e64b7c51-d368-4bb2-ba0b-32aeb5e9d8c6@tt7.tjvpn.top:2022?allowInsecure=0&peer=tt7.tjvpn.top&sni=tt7.tjvpn.top#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DTT7.TJVPN.TOP%3A2022
-trojan://e64b7c51-d368-4bb2-ba0b-32aeb5e9d8c6@zf.tjvpn.top:34596?allowInsecure=0&peer=tt4.tjvpn.top&sni=tt4.tjvpn.top#%5B%E9%A6%99%E6%B8%AFTROJAN%5DZF.TJVPN.TOP%3A34596
+trojan://e64b7c51-d368-4bb2-ba0b-32aeb5e9d8c6@zf.tjvpn.top:34596?allowInsecure=0&peer=tt4.tjvpn.top&sni=tt4.tjvpn.top#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DZF.TJVPN.TOP%3A34596
 trojan://e6c36d58-6070-4b55-a437-146e6b53ec57@t1.ssrsub.com:8443#github.com/freefq%20-%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20%2017
+trojan://e7e5b769-2632-40f4-afb0-3b92bcfebd2b@727tw01.ok365.cyou:443?security=tls&type=tcp&headerType=none#%5B%E5%8F%B0%E6%B9%BETROJAN%5D727TW01.OK365.CYOU%3A443
+trojan://e7e5b769-2632-40f4-afb0-3b92bcfebd2b@730tw01.ok365.cyou:443?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D730TW01.OK365.CYOU%3A443
 trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@jgwxn4.gaox.ml:443?country=棣冨殬棣冨毉 au&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJGWXN4.GAOX.ML%3A443
 trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@jgwxn4.gaox.ml:443?country=棣冨殬棣冨毉au&skip-cert-verify=true&udp=true#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJGWXN4.GAOX.ML%3A443
 trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@jgwxn4.gaox.ml:443?security=tls&sni=jgwxn4.gaox.ml&type=tcp&headerType=none#%5B%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9ATROJAN%5DJGWXN4.GAOX.ML%3A443
@@ -936,6 +870,7 @@ trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@jgwxn4.gaox.ml:443?security=tls&ty
 trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@pp1.zhengzhongfeizhu.xyz:33002?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DPP1.ZHENGZHONGFEIZHU.XYZ%3A33002
 trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@pp1.zhengzhongfeizhu.xyz:34000?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DPP1.ZHENGZHONGFEIZHU.XYZ%3A34000
 trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@pp1.zhengzhongfeizhu.xyz:34001?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DPP1.ZHENGZHONGFEIZHU.XYZ%3A34001
+trojan://eb40a3f4-3b04-4a1c-993d-d71b44fee92c@hkmf2.speedcncnforward3.tk:80#github.com/freefq%20-%20%E9%A6%99%E6%B8%AFMicrosoft%E5%85%AC%E5%8F%B8%203
 trojan://eda8a8e5-1076-4d7b-b1d0-5003a0350073@cn2hn.sub-nthu.com:35000?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN2HN.SUB-NTHU.COM%3A35000
 trojan://eda8a8e5-1076-4d7b-b1d0-5003a0350073@cn2hn.sub-nthu.com:35000?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN2HN.SUB-NTHU.COM%3A35000
 trojan://eda8a8e5-1076-4d7b-b1d0-5003a0350073@cn2hn.sub-nthu.com:35002?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DCN2HN.SUB-NTHU.COM%3A35002
@@ -963,7 +898,8 @@ trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26005?security=t
 trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26006?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTESHU.BDPYYDS.TOP%3A26006
 trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26007?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTESHU.BDPYYDS.TOP%3A26007
 trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@teshu.bdpyyds.top:26010?security=tls&sni=teshu.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTESHU.BDPYYDS.TOP%3A26010
-trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@twb.bdpyyds.top:33201?security=tls&sni=twb.bdpyyds.top&type=tcp&headerType=none#%5B%E6%9C%AA%E7%9F%A5TROJAN%5DTWB.BDPYYDS.TOP%3A33201
+trojan://eec221e9-eba3-3b67-83d5-78fd7370500d@twb.bdpyyds.top:33201?security=tls&sni=twb.bdpyyds.top&type=tcp&headerType=none#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DTWB.BDPYYDS.TOP%3A33201
+trojan://f1da490c-b4ea-490f-9b5e-15620751414c@t03.ssrsub.com:1852?security=tls&sni=d76bb35696.wns.windows.com&type=tcp&headerType=none#%5B%E6%8D%B7%E5%85%8BTROJAN%5DT03.SSRSUB.COM%3A1852
 trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@jgw2.gaox.ml:443?country=棣冨殺棣冨毆kr&skip-cert-verify=true&udp=true#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DJGW2.GAOX.ML%3A443
 trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@jgw2.gaox.ml:443?security=tls&type=tcp&headerType=none#%5B%E9%9F%A9%E5%9B%BDTROJAN%5DJGW2.GAOX.ML%3A443
 trojan://f6f2072a2e4cfc91@116.129.253.130:3389?country=棣冨殮棣冨殾 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D116.129.253.130%3A3389
@@ -988,7 +924,10 @@ trojan://f7af5c13-fb61-3371-a974-6c9b089ad5b4@zzfjfgjytjyrtehrt54gsgsdfggedrh5re
 trojan://f7af5c13-fb61-3371-a974-6c9b089ad5b4@zzfjfgjytjyrtehrt54gsgsdfggedrh5re4364352536234yddd56gsffdsherhbresgsdfdsfssdxxww.us:443?sni=zzfjfgjytjyrtehrt54gsgsdfggedrh5re4364352536234yddd56gsffdsherhbresgsdfdsfssdxxww.us#%E8%AF%B7%E6%82%89%E7%9F%A5%3A%E5%85%8D%E8%B4%B9%E5%A5%97%E9%A4%90%E9%99%9010Mbps
 trojan://f7af5c13-fb61-3371-a974-6c9b089ad5b4@zzfjfgjytjyrtehrt54gsgsdfggedrh5re4364352536234yddd56gsffdsherhbresgsdfdsfssdxxww.us:443?sni=zzfjfgjytjyrtehrt54gsgsdfggedrh5re4364352536234yddd56gsffdsherhbresgsdfdsfssdxxww.us#%E8%B4%A6%E6%88%B7%E8%BF%87%E6%9C%9F%E5%90%8E%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E8%AE%A2%E9%98%85
 trojan://f7af5c13-fb61-3371-a974-6c9b089ad5b4@zzfjfgjytjyrtehrt54gsgsdfggedrh5re4364352536234yddd56gsffdsherhbresgsdfdsfssdxxww.us:443?sni=zzfjfgjytjyrtehrt54gsgsdfggedrh5re4364352536234yddd56gsffdsherhbresgsdfdsfssdxxww.us#%E8%B4%A6%E6%88%B7%E8%BF%87%E6%9C%9F%E5%90%8E%E6%97%A0%E6%B3%95%E8%AE%A2%E9%98%85
-trojan://f81e990e-1283-48f9-9eff-acacad6fb661@us-ny-rn.licom.ga:62007?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DUS-NY-RN.LICOM.GA%3A62007
+trojan://f81e990e-1283-48f9-9eff-acacad6fb661@us-ny-rn.licom.ga:62007?allowInsecureHostname=1&allowInsecureCertificate=1&allowInsecure=1#US_%E4%BA%8C%E7%88%B7%E7%BF%BB%E5%A2%99%E7%BD%91https%3A%2F%2F1808.ga%20%E8%8A%82%E7%82%B9_233
+trojan://f81e990e-1283-48f9-9eff-acacad6fb661@us-ny-rn.licom.ga:62007?country=🇺🇸 us&skip-cert-verify=true&udp=true#%F0%9F%87%BA%F0%9F%87%B8%20US_125%20TG%40peekfun
+trojan://f81e990e-1283-48f9-9eff-acacad6fb661@us-ny-rn.licom.ga:62007?country=🇺🇸us&skip-cert-verify=true&udp=true
+trojan://f81e990e-1283-48f9-9eff-acacad6fb661@us-ny-rn.licom.ga:62007?country=🇺🇸us&skip-cert-verify=true&udp=true#Relay_%F0%9F%87%BA%F0%9F%87%B8US-%F0%9F%87%BA%F0%9F%87%B8US_558%20%7C37.58Mb
 trojan://fbd77250-a674-4a24-be1a-d1a76f695c34@jp.456url.com:10086#github.com/freefq%20-%20%E6%97%A5%E6%9C%AC%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2025
 trojan://fbd77250-a674-4a24-be1a-d1a76f695c34@jp.456url.com:10086#github.com/freefq%20-%20%E6%97%A5%E6%9C%AC%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2044
 trojan://fbd77250-a674-4a24-be1a-d1a76f695c34@jp.456url.com:10086?security=tls&sni=jp.456url.com&type=tcp&headerType=none#%F0%9F%87%AF%F0%9F%87%B5%20JP%7C%E6%97%A5%E6%9C%AC%7CTR%7C01
@@ -999,21 +938,16 @@ trojan://fdb88add-f0a3-4984-8a54-2969d84d6aef@cm-jm.okvpn.xyz:20003?country=🇨
 trojan://ffec9f6ea19e1dd1@5.44.249.43:3389?country=棣冨极 zz&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
 trojan://ffec9f6ea19e1dd1@5.44.249.43:3389?security=tls&type=tcp&headerType=none#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5D5.44.249.43%3A3389
 trojan://gb8cLR@165.154.226.108:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8F%B0%E6%B9%BETROJAN%5D165.154.226.108%3A443
-trojan://iKR3Ft@193.178.210.29:443?country=🇫🇷 fr&skip-cert-verify=true&udp=true#%5B%E6%9C%AA%E7%9F%A5TROJAN%5D193.178.210.29%3A443
+trojan://gkjpxNwC7x@173.82.248.109:11687#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D173.82.248.109%3A11687
 trojan://kGrwqmB1nEKUsDwE@v2cross.com.05.v2ce.com:443?security=tls&type=tcp&headerType=none#%5B%E6%8D%B7%E5%85%8BTROJAN%5DV2CROSS.COM.05.V2CE.COM%3A443
 trojan://lo3TmsNaLWUXpuoE@de-01.fireplay.io:443#github.com/freefq%20-%20%E8%8B%B1%E5%9B%BD%20%2020
-trojan://mMQ6qJB9xbhiRvgg@v2cross.com.01.v2ce.com:443?security=tls&sni=v2cross.com.01.v2ce.com&type=tcp&headerType=none#%5B%E6%8D%B7%E5%85%8BTROJAN%5DV2CROSS.COM.01.V2CE.COM%3A443
-trojan://mMQ6qJB9xbhiRvgg@v2cross.com.01.v2ce.com:443?security=tls&type=tcp&headerType=none#%5B%E6%8D%B7%E5%85%8BTROJAN%5DV2CROSS.COM.01.V2CE.COM%3A443
-trojan://nsTcmFBI@zgao.xyz:443?country=🇦🇺 au&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DZGAO.XYZ%3A443
 trojan://pwEKVuWjwr@myyuming.cf:59721#github.com/freefq%20-%20%E6%97%A5%E6%9C%AC%20%208
+trojan://rmo75mm5xK@8.9.30.35:29544#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D8.9.30.35%3A29544
 trojan://ruWkGdbUKT4RN7kZ8t@ty2-1.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-1.NIGIROCLOUD.COM%3A443
 trojan://ruWkGdbUKT4RN7kZ8t@ty2-2.nigirocloud.com:443?country=棣冨殰棣冨殰 ee&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-2.NIGIROCLOUD.COM%3A443
 trojan://ruWkGdbUKT4RN7kZ8t@ty2-2.nigirocloud.com:443?country=棣冨殰棣冨殰ee&skip-cert-verify=true&udp=true#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-2.NIGIROCLOUD.COM%3A443
-trojan://ruWkGdbUKT4RN7kZ8t@ty2-5.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-5.NIGIROCLOUD.COM%3A443
-trojan://ruWkGdbUKT4RN7kZ8t@ty2-7.nigirocloud.com:443?security=tls&type=tcp&headerType=none#%5B%E6%97%A5%E6%9C%ACTROJAN%5DTY2-7.NIGIROCLOUD.COM%3A443
 trojan://share.mjj-home.com@api.mjj-home.com:443?country=🇺🇸 us&skip-cert-verify=true&udp=true#%5B%E7%BE%8E%E5%9B%BDTROJAN%5DAPI.MJJ-HOME.COM%3A443
 trojan://tswmqssAcdphWMRdDSPZbeVSzhRVbGdp@sh-hk-hgc-100m-tr.cdn.savoy.click:20189?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_45%20TG%40peekfun
 trojan://tswmqssAcdphWMRdDSPZbeVSzhRVbGdp@sh-hk-hgc-100m-tr.cdn.savoy.click:20189?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%F0%9F%87%A8%F0%9F%87%B3%20CN_49%20TG%40peekfun
 trojan://tswmqssAcdphWMRdDSPZbeVSzhRVbGdp@sh-hk-hgc-100m-tr.cdn.savoy.click:20189?country=🇨🇳cn&skip-cert-verify=true&udp=true
 trojan://tswmqssAcdphWMRdDSPZbeVSzhRVbGdp@sh-hk-hgc-100m-tr.cdn.savoy.click:20189?country=🇨🇳cn&skip-cert-verify=true&udp=true#Relay_%F0%9F%87%A8%F0%9F%87%B3CN-%F0%9F%87%AD%F0%9F%87%B0HK_352
-trojan://vGWCNNfBHwSY6m6M@v2cross.com.04.v2ce.com:443?security=tls&type=tcp&headerType=none#%5B%E6%8D%B7%E5%85%8BTROJAN%5DV2CROSS.COM.04.V2CE.COM%3A443
