@@ -31,7 +31,6 @@ https://cdn.huojian999.xyz/link/zW9GwzjxSmZiVDff?clash=1
 https://j20-cloud.com/link/yphdy6z3apme0d6q?clash=3
 https://sub.998link.xyz/link/zW9GwzjxSmZiVDff?clash=1
 https://zhuzhu12.xyz/link/8YFX1tSR3sy3Wj2S?clash=1
-https://cdn.huojian999.xyz/link/zW9GwzjxSmZiVDff?clash=1
 https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2F16cfb272777e483598ca5528618e4522%2Ffiles%2Fa8a967539ec14f81b4f64f1ac5f0c0cc%2Fraw&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_AdblockPlus.ini
 http://wxshi.top:9090/clash/proxies?type=ss,ssr,vmess
 https://linkuserssnk.xxyjx.cc/link/hPZt315CEMAEZwkI?clash=1
@@ -43,4 +42,6 @@ https://github.xiaoku666.tk/https://raw.githubusercontent.com/ripaojiedian/freen
 https://gitlab.com/ripaojiedian/freenode/-/raw/main/clash
 https://sub.gogoo.work/link/v2gblxh0bwuexxsw?clash=1
 https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
-
+https://openit.littlesite.ml/sub.yaml
+https://srga.quest/link/mPHv044aQoei61w0?clash=1
+https://sub.nfol.xyz/link/fHmJjZssK9lfjMor?list=clash

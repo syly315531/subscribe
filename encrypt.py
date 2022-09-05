@@ -11,7 +11,7 @@ import geoip2.database
 import requests
 import yaml
 
-schemaList = ['ss', 'ssr', 'trojan', 'vless', 'vmess']
+schemaList = ['ss', 'ssr', 'trojan', 'vless', 'vmess','http2']
 with open("ignoreList.txt","r", encoding="utf8") as f:
     ignoreList = [i.strip() for i in f.readlines() if i.strip().startswith("#")==False]
 # ignoreList =  ['14.29.124.168','14.29.124.174','af01.uwork.mobi', 'azure-f4s-hk.transfer-xray.tk', 'https://t.me/buyebuye', '使用前记得更新订阅', '柠檬国际机场','0']
@@ -48,7 +48,7 @@ class URLParseHelper():
         if isinstance(s, str):
             return s == "" or s.isspace() or len(s) == 0 or s == "None" or s == "null" or s == "{}" or s == "[]"
 
-    def getResponse(self, url=None, dec=False):
+    def getResponse(self, url=None, dec=False,timeout=5):
         self.url = url.strip() if url else self.url.strip()
         headers = {
             "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
@@ -58,7 +58,7 @@ class URLParseHelper():
         }
         try:
             print(self.url)
-            rsp = requests.get(self.url, headers=headers, timeout=5)
+            rsp = requests.get(self.url, headers=headers, timeout=timeout)
             if rsp.status_code == 200:
                 rsp = rsp.text
                 rsp = re.sub('\n', '', rsp)
@@ -545,6 +545,8 @@ class URLParseHelper():
                 r = self.vlessObj()
             elif self.urlObj.scheme == 'vmess':
                 r = self.vmessObj()
+            elif self.urlObj.scheme == 'http2':
+                r = self.ssObj()
             else:
                 r = [None, None, None]
         except Exception as e:
@@ -1046,6 +1048,11 @@ if __name__ == "__main__":
                     l.remove("c")      
             print(l.count("c"))
 
+        case 'http2':
+            url = 'http2://ZGNmMTJjN2U3ZDoyNmJhZTliMDIzQGg5NjEzNTkud2FpaHVpemhpYmlhb3dhbmcuY29tOjExNTQ1?peer=h961359.waihuizhibiaowang.com#CTVIP-HK-3%5Bran-out%5D'
+            u.parse(url)
+            a = u.ssObj()
+            print(a)
         case _:
             print(
                 'Usage: %s [run | source | fly | split | encode | repair | debug | clash | clash2 | find ]' % sys.argv[0])
