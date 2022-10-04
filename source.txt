@@ -200,11 +200,11 @@ https://baipiao.hgdbk.xyz/api/v1/client/subscribe?token=52e502b794f2746f062dbb62
 https://baipiao.hgdbk.xyz/api/v1/client/subscribe?token=c0020a52d6f4122882bfc77e15f72d14
 https://baipiao.hgdbk.xyz/api/v1/client/subscribe?token=d79bad2dfdcc0df1b37c357a6d694586
 https://feiniaoyun.xyz/api/v1/client/subscribe?token=6169180b0d746d509d7f7f160c5a915f
-https://freeappleid.ygxlj.xyz/
-https://appleshare.club/
-https://apple.zhizhi.bike/
-https://awz.laogou.cx/s/15e4759e52498fa013d06cca7a796a6c
-https://awz.laogou.cx/s/74e4dcbea93848bf667eaaceebb1b9b8
+# https://freeappleid.ygxlj.xyz/
+# https://appleshare.club/
+# https://apple.zhizhi.bike/
+# https://awz.laogou.cx/s/15e4759e52498fa013d06cca7a796a6c
+# https://awz.laogou.cx/s/74e4dcbea93848bf667eaaceebb1b9b8
 https://6.nezuko.cc/api/v1/client/subscribe?token=15b92562b67e2679a3fd2be429a1aa05
 https://subscribe.pingguo.buzz/api/v1/client/subscribe?token=2079df234602e2b2db79b66570704ade
 https://reborn.kaochang.ltd/api/v1/client/subscribe?token=bbff95762a7641eb03d17d6d0ffe1888

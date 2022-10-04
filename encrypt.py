@@ -931,8 +931,8 @@ if __name__ == "__main__":
                 print("This URL is Exist!")
                 
         case 'run':
-            clash()
             run()
+            clash()
 
         case 'source':
             with open('source.txt', 'r', encoding='utf8') as f:
