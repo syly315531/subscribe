@@ -781,7 +781,7 @@ def run():
     # removeDuplicateData('fly')
 
     u.handleUrl(u.outfile)
-    clean_error()
+    # clean_error()
     removeDuplicateData(u.outfile)
     encrypt_base64(u.outfile)
 
