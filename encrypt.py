@@ -783,6 +783,7 @@ def run():
     u.handleUrl(u.outfile)
     # clean_error()
     removeDuplicateData(u.outfile)
+    removeDuplicateData(u.errorfile)
     encrypt_base64(u.outfile)
 
     splitFiles(u.outfile)
@@ -840,7 +841,7 @@ def repair():
         shutil.copy('collection.txt', filename)
         
 def clean_error():
-    
+    removeDuplicateData(u.errorfile)
     with open(u.errorfile , 'r', encoding="utf8") as f:
         aList = [h.strip() for h in f.readlines()]
     bList = []
@@ -1029,7 +1030,8 @@ if __name__ == "__main__":
                         # print(r[0])
                         u.add(r[0])
                         print('-'*100)
-
+        case 'bug4':
+            removeDuplicateData(u.errorfile)
         case 'debug':
             # print("File Size(B):",os.stat(u.outfile).st_size)
 
