@@ -11,6 +11,7 @@ def get_filepath(dbfile):
 def get_country(ipaddress):
     with geoip2.database.Reader(get_filepath("Country")) as reader:
         response = reader.country(ipaddress)
+    
     return response
 
 def get_city(ipaddress):
@@ -35,8 +36,12 @@ def domain2ip(domain):
     return socket.getaddrinfo(domain, None)[0][4][0]
 
 def getCountry(ipaddress):
-    ipaddress = ipaddress if is_ip(ipaddress) else domain2ip(ipaddress)
-    return get_country(ipaddress).country.names['zh-CN']
+    try:
+        ipaddress = ipaddress if is_ip(ipaddress) else domain2ip(ipaddress)
+        return get_city(ipaddress).registered_country.names['zh-CN']
+    except Exception as e:
+        print(f"getCountry Error: {e}")
+        return "未知"
 
 if __name__ == "__main__":
     aList = [
