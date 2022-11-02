@@ -395,7 +395,7 @@ class fileHelper:
 
     def write(self, url):
         url = url.strip()
-        if url not in self.existList:
+        if url not in self.exist_list:
             self.add(url)
             with open(self.backup_file, "a+", encoding='utf8') as f3:
                 f3.write(url + '\n')
@@ -414,7 +414,7 @@ class fileHelper:
 
             for line in lines:
                 if line.startswith(tuple(['{}://'.format(s) for s in schemaList])):
-                    self.writeIntoFile(line)
+                    self.write(line)
                 else:
                     continue
 
@@ -496,7 +496,7 @@ class fileHelper:
    
     def handleUrl(self, filename=None):
         u = URLParseHelper()
-        self.out_file = self.get_filepath(filename) if filename else self.out_file
+        self.out_file = get_filepath(filename) if filename else self.out_file
         urlList = self.read(self.out_file)
         urlList = list(set(urlList))
         urlList = sorted(urlList)
@@ -563,10 +563,12 @@ if __name__ == "__main__":
     uhelper = URLParseHelper()
     fhelper = fileHelper()
     match sys.argv[1]:
-        case 'debug':
+        case 'run':
             rst = fhelper.run()
-            print(len(rst))
 
+        case 'debug':
+            fhelper.splitFiles()
+            
         case 'debug2':
             url = 'vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkBTU1JTVUIt5L+E572X5pavVjAxLeS7mOi0ueaOqOiNkDpkbGoudGYvc3Nyc3ViIiwNCiAgImFkZCI6ICJ2MS5zc3JzdWIuY29tIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjYyMGQ4MmE4LTIyYmEtNDk0NS05MGJhLWEyYmVkMWNkZTFkMiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAidjEuc3Nyc3ViLmNvbSIsDQogICJwYXRoIjogIi9hcGkvdjMvZG93bmxvYWQuZ2V0RmlsZSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9'
             rst = uhelper.rebuild(url)

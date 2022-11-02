@@ -383,6 +383,7 @@ trojan://DigitalOcean@digitalocean.kinhproxy.com:443?allowInsecure=0#%5B%E6%96%B
 trojan://DigitalOcean@digitalocean.kinhproxy.com:443?allowInsecure=1#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DDIGITALOCEAN.KINHPROXY.COM%3A443
 trojan://DigitalOcean@digitalocean.kinhproxy.com:443?allowInsecure=1&sni=digitalocean.kinhproxy.com#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DDIGITALOCEAN.KINHPROXY.COM%3A443
 trojan://DigitalOcean@digitalocean.kinhproxy.com:443?country=🇸🇬 sg&skip-cert-verify=true&udp=true#%5B%E6%96%B0%E5%8A%A0%E5%9D%A1TROJAN%5DDIGITALOCEAN.KINHPROXY.COM%3A443
+trojan://F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0@219.76.13.180:443?security=tls&sni=stutter.freetrade.link&type=tcp&headerType=none#%F0%9F%87%AD%F0%9F%87%B0_HK_%E9%A6%99%E6%B8%AF-%3E%F0%9F%87%AF%F0%9F%87%B5_JP_%E6%97%A5%E6%9C%AC
 trojan://M76604a2@223.111.202.183:28157?sni=z7a.ft3.us&allowInsecure=1#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D223.111.202.183%3A28157
 trojan://Mabd3d72@139.227.182.124:28158?allowInsecure=1&sni=if2d.ft3.us#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D139.227.182.124%3A28158
 trojan://Mabd3d72@139.227.182.124:28158?country=🇰🇷 kr&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5D139.227.182.124%3A28158
@@ -394,6 +395,7 @@ trojan://TZLajhUSac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?cou
 trojan://TZLajhUSac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://UiLPqefVfielqkDjEwBV@jp-tyo-04-tr.cdn.savoy.click:889?country=🇨🇳 cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DJP-TYO-04-TR.CDN.SAVOY.CLICK%3A889
 trojan://UiLPqefVfielqkDjEwBV@jp-tyo-04-tr.cdn.savoy.click:889?country=🇨🇳cn&skip-cert-verify=true&udp=true#%5B%E4%B8%AD%E5%9B%BDTROJAN%5DJP-TYO-04-TR.CDN.SAVOY.CLICK%3A889
+trojan://XAjZGT9wpG@xddipa.cn:443?peer=xddipa.cn#xddipa.cn
 trojan://YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=棣冨殮棣冨殬ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443
 trojan://YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272@ca-trojan.bonds.id:443?country=🇨🇦 ca&skip-cert-verify=true&udp=true#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCA-TROJAN.BONDS.ID%3A443

@@ -62,3 +62,4 @@ https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 https://raw.fastgit.org/ripaojiedian/freenode/main/clash
 https://github.xiaoku666.tk/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 https://raw.fastgit.org/ripaojiedian/freenode/main/clash
+https://ripaojiedian.coding.net/p/freenode/d/jiedian/git/raw/master/sub
