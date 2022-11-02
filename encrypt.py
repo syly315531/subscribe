@@ -370,7 +370,7 @@ class fileHelper:
         self.backup_file = get_filepath(backup_file)
         self.error_file = get_filepath(error_file)
 
-        self.exist_list = self.read(self.backup_file)
+        self.exist_list = self.read(self.out_file)
         self.ignore_list = self.read(get_filepath(ignore_file))
 
     def add(self,url,chk=False):
@@ -410,7 +410,10 @@ class fileHelper:
             print('='*50)
 
             lines = getResponse(subscribe, True)
-            lines = lines.splitlines()
+            if lines:
+                lines = lines.splitlines()
+            else:
+                return
 
             for line in lines:
                 if line.startswith(tuple(['{}://'.format(s) for s in schemaList])):
@@ -420,15 +423,12 @@ class fileHelper:
 
         except Exception as e:
             print(e, subscribe)
-
             raise(e)
 
     def getSubscribeContent_all(self):
         sourcelist = self.read(self.source_file)
         for index, source in enumerate(sourcelist):
             print("********** Get Subscribe {}/{} **********".format(index+1, len(sourcelist)))
-            if source.startswith("#"):
-                continue
             self.getSubscribeContent(source)
 
         removeDuplicateData(self.backup_file)
@@ -558,22 +558,56 @@ class fileHelper:
 
                 self.get_from_clash(url)
 
+    def find(self, keyword):
+        u = URLParseHelper()
+        rst_list = []
+        for url in self.exist_ist:
+            url = url.strip()
+            u.parse(url)
+            rst = u.find(keyword)
+            if rst:
+                rst_list.append(u.url)
+            # if url.find(keyword) >= 0:
+            #     rst.append((url, self.rebuild(), None))
+            # else:
+            #     if url.startswith("vmess") or url.startswith("ssr"):
+            #         _s = self.strDecode(self.body)
+            #         if _s.find(keyword) >= 0:
+            #             rst.append((url, self.rebuild(), _s))
+            #         else:
+            #             continue
+
+        return rst_list
+
 
 if __name__ == "__main__":
     uhelper = URLParseHelper()
     fhelper = fileHelper()
     match sys.argv[1]:
         case 'run':
-            rst = fhelper.run()
-
-        case 'debug':
+            # fhelper.clash()
+            fhelper.run()
+            
+        case 'clash':
+            fhelper.clash()
+            
+        case 'split':
             fhelper.splitFiles()
             
-        case 'debug2':
+        case 'debug':
             url = 'vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkBTU1JTVUIt5L+E572X5pavVjAxLeS7mOi0ueaOqOiNkDpkbGoudGYvc3Nyc3ViIiwNCiAgImFkZCI6ICJ2MS5zc3JzdWIuY29tIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjYyMGQ4MmE4LTIyYmEtNDk0NS05MGJhLWEyYmVkMWNkZTFkMiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAidjEuc3Nyc3ViLmNvbSIsDQogICJwYXRoIjogIi9hcGkvdjMvZG93bmxvYWQuZ2V0RmlsZSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9'
             rst = uhelper.rebuild(url)
             print(rst)
             uhelper.vaild(rst[0],rst[1])
+        
+        case 'get':
+            url ='https://raw.githubusercontent.com/satrom/V2SSR/master/SSR/Sub.txt'
+            rst = fhelper.getSubscribeContent(url)
+            print(rst)
+            
+        case 'find':
+            rst = fhelper.find(sys.argv[1])
+            print(rst)
 
         case _:
             print('Usage: %s [run | source | fly | split | encode | repair | debug | clash | clash2 | find ]' % sys.argv[0])
