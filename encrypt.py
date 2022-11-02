@@ -355,9 +355,9 @@ class URLParseHelper:
     
     def find(self,keyword):
         
-        if self.url.find(keyword):
+        if self.url.find(keyword)>=0:
             return self.url
-        if self.scheme in ['vmess','ssr']:
+        if self.urlObj.scheme in ['vmess','ssr']:
             if strDecode(self.body).find(keyword)>=0:
                 return self.url
 
@@ -559,9 +559,10 @@ class fileHelper:
                 self.get_from_clash(url)
 
     def find(self, keyword):
+        print(keyword)
         u = URLParseHelper()
         rst_list = []
-        for url in self.exist_ist:
+        for url in self.exist_list:
             url = url.strip()
             u.parse(url)
             rst = u.find(keyword)
@@ -606,7 +607,7 @@ if __name__ == "__main__":
             print(rst)
             
         case 'find':
-            rst = fhelper.find(sys.argv[1])
+            rst = fhelper.find(sys.argv[2])
             print(rst)
 
         case _:
