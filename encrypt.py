@@ -70,9 +70,7 @@ def strDecode(s: str, isurl=True):
         else:
             s = bytes(s, 'utf-8') if isinstance(s,str) else s
             s = base64.decodebytes(s)
-        
-        print(s)
-        
+
         if type(s) == bytes:
             # s = str(s, encoding='UTF-8')
             s = s.decode('UTF-8')
@@ -272,7 +270,6 @@ class URLParseHelper:
             params = { k: ",".join(v) if v else v for k,v in params.items()}
         else:
             params = {}
-        print(params)
         params['remarks'] = strEncode(_tagName)
         
         params = [ f'{k}={v}' for k,v in params.items()]
