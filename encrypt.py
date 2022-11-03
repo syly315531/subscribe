@@ -64,14 +64,13 @@ def strDecode(s: str, isurl=True):
     missing_padding = len(s) % 4
     if missing_padding != 0:
         s += '=' * (4 - missing_padding)
-
     try:
         if isurl:
             s = base64.urlsafe_b64decode(s)
         else:
-            s = bytes(s, 'utf-8')
+            s = bytes(s, 'utf-8') if isinstance(s,str) else s
             s = base64.decodebytes(s)
-
+        
         if type(s) == bytes:
             # s = str(s, encoding='UTF-8')
             s = s.decode('UTF-8')
@@ -153,7 +152,10 @@ class URLParseHelper:
     def parse(self, url=None):
         try:
             self.url = url.strip() if url else self.url
-            self.urlObj = urllib.parse.urlparse(self.url.strip())
+            if self.url.find('_')>0:
+                self.urlObj = urllib.parse.urlparse(self.url[0:self.url.find('_')])
+            else:
+                self.urlObj = urllib.parse.urlparse(self.url)
             self.body = self.urlObj.netloc + self.urlObj.path
             _url = self.body if self.body.find('@') > 0 else strDecode(self.body)
             
@@ -329,7 +331,10 @@ class URLParseHelper:
     def rebuild(self, url=None):
         try:
             self.url = url.strip() if url else self.url
-            self.parse(self.url)
+            if self.url.find("_")>0:
+                self.parse(self.url[0:self.url.find("_")])
+            else:
+                self.parse(self.url)
 
             match self.urlObj.scheme:
 
@@ -354,12 +359,17 @@ class URLParseHelper:
         return r
     
     def find(self,keyword):
-        
-        if self.url.find(keyword)>=0:
-            return self.url
-        if self.urlObj.scheme in ['vmess','ssr']:
-            if strDecode(self.body).find(keyword)>=0:
+        try:
+            if self.url.find(keyword)>=0:
                 return self.url
+            if self.urlObj.scheme in ['vmess','ssr']:
+                if strDecode(self.body).find(keyword)>=0:
+                    return self.url
+        except Exception as e:
+            print(e)
+            print(self.url)
+            print(self.body)
+            print("*"*100)
 
 
 class fileHelper:
@@ -585,8 +595,22 @@ if __name__ == "__main__":
     uhelper = URLParseHelper()
     fhelper = fileHelper()
     match sys.argv[1]:
+        case 'subscribe':
+            fhelper.clash()
+            fhelper.getSubscribeContent_all()
+
+        case 'handle':
+            fhelper.handleUrl(fhelper.out_file)
+            # clean_error()
+            removeDuplicateData(fhelper.out_file)
+            removeDuplicateData(fhelper.error_file)
+            encrypt_base64(fhelper.out_file)
+
+        case 'split':
+            fhelper.splitFiles(fhelper.out_file)
+
         case 'run':
-            # fhelper.clash()
+            fhelper.clash()
             fhelper.run()
             
         case 'clash':
@@ -596,7 +620,7 @@ if __name__ == "__main__":
             fhelper.splitFiles()
             
         case 'debug':
-            url = 'vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkBTU1JTVUIt5L+E572X5pavVjAxLeS7mOi0ueaOqOiNkDpkbGoudGYvc3Nyc3ViIiwNCiAgImFkZCI6ICJ2MS5zc3JzdWIuY29tIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjYyMGQ4MmE4LTIyYmEtNDk0NS05MGJhLWEyYmVkMWNkZTFkMiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAidjEuc3Nyc3ViLmNvbSIsDQogICJwYXRoIjogIi9hcGkvdjMvZG93bmxvYWQuZ2V0RmlsZSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiDQp9'
+            url = 'ssr://bjExMC5ib29tLnNraW46MjIwMDA6YXV0aF9hZXMxMjhfc2hhMTphZXMtMjU2LWNmYjpodHRwX3NpbXBsZTpWV3M1TWtOVC8__cmVtYXJrcz1b5Lit5Zu9U1NSXU4xMTAuQk9PTS5TS0lOOjIyMDAw'
             rst = uhelper.rebuild(url)
             print(rst)
             uhelper.vaild(rst[0],rst[1])
