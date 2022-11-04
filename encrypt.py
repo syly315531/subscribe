@@ -41,20 +41,20 @@ def splitFiles(filename="fly.txt"):
                 f.writelines(u + '\n')
 
 def encrypt_base64(filename='fly.txt'):
-    _file = get_filepath(filename)
-    print(_file.split('.')[:-1])
+    filePath = get_filepath(filename)
+    print(filePath.split('.')[:-1])
 
-    if os.path.exists(_file) == False:
+    if os.path.exists(filePath) == False:
         return False
 
-    removeDuplicateData(filename)
-    with open(filename, "r+", encoding='utf8') as f:
+    removeDuplicateData(filePath)
+    with open(filePath, "r+", encoding='utf8') as f:
         encodeStr = f.read()
         encodeStr = bytes(encodeStr, 'utf-8')
         encodeStr = base64.b64encode(encodeStr)
         encodeStr = str(encodeStr, 'utf-8')
 
-    with open(filename.split('.')[0], "w", encoding='utf8') as f:
+    with open(filePath.split('.')[0], "w", encoding='utf8') as f:
         f.write(encodeStr)
 
 def strDecode(s: str, isurl=True):
@@ -138,6 +138,40 @@ def getResponse(url=None, dec=False,timeout=5):
         # return rsp.splitlines()
         return rsp
 
+def is_base64_code(s):
+    '''Check s is Base64.b64encode'''
+    if not isinstance(s, str) or not s:
+        return "params s not string or None"
+
+    _base64_code = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
+                    'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
+                    'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a',
+                    'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
+                    'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
+                    't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1',
+                    '2', '3', '4', '5', '6', '7', '8', '9', '+',
+                    '/', '=']
+    _base64_code_set = set(_base64_code)  # 转为set增加in判断时候的效率
+    # Check base64 OR codeCheck % 4
+    code_fail = [i for i in s if i not in _base64_code_set]
+    if code_fail or len(s) % 4 != 0:
+        return False
+    return True
+
+def isBase64(sb):
+    '''Check s is Base64.b64encode'''
+    try:
+        if isinstance(sb, str):
+                # If there's any unicode here, an exception will be thrown and the function will return false
+            sb_bytes = bytes(sb, 'ascii')
+        elif isinstance(sb, bytes):
+            sb_bytes = sb
+        else:
+            raise ValueError("Argument must be string or bytes")
+        return base64.b64encode(base64.b64decode(sb_bytes)) == sb_bytes
+    except Exception as e:
+        print(e)
+        return False
 
 class URLParseHelper:
     def __init__(self, url=None) -> None:
@@ -282,14 +316,17 @@ class URLParseHelper:
 
             _newUrl = self.urlObj.scheme + '://' + self.body + '_' + strEncode(params)
         else:
-            params = splitParamsDict(a.split('?')[1]) if a.find('?')>0 else {}
-            params['remarks'] = _tagName
-            params = joinParamsDict(params)
+            # params = splitParamsDict(a.split('?')[1]) if a.find('?')>0 else {}
+            # for k,v in params.items():
+            #     print(strDecode(v))
+            # params['remarks'] = _tagName
+            # params = joinParamsDict(params)
 
-            b = a.split('?')[0] if a.find('?')>0 else a
-            b = strEncode(b+"?"+params)
+            # b = a.split('?')[0] if a.find('?')>0 else a
+            # b = strEncode(b+"?"+params)
 
-            _newUrl = self.urlObj.scheme + '://' + b
+            # _newUrl = self.urlObj.scheme + '://' + b
+            _newUrl = self.url
 
         return alist[0], alist[1], _newUrl
 
@@ -384,7 +421,6 @@ class URLParseHelper:
             print(self.url)
             print(self.body)
             print("*"*100)
-
 
 class fileHelper:
     
@@ -634,15 +670,21 @@ if __name__ == "__main__":
             fhelper.splitFiles()
             
         case 'debug':
-            url = 'ssr://Y21yZWxheTAxLmRvd25zaXRlLnh5ejo1NzAxOmF1dGhfYWVzMTI4X3NoYTE6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpha1poTkVZeC8_Z3JvdXA9WVdseSZyZW1hcmtzPVctbWZxZVdidlZOVFVsMURUVkpGVEVGWk1ERXVSRTlYVGxOSlZFVXVXRmxhT2pVM01ERT0mb2Jmc3BhcmFtPVpEbGxNalExTURreE5pNXRhV055YjNOdlpuUXVZMjl0JnByb3RvcGFyYW09TlRBNU1UWTZNRFl5TmtVeU5UbDZjRWM='
+            s ='abcdefgh'
+            print(is_base64_code(s))
+            print(isBase64(s))
+        
+        case 'detail':
+            url = 'ssr://d3ouc2FmZXRlbGVzY29wZS5jYzo0NjU2MjphdXRoX2FlczEyOF9tZDU6YWVzLTI1Ni1jZmI6dGxzMS4yX3RpY2tldF9hdXRoOmFFZHJVVFk1TVRWMFJBLz9yZW1hcmtzPSZwcm90b3BhcmFtPU1USTBPVEUxT2tsVWVUSkRiSGhSUkZZJm9iZnNwYXJhbT1ZV3BoZUM1dGFXTnliM052Wm5RdVkyOXQ'
+            url = 'ssr://d3ouc2FmZXRlbGVzY29wZS5jYzo0NjU2MjphdXRoX2FlczEyOF9tZDU6YWVzLTI1Ni1jZmI6dGxzMS4yX3RpY2tldF9hdXRoOmFFZHJVVFk1TVRWMFJBLz9wcm90b3BhcmFtPU1USTBPVEUxT2tsVWVUSkRiSGhSUkZZJm9iZnNwYXJhbT1ZV3BoZUM1dGFXTnliM052Wm5RdVkyOXQmcmVtYXJrcz1b5Lit5Zu9U1NSXVdaLlNBRkVURUxFU0NPUEUuQ0M6NDY1NjI='
             print(url)
             rst = uhelper.rebuild(url)
+            uhelper.vaild(rst[0],rst[1])
+            
             print(rst)
             print(strDecode(uhelper.body))
             if url.find('_')>0:
                 print(strDecode(url[url.find('_')+1:]))
-            # # uhelper.vaild(rst[0],rst[1])
-            
         
         case 'test':
             s1 = "c3NyOi8vZVdNdWMyRm1aWFJsYkdWelkyOXdaUzVqWXpveU1UY3dNanBoZFhSb1gyRmxjekV5T0Y5dFpEVTZZV1Z6TFRJMU5pMWpabUk2ZEd4ek1TNHlYM1JwWTJ0bGRGOWhkWFJvT21GRlpISlZWRmsxVFZSV01GSkJMejl2WW1aemNHRnlZVzA5V1Zkd2FHVkROWFJoVjA1NVlqTk9kbHB1VVhWWk1qbDBKbkJ5YjNSdmNHRnlZVzA5VFZSSk1FMUVRVEpQYTNCRlQxVXdNMkZ0UmpOYWVtY21jbVZ0WVhKcmN6MDJZV0ZhTlhKcGRsRlRNSGhOWldGamFVUlFiV3cyV0cxdE4xUnRiSEpCSm1keWIzVndQV1JIWm5CdmNFaHdaMXBOTmxGSVNuQmpSMFoyWVcxc2JGcEhiR2hpWncKc3NyOi8vZVhwNVpDMHdNUzVqWTNSbGJHVnpZMjl3WlM1NGVYbzZNakF3TURFNllYVjBhRjloWlhNeE1qaGZiV1ExT21GbGN5MHlOVFl0WTJaaU9uUnNjekV1TWw5MGFXTnJaWFJmWVhWMGFEcGhSV1J5VlZSWk5VMVVWakJTUVM4X2IySm1jM0JoY21GdFBWbFhjR2hsUXpWMFlWZE9lV0l6VG5aYWJsRjFXVEk1ZENad2NtOTBiM0JoY21GdFBVMVVTVEJOUkVFeVQydHdSVTlWTUROaGJVWXpXbnBuSm5KbGJXRnlhM005Tm1GaFdqVnlhWFpSYVRFd1dpMXRhV3RsYlVKcmVuQkJZMjFzZDFsWE9YRmhWMVpyWVZkR2RTWm5jbTkxY0Qxa1IyWndiM0JJY0dkYVRUWlJTRXB3WTBkR2RtRnRiR3hhUjJ4b1ltYwpzc3I6Ly9kM291YzJGbVpYUmxiR1Z6WTI5d1pTNWpZem94TWpBeU1UcGhkWFJvWDJGbGN6RXlPRjl0WkRVNllXVnpMVEkxTmkxalptSTZkR3h6TVM0eVgzUnBZMnRsZEY5aGRYUm9PbUZGWkhKVlZGazFUVlJXTUZKQkx6OXZZbVp6Y0dGeVlXMDlXVmR3YUdWRE5YUmhWMDU1WWpOT2RscHVVWFZaTWpsMEpuQnliM1J2Y0dGeVlXMDlUVlJKTUUxRVFUSlBhM0JGVDFVd00yRnRSak5hZW1jbWNtVnRZWEpyY3owMllXRmFOWEpwZGxGNU1UQmFMVzFwYTJWdFFtdDZjRUZqYld4M1dWYzVjV0ZYVm10aFYwWjFKbWR5YjNWd1BXUkhabkJ2Y0Vod1oxcE5ObEZJU25CalIwWjJZVzFzYkZwSGJHaGladwpzc3I6Ly9lWHA1WkMwd01TNWpZM1JsYkdWelkyOXdaUzU0ZVhvNk16QXdNRE02WVhWMGFGOWhaWE14TWpoZmJXUTFPbUZsY3kweU5UWXRZMlppT25Sc2N6RXVNbDkwYVdOclpYUmZZWFYwYURwaFJXUnlWVlJaTlUxVVZqQlNRUzhfYjJKbWMzQmhjbUZ0UFZsWGNHaGxRelYwWVZkT2VXSXpUblphYmxGMVdUSTVkQ1p3Y205MGIzQmhjbUZ0UFUxVVNUQk5SRUV5VDJ0d1JVOVZNRE5oYlVZelducG5KbkpsYldGeWEzTTlObG90Y0RWYWRUbFJVekV3V2kxdGFXdGxiVUpyZW5CQlkyMXNkMWxYT1hGaFYxWnJZVmRHZFNabmNtOTFjRDFrUjJad2IzQkljR2RhVFRaUlNFcHdZMGRHZG1GdGJHeGFSMnhvWW1jCnNzcjovL2Qzb3VjMkZtWlhSbGJHVnpZMjl3WlM1all6b3lPRE0yT0RwaGRYUm9YMkZsY3pFeU9GOXRaRFU2WVdWekxUSTFOaTFqWm1JNmRHeHpNUzR5WDNScFkydGxkRjloZFhSb09tRkZaSEpWVkZrMVRWUldNRkpCTHo5dlltWnpjR0Z5WVcwOVdWZHdhR1ZETlhSaFYwNTVZak5PZGxwdVVYVlpNamwwSm5CeWIzUnZjR0Z5WVcwOVRWUkpNRTFFUVRKUGEzQkZUMVV3TTJGdFJqTmFlbWNtY21WdFlYSnJjejAyVEdGTE5Wa3lXRkZUTVRCYUxXMXBhMlZ0UW10NmNFRmpiV3gzV1ZjNWNXRlhWbXRoVjBaMUptZHliM1Z3UFdSSFpuQnZjRWh3WjFwTk5sRklTbkJqUjBaMllXMXNiRnBIYkdoaVp3CnNzcjovL2VYcDVaQzB3TVM1alkzUmxiR1Z6WTI5d1pTNTRlWG82TkRrd016WTZZWFYwYUY5aFpYTXhNamhmYldRMU9tRmxjeTB5TlRZdFkyWmlPblJzY3pFdU1sOTBhV05yWlhSZllYVjBhRHBoUldSeVZWUlpOVTFVVmpCU1FTOF9iMkptYzNCaGNtRnRQVmxYY0dobFF6VjBZVmRPZVdJelRuWmFibEYxV1RJNWRDWndjbTkwYjNCaGNtRnRQVTFVU1RCTlJFRXlUMnR3UlU5Vk1ETmhiVVl6V25wbkpuSmxiV0Z5YTNNOU5reGhTelZaTWxoUmFURXdXaTF0YVd0bGJVSnJlbkJCWTIxc2QxbFhPWEZoVjFacllWZEdkU1puY205MWNEMWtSMlp3YjNCSWNHZGFUVFpSU0Vwd1kwZEdkbUZ0Ykd4YVIyeG9ZbWMKc3NyOi8vZDNvdWMyRm1aWFJsYkdWelkyOXdaUzVqWXpveE1EQXdOanBoZFhSb1gyRmxjekV5T0Y5dFpEVTZZV1Z6TFRJMU5pMWpabUk2ZEd4ek1TNHlYM1JwWTJ0bGRGOWhkWFJvT21GRlpISlZWRmsxVFZSV01GSkJMejl2WW1aemNHRnlZVzA5V1Zkd2FHVkROWFJoVjA1NVlqTk9kbHB1VVhWWk1qbDBKbkJ5YjNSdmNHRnlZVzA5VFZSSk1FMUVRVEpQYTNCRlQxVXdNMkZ0UmpOYWVtY21jbVZ0WVhKcmN6MDJTWFY0TlZwMU9WRlllREJhTFcxcGEyVnRRbXQ2Y0VGamJXeDNXVmM1Y1dGWFZtdGhWMFoxSm1keWIzVndQV1JIWm5CdmNFaHdaMXBOTmxGSVNuQmpSMFoyWVcxc2JGcEhiR2hpWncKc3NyOi8vZVdNdWMyRm1aWFJsYkdWelkyOXdaUzVqWXpveU1UWXpNanBoZFhSb1gyRmxjekV5T0Y5dFpEVTZZV1Z6TFRJMU5pMWpabUk2ZEd4ek1TNHlYM1JwWTJ0bGRGOWhkWFJvT21GRlpISlZWRmsxVFZSV01GSkJMejl2WW1aemNHRnlZVzA5V1Zkd2FHVkROWFJoVjA1NVlqTk9kbHB1VVhWWk1qbDBKbkJ5YjNSdmNHRnlZVzA5VFZSSk1FMUVRVEpQYTNCRlQxVXdNMkZ0UmpOYWVtY21jbVZ0WVhKcmN6MDFOelpQTlZwMU9WRlllREJhTFcxcGEyVnRRbXQ2Y0VGamJXeDNXVmM1Y1dGWFZtdGhWMFoxSm1keWIzVndQV1JIWm5CdmNFaHdaMXBOTmxGSVNuQmpSMFoyWVcxc2JGcEhiR2hpWncKc3NyOi8vZVhwNVpDMHdNUzVqWTNSbGJHVnpZMjl3WlM1NGVYbzZOVEEwTURJNllYVjBhRjloWlhNeE1qaGZiV1ExT21GbGN5MHlOVFl0WTJaaU9uUnNjekV1TWw5MGFXTnJaWFJmWVhWMGFEcGhSV1J5VlZSWk5VMVVWakJTUVM4X2IySm1jM0JoY21GdFBWbFhjR2hsUXpWMFlWZE9lV0l6VG5aYWJsRjFXVEk1ZENad2NtOTBiM0JoY21GdFBVMVVTVEJOUkVFeVQydHdSVTlWTUROaGJVWXpXbnBuSm5KbGJXRnlhM005TlhKUGR6VmFkVGxSVXpFd1dpMXRhV3RsYlVKcmVuQkJZMjFzZDFsWE9YRmhWMVpyWVZkR2RTWm5jbTkxY0Qxa1IyWndiM0JJY0dkYVRUWlJTRXB3WTBkR2RtRnRiR3hhUjJ4b1ltYwpzc3I6Ly9lWHA1WkMwd01TNWpZM1JsYkdWelkyOXdaUzU0ZVhvNk1qY3dNek02WVhWMGFGOWhaWE14TWpoZmJXUTFPbUZsY3kweU5UWXRZMlppT25Sc2N6RXVNbDkwYVdOclpYUmZZWFYwYURwaFJXUnlWVlJaTlUxVVZqQlNRUzhfYjJKbWMzQmhjbUZ0UFZsWGNHaGxRelYwWVZkT2VXSXpUblphYmxGMVdUSTVkQ1p3Y205MGIzQmhjbUZ0UFUxVVNUQk5SRUV5VDJ0d1JVOVZNRE5oYlVZelducG5KbkpsYldGeWEzTTlOWEpQVmpWYWRUbG1TRkp1Tm1GTFVqWlpSMVJQYTBKNVlWaENhR0l5Y0hCYVYxSndXVmMwSm1keWIzVndQV1JIWm5CdmNFaHdaMXBOTmxGSVNuQmpSMFoyWVcxc2JGcEhiR2hpWncKc3NyOi8vZVdNdWMyRm1aWFJsYkdWelkyOXdaUzVqWXpveU1UQTNPRHBoZFhSb1gyRmxjekV5T0Y5dFpEVTZZV1Z6TFRJMU5pMWpabUk2ZEd4ek1TNHlYM1JwWTJ0bGRGOWhkWFJvT21GRlpISlZWRmsxVFZSV01GSkJMejl2WW1aemNHRnlZVzA5V1Zkd2FHVkROWFJoVjA1NVlqTk9kbHB1VVhWWk1qbDBKbkJ5YjNSdmNHRnlZVzA5VFZSSk1FMUVRVEpQYTNCRlQxVXdNMkZ0UmpOYWVtY21jbVZ0WVhKcmN6MDFjR1ZzTlhCNWMxRlRNVEJhTFcxcGEyVnRRbXQ2Y0VGamJXeDNXVmM1Y1dGWFZtdGhWMFoxSm1keWIzVndQV1JIWm5CdmNFaHdaMXBOTmxGSVNuQmpSMFoyWVcxc2JGcEhiR2hpWncKc3NyOi8vZDNvdWMyRm1aWFJsYkdWelkyOXdaUzVqWXpvME5qVTJNanBoZFhSb1gyRmxjekV5T0Y5dFpEVTZZV1Z6TFRJMU5pMWpabUk2ZEd4ek1TNHlYM1JwWTJ0bGRGOWhkWFJvT21GRlpISlZWRmsxVFZSV01GSkJMejl2WW1aemNHRnlZVzA5V1Zkd2FHVkROWFJoVjA1NVlqTk9kbHB1VVhWWk1qbDBKbkJ5YjNSdmNHRnlZVzA5VFZSSk1FMUVRVEpQYTNCRlQxVXdNMkZ0UmpOYWVtY21jbVZ0WVhKcmN6MDFjR0YzTlZseFp6VmFNbWhSV0hnd1dpMXRhV3RsYlVKcmVuQkJZMjFzZDFsWE9YRmhWMVpyWVZkR2RTWm5jbTkxY0Qxa1IyWndiM0JJY0dkYVRUWlJTRXB3WTBkR2RtRnRiR3hhUjJ4b1ltYwpzc3I6Ly9lWHA1WkMwd01TNWpZM1JsYkdWelkyOXdaUzU0ZVhvNk5UQTRNREk2WVhWMGFGOWhaWE14TWpoZmJXUTFPbUZsY3kweU5UWXRZMlppT25Sc2N6RXVNbDkwYVdOclpYUmZZWFYwYURwaFJXUnlWVlJaTlUxVVZqQlNRUzhfYjJKbWMzQmhjbUZ0UFZsWGNHaGxRelYwWVZkT2VXSXpUblphYmxGMVdUSTVkQ1p3Y205MGIzQmhjbUZ0UFUxVVNUQk5SRUV5VDJ0d1JVOVZNRE5oYlVZelducG5KbkpsYldGeWEzTTlOVmt0ZHpWeWJTMVJVekV3V2kxdGFXdGxiVUpyZW5CQlkyMXNkMWxYT1hGaFYxWnJZVmRHZFNabmNtOTFjRDFrUjJad2IzQkljR2RhVFRaUlNFcHdZMGRHZG1GdGJHeGFSMnhvWW1jCnNzcjovL2VXTXVjMkZtWlhSbGJHVnpZMjl3WlM1all6b3lNVFl6TnpwaGRYUm9YMkZsY3pFeU9GOXRaRFU2WVdWekxUSTFOaTFqWm1JNmRHeHpNUzR5WDNScFkydGxkRjloZFhSb09tRkZaSEpWVkZrMVRWUldNRkpCTHo5dlltWnpjR0Z5WVcwOVdWZHdhR1ZETlhSaFYwNTVZak5PZGxwdVVYVlpNamwwSm5CeWIzUnZjR0Z5WVcwOVRWUkpNRTFFUVRKUGEzQkZUMVV3TTJGdFJqTmFlbWNtY21WdFlYSnJjejAxV1RKM05XSnhiV1pJVW00MllVdFNObGxIVkU5clFubGhXRUpvWWpKd2NGcFhVbkJaVnpRbVozSnZkWEE5WkVkbWNHOXdTSEJuV2swMlVVaEtjR05IUm5aaGJXeHNXa2RzYUdKbgpzc3I6Ly9lWHA1WkMwd01TNWpZM1JsYkdWelkyOXdaUzU0ZVhvNk1qWXdPVFk2WVhWMGFGOWhaWE14TWpoZmJXUTFPbUZsY3kweU5UWXRZMlppT25Sc2N6RXVNbDkwYVdOclpYUmZZWFYwYURwaFJXUnlWVlJaTlUxVVZqQlNRUzhfYjJKbWMzQmhjbUZ0UFZsWGNHaGxRelYwWVZkT2VXSXpUblphYmxGMVdUSTVkQ1p3Y205MGIzQmhjbUZ0UFUxVVNUQk5SRUV5VDJ0d1JVOVZNRE5oYlVZelducG5KbkpsYldGeWEzTTlOVXd0UlRVM01sZzFjR0YyWmtoU2JqWmhTMUkyV1VkVVQydENlV0ZZUW1oaU1uQndXbGRTY0ZsWE5DWm5jbTkxY0Qxa1IyWndiM0JJY0dkYVRUWlJTRXB3WTBkR2RtRnRiR3hhUjJ4b1ltYwpzc3I6Ly9lWHA1WkMwd01TNWpZM1JsYkdWelkyOXdaUzU0ZVhvNk5UQTRNRFE2WVhWMGFGOWhaWE14TWpoZmJXUTFPbUZsY3kweU5UWXRZMlppT25Sc2N6RXVNbDkwYVdOclpYUmZZWFYwYURwaFJXUnlWVlJaTlUxVVZqQlNRUzhfYjJKbWMzQmhjbUZ0UFZsWGNHaGxRelYwWVZkT2VXSXpUblphYmxGMVdUSTVkQ1p3Y205MGIzQmhjbUZ0UFUxVVNUQk5SRUV5VDJ0d1JVOVZNRE5oYlVZelducG5KbkpsYldGeWEzTTlObUZoV2pWeWFYWlNRekV3V2kxdGFXdGxiVUpyZW5CQlkyMXNkMWxYT1hGaFYxWnJZVmRHZFNabmNtOTFjRDFrUjJad2IzQkljR2RhVFRaUlNFcHdZMGRHZG1GdGJHeGFSMnhvWW1jCnNzcjovL1ozcDVaQzB3TVM1alkzUmxiR1Z6WTI5d1pTNTRlWG82TkRFNU9UZzZZWFYwYUY5aFpYTXhNamhmYldRMU9tRmxjeTB5TlRZdFkyWmlPblJzY3pFdU1sOTBhV05yWlhSZllYVjBhRHBoUldSeVZWUlpOVTFVVmpCU1FTOF9iMkptYzNCaGNtRnRQVmxYY0dobFF6VjBZVmRPZVdJelRuWmFibEYxV1RJNWRDWndjbTkwYjNCaGNtRnRQVTFVU1RCTlJFRXlUMnR3UlU5Vk1ETmhiVVl6V25wbkpuSmxiV0Z5YTNNOU5tRmhXalZ5YVhaU1V6RXdXaTF0YVd0bGJVSnJlbkJCWTIxc2QxbFhPWEZoVjFacllWZEdkU1puY205MWNEMWtSMlp3YjNCSWNHZGFUVFpSU0Vwd1kwZEdkbUZ0Ykd4YVIyeG9ZbWMKc3NyOi8vZDNvdWMyRm1aWFJsYkdWelkyOXdaUzVqWXpveE1EQXlNRHBoZFhSb1gyRmxjekV5T0Y5dFpEVTZZV1Z6TFRJMU5pMWpabUk2ZEd4ek1TNHlYM1JwWTJ0bGRGOWhkWFJvT21GRlpISlZWRmsxVFZSV01GSkJMejl2WW1aemNHRnlZVzA5V1Zkd2FHVkROWFJoVjA1NVlqTk9kbHB1VVhWWk1qbDBKbkJ5YjNSdmNHRnlZVzA5VFZSSk1FMUVRVEpQYTNCRlQxVXdNMkZ0UmpOYWVtY21jbVZ0WVhKcmN6MDJXaTF3TlZwMU9WRnBNVEJhTFcxcGEyVnRRbXQ2Y0VGamJXeDNXVmM1Y1dGWFZtdGhWMFoxSm1keWIzVndQV1JIWm5CdmNFaHdaMXBOTmxGSVNuQmpSMFoyWVcxc2JGcEhiR2hpWncKc3NyOi8vZVdNdWMyRm1aWFJsYkdWelkyOXdaUzVqWXpveU1UVTJNenBoZFhSb1gyRmxjekV5T0Y5dFpEVTZZV1Z6TFRJMU5pMWpabUk2ZEd4ek1TNHlYM1JwWTJ0bGRGOWhkWFJvT21GRlpISlZWRmsxVFZSV01GSkJMejl2WW1aemNHRnlZVzA5V1Zkd2FHVkROWFJoVjA1NVlqTk9kbHB1VVhWWk1qbDBKbkJ5YjNSdmNHRnlZVzA5VFZSSk1FMUVRVEpQYTNCRlQxVXdNMkZ0UmpOYWVtY21jbVZ0WVhKcmN6MDJXbWxmTlhGRE5UVmlkVE5tU0ZKdU5tRkxValpaUjFSUGEwSjVZVmhDYUdJeWNIQmFWMUp3V1ZjMEptZHliM1Z3UFdSSFpuQnZjRWh3WjFwTk5sRklTbkJqUjBaMllXMXNiRnBIYkdoaVp3CnNzcjovL2VXTXVjMkZtWlhSbGJHVnpZMjl3WlM1all6b3lNVEk1TXpwaGRYUm9YMkZsY3pFeU9GOXRaRFU2WVdWekxUSTFOaTFqWm1JNmRHeHpNUzR5WDNScFkydGxkRjloZFhSb09tRkZaSEpWVkZrMVRWUldNRkpCTHo5dlltWnpjR0Z5WVcwOVdWZHdhR1ZETlhSaFYwNTVZak5PZGxwdVVYVlpNamwwSm5CeWIzUnZjR0Z5WVcwOVRWUkpNRTFFUVRKUGEzQkZUMVV3TTJGdFJqTmFlbWNtY21WdFlYSnJjejAyU1MxNU5XSTJURFZoTmkxbVNGSnVObUZMVWpaWlIxUlBhMEo1WVZoQ2FHSXljSEJhVjFKd1dWYzBKbWR5YjNWd1BXUkhabkJ2Y0Vod1oxcE5ObEZJU25CalIwWjJZVzFzYkZwSGJHaGladwpzc3I6Ly9lV011YzJGbVpYUmxiR1Z6WTI5d1pTNWpZem95TVRJMk1UcGhkWFJvWDJGbGN6RXlPRjl0WkRVNllXVnpMVEkxTmkxalptSTZkR3h6TVM0eVgzUnBZMnRsZEY5aGRYUm9PbUZGWkhKVlZGazFUVlJXTUZKQkx6OXZZbVp6Y0dGeVlXMDlXVmR3YUdWRE5YUmhWMDU1WWpOT2RscHVVWFZaTWpsMEpuQnliM1J2Y0dGeVlXMDlUVlJKTUUxRVFUSlBhM0JGVDFVd00yRnRSak5hZW1jbWNtVnRZWEpyY3owMlNYVjROVnAxT1ZGdWVEQmFMVzFwYTJWdFFtdDZjRUZqYld4M1dWYzVjV0ZYVm10aFYwWjFKbWR5YjNWd1BXUkhabkJ2Y0Vod1oxcE5ObEZJU25CalIwWjJZVzFzYkZwSGJHaGladwpzc3I6Ly9kM291YzJGbVpYUmxiR1Z6WTI5d1pTNWpZem94TURBd05UcGhkWFJvWDJGbGN6RXlPRjl0WkRVNllXVnpMVEkxTmkxalptSTZkR3h6TVM0eVgzUnBZMnRsZEY5aGRYUm9PbUZGWkhKVlZGazFUVlJXTUZKQkx6OXZZbVp6Y0dGeVlXMDlXVmR3YUdWRE5YUmhWMDU1WWpOT2RscHVVWFZaTWpsMEpuQnliM1J2Y0dGeVlXMDlUVlJKTUUxRVFUSlBhM0JGVDFVd00yRnRSak5hZW1jbWNtVnRZWEpyY3owMU56WlBOVnAxT1ZGdWVEQmFMVzFwYTJWdFFtdDZjRUZqYld4M1dWYzVjV0ZYVm10aFYwWjFKbWR5YjNWd1BXUkhabkJ2Y0Vod1oxcE5ObEZJU25CalIwWjJZVzFzYkZwSGJHaGladwpzc3I6Ly9lV011YzJGbVpYUmxiR1Z6WTI5d1pTNWpZem95TVRBNU9UcGhkWFJvWDJGbGN6RXlPRjl0WkRVNllXVnpMVEkxTmkxalptSTZkR3h6TVM0eVgzUnBZMnRsZEY5aGRYUm9PbUZGWkhKVlZGazFUVlJXTUZKQkx6OXZZbVp6Y0dGeVlXMDlXVmR3YUdWRE5YUmhWMDU1WWpOT2RscHVVWFZaTWpsMEpuQnliM1J2Y0dGeVlXMDlUVlJKTUUxRVFUSlBhM0JGVDFVd00yRnRSak5hZW1jbWNtVnRZWEpyY3owMU5VZGxOVmxYTkdaSVVtNDJZVXRTTmxsSFZFOXJRbmxoV0VKb1lqSndjRnBYVW5CWlZ6UW1aM0p2ZFhBOVpFZG1jRzl3U0hCbldrMDJVVWhLY0dOSFJuWmhiV3hzV2tkc2FHSm4Kc3NyOi8vZVhwNVpDMHdNUzVqWTNSbGJHVnpZMjl3WlM1NGVYbzZOVEF6TVRJNllYVjBhRjloWlhNeE1qaGZiV1ExT21GbGN5MHlOVFl0WTJaaU9uUnNjekV1TWw5MGFXTnJaWFJmWVhWMGFEcGhSV1J5VlZSWk5VMVVWakJTUVM4X2IySm1jM0JoY21GdFBWbFhjR2hsUXpWMFlWZE9lV0l6VG5aYWJsRjFXVEk1ZENad2NtOTBiM0JoY21GdFBVMVVTVEJOUkVFeVQydHdSVTlWTUROaGJVWXpXbnBuSm5KbGJXRnlhM005TlhCbGJEVndlWE5SV0hnd1dpMXRhV3RsYlVKcmVuQkJZMjFzZDFsWE9YRmhWMVpyWVZkR2RTWm5jbTkxY0Qxa1IyWndiM0JJY0dkYVRUWlJTRXB3WTBkR2RtRnRiR3hhUjJ4b1ltYwpzc3I6Ly9kM291YzJGbVpYUmxiR1Z6WTI5d1pTNWpZem94TURBeE9UcGhkWFJvWDJGbGN6RXlPRjl0WkRVNllXVnpMVEkxTmkxalptSTZkR3h6TVM0eVgzUnBZMnRsZEY5aGRYUm9PbUZGWkhKVlZGazFUVlJXTUZKQkx6OXZZbVp6Y0dGeVlXMDlXVmR3YUdWRE5YUmhWMDU1WWpOT2RscHVVWFZaTWpsMEpuQnliM1J2Y0dGeVlXMDlUVlJKTUUxRVFUSlBhM0JGVDFVd00yRnRSak5hZW1jbWNtVnRZWEpyY3owMWNHVnNOWEI1YzFGdWVEQmFMVzFwYTJWdFFtdDZjRUZqYld4M1dWYzVjV0ZYVm10aFYwWjFKbWR5YjNWd1BXUkhabkJ2Y0Vod1oxcE5ObEZJU25CalIwWjJZVzFzYkZwSGJHaGladwpzc3I6Ly9lWHA1WkMwd01TNWpZM1JsYkdWelkyOXdaUzU0ZVhvNk5UQXpNRFk2WVhWMGFGOWhaWE14TWpoZmJXUTFPbUZsY3kweU5UWXRZMlppT25Sc2N6RXVNbDkwYVdOclpYUmZZWFYwYURwaFJXUnlWVlJaTlUxVVZqQlNRUzhfYjJKbWMzQmhjbUZ0UFZsWGNHaGxRelYwWVZkT2VXSXpUblphYmxGMVdUSTVkQ1p3Y205MGIzQmhjbUZ0UFUxVVNUQk5SRUV5VDJ0d1JVOVZNRE5oYlVZelducG5KbkpsYldGeWEzTTlOWEJoZHpWWmNXYzFXakpvVVc1NE1Gb3RiV2xyWlcxQ2EzcHdRV050YkhkWlZ6bHhZVmRXYTJGWFJuVW1aM0p2ZFhBOVpFZG1jRzl3U0hCbldrMDJVVWhLY0dOSFJuWmhiV3hzV2tkc2FHSm4Kc3NyOi8vZVhwNVpDMHdNUzVqWTNSbGJHVnpZMjl3WlM1NGVYbzZNekF3TURJNllYVjBhRjloWlhNeE1qaGZiV1ExT21GbGN5MHlOVFl0WTJaaU9uUnNjekV1TWw5MGFXTnJaWFJmWVhWMGFEcGhSV1J5VlZSWk5VMVVWakJTUVM4X2IySm1jM0JoY21GdFBWbFhjR2hsUXpWMFlWZE9lV0l6VG5aYWJsRjFXVEk1ZENad2NtOTBiM0JoY21GdFBVMVVTVEJOUkVFeVQydHdSVTlWTUROaGJVWXpXbnBuSm5KbGJXRnlhM005TlZrdGR6VnliUzFSYVRFd1dpMXRhV3RsYlVKcmVuQkJZMjFzZDFsWE9YRmhWMVpyWVZkR2RTWm5jbTkxY0Qxa1IyWndiM0JJY0dkYVRUWlJTRXB3WTBkR2RtRnRiR3hhUjJ4b1ltYwpzc3I6Ly9kM291YzJGbVpYUmxiR1Z6WTI5d1pTNWpZem94TURBd056cGhkWFJvWDJGbGN6RXlPRjl0WkRVNllXVnpMVEkxTmkxalptSTZkR3h6TVM0eVgzUnBZMnRsZEY5aGRYUm9PbUZGWkhKVlZGazFUVlJXTUZKQkx6OXZZbVp6Y0dGeVlXMDlXVmR3YUdWRE5YUmhWMDU1WWpOT2RscHVVWFZaTWpsMEpuQnliM1J2Y0dGeVlXMDlUVlJKTUUxRVFUSlBhM0JGVDFVd00yRnRSak5hZW1jbWNtVnRZWEpyY3owMVdTMTNOWEp0TFZGNU1UQmFMVzFwYTJWdFFtdDZjRUZqYld4M1dWYzVjV0ZYVm10aFYwWjFKbWR5YjNWd1BXUkhabkJ2Y0Vod1oxcE5ObEZJU25CalIwWjJZVzFzYkZwSGJHaGladw=="
@@ -665,3 +707,4 @@ if __name__ == "__main__":
 
         case _:
             print('Usage: %s [run | subscribe | split | encode | repair | debug | clash | clash2 | find ]' % sys.argv[0])
+            
