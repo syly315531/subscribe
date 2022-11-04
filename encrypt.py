@@ -1,4 +1,3 @@
-from ast import keyword
 import base64
 import json
 import os
@@ -9,7 +8,6 @@ import sys
 import time
 import urllib
 
-import geoip2.database
 import requests
 # import yaml
 
@@ -260,40 +258,38 @@ class URLParseHelper:
             _u = urllib.parse.urlparse(url.strip())
             return _u.path, urllib.parse.parse_qs(_u.query)
         
-        a = self.body[0:self.body.find('_')] if self.body.find('_') > 0 else self.body
-        alist = strDecode(a).strip().split(':')
-        _tagName = self.getTagName(alist[0], alist[1])
+        def splitParamsDict(s):
+            s= s.strip()
+            s = urllib.parse.parse_qs(s)
+            s = { k: ",".join(v) if v else v for k,v in s.items()}
+            return s
         
+        def joinParamsDict(s:dict):
+            s = [ f'{k}={v}' for k,v in s.items()]
+            s = "&".join(s)
+            return s
+        
+        a = strDecode(self.body).strip()
+        alist = a.split(":")
+        _tagName = self.getTagName(alist[0], alist[1])
+
+
         if self.url.find('_')>0:
             params = strDecode(self.url[self.url.find('_')+1:])
-            params = urllib.parse.parse_qs(params.strip())
-            params = { k: ",".join(v) if v else v for k,v in params.items()}
-        else:
-            params = {}
-        params['remarks'] = strEncode(_tagName)
-        
-        params = [ f'{k}={v}' for k,v in params.items()]
-        params = "&".join(params)
-        
-        _url_path, _url_qs = parse_qs_ssr(alist[-1])
-        if _url_qs:
-            
-            # if 'remarks' in _url_qs:
-            #     _url_qs.pop('remarks')
-            _url_qs['remarks'] = [strEncode(_tagName),]
-            blist = alist[:-1]
-            if _url_qs:
-                s1 = { k:",".join(v) if v else v for k,v in _url_qs.items()}
-                s1 = "&".join([f'{k}=v' for k,v in s1.items()])
-                # blist.append(_url_path + "?" + self.build_query(_url_qs))
-                blist.append(_url_path + "?" + s1)
-            else:
-                blist.append(_url_path)
+            params = splitParamsDict(params)
+            params['remarks'] = strEncode(_tagName)
+            params = joinParamsDict(params)
 
-            b = strEncode(":".join(blist))
-            _newUrl = self.urlObj.scheme + '://' + b
+            _newUrl = self.urlObj.scheme + '://' + self.body + '_' + strEncode(params)
         else:
-            _newUrl = self.urlObj.scheme + '://' + a + '_' + strEncode(params)
+            params = splitParamsDict(a.split('?')[1]) if a.find('?')>0 else {}
+            params['remarks'] = _tagName
+            params = joinParamsDict(params)
+
+            b = a.split('?')[0] if a.find('?')>0 else a
+            b = strEncode(b+"?"+params)
+
+            _newUrl = self.urlObj.scheme + '://' + b
 
         return alist[0], alist[1], _newUrl
 
@@ -638,10 +634,13 @@ if __name__ == "__main__":
             fhelper.splitFiles()
             
         case 'debug':
-            url = u"ssr://eWMuc2FmZXRlbGVzY29wZS5jYzoyMTI5MzphdXRoX2FlczEyOF9tZDU6YWVzLTI1Ni1jZmI6dGxzMS4yX3RpY2tldF9hdXRoOmFFZHJVVFk1TVRWMFJBLz9vYmZzcGFyYW09eXdwaGVjNXRhd255YjNudnpucXV5Mjl0JnByb3RvcGFyYW09bXRpMG1kYTJva3Blb3UwM2FtZjN6emcmZ3JvdXA9ZGdmcG9waHBnem02cWhqcGNnZnZhbWxsemdsaGJn_cmVtYXJrcz1XLVM0cmVXYnZWTlRVbDFaUXk1VFFVWkZWRVZNUlZORFQxQkZMa05ET2pJeE1qa3o="
+            url = 'ssr://Y21yZWxheTAxLmRvd25zaXRlLnh5ejo1NzAxOmF1dGhfYWVzMTI4X3NoYTE6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpha1poTkVZeC8_Z3JvdXA9WVdseSZyZW1hcmtzPVctbWZxZVdidlZOVFVsMURUVkpGVEVGWk1ERXVSRTlYVGxOSlZFVXVXRmxhT2pVM01ERT0mb2Jmc3BhcmFtPVpEbGxNalExTURreE5pNXRhV055YjNOdlpuUXVZMjl0JnByb3RvcGFyYW09TlRBNU1UWTZNRFl5TmtVeU5UbDZjRWM='
             print(url)
             rst = uhelper.rebuild(url)
             print(rst)
+            print(strDecode(uhelper.body))
+            if url.find('_')>0:
+                print(strDecode(url[url.find('_')+1:]))
             # # uhelper.vaild(rst[0],rst[1])
             
         
@@ -654,10 +653,15 @@ if __name__ == "__main__":
             url ='https://raw.githubusercontent.com/satrom/V2SSR/master/SSR/Sub.txt'
             rst = fhelper.getSubscribeContent(url)
             print(rst)
-            
+        case 'encode':
+            if sys.argv[2]:
+                encrypt_base64(sys.argv[2])
+            else:
+                encrypt_base64('fly.txt')
+
         case 'find':
             rst = fhelper.find(sys.argv[2])
             print(rst)
 
         case _:
-            print('Usage: %s [run | source | fly | split | encode | repair | debug | clash | clash2 | find ]' % sys.argv[0])
+            print('Usage: %s [run | subscribe | split | encode | repair | debug | clash | clash2 | find ]' % sys.argv[0])
