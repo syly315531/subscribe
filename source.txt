@@ -238,6 +238,7 @@ https://www.gyy.pw/api/v1/client/subscribe?token=c591df25ee623806fb752d1943c8dfA
 https://www.mikuyun.xyz/api/v1/client/subscribe?token=8791ba36e51adaeb824ab0206a727f38
 https://www.mnucv.xyz/api/v1/client/subscribe?token=091de46ee0bda13704de9432fa6af39b
 https://www.mnucv.xyz/api/v1/client/subscribe?token=e34abdad144fdc366f7232681a9098c4
+https://www.panda-cloud.life/api/v1/client/subscribe?token=ee3639d9047f6fbe32bf70ab4ce051f6
 https://www.paofusub.com/link/MqecSrc7HdvtWXS4?sub=3
 https://www.prop.cf/?name=paimon&client=base64
 https://www.spcloud.us/api/v1/client/subscribe?token=d7ba10b39538d2c33b226c6092414072
