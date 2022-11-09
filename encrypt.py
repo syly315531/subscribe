@@ -9,7 +9,7 @@ import time
 import urllib
 
 import requests
-# import yaml
+import yaml
 
 from geoip import getCountry
 
