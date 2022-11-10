@@ -10,6 +10,7 @@ import urllib
 
 import requests
 import yaml
+from lxml import etree
 
 from geoip import getCountry
 
@@ -172,6 +173,24 @@ def isBase64(sb):
     except Exception as e:
         print(e)
         return False
+
+def banyunxiaoxi():
+    resultList = []
+    index_url = 'https://banyunxiaoxi.icu/'
+    
+    rst = getResponse(index_url)
+    rst = etree.HTML(rst)
+    urls = rst.xpath('//*[@class="post-title"]/@href')
+    for url in urls:
+        print(url)
+        ret = getResponse(url)
+        ret = etree.HTML(ret)
+        ret = ret.xpath('//*[@class="wp-block-quote"]//text()')
+        ret = [a for a in ret if a.startswith(tuple(['{}://'.format(s) for s in schemaList]))]
+        print(ret)
+        resultList += ret
+        
+    return resultList
 
 class URLParseHelper:
     def __init__(self, url=None) -> None:
@@ -430,7 +449,7 @@ class fileHelper:
         self.backup_file = get_filepath(backup_file)
         self.error_file = get_filepath(error_file)
 
-        self.exist_list = self.read(self.out_file)
+        self.exist_list = self.read(self.backup_file)
         self.ignore_list = self.read(get_filepath(ignore_file))
 
     def add(self,url,chk=False):
@@ -646,6 +665,9 @@ if __name__ == "__main__":
     fhelper = fileHelper()
     match sys.argv[1]:
         case 'subscribe':
+            alist = banyunxiaoxi()
+            for line in alist:
+                fhelper.write(line)
             fhelper.clash()
             fhelper.getSubscribeContent_all()
 
@@ -660,6 +682,9 @@ if __name__ == "__main__":
             fhelper.splitFiles(fhelper.out_file)
 
         case 'run':
+            alist = banyunxiaoxi()
+            for line in alist:
+                fhelper.write(line)
             fhelper.clash()
             fhelper.run()
             
