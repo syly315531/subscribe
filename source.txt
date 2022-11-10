@@ -162,6 +162,7 @@ https://raw.fastgit.org/ripaojiedian/freenode/main/sub
 https://raw.githubusercontent.com/RaymondHarris971/ssrsub/master/9a075bdee5.txt
 https://raw.githubusercontent.com/fakmoth/vmess_tg/main/v2
 https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
+https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
 https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
 https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
 https://raw.githubusercontent.com/ssrsub/ssr/master/trojan
@@ -225,6 +226,7 @@ https://welink345.com/api/v1/client/subscribe?token=7a170e144680acc79f392c78b56f
 https://wespanl.com/link/h0vhatqugifcsymq?sub=3
 https://wolify.tk/api/v1/client/subscribe?token=cc53c88aad2ec29a057c605859523193
 https://www.awsl.business/api/v1/client/subscribe?token=27bf70385e7bd8e3386df2f056408436
+https://www.bfyun.top/api/v1/client/subscribe?token=d0eff7a384322a1c218398e577d82de4
 https://www.cloudorg.uk/api/v1/client/subscribe?token=67ee320da42b991d597eee9810cffeee
 https://www.cloudorg.uk/api/v1/client/subscribe?token=a196a9f83bb335a40db558b80c00512a
 https://www.cloudorg.uk/api/v1/client/subscribe?token=e5ff7efe1026fc13b0d4eb59024b266a
@@ -252,6 +254,7 @@ https://xn--h6q53lcvpz7l.club/api/v1/client/subscribe?token=d23dfeb6877e80fd9404
 https://xn--h6q53lcvpz7l.club/api/v1/client/subscribe?token=fc35e68544189404f54a4fd98dc74d2c
 https://xn--mesv7f5toqlp.club/api/v1/client/subscribe?token=32cb7e1a1da3204958f3f3232ea6f146
 https://xowrocket&extend=1z/link/SpixQkvgDzhnGCot?list=shadowrocket&extend=1
+https://xsus.buzz/api/v1/client/subscribe?token=fba9748f57859a31c60440e893895ed8
 https://xsus.xyz/api/v1/client/subscribe?token=1fb8b1be5af05e8e6dcf34346cb42a94
 https://xvideohub.lol/link/c0nrlaxsrw7myj9a?sub=3&extend=1
 https://y-a994-4246-b657-e706902c85a4/shadowrocket/29779c21-a994-4246-b657-e706902c85a4

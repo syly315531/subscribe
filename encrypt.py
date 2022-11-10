@@ -124,7 +124,7 @@ def getResponse(url=None, dec=False,timeout=5):
             rsp = requests.get(url, headers=headers, timeout=timeout)
             if rsp.status_code == 200:
                 rsp = rsp.text
-                rsp = re.sub('\n', '', rsp)
+                rsp = re.sub('\n|\r', '', rsp)
 
                 rsp = strDecode(rsp, False) if dec else rsp
                 # time.sleep(3)
@@ -475,9 +475,11 @@ class fileHelper:
     def write(self, url):
         url = url.strip()
         if url not in self.exist_list:
-            self.add(url)
+            with open(self.out_file,"a+",encoding="utf8") as f:
+                f.write(url+"\n")
             with open(self.backup_file, "a+", encoding='utf8') as f3:
                 f3.write(url + '\n')
+            print("Add a URL:" + url)
         else:
             print('Ignore the URL', url)
 
@@ -493,7 +495,7 @@ class fileHelper:
                 lines = lines.splitlines()
             else:
                 return
-
+            
             for line in lines:
                 if line.startswith(tuple(['{}://'.format(s) for s in schemaList])):
                     self.write(line)
@@ -504,8 +506,9 @@ class fileHelper:
             print(e, subscribe)
             raise(e)
 
-    def getSubscribeContent_all(self):
+    def getSubscribeContent_all(self,skip=None):
         sourcelist = self.read(self.source_file)
+        sourcelist = sourcelist[skip:] if skip else sourcelist
         for index, source in enumerate(sourcelist):
             print("********** Get Subscribe {}/{} **********".format(index+1, len(sourcelist)))
             self.getSubscribeContent(source)
@@ -680,6 +683,8 @@ if __name__ == "__main__":
 
         case 'split':
             fhelper.splitFiles(fhelper.out_file)
+            fhelper.splitFiles()
+            
 
         case 'run':
             alist = banyunxiaoxi()
@@ -691,8 +696,11 @@ if __name__ == "__main__":
         case 'clash':
             fhelper.clash()
             
-        case 'split':
-            fhelper.splitFiles()
+        case 'spider':
+            alist = banyunxiaoxi()
+            # for line in alist:
+            #     fhelper.write(line)
+            print(alist)
             
         case 'debug':
             s ='abcdefgh'
