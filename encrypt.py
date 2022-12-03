@@ -684,7 +684,6 @@ if __name__ == "__main__":
         case 'split':
             fhelper.splitFiles(fhelper.out_file)
             fhelper.splitFiles()
-            
 
         case 'run':
             alist = banyunxiaoxi()
