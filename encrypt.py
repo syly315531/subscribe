@@ -686,9 +686,9 @@ if __name__ == "__main__":
             fhelper.splitFiles()
 
         case 'run':
-            alist = banyunxiaoxi()
-            for line in alist:
-                fhelper.write(line)
+            # alist = banyunxiaoxi()
+            # for line in alist:
+            #     fhelper.write(line)
             fhelper.clash()
             fhelper.run()
             
