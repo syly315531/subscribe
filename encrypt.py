@@ -668,9 +668,9 @@ if __name__ == "__main__":
     fhelper = fileHelper()
     match sys.argv[1]:
         case 'subscribe':
-            alist = banyunxiaoxi()
-            for line in alist:
-                fhelper.write(line)
+            # alist = banyunxiaoxi()
+            # for line in alist:
+            #     fhelper.write(line)
             fhelper.clash()
             fhelper.getSubscribeContent_all()
 
