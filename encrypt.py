@@ -15,6 +15,7 @@ from lxml import etree
 from geoip import getCountry
 
 schemaList = ['ss', 'ssr', 'trojan', 'vless', 'vmess','http2']
+existNameList = []
 
 def get_filepath(filename):
     return os.path.join(os.path.dirname(os.path.abspath(__file__)), filename)
@@ -59,10 +60,12 @@ def encrypt_base64(filename='fly.txt'):
         f.write(encodeStr)
 
 def strDecode(s: str, isurl=True):
-    s = re.sub('=', '', s)
+    s = re.sub('=|\n', '', s)
     missing_padding = len(s) % 4
     if missing_padding != 0:
         s += '=' * (4 - missing_padding)
+    
+    print(s)
     try:
         if isurl:
             s = base64.urlsafe_b64decode(s)
@@ -76,6 +79,8 @@ def strDecode(s: str, isurl=True):
     except Exception as e:
         # s = s if type(s)==str else str(s)
         print(e, s)
+        sys.exit()
+        return {}
 
     return s
 
@@ -173,6 +178,14 @@ def isBase64(sb):
     except Exception as e:
         print(e)
         return False
+
+def chkName(n,existNameList):
+    if n in existNameList:
+        ns = n.split("]")
+        n2 = chkName("{}{}]{}".format(ns[0],"*",ns[1]), existNameList)
+    else:
+        n2 = n
+    return n2
 
 def banyunxiaoxi():
     resultList = []
@@ -294,9 +307,13 @@ class URLParseHelper:
 
     def getTagName(self, ipStr, port, quote=False):
         if quote:
-            return urllib.parse.quote('[{}{}]{}:{}'.format(getCountry(ipStr), self.urlObj.scheme.upper(), ipStr.upper(), port))
+            _name = urllib.parse.quote('[{}{}]{}:{}'.format(getCountry(ipStr), self.urlObj.scheme.upper(), ipStr.upper(), port))
         else:
-            return '[{}{}]{}:{}'.format(getCountry(ipStr), self.urlObj.scheme.upper(), ipStr.upper(), port)
+            _name = '[{}{}]{}:{}'.format(getCountry(ipStr), self.urlObj.scheme.upper(), ipStr.upper(), port)
+        
+        _name = chkName(_name, existNameList)
+        existNameList.append(_name)
+        return _name
 
     def ssObj(self):
 
@@ -407,7 +424,6 @@ class URLParseHelper:
             self.parse(self.url)
 
             match self.urlObj.scheme:
-
                 case 'ss':
                     r = self.ssObj()
                 case 'ssr':
@@ -441,6 +457,155 @@ class URLParseHelper:
             print(self.body)
             print("*"*100)
 
+class clashHelper:
+    
+    def __init__(self):
+        # 规则策略
+        self.config_url = 'https://raw.githubusercontent.com/Celeter/v2toclash/master/config.yaml'
+        self.config_path = get_filepath("clash_config.yaml")
+    
+    def save_config(self, sch, data):
+        content = yaml.dump(data, sort_keys=False, default_flow_style=False, encoding='utf-8', allow_unicode=True)
+        with open(get_filepath("{}_config.yaml".format(sch)), 'wb') as f:
+            f.write(content)
+        print('成功更新:{}个节点'.format(len(data['proxies'])))
+        
+    # 获取本地规则策略的配置文件
+    def load_local_config(self,path=None):
+        self.config_path = get_filepath(path) if path else self.config_path
+        try:
+            with open(self.config_path, 'r', encoding="utf-8") as f:
+                local_config = yaml.load(f.read(), Loader=yaml.FullLoader)
+            return local_config
+        except FileNotFoundError:
+            print('配置文件加载失败')
+            sys.exit()
+            
+    # 获取规则策略的配置文件
+    def get_default_config(self, url=None, path=None):
+        self.config_url = url if url else self.config_url
+        self.config_path = get_filepath(path) if path else self.config_path
+        try:
+            raw = getResponse(self.config_url,False,5000) #.content.decode('utf-8')
+            template_config = yaml.load(raw, Loader=yaml.FullLoader) if raw else self.load_local_config(self.config_path)
+        except requests.exceptions.RequestException:
+            print('网络获取规则配置失败,加载本地配置文件')
+            template_config = self.load_local_config(self.config_path)
+        print('已获取规则配置文件')
+        return template_config
+
+    def vmess_to_clash(self,arr):
+        proxies={
+            'proxy_list':[],
+            'proxy_names':[]
+        }
+        try:
+            
+            for item in arr:
+                if isinstance(item, str):
+                    item = json.loads(item)
+                    
+                if item.get('ps') is None and item.get('add') is None and item.get('port') is None and item.get('id') is None and item.get('aid') is None:
+                    continue
+                _name = item.get('ps').strip() if item.get('ps') else None
+                _name = chkName(_name, existNameList)
+                existNameList.append(_name)
+                obj = {
+                    'name': _name,
+                    'type': 'vmess',
+                    'server': item.get('add'),
+                    'port': int(item.get('port')),
+                    'uuid': item.get('id'),
+                    'alterId': item.get('aid'),
+                    'cipher':'auto', 
+                    'udp': True,
+                    # 'network': item['net'] if item['net'] and item['net'] != 'tcp' else None,
+                    'network': item.get('net'),
+                    'tls': True if item.get('tls') == 'tls' else None,
+                    'ws-path': item.get('path'),
+                    'ws-headers': {'Host': item.get('host')} if item.get('host') else None
+                }
+                
+                for key in list(item.keys()):
+                    if key in ['v','path','host','net','aid','id','add','ps']:
+                        continue
+                    if key not in list(obj.keys()):
+                        obj[key] = item[key]
+                for key in list(obj.keys()):
+                    if obj.get(key) is None or obj.get(key)=='' or obj.get(key)=='none':
+                        del obj[key]
+                
+                proxies['proxy_list'].append(obj)
+                proxies['proxy_names'].append(obj['name'])
+        
+        except Exception as e:
+            print(e)
+            
+        return proxies
+    
+    def trojan_to_clash(self,arr):
+        proxies={
+            'proxy_list':[],
+            'proxy_names':[]
+        }
+        try:
+            
+            for item in arr:
+                item = item.replace("/?","?")
+                if item.find("?")>0:
+                    matcher = re.match(r'(.*)@(.*):(.*)', item[:item.find("?")])
+                    params = item[item.find("?")+1:item.find("#")]
+                    params = {ps.split("=")[0]:ps.split("=")[1] for ps in params.split("&")}
+                else:
+                    matcher = re.match(r'(.*)@(.*):(.*)', item[:item.find("#")])
+                    params = {}
+                
+                _name = item.split("#")[1] or ""
+                _name = urllib.parse.unquote(_name)
+                _name = chkName(_name, existNameList)
+                existNameList.append(_name)
+                obj = {
+                    'name': _name,
+                    'type': 'trojan',
+                    'server': matcher.group(2),
+                    'port': int(matcher.group(3)),
+                    'password': matcher.group(1),
+                    'skip-cert-verify': True,
+                    'udp': True,
+                }
+                
+                for key in list(params.keys()):
+                    if key not in list(obj.keys()):
+                        obj[key] = params[key]
+               
+                for key in list(obj.keys()):
+                    if obj.get(key) is None or obj.get(key)=='none':
+                        del obj[key]
+                        
+                proxies['proxy_list'].append(obj)
+                proxies['proxy_names'].append(obj['name'])
+        
+        except Exception as e:
+            print(e)
+            
+        return proxies
+    
+    # 将代理添加到配置文件
+    def add_proxies_to_model(self, data, model):
+        if model.get('proxies') is None:
+            model['proxies'] = data.get('proxy_list')
+        else:
+            model['proxies'].extend(data.get('proxy_list'))
+        for group in model.get('proxy-groups'):
+            if group.get('name') in ['Ⓜ️ 微软服务','📲 电报信息','🍎 苹果服务','⛔️ 广告拦截','🎯 全球直连','🛑 全球拦截','🐟 漏网之鱼']:
+                continue
+            
+            if group.get('proxies') is None:
+                group['proxies'] = data.get('proxy_names')
+            else:
+                group['proxies'].extend(data.get('proxy_names'))
+        return model
+    
 class fileHelper:
     
     def __init__(self,source_file='source.txt',out_file='fly.txt', backup_file='collection.txt',error_file='error.txt',ignore_file="ignore.txt") -> None:
@@ -662,10 +827,37 @@ class fileHelper:
 
         return rst_list
 
+    def make_clash_config(self,shm=None):
+        clashH = clashHelper()
+        default_config = clashH.get_default_config()
+        
+        for sch in schemaList:
+            if shm is not None and shm != sch:
+                continue
+                
+            with open(get_filepath(sch + ".txt")) as f:
+                arr = f.readlines()
+                
+            clash_node = None
+            print(sch,len(arr))
+            if sch == "vmess":
+                arr_v = [strDecode(item[8:].strip()) for item in arr if item.find('@')<=0]
+                clash_node = clashH.vmess_to_clash(arr_v)
+            
+            # if sch == "trojan":
+            #     arr_t = [item[9:].strip() for item in arr]
+            #     clash_node = clashH.trojan_to_clash(arr_t)
+                
+            if clash_node:
+                final_config = clashH.add_proxies_to_model(clash_node, default_config)
+                clashH.save_config(sch, final_config)
+            
+            # print(sch,len(arr),clash_node)
 
 if __name__ == "__main__":
     uhelper = URLParseHelper()
     fhelper = fileHelper()
+    
     match sys.argv[1]:
         case 'subscribe':
             # alist = banyunxiaoxi()
@@ -736,6 +928,9 @@ if __name__ == "__main__":
         case 'find':
             rst = fhelper.find(sys.argv[2])
             print(rst)
+
+        case 'clashconfig':
+            fhelper.make_clash_config()
 
         case _:
             print('Usage: %s [run | subscribe | split | encode | repair | debug | clash | clash2 | find ]' % sys.argv[0])

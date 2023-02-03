@@ -1833,7 +1833,6 @@ trojan://ffcd5d19-d085-4ff1-b724-af203eaeea04@141.147.191.85:28443?security=tls&
 trojan://idc117okt@103.176.78.153:443?security=tls&type=tcp&headerType=none#%5B%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9ATROJAN%5D103.176.78.153%3A443
 trojan://iyinglong@18.140.67.76:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D18.140.67.76%3A443
 trojan://iyinglong@18.141.8.87:443?security=tls&type=tcp&headerType=none#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D18.141.8.87%3A443
-trojan://lionssh#%5B%E7%BE%8E%E5%9B%BDTROJAN%5D18.141.8.87%3A443
 trojan://mMQ6qJB9xbhiRvgg@v2cross.com.01.v2ce.com:443?security=tls&type=tcp&headerType=none#%5B%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9ATROJAN%5DV2CROSS.COM.01.V2CE.COM%3A443
 trojan://opentunnel.net-sdertyuijh@cat-1.opensvr.net:443?security=tls&type=tcp&headerType=none#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCAT-1.OPENSVR.NET%3A443
 trojan://opentunnel.net-wd3dzt4j9yoy@cat-1.opensvr.net:443?security=tls&type=tcp&headerType=none#%5B%E5%8A%A0%E6%8B%BF%E5%A4%A7TROJAN%5DCAT-1.OPENSVR.NET%3A443
