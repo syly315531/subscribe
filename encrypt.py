@@ -1,4 +1,3 @@
-import base64
 import json
 import os
 import re
@@ -12,7 +11,10 @@ import requests
 import yaml
 from lxml import etree
 
+from dec_enc import strDecode, strEncode
 from geoip import getCountry
+
+from v2ray import V2ray
 
 schemaList = ['ss', 'ssr', 'trojan', 'vless', 'vmess','http2']
 existNameList = []
@@ -52,51 +54,13 @@ def encrypt_base64(filename='fly.txt'):
     removeDuplicateData(filePath)
     with open(filePath, "r+", encoding='utf8') as f:
         encodeStr = f.read()
-        encodeStr = bytes(encodeStr, 'utf-8')
-        encodeStr = base64.b64encode(encodeStr)
-        encodeStr = str(encodeStr, 'utf-8')
+        encodeStr = strEncode(encodeStr)
+        # encodeStr = bytes(encodeStr, 'utf-8')
+        # encodeStr = base64.b64encode(encodeStr)
+        # encodeStr = str(encodeStr, 'utf-8')
 
     with open(filePath.split('.')[0], "w", encoding='utf8') as f:
         f.write(encodeStr)
-
-def strDecode(s: str, isurl=True):
-    s = re.sub('=|\n', '', s)
-    missing_padding = len(s) % 4
-    if missing_padding != 0:
-        s += '=' * (4 - missing_padding)
-    
-    print(s)
-    try:
-        if isurl:
-            s = base64.urlsafe_b64decode(s)
-        else:
-            s = bytes(s, 'utf-8') if isinstance(s,str) else s
-            s = base64.decodebytes(s)
-
-        if type(s) == bytes:
-            # s = str(s, encoding='UTF-8')
-            s = s.decode('UTF-8')
-    except Exception as e:
-        # s = s if type(s)==str else str(s)
-        print(e, s)
-        sys.exit()
-        return {}
-
-    return s
-
-def strEncode(s: str, isurl=True):
-    try:
-        if isurl:
-            s = base64.urlsafe_b64encode(bytes(s, 'utf-8'))
-        else:
-            s = base64.b64encode(bytes(s, 'utf-8'))
-
-        if type(s) == bytes:
-            # s = str(s, 'utf-8')
-            s = s.decode('UTF-8')
-    except Exception as e:
-        print(e, s)
-    return s
 
 def walkFile(file="."):
     fileList = []
@@ -144,41 +108,6 @@ def getResponse(url=None, dec=False,timeout=5):
         # return rsp.splitlines()
         return rsp
 
-def is_base64_code(s):
-    '''Check s is Base64.b64encode'''
-    if not isinstance(s, str) or not s:
-        return "params s not string or None"
-
-    _base64_code = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
-                    'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
-                    'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a',
-                    'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
-                    'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
-                    't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1',
-                    '2', '3', '4', '5', '6', '7', '8', '9', '+',
-                    '/', '=']
-    _base64_code_set = set(_base64_code)  # 转为set增加in判断时候的效率
-    # Check base64 OR codeCheck % 4
-    code_fail = [i for i in s if i not in _base64_code_set]
-    if code_fail or len(s) % 4 != 0:
-        return False
-    return True
-
-def isBase64(sb):
-    '''Check s is Base64.b64encode'''
-    try:
-        if isinstance(sb, str):
-                # If there's any unicode here, an exception will be thrown and the function will return false
-            sb_bytes = bytes(sb, 'ascii')
-        elif isinstance(sb, bytes):
-            sb_bytes = sb
-        else:
-            raise ValueError("Argument must be string or bytes")
-        return base64.b64encode(base64.b64decode(sb_bytes)) == sb_bytes
-    except Exception as e:
-        print(e)
-        return False
-
 def chkName(n,existNameList):
     if n in existNameList:
         ns = n.split("]")
@@ -204,6 +133,69 @@ def banyunxiaoxi():
         resultList += ret
         
     return resultList
+
+def parse_plain_url(s:str):
+    _protocol = s.split("://")[0] or None
+    s = s.strip().replace("/?","?")
+    try:
+        if s.find("?")>0:
+            matcher = re.match(r'(.*)@(.*):(.*)', s[:s.find("?")])
+            params = s[s.find("?")+1:s.find("#")]
+            params = {ps.split("=")[0]:ps.split("=")[1] for ps in params.split("&")}
+        else:
+            matcher = re.match(r'(.*)@(.*):(.*)', s[:s.find("#")])
+            params = {}
+        
+        _name = s.split("#")[1] or ""
+        _name = urllib.parse.unquote(_name)
+        obj = {
+            'name': _name,
+            'type': _protocol,
+            'server': matcher.group(2),
+            'port': int(matcher.group(3)),
+            'password': matcher.group(1),
+        }
+        
+        for key in list(params.keys()):
+            if key not in list(obj.keys()):
+                obj[key] = params[key]
+    except Exception as e:
+        print(e)
+        obj = {}
+        
+    return obj
+    
+def parse_vmess_url(s:str):
+    _protocol = s.split("://")[0] or None
+    s = s.strip().replace("/?","?")
+    
+    try:
+        if s.find("@")>0:
+            obj = parse_plain_url(s)
+        elif s.find("?")>0:
+            matcher = strDecode(s[len(_protocol)+3:s.find("?")])
+            matcher = re.match(r'(.*?):(.*)@(.*):(.*)', matcher)
+            obj = {
+                'cipher': matcher.group(1),
+                "id": matcher.group(2),
+                "add": matcher.group(3),
+                "port": matcher.group(4)
+            }
+            params = s[s.find("?")+1:s.find("#")]
+            params = {ps.split("=")[0]:ps.split("=")[1] for ps in params.split("&")}
+            
+            for key in list(params.keys()):
+                if key not in list(obj.keys()):
+                    obj[key] = params[key]
+        else:
+            parse_rst = strDecode(s[len(_protocol)+3:])
+            obj= json.loads(parse_rst)
+        
+    except Exception as e:
+        print(e)
+        obj = {}
+        
+    return obj
 
 class URLParseHelper:
     def __init__(self, url=None) -> None:
@@ -388,9 +380,23 @@ class URLParseHelper:
 
     def vmessObj(self):
         try:
+            obj = parse_vmess_url(self.url)
+            _remarks= self.getTagName(obj['add'],obj['port'])
+            if self.url.find("@"):
+                rst = [obj['add'],obj['port'], s[:s.find("#")] + "#" + urllib.parse.quote(_remarks)]
+            else:
+                obj['ps'] = self.getTagName(obj['add'],obj['port'])
+                rst = [obj['add'],obj['port'],"vmess://{}".format(strEncode(json.dumps(obj),False))]
+        except Exception as e:
+            print('vmessObj Error:{}'.format(e).center(100,"-"))
+            rst = [self.host, self.port, self.url]
+
+        return rst
+
+    def vmessObj_bak(self):
+        try:
             _s = strDecode(self.body)
-            _s = re.sub("\n", '', _s) or _s.strip()
-            _s = re.sub(' ', '', _s)
+            _s = re.sub("\n|\S", '', _s.strip())
             
             if _s.find('{') == 0:
                 _s = json.loads(_s)
@@ -513,16 +519,16 @@ class clashHelper:
                 obj = {
                     'name': _name,
                     'type': 'vmess',
-                    'server': item.get('add'),
+                    'server': item.get('add') or item.get('server'),
                     'port': int(item.get('port')),
                     'uuid': item.get('id'),
-                    'alterId': item.get('aid'),
+                    'alterId': item.get('aid') or item.get('alterId'),
                     'cipher':'auto', 
                     'udp': True,
                     # 'network': item['net'] if item['net'] and item['net'] != 'tcp' else None,
-                    'network': item.get('net'),
+                    'network': item.get('net') or item.get('network'),
                     'tls': True if item.get('tls') == 'tls' else None,
-                    'ws-path': item.get('path'),
+                    'ws-path': item.get('path') or item.get('ws-path'),
                     'ws-headers': {'Host': item.get('host')} if item.get('host') else None
                 }
                 
@@ -895,8 +901,16 @@ if __name__ == "__main__":
             
         case 'debug':
             s ='abcdefgh'
-            print(is_base64_code(s))
-            print(isBase64(s))
+            # print(is_base64_code(s))
+            # print(isBase64(s))
+            urlStr = "vmess://eyJ2IjogIjIiLCAicHMiOiAiW1x1N2Y4ZVx1NTZmZFZNRVNTXTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDE1QS5OT0RFLUZPUi1CSUdBSVJQT1JULldJTjoxNTA5MiIsICJhZGQiOiAiMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTVhLm5vZGUtZm9yLWJpZ2FpcnBvcnQud2luIiwgInBvcnQiOiAiMTUwOTIiLCAiaWQiOiAiNzgwNjVjMTQtZmM4MC00MGI1LWE0NmMtMGUzNGVmZGY4MmZhIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiIiwgInRscyI6ICIifQ=="
+            # parse_rst = uhelper.parse(urlStr)
+            rst = parse_vmess_url(urlStr)
+            print(rst)
+            
+            v2Node = V2ray(rst['add'], int(rst['port']), rst['ps'], 'auto', rst['id'], int(rst['aid']), rst['net'], rst['type'], rst['host'], rst['path'], rst['tls'])
+            print(v2Node.formatConfig())
+            # serverListLink[i] = v2Node
         
         case 'detail':
             url = 'ssr://d3ouc2FmZXRlbGVzY29wZS5jYzo0NjU2MjphdXRoX2FlczEyOF9tZDU6YWVzLTI1Ni1jZmI6dGxzMS4yX3RpY2tldF9hdXRoOmFFZHJVVFk1TVRWMFJBLz9yZW1hcmtzPSZwcm90b3BhcmFtPU1USTBPVEUxT2tsVWVUSkRiSGhSUkZZJm9iZnNwYXJhbT1ZV3BoZUM1dGFXTnliM052Wm5RdVkyOXQ'
@@ -919,6 +933,7 @@ if __name__ == "__main__":
             url ='https://raw.githubusercontent.com/satrom/V2SSR/master/SSR/Sub.txt'
             rst = fhelper.getSubscribeContent(url)
             print(rst)
+        
         case 'encode':
             if sys.argv[2]:
                 encrypt_base64(sys.argv[2])
