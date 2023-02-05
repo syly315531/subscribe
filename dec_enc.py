@@ -9,7 +9,7 @@ def strDecode(s: str, isurl=True):
     if missing_padding != 0:
         s += '=' * (4 - missing_padding)
 
-    print(s,type(s),len(s))
+    # print(s,type(s),len(s))
     try:
         if isurl:
             s = base64.urlsafe_b64decode(s)
@@ -21,10 +21,8 @@ def strDecode(s: str, isurl=True):
             # s = str(s, encoding='UTF-8')
             s = s.decode('UTF-8')
     except Exception as e:
-        # s = s if type(s)==str else str(s)
-        print(e, s)
-        sys.exit()
-        return {}
+        print("strDecode Error!",e, s)
+        raise(e)
 
     return s
 

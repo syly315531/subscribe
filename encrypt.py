@@ -137,28 +137,35 @@ def banyunxiaoxi():
 def parse_plain_url(s:str):
     _protocol = s.split("://")[0] or None
     s = s.strip().replace("/?","?")
+    
     try:
         if s.find("?")>0:
-            matcher = re.match(r'(.*)@(.*):(.*)', s[:s.find("?")])
+            matcher = re.match(r'(.*://){0,1}(.*?:){0,1}(.*)@(.*):(.*)', s[:s.find("?")])
             params = s[s.find("?")+1:s.find("#")]
             params = {ps.split("=")[0]:ps.split("=")[1] for ps in params.split("&")}
         else:
-            matcher = re.match(r'(.*)@(.*):(.*)', s[:s.find("#")])
+            matcher = re.match(r'(.*://){0,1}(.*?:){0,1}(.*)@(.*):(.*)', s[:s.find("#")])
             params = {}
         
         _name = s.split("#")[1] or ""
         _name = urllib.parse.unquote(_name)
         obj = {
-            'name': _name,
+            'ps': _name,
             'type': _protocol,
-            'server': matcher.group(2),
-            'port': int(matcher.group(3)),
-            'password': matcher.group(1),
+            'server': matcher.group(4),
+            'port': int(matcher.group(5)),
+            'id': matcher.group(3),
+            
+            'cipher':matcher.group(2)[:-1] if matcher.group(2) else 'auto',
+            'aid': params.get('aid') or params.get('alterId') or 0,
+            'net': params.get('net',""),
+            'host': params.get('host',""),
         }
         
         for key in list(params.keys()):
             if key not in list(obj.keys()):
                 obj[key] = params[key]
+                
     except Exception as e:
         print(e)
         obj = {}
@@ -172,30 +179,124 @@ def parse_vmess_url(s:str):
     try:
         if s.find("@")>0:
             obj = parse_plain_url(s)
+            obj['add'] = obj.pop("server")
+            
         elif s.find("?")>0:
             matcher = strDecode(s[len(_protocol)+3:s.find("?")])
-            matcher = re.match(r'(.*?):(.*)@(.*):(.*)', matcher)
-            obj = {
-                'cipher': matcher.group(1),
-                "id": matcher.group(2),
-                "add": matcher.group(3),
-                "port": matcher.group(4)
-            }
-            params = s[s.find("?")+1:s.find("#")]
-            params = {ps.split("=")[0]:ps.split("=")[1] for ps in params.split("&")}
+            _remarks = [ p.replace("remarks=","") for p in s[s.find("?")+1:].split('&') if "remarks=" in p]
+            _remarks = _remarks[0] if _remarks else ""
+            # _remarks = urllib.parse.unquote(_remarks)
+            obj = parse_plain_url("{}://{}?{}#{}".format(_protocol,matcher,s[s.find("?")+1:],_remarks))
+            obj['add'] = obj.pop("server")
             
-            for key in list(params.keys()):
-                if key not in list(obj.keys()):
-                    obj[key] = params[key]
         else:
             parse_rst = strDecode(s[len(_protocol)+3:])
             obj= json.loads(parse_rst)
+            
+        obj['type'] = _protocol
+        obj['path'] = obj.get('path') or None
+        obj['tls']  = obj.get('tls') or None
+        obj['host'] = obj.get('host',None)
+        obj['path'] = obj.get('path',None)
+        obj['aid'] = obj.get('aid',0)
         
     except Exception as e:
         print(e)
         obj = {}
         
     return obj
+
+def parse_ssr_url(s:str):
+    _protocol = s.split("://")[0] or None
+    s = s.strip().replace("/?","?")
+    
+    try:
+        rst = s[len(_protocol)+3:]
+        if rst.find("_")>0:
+            s1  = strDecode(rst.split("_")[0])
+            s2 = strDecode(rst.split("_")[1])
+            if s1.find('?')>0:
+                rst = "{}&{}".format(s1,s2)
+            else:
+                rst = "{}?{}".format(s1,s2)
+        else:
+            rst = strDecode(rst)
+        
+        rst = rst.strip().replace("/?","?")
+        print(rst)
+        # sys.exit()
+        
+        if rst.find('?')>0:
+            alist = rst[:rst.find('?')].split(':')
+            
+            params = rst[rst.find('?')+1:]
+            print(params)
+            params = {ps.split("=")[0]:strDecode(ps.split("=")[1]) or ps.split("=")[1] for ps in params.split("&")}
+            # if "_cmVtYXJrcz" in s:
+            #     params['remarks'] = strDecode(s[s.find('_')+1:]).replace('remarks=','')
+        else:
+            rst = rst[:-1] if rst.endswith('/') else rst
+            alist = rst.split(':')
+            params = {}
+        obj = {
+            'type': _protocol,
+            'server': alist[0],
+            'port':int(alist[1]),
+            '协议':alist[2],
+            'method算法':alist[3],
+            'obfs':alist[4],
+            'password':strDecode(alist[5]),
+        }
+        obj = dict(obj, **params)
+        
+    except Exception as e:
+        print(e)
+        obj = {}
+        
+    return obj
+
+def parse_ss_url(s:str):
+    _protocol = s.split("://")[0] or None
+    s = s.strip().replace("/?","?")
+    s = s if s.find("#")>0 else s+"#"
+    
+    try:
+        if s.find('@')<=0 or s[len(_protocol)+3:].find(':')<=0:
+            s = '{}://{}{}'.format(_protocol,strDecode(s[len(_protocol)+3:s.find("#")]),s[s.find("#"):])
+            print("fixed",s)
+            s = s if s.find("#")>0 else s+"#"
+
+        if s.find('?')>0:
+            matcher = re.match(r'(.*)@(.*):(.*)\?(.*)#(.*){0,1}',s[len(_protocol)+3:])
+            _params = urllib.parse.unquote(matcher.group(4)) or None
+            _remarks = urllib.parse.unquote(matcher.group(5)) or None
+            
+        else:
+            matcher = re.match(r'(.*)@(.*):(.*)#(.*){0,1}',s[len(_protocol)+3:])
+            _params = None
+            _remarks = urllib.parse.unquote(matcher.group(4)) or None
+        
+        s1 = matcher.group(1)
+        if s1.find(':')<=0:
+            s1 = strDecode(s1) or None
+        s1 = s1.split(':') if s1 else [None,None]
+        obj = {
+            'type': _protocol,
+            'method': s1[0],
+            'passwd': s1[1],
+            'server': matcher.group(2) or None,
+            'port':matcher.group(3) or None,
+            'params': _params,
+            'remarks': _remarks,
+        }
+        
+    except Exception as e:
+        print(e,s)
+        obj = {}
+        sys.exit()
+        
+    return obj
+
 
 class URLParseHelper:
     def __init__(self, url=None) -> None:
@@ -316,6 +417,34 @@ class URLParseHelper:
         return self.host, self.port, _newUrl
     
     def ssrObj(self):
+        if self.url.find('_')>0:
+            s1 = strDecode(self.url.split('_')[0])
+            s2 = strDecode(self.url.split('_')[1])
+            if s1.find('?')>0:
+                rst = "{}&{}".format(s1,s2)
+            else:
+                rst = "{}?{}".format(s1,s2)
+        else:
+            rst = strDecode(self.url)
+            
+        rst = rst.strip().replace("/?","?")
+        if rst.find('?')>0:
+            alist = rst[:rst.find('?')].split(':')
+            params = rst[rst.find('?')+1:].split('&')
+            params = [p for p in params if not p.startswith('remarks=')]
+           
+        else:
+            rst = rst[:-1] if rst.endswith('/') else rst
+            alist = rst.split(':')
+            params = []
+            
+        params.append("remarks={}".format(strEncode(self.getTagName(alist[0], alist[1]))))
+        _newUrl = '{}?{}'.format(rst[:rst.find('?')],"&".join())
+        _newUrl = '{}://{}'.format('ssr',strEncode(_newUrl))
+
+        return alist[0], alist[1], _newUrl
+    
+    def ssrObj_bak(self):
         def parse_qs_ssr(url):
             _u = urllib.parse.urlparse(url.strip())
             return _u.path, urllib.parse.parse_qs(_u.query)
@@ -382,8 +511,13 @@ class URLParseHelper:
         try:
             obj = parse_vmess_url(self.url)
             _remarks= self.getTagName(obj['add'],obj['port'])
-            if self.url.find("@"):
-                rst = [obj['add'],obj['port'], s[:s.find("#")] + "#" + urllib.parse.quote(_remarks)]
+            if self.url.find("@")>0:
+                rst = [obj['add'],obj['port'], self.url[:self.url.find("#")] + "#" + urllib.parse.quote(_remarks)]
+            elif self.url.find('?')>0:
+                params = [ p for p in self.url.split('?')[1].split('&') if not p.startswith('remarks=')]
+                params.append('remarks={}'.format(_remarks))
+                params = "".join(params)
+                rst = [ obj['add'], obj['port'], self.url[:self.url.find('?')+1] + params]
             else:
                 obj['ps'] = self.getTagName(obj['add'],obj['port'])
                 rst = [obj['add'],obj['port'],"vmess://{}".format(strEncode(json.dumps(obj),False))]
@@ -900,18 +1034,14 @@ if __name__ == "__main__":
             print(alist)
             
         case 'debug':
-            s ='abcdefgh'
-            # print(is_base64_code(s))
-            # print(isBase64(s))
-            urlStr = "vmess://eyJ2IjogIjIiLCAicHMiOiAiW1x1N2Y4ZVx1NTZmZFZNRVNTXTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDE1QS5OT0RFLUZPUi1CSUdBSVJQT1JULldJTjoxNTA5MiIsICJhZGQiOiAiMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTVhLm5vZGUtZm9yLWJpZ2FpcnBvcnQud2luIiwgInBvcnQiOiAiMTUwOTIiLCAiaWQiOiAiNzgwNjVjMTQtZmM4MC00MGI1LWE0NmMtMGUzNGVmZGY4MmZhIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiIiwgInRscyI6ICIifQ=="
-            # parse_rst = uhelper.parse(urlStr)
-            rst = parse_vmess_url(urlStr)
-            print(rst)
-            
-            v2Node = V2ray(rst['add'], int(rst['port']), rst['ps'], 'auto', rst['id'], int(rst['aid']), rst['net'], rst['type'], rst['host'], rst['path'], rst['tls'])
-            print(v2Node.formatConfig())
-            # serverListLink[i] = v2Node
-        
+            with open("collection.txt",'r') as f:
+                alist = [u.strip() for u in f.readlines() if u.strip().startswith('vmess://')]
+            for index,a in enumerate(alist) :
+                rst = parse_vmess_url(a.strip())
+                print(index,a,rst)
+                v2Node = V2ray(rst['add'], int(rst['port']), rst['ps'], 'auto', rst['id'], int(rst['aid']), rst['net'], rst['type'], rst['host'], rst['path'] or None, rst['tls'] or None)
+                print(v2Node.formatConfig())
+                
         case 'detail':
             url = 'ssr://d3ouc2FmZXRlbGVzY29wZS5jYzo0NjU2MjphdXRoX2FlczEyOF9tZDU6YWVzLTI1Ni1jZmI6dGxzMS4yX3RpY2tldF9hdXRoOmFFZHJVVFk1TVRWMFJBLz9yZW1hcmtzPSZwcm90b3BhcmFtPU1USTBPVEUxT2tsVWVUSkRiSGhSUkZZJm9iZnNwYXJhbT1ZV3BoZUM1dGFXTnliM052Wm5RdVkyOXQ'
             url = 'ssr://d3ouc2FmZXRlbGVzY29wZS5jYzo0NjU2MjphdXRoX2FlczEyOF9tZDU6YWVzLTI1Ni1jZmI6dGxzMS4yX3RpY2tldF9hdXRoOmFFZHJVVFk1TVRWMFJBLz9wcm90b3BhcmFtPU1USTBPVEUxT2tsVWVUSkRiSGhSUkZZJm9iZnNwYXJhbT1ZV3BoZUM1dGFXTnliM052Wm5RdVkyOXQmcmVtYXJrcz1b5Lit5Zu9U1NSXVdaLlNBRkVURUxFU0NPUEUuQ0M6NDY1NjI='
