@@ -33,7 +33,7 @@ class V2ray(Node):
             },
             "inbounds": [
                 {
-                    "port": 1080,
+                    "port": 1088,
                     "listen": "127.0.0.1",
                     "protocol": "socks",
                     "settings": {

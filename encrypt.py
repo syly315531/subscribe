@@ -23,8 +23,7 @@ def get_filepath(filename):
     return os.path.join(os.path.dirname(os.path.abspath(__file__)), filename)
 
 def splitFiles(filename="fly.txt"):
-    filename = os.path.join(os.path.dirname(
-        os.path.abspath(__file__)), filename)
+    filename = get_filepath(filename)
 
     with open(filename, 'r', encoding='utf8') as f:
         resultList = [h.strip() for h in f.readlines()
@@ -1034,13 +1033,31 @@ if __name__ == "__main__":
             print(alist)
             
         case 'debug':
-            with open("collection.txt",'r') as f:
-                alist = [u.strip() for u in f.readlines() if u.strip().startswith('vmess://')]
-            for index,a in enumerate(alist) :
-                rst = parse_vmess_url(a.strip())
-                print(index,a,rst)
-                v2Node = V2ray(rst['add'], int(rst['port']), rst['ps'], 'auto', rst['id'], int(rst['aid']), rst['net'], rst['type'], rst['host'], rst['path'] or None, rst['tls'] or None)
-                print(v2Node.formatConfig())
+            # s ="vless://1eded6fc-8b28-33df-a93f-6491de5f7a12@www.elkcloud.top:10086?encryption=none&type=tcp&security=&path=%2F&headerType=none#%E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-11-29"
+            # rst = parse_plain_url(s)
+            # print(rst)
+            # with open("collection.txt",'r') as f:
+            #     alist = [u.strip() for u in f.readlines() if u.strip().startswith('vmess://')]
+            # for index,a in enumerate(alist) :
+            #     rst = parse_vmess_url(a.strip())
+            #     print(index,a,rst)
+            #     v2Node = V2ray(rst['add'], int(rst['port']), rst['ps'], 'auto', rst['id'], int(rst['aid']), rst['net'], rst['type'], rst['host'], rst['path'] or None, rst['tls'] or None)
+            #     print(v2Node.formatConfig())
+            
+            s = "vmess://YXV0bzo5YTE4Y2JiMS04MWQyLTQ3MjAtOWYwOS00NmVhMjc2YjZkZGJAemh1eW9uZy5odWNsb3VkLWRucy54eXo6NDQz?remarks=%5B%E7%BE%8E%E5%9B%BDVMESS%5DZHUYONG.HUCLOUD-DNS.XYZ:443&path=/huhublog&obfs=websocket&tls=1&alterId=0"
+            rst = parse_vmess_url(s)
+            print(rst)
+            
+            v2Node = V2ray(rst['add'], int(rst['port']), rst['ps'], 'auto', rst['id'], int(rst['aid']), rst['net'], rst['type'], rst['host'], rst['path'] or None, rst['tls'] or None)
+            json.dump(v2Node.formatConfig(), open('v2ray-core-4.31.0/speedtest.json', 'w'), indent=2)
+            
+            tmpres = os.popen('nohup ./v2ray-core-4.31.0/v2ray -c ./v2ray-core-4.31.0/speedtest.json &')
+            content = tmpres.read()
+            print(content)
+            
+            for c in content.splitlines():
+                print(c)
+            tmpres.close
                 
         case 'detail':
             url = 'ssr://d3ouc2FmZXRlbGVzY29wZS5jYzo0NjU2MjphdXRoX2FlczEyOF9tZDU6YWVzLTI1Ni1jZmI6dGxzMS4yX3RpY2tldF9hdXRoOmFFZHJVVFk1TVRWMFJBLz9yZW1hcmtzPSZwcm90b3BhcmFtPU1USTBPVEUxT2tsVWVUSkRiSGhSUkZZJm9iZnNwYXJhbT1ZV3BoZUM1dGFXTnliM052Wm5RdVkyOXQ'

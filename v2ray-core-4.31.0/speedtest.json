@@ -1,0 +1,86 @@
+{
+  "log": {
+    "access": "./access.log",
+    "error": "./error.log",
+    "logLevel": "debug"
+  },
+  "inbounds": [
+    {
+      "port": 1088,
+      "listen": "0.0.0.0",
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": false,
+        "ip": "127.0.0.1"
+      },
+      "tag": "in"
+    }
+  ],
+  "outbounds": [
+    {
+      "settings": {},
+      "protocol": "freedom",
+      "tag": "direct"
+    },
+    {
+      "settings": {},
+      "protocol": "blackhole",
+      "tag": "blocked"
+    },
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "zhuyong.hucloud-dns.xyz",
+            "port": 443,
+            "users": [
+              {
+                "id": "9a18cbb1-81d2-4720-9f09-46ea276b6ddb",
+                "alterId": 0
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "1",
+        "tlsSettings": {
+          "allowInsecure": true
+        },
+        "httpSettings": {
+          "path": "/huhublog",
+          "host": [
+            ""
+          ]
+        }
+      },
+      "tag": "out"
+    }
+  ],
+  "routing": {
+    "strategy": "rules",
+    "settings": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "type": "field",
+          "ip": [
+            "geoip:cn",
+            "geoip:private"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "inboundTag": [
+            "in"
+          ],
+          "outboundTag": "out"
+        }
+      ]
+    }
+  }
+}
