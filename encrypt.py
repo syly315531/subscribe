@@ -90,6 +90,8 @@ def getResponse(url=None, dec=False,timeout=5):
         }
         try:
             rsp = requests.get(url, headers=headers, timeout=timeout)
+            print(rsp.status_code, rsp.url)
+            
             if rsp.status_code == 200:
                 rsp = rsp.text
                 rsp = re.sub('\n|\r', '', rsp)
@@ -97,10 +99,10 @@ def getResponse(url=None, dec=False,timeout=5):
                 rsp = strDecode(rsp, False) if dec else rsp
                 # time.sleep(3)
             else:
-                print(rsp.status_code, rsp.url)
                 raise(rsp.status_code)
 
         except Exception as e:
+            print(e)
             rsp = ''
             # raise(e)
 
@@ -109,7 +111,7 @@ def getResponse(url=None, dec=False,timeout=5):
 
 def chkName(n,existNameList):
     if n in existNameList:
-        ns = n.split("]")
+        ns = n.split("]") if n.find("]")>0 else [n,""]
         n2 = chkName("{}{}]{}".format(ns[0],"*",ns[1]), existNameList)
     else:
         n2 = n
@@ -307,7 +309,7 @@ class URLParseHelper:
         
     def parse(self, url=None):
         try:
-            self.url = url.strip() if url else self.url
+            self.url = url.strip().replace("/?","?") if url else self.url
             if self.url.find('_')>0:
                 self.urlObj = urllib.parse.urlparse(self.url[0:self.url.find('_')])
             else:
@@ -398,49 +400,56 @@ class URLParseHelper:
         return querys
 
     def getTagName(self, ipStr, port, quote=False):
-        if quote:
-            _name = urllib.parse.quote('[{}{}]{}:{}'.format(getCountry(ipStr), self.urlObj.scheme.upper(), ipStr.upper(), port))
-        else:
-            _name = '[{}{}]{}:{}'.format(getCountry(ipStr), self.urlObj.scheme.upper(), ipStr.upper(), port)
-        
+        _name = '[{}{}]{}:{}'.format(getCountry(ipStr), self.urlObj.scheme.upper(), ipStr.upper(), port)
         _name = chkName(_name, existNameList)
         existNameList.append(_name)
+        
+        _name = urllib.parse.quote(_name) if quote else _name
+
         return _name
 
     def ssObj(self):
-
-        _newUrl = (self.urlObj.scheme, self.urlObj.netloc, self.urlObj.path,
-                   self.urlObj.params, self.urlObj.query, self.getTagName(self.host, self.port, True))
-        _newUrl = urllib.parse.urlunparse(_newUrl)
+        try:
+            
+            _newUrl = (self.urlObj.scheme, self.urlObj.netloc, self.urlObj.path,
+                    self.urlObj.params, self.urlObj.query, self.getTagName(self.host, self.port, True))
+            _newUrl = urllib.parse.urlunparse(_newUrl)
+        except Exception as e:
+            print(e,self.url,self.urlObj, urllib.parse.unquote(self.urlObj.fragment))
+            sys.exit()
 
         return self.host, self.port, _newUrl
     
     def ssrObj(self):
-        if self.url.find('_')>0:
-            s1 = strDecode(self.url.split('_')[0])
-            s2 = strDecode(self.url.split('_')[1])
-            if s1.find('?')>0:
-                rst = "{}&{}".format(s1,s2)
+        try:
+            if self.url[6:].find('_')>0:
+                s1 = strDecode(self.url[6:].split('_')[0])
+                s2 = strDecode(self.url[6:].split('_')[1])
+                if s1.find('?')>0:
+                    rst = "{}&{}".format(s1,s2)
+                else:
+                    rst = "{}?{}".format(s1,s2)
             else:
-                rst = "{}?{}".format(s1,s2)
-        else:
-            rst = strDecode(self.url)
+                rst = strDecode(self.url[6:])
+                
+            rst = rst.strip().replace("/?","?")
+            if rst.find('?')>0:
+                alist = rst[:rst.find('?')].split(':')
+                params = rst[rst.find('?')+1:].split('&')
+                params = [p for p in params if not p.startswith('remarks=')]
             
-        rst = rst.strip().replace("/?","?")
-        if rst.find('?')>0:
-            alist = rst[:rst.find('?')].split(':')
-            params = rst[rst.find('?')+1:].split('&')
-            params = [p for p in params if not p.startswith('remarks=')]
-           
-        else:
-            rst = rst[:-1] if rst.endswith('/') else rst
-            alist = rst.split(':')
-            params = []
+            else:
+                rst = rst[:-1] if rst.endswith('/') else rst
+                alist = rst.split(':')
+                params = []
+                
+            params.append("remarks={}".format(strEncode(self.getTagName(alist[0], alist[1]))))
+            _newUrl = '{}?{}'.format(rst[:rst.find('?')],"&".join(params))
+            _newUrl = '{}://{}'.format('ssr',strEncode(_newUrl))
+        except Exception as e:
+            print(e,self.url,self.urlObj)
+            sys.exit()
             
-        params.append("remarks={}".format(strEncode(self.getTagName(alist[0], alist[1]))))
-        _newUrl = '{}?{}'.format(rst[:rst.find('?')],"&".join())
-        _newUrl = '{}://{}'.format('ssr',strEncode(_newUrl))
-
         return alist[0], alist[1], _newUrl
     
     def ssrObj_bak(self):
@@ -523,7 +532,7 @@ class URLParseHelper:
         except Exception as e:
             print('vmessObj Error:{}'.format(e).center(100,"-"))
             rst = [self.host, self.port, self.url]
-
+            sys.exit()
         return rst
 
     def vmessObj_bak(self):
@@ -753,7 +762,8 @@ class fileHelper:
         self.backup_file = get_filepath(backup_file)
         self.error_file = get_filepath(error_file)
 
-        self.exist_list = self.read(self.backup_file)
+        # self.exist_list = self.read(self.backup_file)
+        self.exist_list = []
         self.ignore_list = self.read(get_filepath(ignore_file))
 
     def add(self,url,chk=False):
@@ -802,6 +812,9 @@ class fileHelper:
             
             for line in lines:
                 if line.startswith(tuple(['{}://'.format(s) for s in schemaList])):
+                    for _s in schemaList:
+                        if line.find("{}://".format(_s))>0:
+                            line = "\n".join(["{}://{}".format(_s, l) for l in line.split("{}://".format(_s))]) + '\n'
                     self.write(line)
                 else:
                     continue
@@ -824,14 +837,16 @@ class fileHelper:
             subscribe = re.sub('\n', '', subscribe)
             print('='*50)
             print('source is: {}'.format(subscribe))
-            print('='*50)
             content = requests.get(subscribe, timeout=5)
+            print(content.status_code)
+            
             if content.status_code == 200:
                 content = content.text
             else:
                 return
 
             if len(content) <= 0:
+                print("length is null")
                 return
 
             content = yaml.load(content, Loader=yaml.FullLoader)
@@ -855,8 +870,11 @@ class fileHelper:
                     # time.sleep(3)
 
                 self.write(url)
+            
+            print('='*50)
 
         except Exception as e:
+            print(e)
             return None
             # raise(e)
 
@@ -880,12 +898,13 @@ class fileHelper:
             
             encrypt_base64('{}.txt'.format(sch))
    
-    def handleUrl(self, filename=None):
+    def handleUrl(self, filename=None,skiplines=0):
         u = URLParseHelper()
         self.out_file = get_filepath(filename) if filename else self.out_file
         urlList = self.read(self.out_file)
         urlList = list(set(urlList))
         urlList = sorted(urlList)
+        urlList = urlList[skiplines:] if skiplines else urlList
 
         with open(self.out_file, "w", encoding='utf8') as f:
             f.seek(0)
@@ -1036,28 +1055,30 @@ if __name__ == "__main__":
             # s ="vless://1eded6fc-8b28-33df-a93f-6491de5f7a12@www.elkcloud.top:10086?encryption=none&type=tcp&security=&path=%2F&headerType=none#%E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4%EF%BC%9A2022-11-29"
             # rst = parse_plain_url(s)
             # print(rst)
-            # with open("collection.txt",'r') as f:
-            #     alist = [u.strip() for u in f.readlines() if u.strip().startswith('vmess://')]
-            # for index,a in enumerate(alist) :
-            #     rst = parse_vmess_url(a.strip())
-            #     print(index,a,rst)
-            #     v2Node = V2ray(rst['add'], int(rst['port']), rst['ps'], 'auto', rst['id'], int(rst['aid']), rst['net'], rst['type'], rst['host'], rst['path'] or None, rst['tls'] or None)
-            #     print(v2Node.formatConfig())
             
-            s = "vmess://YXV0bzo5YTE4Y2JiMS04MWQyLTQ3MjAtOWYwOS00NmVhMjc2YjZkZGJAemh1eW9uZy5odWNsb3VkLWRucy54eXo6NDQz?remarks=%5B%E7%BE%8E%E5%9B%BDVMESS%5DZHUYONG.HUCLOUD-DNS.XYZ:443&path=/huhublog&obfs=websocket&tls=1&alterId=0"
-            rst = parse_vmess_url(s)
-            print(rst)
+            with open("collection.txt",'r') as f:
+                alist = [u.strip() for u in f.readlines() if u.strip().startswith('trojan://')]
+            for index,a in enumerate(alist) :
+                rst = parse_plain_url(a.strip())
+                print(index,a,rst)
+                
+                # v2Node = V2ray(rst['add'], int(rst['port']), rst['ps'], 'auto', rst['id'], int(rst['aid']), rst['net'], rst['type'], rst['host'], rst['path'] or None, rst['tls'] or None)
+                # print(v2Node.formatConfig())
             
-            v2Node = V2ray(rst['add'], int(rst['port']), rst['ps'], 'auto', rst['id'], int(rst['aid']), rst['net'], rst['type'], rst['host'], rst['path'] or None, rst['tls'] or None)
-            json.dump(v2Node.formatConfig(), open('v2ray-core-4.31.0/speedtest.json', 'w'), indent=2)
+            # s = "vmess://YXV0bzo5YTE4Y2JiMS04MWQyLTQ3MjAtOWYwOS00NmVhMjc2YjZkZGJAemh1eW9uZy5odWNsb3VkLWRucy54eXo6NDQz?remarks=%5B%E7%BE%8E%E5%9B%BDVMESS%5DZHUYONG.HUCLOUD-DNS.XYZ:443&path=/huhublog&obfs=websocket&tls=1&alterId=0"
+            # rst = parse_vmess_url(s)
+            # print(rst)
             
-            tmpres = os.popen('nohup ./v2ray-core-4.31.0/v2ray -c ./v2ray-core-4.31.0/speedtest.json &')
-            content = tmpres.read()
-            print(content)
+            # v2Node = V2ray(rst['add'], int(rst['port']), rst['ps'], 'auto', rst['id'], int(rst['aid']), rst['net'], rst['type'], rst['host'], rst['path'] or None, rst['tls'] or None)
+            # json.dump(v2Node.formatConfig(), open('v2ray-core-4.31.0/speedtest.json', 'w'), indent=2)
             
-            for c in content.splitlines():
-                print(c)
-            tmpres.close
+            # tmpres = os.popen('nohup ./v2ray-core-4.31.0/v2ray -c ./v2ray-core-4.31.0/speedtest.json &')
+            # content = tmpres.read()
+            # print(content)
+            
+            # for c in content.splitlines():
+            #     print(c)
+            # tmpres.close
                 
         case 'detail':
             url = 'ssr://d3ouc2FmZXRlbGVzY29wZS5jYzo0NjU2MjphdXRoX2FlczEyOF9tZDU6YWVzLTI1Ni1jZmI6dGxzMS4yX3RpY2tldF9hdXRoOmFFZHJVVFk1TVRWMFJBLz9yZW1hcmtzPSZwcm90b3BhcmFtPU1USTBPVEUxT2tsVWVUSkRiSGhSUkZZJm9iZnNwYXJhbT1ZV3BoZUM1dGFXTnliM052Wm5RdVkyOXQ'

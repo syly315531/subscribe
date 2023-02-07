@@ -252,7 +252,7 @@ https://raw.fastgit.org/freev2/free/main/v2
 https://raw.fastgit.org/ripaojiedian/freenode/main/sub
 https://raw.githubusercontent.com/RaymondHarris971/ssrsub/master/9a075bdee5.txt
 https://raw.githubusercontent.com/fakmoth/vmess_tg/main/v2
-https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
+https://raw.githubusercontent.com/ripaojiedian/freenode/main/subhttps://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
 https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
 https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
 https://raw.githubusercontent.com/ssrsub/ssr/master/trojan
@@ -357,7 +357,7 @@ https://www.cxkv2.xyz/link/ipHecFwUXOVxrhYV?mu=2
 https://www.efcloud.cc/api/v1/client/subscribe?token=d177b692198141845057566cc45ffc3f
 https://www.efcloud.cc/api/v1/client/subscribe?token=ggggggggggggggggggggggggggggggggg
 https://www.feiyun.club/api/v1/client/subscribe?token=7ba28d8aba7ed8e688c4f127b7407616
-https://www.fengche666.xyz/p/appleid1/
+# https://www.fengche666.xyz/p/appleid1/
 https://www.fengchesub.com/api/v1/client/subscribe?token=1114120b5794e2422259e75165b81383
 https://www.fengcheyun.xyz/api/v1/client/subscribe?token=5f4c7981a116ae423c021df1dabb2241
 https://www.fengcheyun.xyz/api/v1/client/subscribe?token=da82b2985d21cb36bd277692bb9f94f6
@@ -374,6 +374,7 @@ https://www.panda-cloud.life/api/v1/client/subscribe?token=ee3639d9047f6fbe32bf7
 https://www.paofusub.com/link/MqecSrc7HdvtWXS4?sub=3
 https://www.paofusub2.com/link/hnP29mLTQ90L7dfB?sub=1
 https://www.pilor.net/link/DykAMWA557IZwtIK?sub=3
+https://www.prop.cf/?name=paimon
 https://www.prop.cf/?name=paimon&client=base64
 https://www.spcloud.us/api/v1/client/subscribe?token=d7ba10b39538d2c33b226c6092414072
 https://www.sublink.club/link/wYHSJvUTjoq84l2d?sub=1
